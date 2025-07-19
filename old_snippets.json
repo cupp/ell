@@ -1,0 +1,2718 @@
+{
+	"((a ≡ b) ≡ c) ≡ (a ≡ (b ≡ c))": {
+		"scope":"ell",
+		"prefix":"z3.01\tAssociativity",
+		"body": [
+			"3.01\tAssociativity\t((a ≡ b) ≡ c) ≡ (a ≡ (b ≡ c))"
+		]
+	},
+	"a ≡ b ≡ b ≡ a": {
+		"scope":"ell",
+		"prefix":"z3.02\tSymmetry",
+		"body": [
+			"3.02\tSymmetry\ta ≡ b ≡ b ≡ a"
+		]
+	},
+	"true ≡ a ≡ a": {
+		"scope":"ell",
+		"prefix":"z3.03\tIdentity",
+		"body": [
+			"3.03\tIdentity\ttrue ≡ a ≡ a"
+		]
+	},
+	"true": {
+		"scope":"ell",
+		"prefix":"z3.04\t",
+		"body": [
+			"3.04\t\ttrue"
+		]
+	},
+	"a ≡ a": {
+		"scope":"ell",
+		"prefix":"z3.05\tReflexivity",
+		"body": [
+			"3.05\tReflexivity\ta ≡ a"
+		]
+	},
+	"false ≡ ¬true": {
+		"scope":"ell",
+		"prefix":"z3.08\tDefintion_of_false",
+		"body": [
+			"3.08\tDefintion_of_false\tfalse ≡ ¬true"
+		]
+	},
+	"¬(a ≡ b) ≡ ¬a ≡ b": {
+		"scope":"ell",
+		"prefix":"z3.09\tDistributivity",
+		"body": [
+			"3.09\tDistributivity\t¬(a ≡ b) ≡ ¬a ≡ b"
+		]
+	},
+	"(a ≢ b) ≡ ¬(a ≡ b)": {
+		"scope":"ell",
+		"prefix":"z3.10\tDefintion_of_≢",
+		"body": [
+			"3.10\tDefintion_of_≢\t(a ≢ b) ≡ ¬(a ≡ b)"
+		]
+	},
+	"¬a ≡ b ≡ a ≡ ¬b": {
+		"scope":"ell",
+		"prefix":"z3.11\t",
+		"body": [
+			"3.11\t\t¬a ≡ b ≡ a ≡ ¬b"
+		]
+	},
+	"¬¬a ≡ a": {
+		"scope":"ell",
+		"prefix":"z3.12\tDouble_negation",
+		"body": [
+			"3.12\tDouble_negation\t¬¬a ≡ a"
+		]
+	},
+	"¬false ≡ true": {
+		"scope":"ell",
+		"prefix":"z3.13\tNegation_of_false",
+		"body": [
+			"3.13\tNegation_of_false\t¬false ≡ true"
+		]
+	},
+	"(a ≢ b) ≡ ¬a ≡ b": {
+		"scope":"ell",
+		"prefix":"z3.14\t",
+		"body": [
+			"3.14\t\t(a ≢ b) ≡ ¬a ≡ b"
+		]
+	},
+	"¬a ≡ a ≡ false": {
+		"scope":"ell",
+		"prefix":"z3.15\t",
+		"body": [
+			"3.15\t\t¬a ≡ a ≡ false"
+		]
+	},
+	"(a ≢ b) ≡ (b ≢ a)": {
+		"scope":"ell",
+		"prefix":"z3.16\tSymmetry",
+		"body": [
+			"3.16\tSymmetry\t(a ≢ b) ≡ (b ≢ a)"
+		]
+	},
+	"((a ≢ b) ≢ c) ≡ (a ≢ (b ≢ c))": {
+		"scope":"ell",
+		"prefix":"z3.17\tAssociativity",
+		"body": [
+			"3.17\tAssociativity\t((a ≢ b) ≢ c) ≡ (a ≢ (b ≢ c))"
+		]
+	},
+	"((a ≢ b) ≡ c) ≡ (a ≢ (b ≡ c))": {
+		"scope":"ell",
+		"prefix":"z3.18\tMutual_associativity",
+		"body": [
+			"3.18\tMutual_associativity\t((a ≢ b) ≡ c) ≡ (a ≢ (b ≡ c))"
+		]
+	},
+	"a ≢ b ≡ c  ≡  a ≡ b ≢ c": {
+		"scope":"ell",
+		"prefix":"z3.19\tMutual_interchangeability",
+		"body": [
+			"3.19\tMutual_interchangeability\ta ≢ b ≡ c  ≡  a ≡ b ≢ c"
+		]
+	},
+	"a ≢ a ≢ b ≡ b": {
+		"scope":"ell",
+		"prefix":"z3.19.1\t",
+		"body": [
+			"3.19.1\t\ta ≢ a ≢ b ≡ b"
+		]
+	},
+	"a ⋁ b ≡ b ⋁ a": {
+		"scope":"ell",
+		"prefix":"z3.24\tSymmetry",
+		"body": [
+			"3.24\tSymmetry\ta ⋁ b ≡ b ⋁ a"
+		]
+	},
+	"(a ⋁ b) ⋁ c ≡ a ⋁ (b ⋁ c)": {
+		"scope":"ell",
+		"prefix":"z3.25\tAssociativity",
+		"body": [
+			"3.25\tAssociativity\t(a ⋁ b) ⋁ c ≡ a ⋁ (b ⋁ c)"
+		]
+	},
+	"a ⋁ a ≡ a": {
+		"scope":"ell",
+		"prefix":"z3.26\tIdempotency",
+		"body": [
+			"3.26\tIdempotency\ta ⋁ a ≡ a"
+		]
+	},
+	"a ⋁ (b ≡ c) ≡ a ⋁ b ≡ a ⋁ c": {
+		"scope":"ell",
+		"prefix":"z3.27\tDistributivity",
+		"body": [
+			"3.27\tDistributivity\ta ⋁ (b ≡ c) ≡ a ⋁ b ≡ a ⋁ c"
+		]
+	},
+	"a ⋁ ¬a": {
+		"scope":"ell",
+		"prefix":"z3.28\tExcluded_middle",
+		"body": [
+			"3.28\tExcluded_middle\ta ⋁ ¬a"
+		]
+	},
+	"a ⋁ true ≡ true": {
+		"scope":"ell",
+		"prefix":"z3.29\tZero",
+		"body": [
+			"3.29\tZero\ta ⋁ true ≡ true"
+		]
+	},
+	"a ⋁ false ≡ a": {
+		"scope":"ell",
+		"prefix":"z3.30\tIdentity",
+		"body": [
+			"3.30\tIdentity\ta ⋁ false ≡ a"
+		]
+	},
+	"a ⋁ (b ⋁ c) ≡ (a ⋁ b) ⋁ (a ⋁ c)": {
+		"scope":"ell",
+		"prefix":"z3.31\tDistributivity",
+		"body": [
+			"3.31\tDistributivity\ta ⋁ (b ⋁ c) ≡ (a ⋁ b) ⋁ (a ⋁ c)"
+		]
+	},
+	"a ⋁ b ≡ a ⋁ ¬b ≡ a": {
+		"scope":"ell",
+		"prefix":"z3.32\t",
+		"body": [
+			"3.32\t\ta ⋁ b ≡ a ⋁ ¬b ≡ a"
+		]
+	},
+	"a ⋀ b ≡ a ≡ b ≡ a ⋁ b": {
+		"scope":"ell",
+		"prefix":"z3.35\tGolden_rule",
+		"body": [
+			"3.35\tGolden_rule\ta ⋀ b ≡ a ≡ b ≡ a ⋁ b"
+		]
+	},
+	"a ⋀ b ≡ b ⋀ a": {
+		"scope":"ell",
+		"prefix":"z3.36\tSymmetry",
+		"body": [
+			"3.36\tSymmetry\ta ⋀ b ≡ b ⋀ a"
+		]
+	},
+	"(a ⋀ b) ⋀ c ≡ a ⋀ (b ⋀ c)": {
+		"scope":"ell",
+		"prefix":"z3.37\tAssociativity",
+		"body": [
+			"3.37\tAssociativity\t(a ⋀ b) ⋀ c ≡ a ⋀ (b ⋀ c)"
+		]
+	},
+	"a ⋀ a ≡ a": {
+		"scope":"ell",
+		"prefix":"z3.38\tIdempotency",
+		"body": [
+			"3.38\tIdempotency\ta ⋀ a ≡ a"
+		]
+	},
+	"a ⋀ true ≡ a": {
+		"scope":"ell",
+		"prefix":"z3.39\tIdentity",
+		"body": [
+			"3.39\tIdentity\ta ⋀ true ≡ a"
+		]
+	},
+	"a ⋀ false ≡ false": {
+		"scope":"ell",
+		"prefix":"z3.40\tZero",
+		"body": [
+			"3.40\tZero\ta ⋀ false ≡ false"
+		]
+	},
+	"a ⋀ (b ⋀ c) ≡ (a ⋀ b) ⋀ (a ⋀ c)": {
+		"scope":"ell",
+		"prefix":"z3.41\tDistributivity",
+		"body": [
+			"3.41\tDistributivity\ta ⋀ (b ⋀ c) ≡ (a ⋀ b) ⋀ (a ⋀ c)"
+		]
+	},
+	"a ⋀ ¬a ≡ false": {
+		"scope":"ell",
+		"prefix":"z3.42\tContradiction",
+		"body": [
+			"3.42\tContradiction\ta ⋀ ¬a ≡ false"
+		]
+	},
+	"a ⋀ (a ⋁ b) ≡ a": {
+		"scope":"ell",
+		"prefix":"z3.43(a)\tAbsorption",
+		"body": [
+			"3.43(a)\tAbsorption\ta ⋀ (a ⋁ b) ≡ a"
+		]
+	},
+	"a ⋁ (a ⋀ b) ≡ a": {
+		"scope":"ell",
+		"prefix":"z3.43(b)\tAbsorption",
+		"body": [
+			"3.43(b)\tAbsorption\ta ⋁ (a ⋀ b) ≡ a"
+		]
+	},
+	"a ⋀ (¬a ⋁ b) ≡ a ⋀ b": {
+		"scope":"ell",
+		"prefix":"z3.44(a)\tAbsorption",
+		"body": [
+			"3.44(a)\tAbsorption\ta ⋀ (¬a ⋁ b) ≡ a ⋀ b"
+		]
+	},
+	"a ⋁ (¬a ⋀ b) ≡ a ⋁ b": {
+		"scope":"ell",
+		"prefix":"z3.44(b)\tAbsorption",
+		"body": [
+			"3.44(b)\tAbsorption\ta ⋁ (¬a ⋀ b) ≡ a ⋁ b"
+		]
+	},
+	"a ⋁ (b ⋀ c) ≡ (a ⋁ b) ⋀ (a ⋁ c)": {
+		"scope":"ell",
+		"prefix":"z3.45\tDistributivity",
+		"body": [
+			"3.45\tDistributivity\ta ⋁ (b ⋀ c) ≡ (a ⋁ b) ⋀ (a ⋁ c)"
+		]
+	},
+	"a ⋀ (b ⋁ c) ≡ (a ⋀ b) ⋁ (a ⋀ c)": {
+		"scope":"ell",
+		"prefix":"z3.46\tDistributivity",
+		"body": [
+			"3.46\tDistributivity\ta ⋀ (b ⋁ c) ≡ (a ⋀ b) ⋁ (a ⋀ c)"
+		]
+	},
+	"(a ⋀ b) ⋁ (¬a ⋀ c) ⋁ (b ⋀ c) ≡ (a ⋀ b) ⋁ (¬a ⋀ c)": {
+		"scope":"ell",
+		"prefix":"z3.46.1\tConsensus",
+		"body": [
+			"3.46.1\tConsensus\t(a ⋀ b) ⋁ (¬a ⋀ c) ⋁ (b ⋀ c) ≡ (a ⋀ b) ⋁ (¬a ⋀ c)"
+		]
+	},
+	"¬(a ⋀ b) ≡ ¬a ⋁ ¬b": {
+		"scope":"ell",
+		"prefix":"z3.47(a)\tDe_Morgan",
+		"body": [
+			"3.47(a)\tDe_Morgan\t¬(a ⋀ b) ≡ ¬a ⋁ ¬b"
+		]
+	},
+	"¬(a ⋁ b) ≡ ¬a ⋀ ¬b": {
+		"scope":"ell",
+		"prefix":"z3.47(b)\tDe_Morgan",
+		"body": [
+			"3.47(b)\tDe_Morgan\t¬(a ⋁ b) ≡ ¬a ⋀ ¬b"
+		]
+	},
+	"a ⋀ b ≡ a ⋀ ¬b ≡ ¬a": {
+		"scope":"ell",
+		"prefix":"z3.48\t",
+		"body": [
+			"3.48\t\ta ⋀ b ≡ a ⋀ ¬b ≡ ¬a"
+		]
+	},
+	"a ⋀ (b ≡ c) ≡ a ⋀ b ≡ a ⋀ c ≡ a": {
+		"scope":"ell",
+		"prefix":"z3.49\t",
+		"body": [
+			"3.49\t\ta ⋀ (b ≡ c) ≡ a ⋀ b ≡ a ⋀ c ≡ a"
+		]
+	},
+	"a ⋀ (b ≡ a) ≡ a ⋀ b": {
+		"scope":"ell",
+		"prefix":"z3.50\t",
+		"body": [
+			"3.50\t\ta ⋀ (b ≡ a) ≡ a ⋀ b"
+		]
+	},
+	"(a ≡ b) ⋀ (c ≡ a) ≡ (a ≡ b ⋀ c ≡ b)": {
+		"scope":"ell",
+		"prefix":"z3.51\tReplacement",
+		"body": [
+			"3.51\tReplacement\t(a ≡ b) ⋀ (c ≡ a) ≡ (a ≡ b ⋀ c ≡ b)"
+		]
+	},
+	"a ≡ b ≡ (a ⋀ b) ⋁ (¬a ⋀ ¬b)": {
+		"scope":"ell",
+		"prefix":"z3.52\tEquivalence",
+		"body": [
+			"3.52\tEquivalence\ta ≡ b ≡ (a ⋀ b) ⋁ (¬a ⋀ ¬b)"
+		]
+	},
+	"a ≢ b ≡ (¬a ⋀ b) ⋁ (a ⋀ ¬b)": {
+		"scope":"ell",
+		"prefix":"z3.53\tExclusive_or",
+		"body": [
+			"3.53\tExclusive_or\ta ≢ b ≡ (¬a ⋀ b) ⋁ (a ⋀ ¬b)"
+		]
+	},
+	"(a ⋀ b) ⋀ c ≡ a ≡ b ≡ c ≡ a ⋁ b ≡ b ⋁ c ≡ c ⋁ a ≡ a ⋁ b ⋁ c": {
+		"scope":"ell",
+		"prefix":"z3.55\t",
+		"body": [
+			"3.55\t\t(a ⋀ b) ⋀ c ≡ a ≡ b ≡ c ≡ a ⋁ b ≡ b ⋁ c ≡ c ⋁ a ≡ a ⋁ b ⋁ c"
+		]
+	},
+	"a ⇒ b ≡ a ⋁ b ≡ b": {
+		"scope":"ell",
+		"prefix":"z3.57\tImplication",
+		"body": [
+			"3.57\tImplication\ta ⇒ b ≡ a ⋁ b ≡ b"
+		]
+	},
+	"a ⇐ b ≡ b ⇒ a": {
+		"scope":"ell",
+		"prefix":"z3.58\tConsequence",
+		"body": [
+			"3.58\tConsequence\ta ⇐ b ≡ b ⇒ a"
+		]
+	},
+	"a ⇒ b ≡ ¬a ⋁ b": {
+		"scope":"ell",
+		"prefix":"z3.59\tImplication",
+		"body": [
+			"3.59\tImplication\ta ⇒ b ≡ ¬a ⋁ b"
+		]
+	},
+	"a ⇒ b ≡ a ⋀ b ≡ a": {
+		"scope":"ell",
+		"prefix":"z3.60\tImplication",
+		"body": [
+			"3.60\tImplication\ta ⇒ b ≡ a ⋀ b ≡ a"
+		]
+	},
+	"a ⇒ b ≡ ¬b ⇒ ¬a": {
+		"scope":"ell",
+		"prefix":"z3.61\tContrapositive",
+		"body": [
+			"3.61\tContrapositive\ta ⇒ b ≡ ¬b ⇒ ¬a"
+		]
+	},
+	"a ⇒ (b ≡ c) ≡ a ⋀ b ≡ a ⋀ c": {
+		"scope":"ell",
+		"prefix":"z3.62\t",
+		"body": [
+			"3.62\t\ta ⇒ (b ≡ c) ≡ a ⋀ b ≡ a ⋀ c"
+		]
+	},
+	"a ⇒ (b ≡ c) ≡ (a ⇒ b) ≡ (a ⇒ c)": {
+		"scope":"ell",
+		"prefix":"z3.63\tDistributivity",
+		"body": [
+			"3.63\tDistributivity\ta ⇒ (b ≡ c) ≡ (a ⇒ b) ≡ (a ⇒ c)"
+		]
+	},
+	"a ⇒ b ⋀ c ≡ (a ⇒ b) ⋀ (a ⇒ c)": {
+		"scope":"ell",
+		"prefix":"z3.63.1\tDistributivity",
+		"body": [
+			"3.63.1\tDistributivity\ta ⇒ b ⋀ c ≡ (a ⇒ b) ⋀ (a ⇒ c)"
+		]
+	},
+	"a ⇒ b ⋁ c ≡ (a ⇒ b) ⋁ (a ⇒ c)": {
+		"scope":"ell",
+		"prefix":"z3.63.2\tDistributivity",
+		"body": [
+			"3.63.2\tDistributivity\ta ⇒ b ⋁ c ≡ (a ⇒ b) ⋁ (a ⇒ c)"
+		]
+	},
+	"a ⇒ (b ⇒ c) ≡ (a ⇒ b) ⇒ (a ⇒ c)": {
+		"scope":"ell",
+		"prefix":"z3.64\t",
+		"body": [
+			"3.64\t\ta ⇒ (b ⇒ c) ≡ (a ⇒ b) ⇒ (a ⇒ c)"
+		]
+	},
+	"a ⋀ b ⇒ c ≡ a ⇒ (b ⇒ c)": {
+		"scope":"ell",
+		"prefix":"z3.65\tShunting",
+		"body": [
+			"3.65\tShunting\ta ⋀ b ⇒ c ≡ a ⇒ (b ⇒ c)"
+		]
+	},
+	"a ⋀ (a ⇒ b) ≡ a ⋀ b": {
+		"scope":"ell",
+		"prefix":"z3.66\t",
+		"body": [
+			"3.66\t\ta ⋀ (a ⇒ b) ≡ a ⋀ b"
+		]
+	},
+	"a ⋀ (b ⇒ a) ≡ a": {
+		"scope":"ell",
+		"prefix":"z3.67\t",
+		"body": [
+			"3.67\t\ta ⋀ (b ⇒ a) ≡ a"
+		]
+	},
+	"a ⋁ (a ⇒ b) ≡ true": {
+		"scope":"ell",
+		"prefix":"z3.68\t",
+		"body": [
+			"3.68\t\ta ⋁ (a ⇒ b) ≡ true"
+		]
+	},
+	"a ⋁ (b ⇒ a) ≡ b ⇒ a": {
+		"scope":"ell",
+		"prefix":"z3.69\t",
+		"body": [
+			"3.69\t\ta ⋁ (b ⇒ a) ≡ b ⇒ a"
+		]
+	},
+	"a ⋁ b ⇒ a ⋀ b ≡ a ≡ b": {
+		"scope":"ell",
+		"prefix":"z3.70\t",
+		"body": [
+			"3.70\t\ta ⋁ b ⇒ a ⋀ b ≡ a ≡ b"
+		]
+	},
+	"a ⇒ a": {
+		"scope":"ell",
+		"prefix":"z3.71\tReflexivity",
+		"body": [
+			"3.71\tReflexivity\ta ⇒ a"
+		]
+	},
+	"a ⇒ true ≡ true": {
+		"scope":"ell",
+		"prefix":"z3.72\tZero",
+		"body": [
+			"3.72\tZero\ta ⇒ true ≡ true"
+		]
+	},
+	"true ⇒ a ≡ a": {
+		"scope":"ell",
+		"prefix":"z3.73\tIdentity",
+		"body": [
+			"3.73\tIdentity\ttrue ⇒ a ≡ a"
+		]
+	},
+	"a ⇒ false ≡ ¬a": {
+		"scope":"ell",
+		"prefix":"z3.74\t",
+		"body": [
+			"3.74\t\ta ⇒ false ≡ ¬a"
+		]
+	},
+	"¬a ⇒ false ≡ a": {
+		"scope":"ell",
+		"prefix":"z3.74.1\t",
+		"body": [
+			"3.74.1\t\t¬a ⇒ false ≡ a"
+		]
+	},
+	"false ⇒ a ≡ true": {
+		"scope":"ell",
+		"prefix":"z3.75\t",
+		"body": [
+			"3.75\t\tfalse ⇒ a ≡ true"
+		]
+	},
+	"a ⇒ a ⋁ b": {
+		"scope":"ell",
+		"prefix":"z3.76(a)\tWeakening",
+		"body": [
+			"3.76(a)\tWeakening\ta ⇒ a ⋁ b"
+		]
+	},
+	"a ⋀ b ⇒ a": {
+		"scope":"ell",
+		"prefix":"z3.76(b)\tStrengthening",
+		"body": [
+			"3.76(b)\tStrengthening\ta ⋀ b ⇒ a"
+		]
+	},
+	"a ⋀ b ⇒ a ⋁ b": {
+		"scope":"ell",
+		"prefix":"z3.76(c)\tWeakening/strengthening",
+		"body": [
+			"3.76(c)\tWeakening/strengthening\ta ⋀ b ⇒ a ⋁ b"
+		]
+	},
+	"a ⋁ (b ⋀ c) ⇒ a ⋁ b": {
+		"scope":"ell",
+		"prefix":"z3.76(d)\tWeakening/strengthening",
+		"body": [
+			"3.76(d)\tWeakening/strengthening\ta ⋁ (b ⋀ c) ⇒ a ⋁ b"
+		]
+	},
+	"a ⋀ b ⇒ a ⋀ (b ⋁ c)": {
+		"scope":"ell",
+		"prefix":"z3.76(e)\tWeakening/strengthening",
+		"body": [
+			"3.76(e)\tWeakening/strengthening\ta ⋀ b ⇒ a ⋀ (b ⋁ c)"
+		]
+	},
+	"a ⋀ b ⇒ a ⋁ c": {
+		"scope":"ell",
+		"prefix":"z3.76.1\tWeakening/strengthening",
+		"body": [
+			"3.76.1\tWeakening/strengthening\ta ⋀ b ⇒ a ⋁ c"
+		]
+	},
+	"(a ⇒ b) ⇒ ((b ⇒ c) ⇒ (a ⇒ c))": {
+		"scope":"ell",
+		"prefix":"z3.76.2\t",
+		"body": [
+			"3.76.2\t\t(a ⇒ b) ⇒ ((b ⇒ c) ⇒ (a ⇒ c))"
+		]
+	},
+	"a ⋀ (a ⇒ b) ⇒ b": {
+		"scope":"ell",
+		"prefix":"z3.77\tModus_ponens",
+		"body": [
+			"3.77\tModus_ponens\ta ⋀ (a ⇒ b) ⇒ b"
+		]
+	},
+	"(a ⇒ b) ⋀ ¬b ⇒ ¬a": {
+		"scope":"ell",
+		"prefix":"z3.77.1\tModus_tollens",
+		"body": [
+			"3.77.1\tModus_tollens\t(a ⇒ b) ⋀ ¬b ⇒ ¬a"
+		]
+	},
+	"(a ⇒ c) ⋀ (b ⇒ c) ≡ (a ⋁ b ⇒ c)": {
+		"scope":"ell",
+		"prefix":"z3.78\t",
+		"body": [
+			"3.78\t\t(a ⇒ c) ⋀ (b ⇒ c) ≡ (a ⋁ b ⇒ c)"
+		]
+	},
+	"(a ⇒ c) ⋀ (¬a ⇒ c) ≡ c": {
+		"scope":"ell",
+		"prefix":"z3.79\t",
+		"body": [
+			"3.79\t\t(a ⇒ c) ⋀ (¬a ⇒ c) ≡ c"
+		]
+	},
+	"(a ⇒ b) ⋀ (b ⇒ a) ≡ (a ≡ b)": {
+		"scope":"ell",
+		"prefix":"z3.80\tMutual_implication",
+		"body": [
+			"3.80\tMutual_implication\t(a ⇒ b) ⋀ (b ⇒ a) ≡ (a ≡ b)"
+		]
+	},
+	"(a ⇒ b) ⋀ (b ⇒ a) ⇒ (a ≡ b)": {
+		"scope":"ell",
+		"prefix":"z3.81\tAntisymmetry",
+		"body": [
+			"3.81\tAntisymmetry\t(a ⇒ b) ⋀ (b ⇒ a) ⇒ (a ≡ b)"
+		]
+	},
+	"(a ⇒ b) ⋀ (b ⇒ c) ⇒ (a ⇒ c)": {
+		"scope":"ell",
+		"prefix":"z3.82(a)\tTransitivity",
+		"body": [
+			"3.82(a)\tTransitivity\t(a ⇒ b) ⋀ (b ⇒ c) ⇒ (a ⇒ c)"
+		]
+	},
+	"(a ≡ b) ⋀ (b ⇒ c) ⇒ (a ⇒ c)": {
+		"scope":"ell",
+		"prefix":"z3.82(b)\tTransitivity",
+		"body": [
+			"3.82(b)\tTransitivity\t(a ≡ b) ⋀ (b ⇒ c) ⇒ (a ⇒ c)"
+		]
+	},
+	"(a ⇒ b) ⋀ (b ≡ c) ⇒ (a ⇒ c)": {
+		"scope":"ell",
+		"prefix":"z3.82(c)\tTransitivity",
+		"body": [
+			"3.82(c)\tTransitivity\t(a ⇒ b) ⋀ (b ≡ c) ⇒ (a ⇒ c)"
+		]
+	},
+	"(a ≡ b) ⋀ (b ≡ c) ⇒ (a ≡ c)": {
+		"scope":"ell",
+		"prefix":"z3.82.1\tTransitivity",
+		"body": [
+			"3.82.1\tTransitivity\t(a ≡ b) ⋀ (b ≡ c) ⇒ (a ≡ c)"
+		]
+	},
+	"(a ≡ b) ⇒ (a ⇒ b)": {
+		"scope":"ell",
+		"prefix":"z3.82.2\t",
+		"body": [
+			"3.82.2\t\t(a ≡ b) ⇒ (a ⇒ b)"
+		]
+	},
+	"e = f ⇒ E[z ≔ e] = E[z ≔ f]": {
+		"scope":"ell",
+		"prefix":"z3.83\tLeibniz",
+		"body": [
+			"3.83\tLeibniz\te = f ⇒ E[z ≔ e] = E[z ≔ f]"
+		]
+	},
+	"(e = f) ⋀ E[z ≔ e] ≡ (e = f) ⋀ E[z ≔ f]": {
+		"scoae":"ell",
+		"prefix":"z3.84(a)\tSubstitution",
+		"body": [
+			"3.84(a)\tSubstitution\t(e = f) ⋀ E[z ≔ e] ≡ (e = f) ⋀ E[z ≔ f]"
+		]
+	},
+	"(e = f) ⇒ E[z ≔ e] ≡ (e = f) ⇒ E[z ≔ f]": {
+		"scope":"ell",
+		"prefix":"z3.84(b)\tSubstitution",
+		"body": [
+			"3.84(b)\tSubstitution\t(e = f) ⇒ E[z ≔ e] ≡ (e = f) ⇒ E[z ≔ f]"
+		]
+	},
+	"b ⋀ (e = f) ⇒ E[z ≔ e] ≡ b ⋀ (e = f) ⇒ E[z ≔ f]": {
+		"scope":"ell",
+		"prefix":"z3.84(c)\tSubstitution",
+		"body": [
+			"3.84(c)\tSubstitution\tb ⋀ (e = f) ⇒ E[z ≔ e] ≡ b ⋀ (e = f) ⇒ E[z ≔ f]"
+		]
+	},
+	"a ⇒ E[z ≔ a] ≡ a ⇒ E[z ≔ true]": {
+		"scope":"ell",
+		"prefix":"z3.85(a)\tReplace_by_true",
+		"body": [
+			"3.85(a)\tReplace_by_true\ta ⇒ E[z ≔ a] ≡ a ⇒ E[z ≔ true]"
+		]
+	},
+	"b ⋀ a ⇒ E[z ≔ a] ≡ b ⋀ a ⇒ E[z ≔ true]": {
+		"scope":"ell",
+		"prefix":"z3.85(b)\tReplace_by_true",
+		"body": [
+			"3.85(b)\tReplace_by_true\tb ⋀ a ⇒ E[z ≔ a] ≡ b ⋀ a ⇒ E[z ≔ true]"
+		]
+	},
+	"E[z ≔ a] ⇒ a ≡ E[z ≔ false] ⇒ a": {
+		"scope":"ell",
+		"prefix":"z3.86(a)\tReplace_by_false",
+		"body": [
+			"3.86(a)\tReplace_by_false\tE[z ≔ a] ⇒ a ≡ E[z ≔ false] ⇒ a"
+		]
+	},
+	"E[z ≔ a] ⇒ a ⋁ b ≡ E[z ≔ false] ⇒ a ⋁ b": {
+		"scope":"ell",
+		"prefix":"z3.86(b)\tReplace_by_false",
+		"body": [
+			"3.86(b)\tReplace_by_false\tE[z ≔ a] ⇒ a ⋁ b ≡ E[z ≔ false] ⇒ a ⋁ b"
+		]
+	},
+	"a ⋀ E[z ≔ a] ≡ a ⋀ E[z ≔ true]": {
+		"scope":"ell",
+		"prefix":"z3.87\tReplace_by_true",
+		"body": [
+			"3.87\tReplace_by_true\ta ⋀ E[z ≔ a] ≡ a ⋀ E[z ≔ true]"
+		]
+	},
+	"a ⋁ E[z ≔ a] ≡ a ⋁ E[z ≔ false]": {
+		"scope":"ell",
+		"prefix":"z3.88\tReplace_by_false",
+		"body": [
+			"3.88\tReplace_by_false\ta ⋁ E[z ≔ a] ≡ a ⋁ E[z ≔ false]"
+		]
+	},
+	"E[z ≔ a] ≡ (a ⋀ E[z ≔ true]) ⋁ (¬a ⋀ E[z ≔ false])": {
+		"scope":"ell",
+		"prefix":"z3.89\tShannon",
+		"body": [
+			"3.89\tShannon\tE[z ≔ a] ≡ (a ⋀ E[z ≔ true]) ⋁ (¬a ⋀ E[z ≔ false])"
+		]
+	},
+	"E[z ≔ true] ⋀ E[z ≔ false] ⇒ E[z ≔ a]": {
+		"scope":"ell",
+		"prefix":"z3.89.1\t",
+		"body": [
+			"3.89.1\t\tE[z ≔ true] ⋀ E[z ≔ false] ⇒ E[z ≔ a]"
+		]
+	},
+	"a ⇒ (b ⇒ a)": {
+		"scope":"ell",
+		"prefix":"z4.1\t",
+		"body": [
+			"4.1\t\ta ⇒ (b ⇒ a)"
+		]
+	},
+	"(a ⇒ b) ⇒ (a ⋁ c ⇒ b ⋁ c)": {
+		"scope":"ell",
+		"prefix":"z4.2\tMonotonicity",
+		"body": [
+			"4.2\tMonotonicity\t(a ⇒ b) ⇒ (a ⋁ c ⇒ b ⋁ c)"
+		]
+	},
+	"(a ⇒ b) ⇒ (a ⋀ c ⇒ b ⋀ c)": {
+		"scope":"ell",
+		"prefix":"z4.3\tMonotonicity",
+		"body": [
+			"4.3\tMonotonicity\t(a ⇒ b) ⇒ (a ⋀ c ⇒ b ⋀ c)"
+		]
+	},
+	"(★x ❘ false : P) = u": {
+		"scope":"ell",
+		"prefix":"z8.13\tEmpty_range",
+		"body": [
+			"8.13\tEmpty_range\t(★x ❘ false : P) = u"
+		]
+	},
+	"(★x ❘ x = E : P) = P[x ≔ E]": {
+		"scope":"ell",
+		"prefix":"z8.14\tOne-point_rule",
+		"body": [
+			"8.14\tOne-point_rule\t(★x ❘ x = E : P) = P[x ≔ E]"
+		]
+	},
+	"(★x ❘ R : P) ★ (★x ❘ R: Q) = (★x ❘ R : P ★ Q)": {
+		"scope":"ell",
+		"prefix":"z8.15\tDistributivity",
+		"body": [
+			"8.15\tDistributivity\t(★x ❘ R : P) ★ (★x ❘ R: Q) = (★x ❘ R : P ★ Q)"
+		]
+	},
+	"(★x ❘ R ⋁ S : P) = (★x ❘ R : P) ★ (★x ❘ S : P)": {
+		"scope":"ell",
+		"prefix":"z8.16\tRange_split",
+		"body": [
+			"8.16\tRange_split\t(★x ❘ R ⋁ S : P) = (★x ❘ R : P) ★ (★x ❘ S : P)"
+		]
+	},
+	"(★x ❘ R ⋁ S : P) ★ (★x ❘ R ⋀ S : P) = (★x ❘ R : P) ★ (★x ❘ S : P)": {
+		"scope":"ell",
+		"prefix":"z8.17\tRange_split",
+		"body": [
+			"8.17\tRange_split\t(★x ❘ R ⋁ S : P) ★ (★x ❘ R ⋀ S : P) = (★x ❘ R : P) ★ (★x ❘ S : P)"
+		]
+	},
+	"(★x ❘ R ⋁ S : P) = (★x ❘ R : P) ★ (★x ❘ S : P)": {
+		"scope":"ell",
+		"prefix":"z8.18\tRange_split_for_idempotent_★",
+		"body": [
+			"8.18\tRange_split_for_idempotent_★\t(★x ❘ R ⋁ S : P) = (★x ❘ R : P) ★ (★x ❘ S : P)"
+		]
+	},
+	"(★x ❘ R : (★y ❘ Q : P)) = (★y ❘ Q : (★x ❘ R : P))": {
+		"scope":"ell",
+		"prefix":"z8.19\tInterchange_of_dummies",
+		"body": [
+			"8.19\tInterchange_of_dummies\t(★x ❘ R : (★y ❘ Q : P)) = (★y ❘ Q : (★x ❘ R : P))"
+		]
+	},
+	"(★x,y ❘ R ⋀ Q : P) = (★x ❘ R : (★y ❘ Q : P))": {
+		"scope":"ell",
+		"prefix":"z8.20\tNesting",
+		"body": [
+			"8.20\tNesting\t(★x,y ❘ R ⋀ Q : P) = (★x ❘ R : (★y ❘ Q : P))"
+		]
+	},
+	"(★x ❘ R : P) = (★y ❘ R[x ≔ y] : P[x ≔ y])": {
+		"scope":"ell",
+		"prefix":"z8.21\tDummy_renaming",
+		"body": [
+			"8.21\tDummy_renaming\t(★x ❘ R : P) = (★y ❘ R[x ≔ y] : P[x ≔ y])"
+		]
+	},
+	"(★x ❘ R : P) = (★y ❘ R[x ≔ f.y]: P[x ≔ f.y])": {
+		"scope":"ell",
+		"prefix":"z8.22\tChange_of_dummy",
+		"body": [
+			"8.22\tChange_of_dummy\t(★x ❘ R : P) = (★y ❘ R[x ≔ f.y]: P[x ≔ f.y])"
+		]
+	},
+	"(★i ❘ 0 ≤ i < n + 1 : P) = (★i ❘ 0 ≤ i < n : P) ★ P[i ≔ n]": {
+		"scope":"ell",
+		"prefix":"z8.23(a)\tSplit_off_term",
+		"body": [
+			"8.23(a)\tSplit_off_term\t(★i ❘ 0 ≤ i < n + 1 : P) = (★i ❘ 0 ≤ i < n : P) ★ P[i ≔ n]"
+		]
+	},
+	"(★i ❘ 0 ≤ i < n + 1 : P) = P[i ≔ 0] ★ (★i ❘ 0 < i < n + 1 : P)": {
+		"scope":"ell",
+		"prefix":"z8.23(b)\tSplit_off_term",
+		"body": [
+			"8.23(b)\tSplit_off_term\t(★i ❘ 0 ≤ i < n + 1 : P) = P[i ≔ 0] ★ (★i ❘ 0 < i < n + 1 : P)"
+		]
+	},
+	"(∀x ❘ R : P) ≡ (∀x ❘: R ⇒ P)": {
+		"scope":"ell",
+		"prefix":"z9.2\tTrading",
+		"body": [
+			"9.2\tTrading\t(∀x ❘ R : P) ≡ (∀x ❘: R ⇒ P)"
+		]
+	},
+	"(∀x ❘ R : P) ≡ (∀x ❘: ¬R ⋁ P)": {
+		"scope":"ell",
+		"prefix":"z9.3(a)\tTrading",
+		"body": [
+			"9.3(a)\tTrading\t(∀x ❘ R : P) ≡ (∀x ❘: ¬R ⋁ P)"
+		]
+	},
+	"(∀x ❘ R : P) ≡ (∀x ❘: R ⋀ P ≡ R)": {
+		"scope":"ell",
+		"prefix":"z9.3(b)\tTrading",
+		"body": [
+			"9.3(b)\tTrading\t(∀x ❘ R : P) ≡ (∀x ❘: R ⋀ P ≡ R)"
+		]
+	},
+	"(∀x ❘ R : P) ≡ (∀x ❘: R ⋁ P ≡ P)": {
+		"scope":"ell",
+		"prefix":"z9.3(c)\tTrading",
+		"body": [
+			"9.3(c)\tTrading\t(∀x ❘ R : P) ≡ (∀x ❘: R ⋁ P ≡ P)"
+		]
+	},
+	"(∀x ❘ Q ⋀ R : P) ≡ (∀x ❘ Q : R ⇒ P)": {
+		"scope":"ell",
+		"prefix":"z9.4(a)\tTrading",
+		"body": [
+			"9.4(a)\tTrading\t(∀x ❘ Q ⋀ R : P) ≡ (∀x ❘ Q : R ⇒ P)"
+		]
+	},
+	"(∀x ❘ Q ⋀ R : P) ≡ (∀x ❘ Q : ¬R ⋁ P)": {
+		"scope":"ell",
+		"prefix":"z9.4(b)\tTrading",
+		"body": [
+			"9.4(b)\tTrading\t(∀x ❘ Q ⋀ R : P) ≡ (∀x ❘ Q : ¬R ⋁ P)"
+		]
+	},
+	"(∀x ❘ Q ⋀ R : P) ≡ (∀x ❘ Q : R ⋀ P ≡ R)": {
+		"scope":"ell",
+		"prefix":"z9.4(c)\tTrading",
+		"body": [
+			"9.4(c)\tTrading\t(∀x ❘ Q ⋀ R : P) ≡ (∀x ❘ Q : R ⋀ P ≡ R)"
+		]
+	},
+	"(∀x ❘ Q ⋀ R : P) ≡ (∀x ❘ Q : R ⋁ P ≡ P)": {
+		"scope":"ell",
+		"prefix":"z9.4(d)\tTrading",
+		"body": [
+			"9.4(d)\tTrading\t(∀x ❘ Q ⋀ R : P) ≡ (∀x ❘ Q : R ⋁ P ≡ P)"
+		]
+	},
+	"(∀x ❘ R : P) ≡ (∀x ❘ ¬P : ¬R)": {
+		"scope":"ell",
+		"prefix":"z9.4.1\tUniversal_double_trading",
+		"body": [
+			"9.4.1\tUniversal_double_trading\t(∀x ❘ R : P) ≡ (∀x ❘ ¬P : ¬R)"
+		]
+	},
+	"P ⋁ (∀x ❘ R : Q ) ≡ (∀x ❘ R : P ⋁ Q)": {
+		"scope":"ell",
+		"prefix":"z9.5\tDistributivity",
+		"body": [
+			"9.5\tDistributivity\tP ⋁ (∀x ❘ R : Q ) ≡ (∀x ❘ R : P ⋁ Q)"
+		]
+	},
+	"(∀x ❘ R : P) ≡ P ⋁ (∀x ❘: ¬R)": {
+		"scope":"ell",
+		"prefix":"z9.6\t",
+		"body": [
+			"9.6\t\t(∀x ❘ R : P) ≡ P ⋁ (∀x ❘: ¬R)"
+		]
+	},
+	"¬(∀x ❘: ¬R) ⇒ ((∀x ❘ R : P ⋀ Q) ≡ P ⋀ (∀x ❘ R : Q))": {
+		"scope":"ell",
+		"prefix":"z9.7\tDistributivity",
+		"body": [
+			"9.7\tDistributivity\t¬(∀x ❘: ¬R) ⇒ ((∀x ❘ R : P ⋀ Q) ≡ P ⋀ (∀x ❘ R : Q))"
+		]
+	},
+	"(∀x ❘ R : true) ≡ true": {
+		"scope":"ell",
+		"prefix":"z9.8\t",
+		"body": [
+			"9.8\t\t(∀x ❘ R : true) ≡ true"
+		]
+	},
+	"(∀x ❘ R : P ≡ Q) ⇒ ((∀x ❘ R : P) ≡ (∀x ❘ R : Q))": {
+		"scope":"ell",
+		"prefix":"z9.9\t",
+		"body": [
+			"9.9\t\t(∀x ❘ R : P ≡ Q) ⇒ ((∀x ❘ R : P) ≡ (∀x ❘ R : Q))"
+		]
+	},
+	"(∀x ❘ Q ⋁ R : P) ⇒ (∀x ❘ Q : P)": {
+		"scope":"ell",
+		"prefix":"z9.10\tRange_weakening/strengthening",
+		"body": [
+			"9.10\tRange_weakening/strengthening\t(∀x ❘ Q ⋁ R : P) ⇒ (∀x ❘ Q : P)"
+		]
+	},
+	"(∀x ❘ R : P ⋀ Q) ⇒ (∀x ❘ R : P)": {
+		"scope":"ell",
+		"prefix":"z9.11\tBody_weakening/strengthening",
+		"body": [
+			"9.11\tBody_weakening/strengthening\t(∀x ❘ R : P ⋀ Q) ⇒ (∀x ❘ R : P)"
+		]
+	},
+	"(∀x ❘ R : Q ⇒ P) ⇒ ((∀x ❘ R : Q) ⇒ (∀x ❘ R : P))": {
+		"scope":"ell",
+		"prefix":"z9.12\tMonotonicity",
+		"body": [
+			"9.12\tMonotonicity\t(∀x ❘ R : Q ⇒ P) ⇒ ((∀x ❘ R : Q) ⇒ (∀x ❘ R : P))"
+		]
+	},
+	"(∀x ❘: P) ⇒ P[x ≔ E]": {
+		"scope":"ell",
+		"prefix":"z9.13\tInstantiation",
+		"body": [
+			"9.13\tInstantiation\t(∀x ❘: P) ⇒ P[x ≔ E]"
+		]
+	},
+	"P is a theorem iff (∀x ❘: P) is a theorem": {
+		"scope":"ell",
+		"prefix":"z9.16\tMetatheorem",
+		"body": [
+			"9.16\tMetatheorem\tP is a theorem iff (∀x ❘: P) is a theorem"
+		]
+	},
+	"(∃x ❘ R : P) ⇒ ¬(∀x ❘ R : ¬P)": {
+		"scope":"ell",
+		"prefix":"z9.17\tGeneralized_De_Morgan",
+		"body": [
+			"9.17\tGeneralized_De_Morgan\t(∃x ❘ R : P) ⇒ ¬(∀x ❘ R : ¬P)"
+		]
+	},
+	"¬(∃x ❘ R : ¬P) ≡ (∀x ❘ R : P)": {
+		"scope":"ell",
+		"prefix":"z9.18(a)\tGeneralized_De_Morgan",
+		"body": [
+			"9.18(a)\tGeneralized_De_Morgan\t¬(∃x ❘ R : ¬P) ≡ (∀x ❘ R : P)"
+		]
+	},
+	"¬(∃x ❘ R : P) ≡ (∀x ❘ R : ¬P)": {
+		"scope":"ell",
+		"prefix":"z9.18(b)\tGeneralized_De_Morgan",
+		"body": [
+			"9.18(b)\tGeneralized_De_Morgan\t¬(∃x ❘ R : P) ≡ (∀x ❘ R : ¬P)"
+		]
+	},
+	"(∃x ❘ R : ¬P) ≡ ¬(∀x ❘ R : P)": {
+		"scope":"ell",
+		"prefix":"z9.18(c)\tGeneralized_De_Morgan",
+		"body": [
+			"9.18(c)\tGeneralized_De_Morgan\t(∃x ❘ R : ¬P) ≡ ¬(∀x ❘ R : P)"
+		]
+	},
+	"(∃x ❘ R : P) ≡ (∃x ❘: R ⋀ P)": {
+		"scope":"ell",
+		"prefix":"z9.19\tTrading",
+		"body": [
+			"9.19\tTrading\t(∃x ❘ R : P) ≡ (∃x ❘: R ⋀ P)"
+		]
+	},
+	"(∃x ❘ Q ⋀ R : P) ≡ (∃x ❘ Q : R ⋀ P)": {
+		"scope":"ell",
+		"prefix":"z9.20\tTrading",
+		"body": [
+			"9.20\tTrading\t(∃x ❘ Q ⋀ R : P) ≡ (∃x ❘ Q : R ⋀ P)"
+		]
+	},
+	"(∃x ❘ R : P) ≡ (∃x ❘ P : R)": {
+		"scope":"ell",
+		"prefix":"z9.20.1\tExistential_double_trading",
+		"body": [
+			"9.20.1\tExistential_double_trading\t(∃x ❘ R : P) ≡ (∃x ❘ P : R)"
+		]
+	},
+	"(∃x ❘ R : P) ⇒ ((∀x ❘ R : P) ⇒ (∃x ❘ R : P))": {
+		"scope":"ell",
+		"prefix":"z9.20.2\t",
+		"body": [
+			"9.20.2\t\t(∃x ❘: R) ⇒ ((∀x ❘ R : P) ⇒ (∃x ❘ R : P))"
+		]
+	},
+	"P ⋀ (∃x ❘ R : Q) ≡ (∃x ❘ R : P ⋀ Q)": {
+		"scope":"ell",
+		"prefix":"z9.21\tDistributivity",
+		"body": [
+			"9.21\tDistributivity\tP ⋀ (∃x ❘ R : Q) ≡ (∃x ❘ R : P ⋀ Q)"
+		]
+	},
+	"(∃x ❘ R : P) ≡ P ⋀ (∃x ❘: R)": {
+		"scope":"ell",
+		"prefix":"z9.22\t",
+		"body": [
+			"9.22\t\t(∃x ❘ R : P) ≡ P ⋀ (∃x ❘: R)"
+		]
+	},
+	"(∃x ❘: R) ⇒ ((∃x ❘ R : P ⋁ Q) ≡ P ⋁ (∃x ❘ R : Q))": {
+		"scope":"ell",
+		"prefix":"z9.23\tDistributivity",
+		"body": [
+			"9.23\tDistributivity\t(∃x ❘: R) ⇒ ((∃x ❘ R : P ⋁ Q) ≡ P ⋁ (∃x ❘ R : Q))"
+		]
+	},
+	"(∃x ❘ R : false) ⇒ false": {
+		"scope":"ell",
+		"prefix":"z9.24\t",
+		"body": [
+			"9.24\t\t(∃x ❘ R : false) ⇒ false"
+		]
+	},
+	"(∃x ❘ R : P) ⇒ (∃x ❘ Q ⋁ R : P)": {
+		"scope":"ell",
+		"prefix":"z9.25\tRange_weakening/strengthening",
+		"body": [
+			"9.25\tRange_weakening/strengthening\t(∃x ❘ R : P) ⇒ (∃x ❘ Q ⋁ R : P)"
+		]
+	},
+	"(∃x ❘ R : P) ⇒ (∃x ❘ R : P ⋁ Q)": {
+		"scope":"ell",
+		"prefix":"z9.26\tBody_weakening/strengthening",
+		"body": [
+			"9.26\tBody_weakening/strengthening\t(∃x ❘ R : P) ⇒ (∃x ❘ R : P ⋁ Q)"
+		]
+	},
+	"(∀x ❘ R : Q ⇒ P) ⇒ ((∃x ❘ R : Q) ⇒ (∃x ❘ R : P))": {
+		"scope":"ell",
+		"prefix":"z9.27\tMonotonicity",
+		"body": [
+			"9.27\tMonotonicity\t(∀x ❘ R : Q ⇒ P) ⇒ ((∃x ❘ R : Q) ⇒ (∃x ❘ R : P))"
+		]
+	},
+	"P[x ≔ E] ⇒ (∃x ❘: P)": {
+		"scope":"ell",
+		"prefix":"z9.28\t∃-Introduction",
+		"body": [
+			"9.28\t∃-Introduction\tP[x ≔ E] ⇒ (∃x ❘: P)"
+		]
+	},
+	"(∃x ❘ R : (∀y ❘ Q : P)) ⇒ (∀y ❘ Q : (∃x ❘ R : P))": {
+		"scope":"ell",
+		"prefix":"z9.29\tInterchange_of_quantification",
+		"body": [
+			"9.29\tInterchange_of_quantification\t(∃x ❘ R : (∀y ❘ Q : P)) ⇒ (∀y ❘ Q : (∃x ❘ R : P))"
+		]
+	},
+	"(∃x | R : P) ⇒ Q is theorem iff (R ⋀ P)[x ≔ ẋ] ⇒ Q is a theorem": {
+		"scope":"ell",
+		"prefix":"z9-30\t",
+		"body": [
+			"9-30\t\t(∃x | R : R) ⇒ Q is theorem iff (R ⋀ P)[x ≔ ẋ] ⇒ Q"
+		]
+	},
+	"{e_0, ... , e_(n-1)} = {x ❘ x = e_0 ⋁ ... ⋁ x = e_(n - 1)}": {
+		"scope":"ell",
+		"prefix":"z11.2\t",
+		"body": [
+			"11.2\t\t{e_0, ... , e_(n-1)} = {x ❘ x = e_0 ⋁ ... ⋁ x = e_(n - 1)}"
+		]
+	},
+	"F ∈ {x ❘ R : E} ≡ (∃x ❘ R : F = E)": {
+		"scope":"ell",
+		"prefix":"z11.3\tSet_membership",
+		"body": [
+			"11.3\tSet_membership\tF ∈ {x ❘ R : E} ≡ (∃x ❘ R : F = E)"
+		]
+	},
+	"S = T ≡ (∀x ❘: x ∈ S ≡ x ∈ T)": {
+		"scope":"ell",
+		"prefix":"z11.4\tExtensionality",
+		"body": [
+			"11.4\tExtensionality\tS = T ≡ (∀x ❘: x ∈ S ≡ x ∈ T)"
+		]
+	},
+	"∅ = {x ❘ false : E}": {
+		"scope":"ell",
+		"prefix":"z11.4.1\tEmpty_set",
+		"body": [
+			"11.4.1\tEmpty_set\t∅ = {x ❘ false : E}"
+		]
+	},
+	"e ∈ ∅ ≡ false": {
+		"scope":"ell",
+		"prefix":"z11.4.2\t",
+		"body": [
+			"11.4.2\t\te ∈ ∅ ≡ false"
+		]
+	},
+	"𝐔 = {x ❘: x}": {
+		"scope":"ell",
+		"prefix":"z11.4.3\tUniverse",
+		"body": [
+			"11.4.3\tUniverse\t𝐔 = {x ❘: x}"
+		]
+	},
+	"e ∈ 𝐔 ≡ true": {
+		"scope":"ell",
+		"prefix":"z11.4.4\t",
+		"body": [
+			"11.4.4\t\te ∈ 𝐔 ≡ true"
+		]
+	},
+	"S = {x ❘ x ∈ S : x}": {
+		"scope":"ell",
+		"prefix":"z11.5\t",
+		"body": [
+			"11.5\t\tS = {x ❘ x ∈ S : x}"
+		]
+	},
+	"{x ❘ R} = {x ❘ R : x}": {
+		"scope":"ell",
+		"prefix":"z11.5.1\tAbbreviation",
+		"body": [
+			"11.5.1\tAbbreviation\t{x ❘ R} = {x ❘ R : x}"
+		]
+	},
+	"{ x ❘ R : E} = {y ❘ (∃x ❘ R : y = E)}": {
+		"scope":"ell",
+		"prefix":"z11.6\t",
+		"body": [
+			"11.6\t\t{ x ❘ R : E} = {y ❘ (∃x ❘ R : y = E)}"
+		]
+	},
+	"x ∈ {x ❘ R} ≡ R": {
+		"scope":"ell",
+		"prefix":"z11.7\t",
+		"body": [
+			"11.7\t\tx ∈ {x ❘ R} ≡ R"
+		]
+	},
+	"y ∈ {x ❘ R} ≡ R[x ≔ y]": {
+		"scope":"ell",
+		"prefix":"z11.7.1\t",
+		"body": [
+			"11.7.1\t\ty ∈ {x ❘ R} ≡ R[x ≔ y]"
+		]
+	},
+	"{x ❘ Q} = {x ❘ R} ≡ (∀x ❘: Q ≡ R)": {
+		"scope":"ell",
+		"prefix":"z11.9\t",
+		"body": [
+			"11.9\t\t{x ❘ Q} = {x ❘ R} ≡ (∀x ❘: Q ≡ R)"
+		]
+	},
+	"{x ❘ Q} = {x ❘ R} is valid iff Q ≡ R is valid": {
+		"scope":"ell",
+		"prefix":"z11.10\t",
+		"body": [
+			"11.10\t\t{x ❘ Q} = {x ❘ R} is valid iff Q ≡ R is valid"
+		]
+	},
+	"#S = (∑x | x ∈ S : 1)": {
+		"scope":"ell",
+		"prefix":"z11.12\tSize",
+		"body": [
+			"11.12\tSize\t#S = (∑x | x ∈ S : 1)"
+		]
+	},
+	"S ⊆ T  ≡  (∀x | x ∈ S : x ∈ T)": {
+		"scope":"ell",
+		"prefix":"z11.13\tSubset",
+		"body": [
+			"11.13\tSubset\tS ⊆ T  ≡  (∀x | x ∈ S : x ∈ T)"
+		]
+	},
+	"S ⊂ T  ≡  S ⊆ T ⋀ S ≠ T": {
+		"scope":"ell",
+		"prefix":"z11.14\tProper_subset",
+		"body": [
+			"11.14\tProper_subset\tS ⊂ T  ≡  S ⊆ T ⋀ S ≠ T"
+		]
+	},
+	"T ⊇ S  ≡  S ⊆ T": {
+		"scope":"ell",
+		"prefix":"z11.15\tSuperset",
+		"body": [
+			"11.15\tSuperset\tT ⊇ S  ≡  S ⊆ T"
+		]
+	},
+	"T ⊃ S  ≡  S ⊂ T": {
+		"scope":"ell",
+		"prefix":"z11.16\tProper_superset",
+		"body": [
+			"11.16\tProper_superset\tT ⊃ S  ≡  S ⊂ T"
+		]
+	},
+	"v ∈ ~S  ≡  v ∈ 𝐔 ⋀ v ∉ S": {
+		"scope":"ell",
+		"prefix":"z11.17\tComplement",
+		"body": [
+			"11.17\tComplement\tv ∈ ~S  ≡  v ∈ 𝐔 ⋀ v ∉ S"
+		]
+	},
+	"v ∈ ~S  ≡  v ∉ S, for v in 𝐔": {
+		"scope":"ell",
+		"prefix":"z11.18\t",
+		"body": [
+			"11.18\t\tv ∈ ~S  ≡  v ∉ S, for v in 𝐔"
+		]
+	},
+	"~~S = S": {
+		"scope":"ell",
+		"prefix":"z11.19\t",
+		"body": [
+			"11.19\t\t~~S = S"
+		]
+	},
+	"v ∈ S ∪ T  ≡  v ∈ S ⋁ v ∈ T": {
+		"scope":"ell",
+		"prefix":"z11.20\tUnion",
+		"body": [
+			"11.20\tUnion\tv ∈ S ∪ T  ≡  v ∈ S ⋁ v ∈ T"
+		]
+	},
+	"v ∈ S ∩ T  ≡  v ∈ S ⋀ v ∈ T": {
+		"scope":"ell",
+		"prefix":"z11.21\tIntersection",
+		"body": [
+			"11.21\tIntersection\tv ∈ S ∩ T  ≡  v ∈ S ⋀ v ∈ T"
+		]
+	},
+	"v ∈ S - T  ≡  v ∈ S ⋀ v ∉ T": {
+		"scope":"ell",
+		"prefix":"z11.22\tDifference",
+		"body": [
+			"11.22\tDifference\tv ∈ S - T  ≡  v ∈ S ⋀ v ∉ T"
+		]
+	},
+	"v ∈ 𝒫S  ≡  v ⊆ S": {
+		"scope":"ell",
+		"prefix":"z11.23\tPower_set",
+		"body": [
+			"11.23\tPower_set\tv ∈ 𝒫S  ≡  v ⊆ S"
+		]
+	},
+	"E_s = F_s is valid iff E_p ≡ F_p is valid": {
+		"scope":"ell",
+		"prefix":"z11.25(a)\tMetatheorem",
+		"body": [
+			"11.25(a)\tMetatheorem\tE_s = F_s is valid iff E_p ≡ F_p is valid"
+		]
+	},
+	"E_s ⊆ F_s is valid iff E_p ⇒ F_p is valid": {
+		"scope":"ell",
+		"prefix":"z11.25(b)\tMetatheorem",
+		"body": [
+			"11.25(b)\tMetatheorem\tE_s ⊆ F_s is valid iff E_p ⇒ F_p is valid"
+		]
+	},
+	"E_s = 𝐔 is valid iff E_p is valid": {
+		"scope":"ell",
+		"prefix":"z11.25(c)\tMetatheorem",
+		"body": [
+			"11.25(c)\tMetatheorem\tE_s = 𝐔 is valid iff E_p is valid"
+		]
+	},
+	"S ∪ T = T ∪ S": {
+		"scope":"ell",
+		"prefix":"z11.26\tSymmetry",
+		"body": [
+			"11.26\tSymmetry\tS ∪ T = T ∪ S"
+		]
+	},
+	"(S ∪ T) ∪ U  =  S ∪ (T ∪ U)": {
+		"scope":"ell",
+		"prefix":"z11.27\tAssociativity",
+		"body": [
+			"11.27\tAssociativity\t(S ∪ T) ∪ U  =  S ∪ (T ∪ U)"
+		]
+	},
+	"S ∪ S = S": {
+		"scope":"ell",
+		"prefix":"z11.28\tIdempotency",
+		"body": [
+			"11.28\tIdempotency\tS ∪ S = S"
+		]
+	},
+	"S ∪ 𝐔 = 𝐔": {
+		"scope":"ell",
+		"prefix":"z11.29\tZero",
+		"body": [
+			"11.29\tZero\tS ∪ 𝐔 = 𝐔"
+		]
+	},
+	"S ∪ ∅ = S": {
+		"scope":"ell",
+		"prefix":"z11.30\tIdentity",
+		"body": [
+			"11.30\tIdentity\tS ∪ ∅ = S"
+		]
+	},
+	"S ⊆ S ∪ T": {
+		"scope":"ell",
+		"prefix":"z11.31\tWeakening",
+		"body": [
+			"11.31\tWeakening\tS ⊆ S ∪ T"
+		]
+	},
+	"S ∪ ~S = 𝐔": {
+		"scope":"ell",
+		"prefix":"z11.32\tExcluded_middle",
+		"body": [
+			"11.32\tExcluded_middle\tS ∪ ~S = 𝐔"
+		]
+	},
+	"S ∩ T = T ∩ S": {
+		"scope":"ell",
+		"prefix":"z11.33\tSymmetry",
+		"body": [
+			"11.33\tSymmetry\tS ∩ T = T ∩ S"
+		]
+	},
+	"(S ∩ T) ∩ U = S ∩ (T ∩ U)": {
+		"scope":"ell",
+		"prefix":"z11.34\tAssociativity",
+		"body": [
+			"11.34\tAssociativity\t(S ∩ T) ∩ U = S ∩ (T ∩ U)"
+		]
+	},
+	"S ∩ S = S": {
+		"scope":"ell",
+		"prefix":"z11.35\tIdempotency",
+		"body": [
+			"11.35\tIdempotency\tS ∩ S = S"
+		]
+	},
+	"S ∩ ∅ = ∅": {
+		"scope":"ell",
+		"prefix":"z11.36\tZero",
+		"body": [
+			"11.36\tZero\tS ∩ ∅ = ∅"
+		]
+	},
+	"S ∩ 𝐔 = S": {
+		"scope":"ell",
+		"prefix":"z11.37\tIdentity",
+		"body": [
+			"11.37\tIdentity\tS ∩ 𝐔 = S"
+		]
+	},
+	"S ∩ T ⊆ S": {
+		"scope":"ell",
+		"prefix":"z11.38\tStrengthening",
+		"body": [
+			"11.38\tStrengthening\tS ∩ T ⊆ S"
+		]
+	},
+	"S ∩ ~S = ∅": {
+		"scope":"ell",
+		"prefix":"z11.39\tContradiction",
+		"body": [
+			"11.39\tContradiction\tS ∩ ~S = ∅"
+		]
+	},
+	"S ∪ (T ∩ U) = (S ∪ T) ∩ (S ∪ U)": {
+		"scope":"ell",
+		"prefix":"z11.40\tDistributivity",
+		"body": [
+			"11.40\tDistributivity\tS ∪ (T ∩ U) = (S ∪ T) ∩ (S ∪ U)"
+		]
+	},
+	"S ∩ (T ∪ U) = (S ∩ T) ∪ (S ∩ U)": {
+		"scope":"ell",
+		"prefix":"z11.41\tDistributivity",
+		"body": [
+			"11.41\tDistributivity\tS ∩ (T ∪ U) = (S ∩ T) ∪ (S ∩ U)"
+		]
+	},
+	"~(S ∪ T) = ~S ∩ ~T": {
+		"scope":"ell",
+		"prefix":"z11.42(a)\tDe_Morgan",
+		"body": [
+			"11.42(a)\tDe_Morgan\t~(S ∪ T) = ~S ∩ ~T"
+		]
+	},
+	"~(S ∩ T) = ~S ∪ ~T": {
+		"scope":"ell",
+		"prefix":"z11.42(b)\tDe_Morgan",
+		"body": [
+			"11.42(b)\tDe_Morgan\t~(S ∩ T) = ~S ∪ ~T"
+		]
+	},
+	"S ⊆ T ⋀ U ⊆ V  ⇒  (S ∪ U) ⊆ (T ∪ V)": {
+		"scope":"ell",
+		"prefix":"z11.43\t",
+		"body": [
+			"11.43\t\tS ⊆ T ⋀ U ⊆ V  ⇒  (S ∪ U) ⊆ (T ∪ V)"
+		]
+	},
+	"S ⊆ T ⋀ U ⊆ V  ⇒  (S ∩ U) ⊆ (S ∩ V)": {
+		"scope":"ell",
+		"prefix":"z11.44\t",
+		"body": [
+			"11.44\t\tS ⊆ T ⋀ U ⊆ V  ⇒  (S ∩ U) ⊆ (S ∩ V)"
+		]
+	},
+	"S ⊆ T  ≡  S ∪ T = T": {
+		"scope":"ell",
+		"prefix":"z11.45\t",
+		"body": [
+			"11.45\t\tS ⊆ T  ≡  S ∪ T = T"
+		]
+	},
+	"S ⊆ T  ≡  S ∩ T = S": {
+		"scope":"ell",
+		"prefix":"z11.46\t",
+		"body": [
+			"11.46\t\tS ⊆ T  ≡  S ∩ T = S"
+		]
+	},
+	"S ∪ T = 𝐔  ≡  (∀x | x ∈ 𝐔 : x ∉ S ⇒ x ∈ T)": {
+		"scope":"ell",
+		"prefix":"z11.47\t",
+		"body": [
+			"11.47\t\tS ∪ T = 𝐔  ≡  (∀x | x ∈ 𝐔 : x ∉ S ⇒ x ∈ T)"
+		]
+	},
+	"S ∩ T = ∅  ≡  (∀x |: x ∈ S ⇒ x ∉ T)": {
+		"scope":"ell",
+		"prefix":"z11.48\t",
+		"body": [
+			"11.48\t\tS ∩ T = ∅  ≡  (∀x |: x ∈ S ⇒ x ∉ T)"
+		]
+	},
+	"S - T = S ∩ ~T": {
+		"scope":"ell",
+		"prefix":"z11.49\t",
+		"body": [
+			"11.49\t\tS - T = S ∩ ~T"
+		]
+	},
+	"S - T ⊆ S": {
+		"scope":"ell",
+		"prefix":"z11.50\t",
+		"body": [
+			"11.50\t\tS - T ⊆ S"
+		]
+	},
+	"S - ∅ = S": {
+		"scope":"ell",
+		"prefix":"z11.51\t",
+		"body": [
+			"11.51\t\tS - ∅ = S"
+		]
+	},
+	"S ∩ (T - S) = ∅": {
+		"scope":"ell",
+		"prefix":"z11.52\t",
+		"body": [
+			"11.52\t\tS ∩ (T - S) = ∅"
+		]
+	},
+	"S ∪ (T - S) = S ∪ T": {
+		"scope":"ell",
+		"prefix":"z11.53\t",
+		"body": [
+			"11.53\t\tS ∪ (T - S) = S ∪ T"
+		]
+	},
+	"S - (T ∪ U) = (S - T) ∩ (S - U)": {
+		"scope":"ell",
+		"prefix":"z11.54\t",
+		"body": [
+			"11.54\t\tS - (T ∪ U) = (S - T) ∩ (S - U)"
+		]
+	},
+	"S - (T ∩ U) = (S - T) ∪ (S - U)": {
+		"scope":"ell",
+		"prefix":"z11.55\t",
+		"body": [
+			"11.55\t\tS - (T ∩ U) = (S - T) ∪ (S - U)"
+		]
+	},
+	"(∀x |: P ⇒ Q) ≡ {x | P} ⊆ {x | Q}": {
+		"scope":"ell",
+		"prefix":"z11.56\t",
+		"body": [
+			"11.56\t\t(∀x |: P ⇒ Q) ≡ {x | P} ⊆ {x | Q}"
+		]
+	},
+	"S ⊆ T ⋀ T ⊆ S  ≡  S - T": {
+		"scope":"ell",
+		"prefix":"z11.57\tAntisymmetry",
+		"body": [
+			"11.57\tAntisymmetry\tS ⊆ T ⋀ T ⊆ S  ≡  S - T"
+		]
+	},
+	"S ⊆ S": {
+		"scope":"ell",
+		"prefix":"z11.58\tReflexivity",
+		"body": [
+			"11.58\tReflexivity\tS ⊆ S"
+		]
+	},
+	"S ⊆ T ⋀ T ⊆ S  ⇒  S ⊆ U": {
+		"scope":"ell",
+		"prefix":"z11.59\tTransitivity",
+		"body": [
+			"11.59\tTransitivity\tS ⊆ T ⋀ T ⊆ S  ⇒  S ⊆ U"
+		]
+	},
+	"∅ ⊆ S": {
+		"scope":"ell",
+		"prefix":"z11.60\t",
+		"body": [
+			"11.60\t\t∅ ⊆ S"
+		]
+	},
+	"S ⊂ T  ≡  S ⊆ T ⋀ ¬(T ⊆ S)": {
+		"scope":"ell",
+		"prefix":"z11.61\t",
+		"body": [
+			"11.61\t\tS ⊂ T  ≡  S ⊆ T ⋀ ¬(T ⊆ S)"
+		]
+	},
+	"S ⊂ T  ≡  S ⊆ T ⋀ (∃x | x ∈ T : x ∉ S)": {
+		"scope":"ell",
+		"prefix":"z11.62\t",
+		"body": [
+			"11.62\t\tS ⊂ T  ≡  S ⊆ T ⋀ (∃x | x ∈ T : x ∉ S)"
+		]
+	},
+	"S ⊆ T  ≡  S ⊂ T ⋁ S = T": {
+		"scope":"ell",
+		"prefix":"z11.63\t",
+		"body": [
+			"11.63\t\tS ⊆ T  ≡  S ⊂ T ⋁ S = T"
+		]
+	},
+	"S ⊄ S": {
+		"scope":"ell",
+		"prefix":"z11.64\t",
+		"body": [
+			"11.64\t\tS ⊄ S"
+		]
+	},
+	"S ⊂ T  ⇒  S ⊆ T": {
+		"scope":"ell",
+		"prefix":"z11.65\t",
+		"body": [
+			"11.65\t\tS ⊂ T  ⇒  S ⊆ T"
+		]
+	},
+	"S ⊂ T  ⇒  T ⊈ S": {
+		"scope":"ell",
+		"prefix":"z11.66\t",
+		"body": [
+			"11.66\t\tS ⊂ T  ⇒  T ⊈ S"
+		]
+	},
+	"S ⊆ T  ⇒  T ⊄ S": {
+		"scope":"ell",
+		"prefix":"z11.67\t",
+		"body": [
+			"11.67\t\tS ⊆ T  ⇒  T ⊄ S"
+		]
+	},
+	"S ⊆ T ⋀ ¬(U ⊆ T)  ⇒  ¬(U ⊆ S)": {
+		"scope":"ell",
+		"prefix":"z11.68\t",
+		"body": [
+			"11.68\t\tS ⊆ T ⋀ ¬(U ⊆ T)  ⇒  ¬(U ⊆ S)"
+		]
+	},
+	"(∃x | x ∈ S : x ∉ T)  ⇒  S ≠ T": {
+		"scope":"ell",
+		"prefix":"z11.69\t",
+		"body": [
+			"11.69\t\t(∃x | x ∈ S : x ∉ T)  ⇒  S ≠ T"
+		]
+	},
+	"S ⊆ T ⋀ T ⊂ U  ⇒  S ⊂ U": {
+		"scope":"ell",
+		"prefix":"z11.70(a)\tTransitivity",
+		"body": [
+			"11.70(a)\tTransitivity\tS ⊆ T ⋀ T ⊂ U  ⇒  S ⊂ U"
+		]
+	},
+	"S ⊂ T ⋀ T ⊆ U  ⇒  S ⊂ U": {
+		"scope":"ell",
+		"prefix":"z11.70(b)\tTransitivity",
+		"body": [
+			"11.70(b)\tTransitivity\tS ⊂ T ⋀ T ⊆ U  ⇒  S ⊂ U"
+		]
+	},
+	"S ⊂ T ⋀ T ⊂ U  ⇒  S ⊂ U": {
+		"scope":"ell",
+		"prefix":"z11.70(c)\tTransitivity",
+		"body": [
+			"11.70(c)\tTransitivity\tS ⊂ T ⋀ T ⊂ U  ⇒  S ⊂ U"
+		]
+	},
+	"𝒫∅ = {∅}": {
+		"scope":"ell",
+		"prefix":"z11.71\t",
+		"body": [
+			"11.71\t\t𝒫∅ = {∅}"
+		]
+	},
+	"S ∈ 𝒫S": {
+		"scope":"ell",
+		"prefix":"z11.72\t",
+		"body": [
+			"11.72\t\tS ∈ 𝒫S"
+		]
+	},
+	"#(𝒫S) = 2^(#S), for finite set S": {
+		"scope":"ell",
+		"prefix":"z11.73\t",
+		"body": [
+			"11.73\t\t#(𝒫S) = 2^(#S), for finite set S"
+		]
+	},
+	"v ∈ ⦃x | R : E⦄  ≡  (∃x | R : v = E)": {
+		"scope":"ell",
+		"prefix":"z11.79\tMembership",
+		"body": [
+			"11.79\tMembership\tv ∈ ⦃x | R : E⦄  ≡  (∃x | R : v = E)"
+		]
+	},
+	"#⦃x | R : E⦄ ≡ (∑x | R : 1)": {
+		"scope":"ell",
+		"prefix":"z11.80\tSize",
+		"body": [
+			"11.80\tSize\t#⦃x | R : E⦄ ≡ (∑x | R : 1)"
+		]
+	},
+	"v#⦃x | R :E⦄ = (∑x | R ⋀ v = E : 1)": {
+		"scope":"ell",
+		"prefix":"z11.81\tNumber_of_occurrences",
+		"body": [
+			"11.81\tNumber_of_occurrences\tv#⦃x | R :E⦄ = (∑x | R ⋀ v = E : 1)"
+		]
+	},
+	"B = C  ≡  (∀v |: v#B = v#C)": {
+		"scope":"ell",
+		"prefix":"z11.82\tBag_equality",
+		"body": [
+			"11.82\tBag_equality\tB = C  ≡  (∀v |: v#B = v#C)"
+		]
+	},
+	"B ⊆ C  ≡  (∀v |: v#B ≤ v#C)": {
+		"scope":"ell",
+		"prefix":"z11.83\tSubbag",
+		"body": [
+			"11.83\tSubbag\tB ⊆ C  ≡  (∀v |: v#B ≤ v#C)"
+		]
+	},
+	"B ⊂ C  ≡  B ⊆ C ⋀ B ≠ C": {
+		"scope":"ell",
+		"prefix":"z11.84\tProper_subbag",
+		"body": [
+			"11.84\tProper_subbag\tB ⊂ C  ≡  B ⊆ C ⋀ B ≠ C"
+		]
+	},
+	"B ∪ C = ⦃v, i | 0 ≤ i < v#B + v#C: v⦄": {
+		"scope":"ell",
+		"prefix":"z11.85\tUnion",
+		"body": [
+			"11.85\tUnion\tB ∪ C = ⦃v, i | 0 ≤ i < v#B + v#C: v⦄"
+		]
+	},
+	"B ∩ C = ⦃v, i | 0 ≤ i < v#B ↓ v#C: v⦄": {
+		"scope":"ell",
+		"prefix":"z11.86\tIntersection",
+		"body": [
+			"11.86\tIntersection\tB ∩ C = ⦃v, i | 0 ≤ i < v#B ↓ v#C: v⦄"
+		]
+	},
+	"B - C = ⦃v, i | 0 ≤ i < v#B - v#C: v⦄": {
+		"scope":"ell",
+		"prefix":"z11.87\tDifference",
+		"body": [
+			"11.87\tDifference\tB - C = ⦃v, i | 0 ≤ i < v#B - v#C: v⦄"
+		]
+	},
+	"b^0 = 1": {
+		"scope":"ell",
+		"prefix":"z12.11(a)\tb_to_the_power_of_n",
+		"body": [
+			"12.11(a)\tb_to_the_power_of_n\tb^0 = 1"
+		]
+	},
+	"b^(n + 1) = b ⋅ b^n for n ≥ 0": {
+		"scope":"ell",
+		"prefix":"z12.11(b)\tb_to_the_power_of_n",
+		"body": [
+			"12.11(b)\tb_to_the_power_of_n\tb^(n + 1) = b ⋅ b^n for n ≥ 0"
+		]
+	},
+	"b^0 = 1": {
+		"scope":"ell",
+		"prefix":"z12.12(a)\tb_to_the_power_of_n",
+		"body": [
+			"12.12(a)\tb_to_the_power_of_n\tb^0 = 1"
+		]
+	},
+	"b^n = b ⋅ b^(n - 1) for n ≥ 1": {
+		"scope":"ell",
+		"prefix":"z12.12(b)\tb_to_the_power_of_n",
+		"body": [
+			"12.12(b)\tb_to_the_power_of_n\tb^n = b ⋅ b^(n - 1) for n ≥ 1"
+		]
+	},
+	"0! = 1": {
+		"scope":"ell",
+		"prefix":"z12.13(a)\tFactorial",
+		"body": [
+			"12.13(a)\tFactorial\t0! = 1"
+		]
+	},
+	"n! = n ⋅ (n - 1)! for n > 0": {
+		"scope":"ell",
+		"prefix":"z12.13(b)\tFactorial",
+		"body": [
+			"12.13(b)\tFactorial\tn! = n ⋅ (n - 1)! for n > 0"
+		]
+	},
+	"F_0 = 0": {
+		"scope":"ell",
+		"prefix":"z12.14(a)\tFibonacci",
+		"body": [
+			"12.14(a)\tFibonacci\tF_0 = 0"
+		]
+	},
+	"F_1 = 1": {
+		"scope":"ell",
+		"prefix":"z12.14(b)\tFibonacci",
+		"body": [
+			"12.14(b)\tFibonacci\tF_1 = 1"
+		]
+	},
+	"F_n = F_(n - 1) + F_(n - 2) for n > 1": {
+		"scope":"ell",
+		"prefix":"z12.14(c)\tFibonacci",
+		"body": [
+			"12.14(c)\tFibonacci\tF_n = F_(n - 1) + F_(n - 2) for n > 1"
+		]
+	},
+	"φ ≈ 1.618": {
+		"scope":"ell",
+		"prefix":"z12.14.1\tGolden_Ratio",
+		"body": [
+			"12.14.1\tGolden_Ratio\tφ ≈ 1.618"
+		]
+	},
+	"φ^2 = φ + 1": {
+		"scope":"ell",
+		"prefix":"z12.15\t",
+		"body": [
+			"12.15\t\tφ^2 = φ + 1"
+		]
+	},
+	"F_n ≤ φ^(n - 1) for n ≥ 1": {
+		"scope":"ell",
+		"prefix":"z12.16\t",
+		"body": [
+			"12.16\t\tF_n ≤ φ^(n - 1) for n ≥ 1"
+		]
+	},
+	"φ^(n - 2) ≤ F_n for n ≥ 1": {
+		"scope":"ell",
+		"prefix":"z12.16.1\t",
+		"body": [
+			"12.16.1\t\tφ^(n - 2) ≤ F_n for n ≥ 1"
+		]
+	},
+	"F_(n + m) = F_m ⋅ F_(n + 1) + F_(m - 1) ⋅ F_n": {
+		"scope":"ell",
+		"prefix":"z12.17\t",
+		"body": [
+			"12.17\t\tF_(n + m) = F_m ⋅ F_(n + 1) + F_(m - 1) ⋅ F_n"
+		]
+	},
+	"∅ is a binary tree, called the empty tree": {
+		"scope":"ell",
+		"prefix":"z12.30(a)\tBinary_tree",
+		"body": [
+			"12.30(a)\tBinary_tree\t∅ is a binary tree, called the empty tree"
+		]
+	},
+	"(d, l, r) is a binary tree for d:ℤ and l, r binary trees": {
+		"scope":"ell",
+		"prefix":"z12.30(b)\tBinary_tree",
+		"body": [
+			"12.30(b)\tBinary_tree\t(d, l, r) is a binary tree for d:ℤ and l, r binary trees"
+		]
+	},
+	"#∅ = 0": {
+		"scope":"ell",
+		"prefix":"z12.31(a)\tNumber_of_nodes",
+		"body": [
+			"12.31(a)\tNumber_of_nodes\t#∅ = 0"
+		]
+	},
+	"#(d, l, r) = 1 + #l + #r": {
+		"scope":"ell",
+		"prefix":"z12.31(b)\tNumber_of_nodes",
+		"body": [
+			"12.31(b)\tNumber_of_nodes\t#(d, l, r) = 1 + #l + #r"
+		]
+	},
+	"height.∅ = 0": {
+		"scope":"ell",
+		"prefix":"z12.32(a)\tHeight",
+		"body": [
+			"12.32(a)\tHeight\theight.∅ = 0"
+		]
+	},
+	"height.(d, l, r) = 1 + max(height.l, height.r)": {
+		"scope":"ell",
+		"prefix":"z12.32(b)\tHeight",
+		"body": [
+			"12.32(b)\tHeight\theight.(d, l, r) = 1 + max(height.l, height.r)"
+		]
+	},
+	"A leaf is a node with no children.": {
+		"scope":"ell",
+		"prefix":"z12.32.1\tLeaf",
+		"body": [
+			"12.32.1\tLeaf\tA leaf is a node with no children."
+		]
+	},
+	"An internal node is a node that is not a leaf.": {
+		"scope":"ell",
+		"prefix":"z12.32.2\tInternal_node",
+		"body": [
+			"12.32.2\tInternal_node\tAn internal node is a node that is not a leaf."
+		]
+	},
+	"A binary tree is complete if every node has either 0 or 2 children.": {
+		"scope":"ell",
+		"prefix":"z12.32.3\tComplete",
+		"body": [
+			"12.32.3\tComplete\tA binary tree is complete if every node has either 0 or 2 children."
+		]
+	},
+	"The maximum number of nodes in a tree with height n is 2^n - 1 for n ≥ 0.": {
+		"scope":"ell",
+		"prefix":"z12.33\t",
+		"body": [
+			"12.33\t\tThe maximum number of nodes in a tree with height n is 2^n - 1 for n ≥ 0."
+		]
+	},
+	"The minimum number of nodes in a tree with height n is n for n ≥ 0.": {
+		"scope":"ell",
+		"prefix":"z12.34\t",
+		"body": [
+			"12.34\t\tThe minimum number of nodes in a tree with height n is n for n ≥ 0."
+		]
+	},
+	"The maximum number of leaves in a tree with height n is 2^(n - 1) for n > 0.": {
+		"scope":"ell",
+		"prefix":"z12.35(a)\t",
+		"body": [
+			"12.35(a)\t\tThe maximum number of leaves in a tree with height n is 2^(n - 1) for n > 0."
+		]
+	},
+	"The maximum number of internal nodes in a tree with height n is 2^(n - 1) - 1 for n > 0.": {
+		"scope":"ell",
+		"prefix":"z12.35(b)\t",
+		"body": [
+			"12.35(b)\t\tThe maximum number of internal nodes in a tree with height n is 2^(n - 1) - 1 for n > 0."
+		]
+	},
+	"The minimum number of leaves in a tree with height n is 1 for n > 0.": {
+		"scope":"ell",
+		"prefix":"z12.36(a)\t",
+		"body": [
+			"12.36(a)\t\tThe minimum number of leaves in a tree with height n is 1 for n > 0."
+		]
+	},
+	"The minimum number of internal nodes in a tree with height n is n - 1 for n > 0.": {
+		"scope":"ell",
+		"prefix":"z12.36(b)\t",
+		"body": [
+			"12.36(b)\t\tThe minimum number of internal nodes in a tree with height n is n - 1 for n > 0."
+		]
+	},
+	"Every nonempty complete tree has an odd number of nodes.": {
+		"scope":"ell",
+		"prefix":"z12.37\t",
+		"body": [
+			"12.37\t\tEvery nonempty complete tree has an odd number of nodes."
+		]
+	},
+	"wp.S.false ≡ false": {
+		"scope":"ell",
+		"prefix":"zp.1\tExcluded_miracle",
+		"body": [
+			"p.1\tExcluded_miracle\twp.S.false ≡ false"
+		]
+	},
+	"wp.S.(X ⋀ Y) ≡ wp.S.X ⋀ wp.S.Y": {
+		"scope":"ell",
+		"prefix":"zp.2\tConjunctivity",
+		"body": [
+			"p.2\tConjunctivity\twp.S.(X ⋀ Y) ≡ wp.S.X ⋀ wp.S.Y"
+		]
+	},
+	"(X ⇒ Y) ⇒ (wp.S.X ⇒ wp.S.Y)": {
+		"scope":"ell",
+		"prefix":"zp.3\tMonotonicity",
+		"body": [
+			"p.3\tMonotonicity\t(X ⇒ Y) ⇒ (wp.S.X ⇒ wp.S.Y)"
+		]
+	},
+	"{Q} S {R} ≡ Q ⇒ wp.S.R": {
+		"scope":"ell",
+		"prefix":"zp.4\tHoare_triple",
+		"body": [
+			"p.4\tHoare_triple\t{Q} S {R} ≡ Q ⇒ wp.S.R"
+		]
+	},
+	"{wp.S.R} S {R}": {
+		"scope":"ell",
+		"prefix":"zp.4-1\t",
+		"body": [
+			"p.4-1\t\t{wp.S.R} S {R}"
+		]
+	},
+	"{Q} S {A} ⋀ (A ⇒ R)  ⇒  {Q} S {R}": {
+		"scope":"ell",
+		"prefix":"zp.5\tPostcondition_rule",
+		"body": [
+			"p.5\tPostcondition_rule\t{Q} S {A} ⋀ (A ⇒ R)  ⇒  {Q} S {R}"
+		]
+	},
+	"S = T  ≡  (For all R, wp.S.R ≡ wp.T.R)": {
+		"scope":"ell",
+		"prefix":"zp.6\tProgram_equivalence",
+		"body": [
+			"p.6\tProgram_equivalence\tS = T  ≡  (For all R, wp.S.R ≡ wp.T.R)"
+		]
+	},
+	"(Q ⇒ A) ⋀ {A} S {R}  ⇒  {Q} S {R}": {
+		"scope":"ell",
+		"prefix":"zp.7\t",
+		"body": [
+			"p.7\t\t(Q ⇒ A) ⋀ {A} S {R}  ⇒  {Q} S {R}"
+		]
+	},
+	"{Q0} S {R0} ⋀ {Q1} S {R1}  ⇒  {Q0 ⋀ Q1} S {R0 ⋀ R1}": {
+		"scope":"ell",
+		"prefix":"zp.8\t",
+		"body": [
+			"p.8\t\t{Q0} S {R0} ⋀ {Q1} S {R1}  ⇒  {Q0 ⋀ Q1} S {R0 ⋀ R1}"
+		]
+	},
+	"{Q0} S {R0} ⋀ {Q1} S {R1}  ⇒  {Q0 ⋁ Q1} S {R0 ⋁ R1}": {
+		"scope":"ell",
+		"prefix":"zp.9\t",
+		"body": [
+			"p.9\t\t{Q0} S {R0} ⋀ {Q1} S {R1}  ⇒  {Q0 ⋁ Q1} S {R0 ⋁ R1}"
+		]
+	},
+	"wp.skip.R ≡ R": {
+		"scope":"ell",
+		"prefix":"zp.10\tskip",
+		"body": [
+			"p.10\tskip\twp.skip.R ≡ R"
+		]
+	},
+	"{Q} skip {R}  ≡  Q ⇒ R": {
+		"scope":"ell",
+		"prefix":"zp.11\t",
+		"body": [
+			"p.11\t\t{Q} skip {R}  ≡  Q ⇒ R"
+		]
+	},
+	"wp.abort.R ≡ false": {
+		"scope":"ell",
+		"prefix":"zp.12\tabort",
+		"body": [
+			"p.12\tabort\twp.abort.R ≡ false"
+		]
+	},
+	"{Q} abort {R}  ≡  Q ≡ false": {
+		"scope":"ell",
+		"prefix":"zp.13\t",
+		"body": [
+			"p.13\t\t{Q} abort {R}  ≡  Q ≡ false"
+		]
+	},
+	"wp.(S;T).R  ≡  wp.S.(wp.T.R)": {
+		"scope":"ell",
+		"prefix":"zp.14\tComposition",
+		"body": [
+			"p.14\tComposition\twp.(S;T).R  ≡  wp.S.(wp.T.R)"
+		]
+	},
+	"{Q} S {H} ⋀ {H} T {R}  ⇒  {Q} S;T {R}": {
+		"scope":"ell",
+		"prefix":"zp.15\t",
+		"body": [
+			"p.15\t\t{Q} S {H} ⋀ {H} T {R}  ⇒  {Q} S;T {R}"
+		]
+	},
+	"S ; skip  =  S": {
+		"scope":"ell",
+		"prefix":"zp.16(a)\tIdentity",
+		"body": [
+			"p.16(a)\tIdentity\tS ; skip  =  S"
+		]
+	},
+	"skip ; S  =  S": {
+		"scope":"ell",
+		"prefix":"zp.16(b)\tIdentity",
+		"body": [
+			"p.16(b)\tIdentity\tskip ; S  =  S"
+		]
+	},
+	"S ; abort  =  abort": {
+		"scope":"ell",
+		"prefix":"zp.17(a)\tZero",
+		"body": [
+			"p.17(a)\tZero\tS ; abort  =  abort"
+		]
+	},
+	"abort ; S  =  abort": {
+		"scope":"ell",
+		"prefix":"zp.17(b)\tZero",
+		"body": [
+			"p.17(b)\tZero\tabort ; S  =  abort"
+		]
+	},
+	"wp.(x ≔ E).R  ≡  R[x ≔ E]": {
+		"scope":"ell",
+		"prefix":"zp.18\tAssignment",
+		"body": [
+			"p.18\tAssignment\twp.(x ≔ E).R  ≡  R[x ≔ E]"
+		]
+	},
+	"(x ≔ x) = skip": {
+		"scope":"ell",
+		"prefix":"zp.20\t",
+		"body": [
+			"p.20\t\t(x ≔ x) = skip"
+		]
+	},
+	"if B1 ⟶ S1 ⌷ B2 ⟶ S2 ⌷ B3 ⟶ S3 fi": {
+		"scope":"ell",
+		"prefix":"zp.21\tIFG:",
+		"body": [
+			"p.21\tIFG:\tif B1 ⟶ S1 ⌷ B2 ⟶ S2 ⌷ B3 ⟶ S3 fi"
+		]
+	},
+	"wp.IFG.R  ≡  (B1 ⋁ B2 ⋁ B3) ⋀ B1 ⇒ wp.S1.R ⋀ B2 ⇒ wp.S2.R ⋀ B3 ⇒ wp.S3.R": {
+		"scope":"ell",
+		"prefix":"zp.22\tif",
+		"body": [
+			"p.22\tif\twp.IFG.R  ≡  (B1 ⋁ B2 ⋁ B3) ⋀ B1 ⇒ wp.S1.R ⋀ B2 ⇒ wp.S2.R ⋀ B3 ⇒ wp.S3.R"
+		]
+	},
+	"if if  =  abort": {
+		"scope":"ell",
+		"prefix":"zp.23\tEmpty_guard",
+		"body": [
+			"p.23\tEmpty_guard\tif fi  =  abort"
+		]
+	},
+	"¬(B1 ⋁ B2 ⋁ B3) ⇒ IFG  =  abort": {
+		"scope":"ell",
+		"prefix":"zp.25\t",
+		"body": [
+			"p.25\t\t¬(B1 ⋁ B2 ⋁ B3) ⇒ IFG  =  abort"
+		]
+	},
+	"{Q} if B ⟶ S fi {R}  ⇒  {Q} S {R}": {
+		"scope":"ell",
+		"prefix":"zp.26\tOne-guard_rule",
+		"body": [
+			"p.26\tOne-guard_rule\t{Q} if B ⟶ S fi {R}  ⇒  {Q} S {R}"
+		]
+	},
+	"if B1 ⟶ S1;T ⌷ B2 ⟶ S2;T fi  =  if B1 ⟶ S1 ⌷ B2 ⟶ S2 fi ; T": {
+		"scope":"ell",
+		"prefix":"zp.27\tDistributivity",
+		"body": [
+			"p.27\tDistributivity\tif B1 ⟶ S1;T ⌷ B2 ⟶ S2;T fi  =  if B1 ⟶ S1 ⌷ B2 ⟶ S2 fi ; T"
+		]
+	},
+	"do B ⟶ S od": {
+		"scope":"ell",
+		"prefix":"zp.28\tDO",
+		"body": [
+			"p.28\tDO\tdo B ⟶ S od"
+		]
+	},
+	"do false ⟶ S od  =  skip": {
+		"scope":"ell",
+		"prefix":"zp.31\tFalse_guard",
+		"body": [
+			"p.31\tFalse_guard\tdo false ⟶ S od  =  skip"
+		]
+	},
+	"<b, c> = <b', c'>  ≡  b = b' ⋀ c = c'": {
+		"scope":"ell",
+		"prefix":"z14.2\tPair_equality",
+		"body": [
+			"14.2\tPair_equality\t<b, c> = <b', c'>  ≡  b = b' ⋀ c = c'"
+		]
+	},
+	"(★x, y | <x, y> = <E, F> : P)  =  P[x, y ≔ E, F]": {
+		"scope":"ell",
+		"prefix":"z14.2.1\tOne-point_rule",
+		"body": [
+			"14.2.1\tOne-point_rule\t(★x, y | <x, y> = <E, F> : P)  =  P[x, y ≔ E, F]"
+		]
+	},
+	"S × T = {b, c | b ∈ S ⋀ c ∈ T : <b, c>}": {
+		"scope":"ell",
+		"prefix":"z14.3\tCross_product",
+		"body": [
+			"14.3\tCross_product\tS × T = {b, c | b ∈ S ⋀ c ∈ T : <b, c>}"
+		]
+	},
+	"U = V  ≡  (∀x, y |: <x , y> ∈ U ≡ <x, y> ∈ V)": {
+		"scope":"ell",
+		"prefix":"z14.3.1\tExtensionality",
+		"body": [
+			"14.3.1\tExtensionality\tU = V  ≡  (∀x, y |: <x , y> ∈ U ≡ <x, y> ∈ V)"
+		]
+	},
+	"<x, y> ∈ S × T  ≡  x ∈ S ⋀ y ∈ T": {
+		"scope":"ell",
+		"prefix":"z14.4\tMembership",
+		"body": [
+			"14.4\tMembership\t<x, y> ∈ S × T  ≡  x ∈ S ⋀ y ∈ T"
+		]
+	},
+	"<x, y> ∈ S × T  ≡  <y, x> ∈ T × S": {
+		"scope":"ell",
+		"prefix":"z14.5\t",
+		"body": [
+			"14.5\t\t<x, y> ∈ S × T  ≡  <y, x> ∈ T × S"
+		]
+	},
+	"S = ∅  ⇒  S × T = T × S = ∅": {
+		"scope":"ell",
+		"prefix":"z14.6\t",
+		"body": [
+			"14.6\t\tS = ∅  ⇒  S × T = T × S = ∅"
+		]
+	},
+	"S × T = T × S  ≡  S = ∅ ⋁ T = ∅ ⋁ S = T": {
+		"scope":"ell",
+		"prefix":"z14.7\t",
+		"body": [
+			"14.7\t\tS × T = T × S  ≡  S = ∅ ⋁ T = ∅ ⋁ S = T"
+		]
+	},
+	"S × (T ∪ U) = (S × T) ∪ (S × U)": {
+		"scope":"ell",
+		"prefix":"z14.8(a)\tDistributivity",
+		"body": [
+			"14.8(a)\tDistributivity\tS × (T ∪ U) = (S × T) ∪ (S × U)"
+		]
+	},
+	"(S ∪ T) × U = (S × U) ∪ (T × U)": {
+		"scope":"ell",
+		"prefix":"z14.8(b)\tDistributivity",
+		"body": [
+			"14.8(b)\tDistributivity\t(S ∪ T) × U = (S × U) ∪ (T × U)"
+		]
+	},
+	"S × (T ∩ U) = (S × T) ∩ (S × U)": {
+		"scope":"ell",
+		"prefix":"z14.9(a)\tDistributivity",
+		"body": [
+			"14.9(a)\tDistributivity\tS × (T ∩ U) = (S × T) ∩ (S × U)"
+		]
+	},
+	"(S ∩ T) × U = (S × U) ∩ (T × U)": {
+		"scope":"ell",
+		"prefix":"z14.9(b)\tDistributivity",
+		"body": [
+			"14.9(b)\tDistributivity\t(S ∩ T) × U = (S × U) ∩ (T × U)"
+		]
+	},
+	"S × (T - U) = (S × T) - (S × U)": {
+		"scope":"ell",
+		"prefix":"z14.10\tDistributivity",
+		"body": [
+			"14.10\tDistributivity\tS × (T - U) = (S × T) - (S × U)"
+		]
+	},
+	"T ⊆ U  ⇒  S × T ⊆ S × U": {
+		"scope":"ell",
+		"prefix":"z14.11\tMonotonicity",
+		"body": [
+			"14.11\tMonotonicity\tT ⊆ U  ⇒  S × T ⊆ S × U"
+		]
+	},
+	"S ⊆ U ⋀ T ⊆ V  ⇒  S × T ⊆ U × V": {
+		"scope":"ell",
+		"prefix":"z14.12\t",
+		"body": [
+			"14.12\t\tS ⊆ U ⋀ T ⊆ V  ⇒  S × T ⊆ U × V"
+		]
+	},
+	"S × T ⊆ S × U ⋀ S ≠ ∅  ⇒  T ⊆ U": {
+		"scope":"ell",
+		"prefix":"z14.13\t",
+		"body": [
+			"14.13\t\tS × T ⊆ S × U ⋀ S ≠ ∅  ⇒  T ⊆ U"
+		]
+	},
+	"(S ∩ T) × (U ∩ V) = (S × U) ∩ (T × V)": {
+		"scope":"ell",
+		"prefix":"z14.14\t",
+		"body": [
+			"14.14\t\t(S ∩ T) × (U ∩ V) = (S × U) ∩ (T × V)"
+		]
+	},
+	"For finite S and T, #(S × T) = #S ⋅ #T": {
+		"scope":"ell",
+		"prefix":"z14.15\t",
+		"body": [
+			"14.15\t\tFor finite S and T, #(S × T) = #S ⋅ #T"
+		]
+	},
+	"Dom.ρ = {b:B | (∃c |: b ρ c)}": {
+		"scope":"ell",
+		"prefix":"z14.16\t",
+		"body": [
+			"14.16\tDomain\tDom.ρ = {b:B | (∃c |: b ρ c)}"
+		]
+	},
+	"Ran.ρ = {c:C | (∃b |: b ρ c)}": {
+		"scope":"ell",
+		"prefix":"z14.17\t",
+		"body": [
+			"14.17\tRange\tRan.ρ = {c:C | (∃b |: b ρ c)}"
+		]
+	},
+	"<b,c> ∈ inv.p  ≡  <c,b> ∈ ρ,  for all b:B, c:C": {
+		"scope":"ell",
+		"prefix":"z14.18\t",
+		"body": [
+			"14.18\tInverse\t<b,c> ∈ inv.p  ≡  <c,b> ∈ ρ,  for all b:B, c:C"
+		]
+	},
+	"Dom(ρ.inv) = Ran.ρ": {
+		"scope":"ell",
+		"prefix":"z14.19a\t",
+		"body": [
+			"14.19a\t\tDom(ρ.inv) = Ran.ρ"
+		]
+	},
+	"Ran(ρ.inv) = Dom.ρ": {
+		"scope":"ell",
+		"prefix":"z14.19b\t",
+		"body": [
+			"14.19b\t\tRan(ρ.inv) = Dom.ρ"
+		]
+	},
+	"If ρ is a relation on B × C, then inv.ρ is a relation on C × B": {
+		"scope":"ell",
+		"prefix":"z14.19c\t",
+		"body": [
+			"14.19c\t\tIf ρ is a relation on B × C, then inv.ρ is a relation on C × B"
+		]
+	},
+	"inductive hypothesis": {
+		"scope":"ell",
+		"prefix":"ih",
+		"body": [
+			"inductive hypothesis"
+		]
+	},
+	"textual substitution": {
+		"scope":"ell",
+		"prefix":"ts",
+		"body": [
+			"textual substitution"
+		]
+	},
+	"remove unnecessary parentheses": {
+		"scope":"ell",
+		"prefix":"rup",
+		"body": [
+			"remove unnecessary parentheses"
+		]
+	},
+	"⋁": {
+		"scope":"ell",
+		"prefix":"or",
+		"body": [
+			"⋁ "
+		]
+	},
+	"⋀": {
+		"scope":"ell",
+		"prefix":"and",
+		"body": [
+			"⋀ "
+		]
+	},
+	"≡": {
+		"scope":"ell",
+		"prefix":"equivales",
+		"body": [
+			"≡ "
+		]
+	},
+	"≢": {
+		"scope":"ell",
+		"prefix":"nequivales",
+		"body": [
+			"≢ "
+		]
+	},
+	"≠": {
+		"scope":"ell",
+		"prefix":"not_equal",
+		"body": [
+			"≠ "
+		]
+	},
+	"≤": {
+		"scope":"ell",
+		"prefix":"le",
+		"body": [
+			"≤ "
+		]
+	},
+	"≥": {
+		"scope":"ell",
+		"prefix":"ge",
+		"body": [
+			"≥ "
+		]
+	},
+	"⇒": {
+		"scope":"ell",
+		"prefix":"implies",
+		"body": [
+			"⇒ "
+		]
+	},
+	"⇐": {
+		"scope":"ell",
+		"prefix":"follows",
+		"body": [
+			"⇐ "
+		]
+	},
+	"⋅": {
+		"scope":"ell",
+		"prefix":"times",
+		"body": [
+			"⋅ "
+		]
+	},
+	"÷": {
+		"scope":"ell",
+		"prefix":"div",
+		"body": [
+			"÷ "
+		]
+	},
+	"∈": {
+		"scope":"ell",
+		"prefix":"in",
+		"body": [
+			"∈ "
+		]
+	},
+	"∉": {
+		"scope":"ell",
+		"prefix":"nin",
+		"body": [
+			"∉ "
+		]
+	},
+	"⊆": {
+		"scope":"ell",
+		"prefix":"subset",
+		"body": [
+			"⊆ "
+		]
+	},
+	"⊈": {
+		"scope":"ell",
+		"prefix":"nsubset",
+		"body": [
+			"⊈ "
+		]
+	},
+	"⊇": {
+		"scope":"ell",
+		"prefix":"superset",
+		"body": [
+			"⊇ "
+		]
+	},
+	"⊉": {
+		"scope":"ell",
+		"prefix":"nsuperset",
+		"body": [
+			"⊉ "
+		]
+	},
+	"⊂": {
+		"scope":"ell",
+		"prefix":"psubset",
+		"body": [
+			"⊂ "
+		]
+	},
+	"⊄": {
+		"scope":"ell",
+		"prefix":"npsubset",
+		"body": [
+			"⊄ "
+		]
+	},
+	"⊃": {
+		"scope":"ell",
+		"prefix":"psuperset",
+		"body": [
+			"⊃ "
+		]
+	},
+	"⊅": {
+		"scope":"ell",
+		"prefix":"npsuperset",
+		"body": [
+			"⊅ "
+		]
+	},
+	"∪": {
+		"scope":"ell",
+		"prefix":"union",
+		"body": [
+			"∪ "
+		]
+	},
+	"∩": {
+		"scope":"ell",
+		"prefix":"intersection",
+		"body": [
+			"∩ "
+		]
+	},
+	"𝒫": {
+		"scope":"ell",
+		"prefix":"powerset",
+		"body": [
+			"𝒫"
+		]
+	},
+	"×": {
+		"scope":"ell",
+		"prefix":"cross",
+		"body": [
+			"× "
+		]
+	},
+	"⌷": {
+		"scope":"ell",
+		"prefix":"guard",
+		"body": [
+			"⌷ "
+		]
+	},
+	"⟶": {
+		"scope":"ell",
+		"prefix":"then",
+		"body": [
+			"⟶ "
+		]
+	},
+	"¬": {
+		"scope":"ell",
+		"prefix":"not",
+		"body": [
+			"¬"
+		]
+	},
+	"≔": {
+		"scope":"ell",
+		"prefix":"gets",
+		"body": [
+			"≔"
+		]
+	},
+	"★": {
+		"scope":"ell",
+		"prefix":"star",
+		"body": [
+			"★"
+		]
+	},
+	"∑": {
+		"scope":"ell",
+		"prefix":"sum_sigma",
+		"body": [
+			"∑"
+		]
+	},
+	"∏": {
+		"scope":"ell",
+		"prefix":"product_pi",
+		"body": [
+			"∏"
+		]
+	},
+	"∃": {
+		"scope":"ell",
+		"prefix":"exists",
+		"body": [
+			"∃"
+		]
+	},
+	"∀": {
+		"scope":"ell",
+		"prefix":"forall",
+		"body": [
+			"∀"
+		]
+	},
+	"ρ": {
+		"scope":"ell",
+		"prefix":"rho",
+		"body": [
+			"ρ"
+		]
+	},
+	"σ": {
+		"scope":"ell",
+		"prefix":"sigma",
+		"body": [
+			"σ"
+		]
+	},
+	"θ": {
+		"scope":"ell",
+		"prefix":"theta",
+		"body": [
+			"θ"
+		]
+	},
+	"∅": {
+		"scope":"ell",
+		"prefix":"empty",
+		"body": [
+			"∅"
+		]
+	},
+	"𝐔": {
+		"scope":"ell",
+		"prefix":"universe",
+		"body": [
+			"𝐔"
+		]
+	},
+	"φ": {
+		"scope":"ell",
+		"prefix":"phi",
+		"body": [
+			"φ"
+		]
+	},
+	"𝙱": {
+		"scope":"ell",
+		"prefix":"rigid_b",
+		"body": [
+			"𝙱"
+		]
+	},
+	"𝚇": {
+		"scope":"ell",
+		"prefix":"rigid_x",
+		"body": [
+			"𝚇"
+		]
+	},
+	"𝚈": {
+		"scope":"ell",
+		"prefix":"rigid_y",
+		"body": [
+			"𝚈"
+		]
+	},
+	"𝚉": {
+		"scope":"ell",
+		"prefix":"rigid_z",
+		"body": [
+			"𝚉"
+		]
+	},
+	"hint": {
+		"scope":"ell",
+		"prefix":"hint",
+		"body": [
+			"=\t\t〈 $1 〉\n\t$2"
+		]
+	},
+	"hint_implies": {
+		"scope":"ell",
+		"prefix":"hint_implies",
+		"body": [
+			"⇒\t\t〈 $1 〉\n\t$2"
+		]
+	},
+	"hint_<": {
+		"scope":"ell",
+		"prefix":"hint_<",
+		"body": [
+			"<\t\t〈 $1 〉\n\t$2"
+		]
+	},
+	"hint_>": {
+		"scope":"ell",
+		"prefix":"hint_>",
+		"body": [
+			">\t\t〈 $1 〉\n\t$2"
+		]
+	},
+	"hint_le": {
+		"scope":"ell",
+		"prefix":"hint_le",
+		"body": [
+			"≤\t\t〈 $1 〉\n\t$2"
+		]
+	},
+	"hint_ge": {
+		"scope":"ell",
+		"prefix":"hint_ge",
+		"body": [
+			"≥\t\t〈 $1 〉\n\t$2"
+		]
+	},
+	"gq": {
+		"scope":"ell",
+		"prefix":"gq",
+		"body": [
+			"(★$1 | $2 : $3)$4"
+		]
+	},
+	"sq": {
+		"scope":"ell",
+		"prefix":"sq",
+		"body": [
+			"(∑$1 | $2 : $3)$4"
+		]
+	},
+	"pq": {
+		"scope":"ell",
+		"prefix":"pq",
+		"body": [
+			"(∏$1 | $2 : $3)$4"
+		]
+	},
+	"xq": {
+		"scope":"ell",
+		"prefix":"xq",
+		"body": [
+			"(∃$1 | $2 : $3)$4"
+		]
+	},
+	"uq": {
+		"scope":"ell",
+		"prefix":"uq",
+		"body": [
+			"(∀$1 | $2 : $3)$4"
+		]
+	},
+	"bag": {
+		"scope":"ell",
+		"prefix":"bag",
+		"body": [
+			"⦃$1⦄"
+		]
+	},
+	"op": {
+		"scope":"ell",
+		"prefix":"op",
+		"body": [
+			"〈$1, $2〉$3"
+		]
+	}
+}

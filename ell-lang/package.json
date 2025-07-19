@@ -1,0 +1,29 @@
+{
+    "name": "ell-lang",
+    "displayName": "Ell-lang",
+    "description": "Ell Language",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.59.0"
+    },
+    "categories": [
+        "Programming Languages","Snippets" 
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "ell",
+            "aliases": ["ell", "ell"],
+            "extensions": [".ell"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "ell",
+            "scopeName": "source.ell",
+            "path": "./syntaxes/ell.tmLanguage.json"
+        }],
+        "snippets": [{
+                "language": "ell",
+                "path": "./snippets.json"
+        }]
+    }
+}

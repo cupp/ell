@@ -1,0 +1,421 @@
+	"inductive hypothesis": {
+		"scope":"ell",
+		"prefix":"ih",
+		"body": [
+			"inductive hypothesis"
+		]
+	},
+	"textual substitution": {
+		"scope":"ell",
+		"prefix":"ts",
+		"body": [
+			"textual substitution"
+		]
+	},
+	"remove unnecessary parentheses": {
+		"scope":"ell",
+		"prefix":"rup",
+		"body": [
+			"remove unnecessary parentheses"
+		]
+	},
+	"⋁": {
+		"scope":"ell",
+		"prefix":"or",
+		"body": [
+			"⋁ "
+		]
+	},
+	"⋀": {
+		"scope":"ell",
+		"prefix":"and",
+		"body": [
+			"⋀ "
+		]
+	},
+	"≡": {
+		"scope":"ell",
+		"prefix":"equivales",
+		"body": [
+			"≡ "
+		]
+	},
+	"≢": {
+		"scope":"ell",
+		"prefix":"nequivales",
+		"body": [
+			"≢ "
+		]
+	},
+	"≠": {
+		"scope":"ell",
+		"prefix":"not_equal",
+		"body": [
+			"≠ "
+		]
+	},
+	"≤": {
+		"scope":"ell",
+		"prefix":"le",
+		"body": [
+			"≤ "
+		]
+	},
+	"≥": {
+		"scope":"ell",
+		"prefix":"ge",
+		"body": [
+			"≥ "
+		]
+	},
+	"⇒": {
+		"scope":"ell",
+		"prefix":"implies",
+		"body": [
+			"⇒ "
+		]
+	},
+	"⇐": {
+		"scope":"ell",
+		"prefix":"follows",
+		"body": [
+			"⇐ "
+		]
+	},
+	"⋅": {
+		"scope":"ell",
+		"prefix":"times",
+		"body": [
+			"⋅ "
+		]
+	},
+	"÷": {
+		"scope":"ell",
+		"prefix":"div",
+		"body": [
+			"÷ "
+		]
+	},
+	"∈": {
+		"scope":"ell",
+		"prefix":"in",
+		"body": [
+			"∈ "
+		]
+	},
+	"∉": {
+		"scope":"ell",
+		"prefix":"nin",
+		"body": [
+			"∉ "
+		]
+	},
+	"⊆": {
+		"scope":"ell",
+		"prefix":"subset",
+		"body": [
+			"⊆ "
+		]
+	},
+	"⊈": {
+		"scope":"ell",
+		"prefix":"nsubset",
+		"body": [
+			"⊈ "
+		]
+	},
+	"⊇": {
+		"scope":"ell",
+		"prefix":"superset",
+		"body": [
+			"⊇ "
+		]
+	},
+	"⊉": {
+		"scope":"ell",
+		"prefix":"nsuperset",
+		"body": [
+			"⊉ "
+		]
+	},
+	"⊂": {
+		"scope":"ell",
+		"prefix":"psubset",
+		"body": [
+			"⊂ "
+		]
+	},
+	"⊄": {
+		"scope":"ell",
+		"prefix":"npsubset",
+		"body": [
+			"⊄ "
+		]
+	},
+	"⊃": {
+		"scope":"ell",
+		"prefix":"psuperset",
+		"body": [
+			"⊃ "
+		]
+	},
+	"⊅": {
+		"scope":"ell",
+		"prefix":"npsuperset",
+		"body": [
+			"⊅ "
+		]
+	},
+	"∪": {
+		"scope":"ell",
+		"prefix":"union",
+		"body": [
+			"∪ "
+		]
+	},
+	"∩": {
+		"scope":"ell",
+		"prefix":"intersection",
+		"body": [
+			"∩ "
+		]
+	},
+	"𝒫": {
+		"scope":"ell",
+		"prefix":"powerset",
+		"body": [
+			"𝒫"
+		]
+	},
+	"×": {
+		"scope":"ell",
+		"prefix":"cross",
+		"body": [
+			"× "
+		]
+	},
+	"⌷": {
+		"scope":"ell",
+		"prefix":"guard",
+		"body": [
+			"⌷ "
+		]
+	},
+	"⟶": {
+		"scope":"ell",
+		"prefix":"then",
+		"body": [
+			"⟶ "
+		]
+	},
+	"¬": {
+		"scope":"ell",
+		"prefix":"not",
+		"body": [
+			"¬"
+		]
+	},
+	"≔": {
+		"scope":"ell",
+		"prefix":"gets",
+		"body": [
+			"≔"
+		]
+	},
+	"★": {
+		"scope":"ell",
+		"prefix":"star",
+		"body": [
+			"★"
+		]
+	},
+	"∑": {
+		"scope":"ell",
+		"prefix":"sum_sigma",
+		"body": [
+			"∑"
+		]
+	},
+	"∏": {
+		"scope":"ell",
+		"prefix":"product_pi",
+		"body": [
+			"∏"
+		]
+	},
+	"∃": {
+		"scope":"ell",
+		"prefix":"exists",
+		"body": [
+			"∃"
+		]
+	},
+	"∀": {
+		"scope":"ell",
+		"prefix":"forall",
+		"body": [
+			"∀"
+		]
+	},
+	"ρ": {
+		"scope":"ell",
+		"prefix":"rho",
+		"body": [
+			"ρ"
+		]
+	},
+	"σ": {
+		"scope":"ell",
+		"prefix":"sigma",
+		"body": [
+			"σ"
+		]
+	},
+	"θ": {
+		"scope":"ell",
+		"prefix":"theta",
+		"body": [
+			"θ"
+		]
+	},
+	"∅": {
+		"scope":"ell",
+		"prefix":"empty",
+		"body": [
+			"∅"
+		]
+	},
+	"𝐔": {
+		"scope":"ell",
+		"prefix":"universe",
+		"body": [
+			"𝐔"
+		]
+	},
+	"φ": {
+		"scope":"ell",
+		"prefix":"phi",
+		"body": [
+			"φ"
+		]
+	},
+	"𝙱": {
+		"scope":"ell",
+		"prefix":"rigid_b",
+		"body": [
+			"𝙱"
+		]
+	},
+	"𝚇": {
+		"scope":"ell",
+		"prefix":"rigid_x",
+		"body": [
+			"𝚇"
+		]
+	},
+	"𝚈": {
+		"scope":"ell",
+		"prefix":"rigid_y",
+		"body": [
+			"𝚈"
+		]
+	},
+	"𝚉": {
+		"scope":"ell",
+		"prefix":"rigid_z",
+		"body": [
+			"𝚉"
+		]
+	},
+	"hint": {
+		"scope":"ell",
+		"prefix":"hint",
+		"body": [
+			"=\t\t〈 $1 〉\n\t$2"
+		]
+	},
+	"hint_implies": {
+		"scope":"ell",
+		"prefix":"hint_implies",
+		"body": [
+			"⇒\t\t〈 $1 〉\n\t$2"
+		]
+	},
+	"hint_<": {
+		"scope":"ell",
+		"prefix":"hint_<",
+		"body": [
+			"<\t\t〈 $1 〉\n\t$2"
+		]
+	},
+	"hint_>": {
+		"scope":"ell",
+		"prefix":"hint_>",
+		"body": [
+			">\t\t〈 $1 〉\n\t$2"
+		]
+	},
+	"hint_le": {
+		"scope":"ell",
+		"prefix":"hint_le",
+		"body": [
+			"≤\t\t〈 $1 〉\n\t$2"
+		]
+	},
+	"hint_ge": {
+		"scope":"ell",
+		"prefix":"hint_ge",
+		"body": [
+			"≥\t\t〈 $1 〉\n\t$2"
+		]
+	},
+	"gq": {
+		"scope":"ell",
+		"prefix":"gq",
+		"body": [
+			"(★$1 | $2 : $3)$4"
+		]
+	},
+	"sq": {
+		"scope":"ell",
+		"prefix":"sq",
+		"body": [
+			"(∑$1 | $2 : $3)$4"
+		]
+	},
+	"pq": {
+		"scope":"ell",
+		"prefix":"pq",
+		"body": [
+			"(∏$1 | $2 : $3)$4"
+		]
+	},
+	"xq": {
+		"scope":"ell",
+		"prefix":"xq",
+		"body": [
+			"(∃$1 | $2 : $3)$4"
+		]
+	},
+	"uq": {
+		"scope":"ell",
+		"prefix":"uq",
+		"body": [
+			"(∀$1 | $2 : $3)$4"
+		]
+	},
+	"bag": {
+		"scope":"ell",
+		"prefix":"bag",
+		"body": [
+			"⦃$1⦄"
+		]
+	},
+	"op": {
+		"scope":"ell",
+		"prefix":"op",
+		"body": [
+			"〈$1, $2〉$3"
+		]
+	}
+}

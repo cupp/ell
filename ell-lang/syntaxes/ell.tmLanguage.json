@@ -1,0 +1,73 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "ell",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#entities"
+		},
+		{
+			"include": "#constants"
+		},
+		{
+			"include": "#variables"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword.control.ell",
+					"match": "\\b(if|fi|do|od)\\b"
+				},
+				{
+					"name": "keyword.operator.ell",
+					"match": "[≡=¬≢≠≥≤⇒⇐≔<>∈⊂⊃⊆⊇∉⊄⊅⊈⊉∪∩#~⋅*∘∙÷×𝒫↓↑⟶⌷◃▹|★∑∏∀∃⋀⋁+^-]"
+				},
+				{
+					"name": "keyword.operator.ell",
+					"match": "\\b(mod)\\b"
+				}
+			]
+		},
+		"strings": {
+			"name": "string.quoted.double.ell",
+			"begin": "\"",
+			"end": "\""
+		},
+		"entities": {
+			"patterns": [
+				{
+					"name": "entity.name.function.ell",
+					"match": "\\b(wp|abort|skip|even|odd|Dom|Ran)\\b"
+				}
+			]
+		},
+		"constants": {
+			"patterns": [
+				{
+					"name": "constant.numeric.ell",
+					"match": "\\b\\d*\\.?\\d+\\b"
+				},
+				{
+					"name": "constant.language.ell",
+					"match": "\\b(true|false|∅|𝐔|φ|𝙱|𝚇|𝚈|𝚉)\\b"
+				}
+			]
+		},
+		"variables": {
+			"patterns": [
+				{
+					"name": "variable.name",
+					"match": "\\b[A-Za-z]\\b"
+				}
+			]
+		}
+	},
+	"scopeName": "source.ell"
+}
