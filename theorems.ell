@@ -1,393 +1,473 @@
-3.1	Associativity	((p ≡ q) ≡ r) ≡ (p ≡ (q ≡ r))
-3.2	Symmetry	p ≡ q ≡ q ≡ p
-3.3	Identity	true ≡ p ≡ p
-3.4		true
-3.5	Reflexivity	p ≡ p
-3.8	Defintion_of_false	false ≡ ¬true
-3.9	Distributivity	¬(p ≡ q) ≡ ¬p ≡ q
-3.10	Defintion_of_≢	(p ≢ q) ≡ ¬(p ≡ q)
-3.11		¬p ≡ q ≡ p ≡ ¬q
-3.12	Double_negation	¬¬p ≡ p
-3.13	Negation_of_false	¬false ≡ true
-3.14		(p ≢ q) ≡ ¬p ≡ q
-3.15		¬p ≡ p ≡ false
-3.16	Symmetry	(p ≢ q) ≡ (q ≢ p)
-3.17	Associativity	((p ≢ q) ≢ r) ≡ (p ≢ (q ≢ r))
-3.18	Mutual_associativity	((p ≢ q) ≡ r) ≡ (p ≢ (q ≡ r))
-3.19	Mutual_interchangeability	p ≢ q ≡ r  ≡  p ≡ q ≢ r
-3.19.1		p ≢ p ≢ q ≡ q
-3.24	Symmetry	p ⋁ q ≡ q ⋁ p
-3.25	Associativity	(p ⋁ q) ⋁ r ≡ p ⋁ (q ⋁ r)
-3.26	Idempotency	p ⋁ p ≡ p
-3.27	Distributivity	p ⋁ (q ≡ r) ≡ p ⋁ q ≡ p ⋁ r
-3.28	Excluded_middle	p ⋁ ¬p
-3.29	Zero	p ⋁ true ≡ true
-3.30	Identity	p ⋁ false ≡ p
-3.31	Distributivity	p ⋁ (q ⋁ r) ≡ (p ⋁ q) ⋁ (p ⋁ r)
-3.32		p ⋁ q ≡ p ⋁ ¬q ≡ p
-3.35	Golden_rule	p ⋀ q ≡ p ≡ q ≡ p ⋁ q
-3.36	Symmetry	p ⋀ q ≡ q ⋀ p
-3.37	Associativity	(p ⋀ q) ⋀ r ≡ p ⋀ (q ⋀ r)
-3.38	Idempotency	p ⋀ p ≡ p
-3.39	Identity	p ⋀ true ≡ p
-3.40	Zero	p ⋀ false ≡ false
-3.41	Distributivity	p ⋀ (q ⋀ r) ≡ (p ⋀ q) ⋀ (p ⋀ r)
-3.42	Contradiction	p ⋀ ¬p ≡ false
-3.43a	Absorption	p ⋀ (p ⋁ q) ≡ p
-3.43b	Absorption	p ⋁ (p ⋀ q) ≡ p
-3.44a	Absorption	p ⋀ (¬p ⋁ q) ≡ p ⋀ q
-3.44b	Absorption	p ⋁ (¬p ⋀ q) ≡ p ⋁ q
-3.45	Distributivity	p ⋁ (q ⋀ r) ≡ (p ⋁ q) ⋀ (p ⋁ r)
-3.46	Distributivity	p ⋀ (q ⋁ r) ≡ (p ⋀ q) ⋁ (p ⋀ r)
-3.46.1	Consensus	(p ⋀ q) ⋁ (¬p ⋀ r) ⋁ (q ⋀ r) ≡ (p ⋀ q) ⋁ (¬p ⋀ r)
-3.47a	De_Morgan	¬(p ⋀ q) ≡ ¬p ⋁ ¬q
-3.47b	De_Morgan	¬(p ⋁ q) ≡ ¬p ⋀ ¬q
-3.48		p ⋀ q ≡ p ⋀ ¬q ≡ ¬p
-3.49		p ⋀ (q ≡ r) ≡ p ⋀ q ≡ p ⋀ r ≡ p
-3.50		p ⋀ (q ≡ p) ≡ p ⋀ q
-3.51	Replacement	(p ≡ q) ⋀ (r ≡ p) ≡ (p ≡ q ⋀ r ≡ q)
-3.52	Equivalence	p ≡ q ≡ (p ⋀ q) ⋁ (¬p ⋀ ¬q)
-3.53	Exclusive_or	p ≢ q ≡ (¬p ⋀ q) ⋁ (p ⋀ ¬q)
-3.55		(p ⋀ q) ⋀ r ≡ p ≡ q ≡ r ≡ p ⋁ q ≡ q ⋁ r ≡ r ⋁ p ≡ p ⋁ q ⋁ r
-3.57	Implication	p ⇒ q ≡ p ⋁ q ≡ q
-3.58	Consequence	p ⇐ q ≡ q ⇒ p
-3.59	Implication	p ⇒ q ≡ ¬p ⋁ q
-3.60	Implication	p ⇒ q ≡ p ⋀ q ≡ p
-3.61	Contrapositive	p ⇒ q ≡ ¬q ⇒ ¬p
-3.62		p ⇒ (q ≡ r) ≡ p ⋀ q ≡ p ⋀ r
-3.63	Distributivity	p ⇒ (q ≡ r) ≡ (p ⇒ q) ≡ (p ⇒ r)
-3.63.1	Distributivity	p ⇒ q ⋀ r ≡ (p ⇒ q) ⋀ (p ⇒ r)
-3.63.2	Distributivity	p ⇒ q ⋁ r ≡ (p ⇒ q) ⋁ (p ⇒ r)
-3.64		p ⇒ (q ⇒ r) ≡ (p ⇒ q) ⇒ (p ⇒ r)
-3.65	Shunting	p ⋀ q ⇒ r ≡ p ⇒ (q ⇒ r)
-3.66		p ⋀ (p ⇒ q) ≡ p ⋀ q
-3.67		p ⋀ (q ⇒ p) ≡ p
-3.68		p ⋁ (p ⇒ q) ≡ true
-3.69		p ⋁ (q ⇒ p) ≡ q ⇒ p
-3.70		p ⋁ q ⇒ p ⋀ q ≡ p ≡ q
-3.71	Reflexivity	p ⇒ p
-3.72	Zero	p ⇒ true ≡ true
-3.73	Identity	true ⇒ p ≡ p
-3.74		p ⇒ false ≡ ¬p
-3.74.1		¬p ⇒ false ≡ p
-3.75		false ⇒ p ≡ true
-3.76a	Weakening	p ⇒ p ⋁ q
-3.76b	Strengthening	p ⋀ q ⇒ p
-3.76c	Weakening/strengthening	p ⋀ q ⇒ p ⋁ q
-3.76d	Weakening/strengthening	p ⋁ (q ⋀ r) ⇒ p ⋁ q
-3.76e	Weakening/strengthening	p ⋀ q ⇒ p ⋀ (q ⋁ r)
-3.77	Modus_ponens	p ⋀ (p ⇒ q) ⇒ q
-3.78		(p ⇒ r) ⋀ (q ⇒ r) ≡ (p ⋁ q ⇒ r)
-3.79		(p ⇒ r) ⋀ (¬p ⇒ r) ≡ r
-3.80	Mutual_implication	(p ⇒ q) ⋀ (q ⇒ p) ≡ (p ≡ q)
-3.81	Antisymmetry	(p ⇒ q) ⋀ (q ⇒ p) ⇒ (p ≡ q)
-3.82a	Transitivity	(p ⇒ q) ⋀ (q ⇒ r) ⇒ (p ⇒ r)
-3.82b	Transitivity	(p ≡ q) ⋀ (q ⇒ r) ⇒ (p ⇒ r)
-3.82c	Transitivity	(p ⇒ q) ⋀ (q ≡ r) ⇒ (p ⇒ r)
-3.82.1	Transitivity	(p ≡ q) ⋀ (q ≡ r) ⇒ (p ≡ r)
-3.82.2		(p ≡ q) ⇒ (p ⇒ q)
-3.83	Leibniz	e = f ⇒ E[z ≔ e] = E[z ≔ f]
-3.84a	Substitution	(e = f) ⋀ E[z ≔ e] ≡ (e = f) ⋀ E[z ≔ f]
-3.84b	Substitution	(e = f) ⇒ E[z ≔ e] ≡ (e = f) ⇒ E[z ≔ f]
-3.84c	Substitution	q ⋀ (e = f) ⇒ E[z ≔ e] ≡ q ⋀ (e = f) ⇒ E[z ≔ f]
-3.85a	Replace_by_true	p ⇒ E[z ≔ p] ≡ p ⇒ E[z ≔ true]
-3.85b	Replace_by_true	q ⋀ p ⇒ E[z ≔ p] ≡ q ⋀ p ⇒ E[z ≔ true]
-3.86a	Replace_by_false	E[z ≔ p] ⇒ p ≡ E[z ≔ false] ⇒ p
-3.86b	Replace_by_false	E[z ≔ p] ⇒ p ⋁ q ≡ E[z ≔ false] ⇒ p ⋁ q
-3.87	Replace_by_true	p ⋀ E[z ≔ p] ≡ p ⋀ E[z ≔ true]
-3.88	Replace_by_false	p ⋁ E[z ≔ p] ≡ p ⋁ E[z ≔ false]
-3.89	Shannon	E[z ≔ p] ≡ (p ⋀ E[z ≔ true]) ⋁ (¬p ⋀ E[z ≔ false])
-3.89.1		E[z ≔ true] ⋀ E[z ≔ false] ⇒ E[z ≔ p]
-4.1		p ⇒ (q ⇒ p)
-4.2	Monotonicity	(p ⇒ q) ⇒ (p ⋁ r ⇒ q ⋁ r)
-4.3	Monotonicity	(p ⇒ q) ⇒ (p ⋀ r ⇒ q ⋀ r)
-8.13	Empty_range	(★x ❘ false : P) = u
-8.14	One-point_rule	(★x ❘ x = E : P) = P[x ≔ E]
-8.15	Distributivity	(★x ❘ R : P) ★ (★x ❘ R: Q) = (★x ❘ R : P ★ Q)
-8.17	Range_split	(★x ❘ R ⋁ S : P) ★ (★x ❘ R ⋀ S : P) = (★x ❘ R : P) ★ (★x ❘ S : P)
-8.18	Range_split_for_idempotent_★	(★x ❘ R ⋁ S : P) = (★x ❘ R : P) ★ (★x ❘ S : P)
-8.19	Interchange_of_dummies	(★x ❘ R : (★y ❘ Q : P)) = (★y ❘ Q : (★x ❘ R : P))
-8.20	Nesting	(★x,y ❘ R ⋀ Q : P) = (★x ❘ R : (★y ❘ Q : P))
-8.21	Dummy_renaming	(★x ❘ R : P) = (★y ❘ R[x ≔ y] : P[x ≔ y])
-8.22	Change_of_dummy	(★x ❘ R : P) = (★y ❘ R[x ≔ f.y]: P[x ≔ f.y])
-8.23a	Split_off_term	(★i ❘ 0 ≤ i < n + 1 : P) = (★i ❘ 0 ≤ i < n : P) ★ P[i ≔ n]
-8.23b	Split_off_term	(★i ❘ 0 ≤ i < n + 1 : P) = P[i ≔ 0] ★ (★i ❘ 0 < i < n + 1 : P)
-9.2	Trading	(∀x ❘ R : P) ≡ (∀x ❘ : R ⇒ P)
-9.3a	Trading	(∀x ❘ R : P) ≡ (∀x ❘ : ¬R ⋁ P)
-9.3b	Trading	(∀x ❘ R : P) ≡ (∀x ❘ : R ⋀ P ≡ R)
-9.3c	Trading	(∀x ❘ R : P) ≡ (∀x ❘ : R ⋁ P ≡ P)
-9.4a	Trading	(∀x ❘ Q ⋀ R : P) ≡ (∀x ❘ Q : R ⇒ P)
-9.4b	Trading	(∀x ❘ Q ⋀ R : P) ≡ (∀x ❘ Q : ¬R ⋁ P)
-9.4c	Trading	(∀x ❘ Q ⋀ R : P) ≡ (∀x ❘ Q : R ⋀ P ≡ R)
-9.4d	Trading	(∀x ❘ Q ⋀ R : P) ≡ (∀x ❘ Q : R ⋁ P ≡ P)
-9.4.1	Universal_double_trading	(∀x ❘ R : P) ≡ (∀x ❘ ¬P : ¬R)
-9.5	Distributivity	P ⋁ (∀x ❘ R : Q ) ≡ (∀x ❘ R : P ⋁ Q)
-9.6		(∀x ❘ R : P) ≡ P ⋁ (∀x ❘ : ¬R)
-9.7	Distributivity	¬(∀x ❘ : ¬R) ⇒ ((∀x ❘ R : P ⋀ Q) ≡ P ⋀ (∀x ❘ R : Q))
-9.8		(∀x ❘ R : true) ≡ true
-9.9		(∀x ❘ R : P ≡ Q) ⇒ ((∀x ❘ R : P) ≡ (∀x ❘ R : Q))
-9.10	Range_weakening/strengthening	(∀x ❘ Q ⋁ R : P) ⇒ (∀x ❘ Q : P)
-9.11	Body_weakening/strengthening	(∀x ❘ R : P ⋀ Q) ⇒ (∀x ❘ R : P)
-9.12	Monotonicity	(∀x ❘ R : Q ⇒ P) ⇒ ((∀x ❘ R : Q) ⇒ (∀x ❘ R : P))
-9.13	Instantiation	(∀x ❘ : P) ⇒ P[x ≔ E]
-9.16	Metatheorem	P is a theorem iff (∀x ❘ : P) is a theorem
-9.17	Generalized_De_Morgan	(∃x ❘ R : P) ⇒ ¬(∀x ❘ R : ¬P)
-9.18a	Generalized_De_Morgan	¬(∃x ❘ R : ¬P) ≡ (∀x ❘ R : P)
-9.18b	Generalized_De_Morgan	¬(∃x ❘ R : P) ≡ (∀x ❘ R : ¬P)
-9.18c	Generalized_De_Morgan	(∃x ❘ R : ¬P) ≡ ¬(∀x ❘ R : P)
-9.19	Trading	(∃x ❘ R : P) ≡ (∃x ❘ : R ⋀ P)
-9.20	Trading	(∃x ❘ Q ⋀ R : P) ≡ (∃x ❘ Q : R ⋀ P)
-9.21	Distributivity	P ⋀ (∃x ❘ R : Q) ≡ (∃x ❘ R : P ⋀ Q)
-9.22		(∃x ❘ R : P) ≡ P ⋀ (∃x ❘ : R)
-9.23	Distributivity	(∃x ❘ : R) ⇒ ((∃x ❘ R : P ⋁ Q) ≡ P ⋁ (∃x ❘ R : Q))
-9.24		(∃x ❘ R : false) ⇒ false
-9.25	Range_weakening/strengthening	(∃x ❘ R : P) ⇒ (∃x ❘ Q ⋁ R : P)
-9.26	Body_weakening/strengthening	(∃x ❘ R : P) ⇒ (∃x ❘ R : P ⋁ Q)
-9.27	Monotonicity	(∀x ❘ R : Q ⇒ P) ⇒ ((∃x ❘ R : Q) ⇒ (∃x ❘ R : P))
-9.28	∃-Introduction	P[x ≔ E] ⇒ (∃x ❘ : P)
-9.29	Interchange_of_quantification	(∃x ❘ R : (∀y ❘ Q : P)) ⇒ (∀y ❘ Q : (∃x ❘ R : P))
-9.30		(∃x | R : R) ⇒ Q is theorem iff (R ⋀ P)[x ≔ ẋ] ⇒ Q
-11.2		{e_0, ... , e_(n-1)} = {x ❘ x = e_0 ⋁ ... ⋁ x = e_(n - 1)}
-11.3	Set_membership	F ∈ {x ❘ R : E} ≡ (∃x ❘ R : F = E)
-11.4	Extensionality	S = T ≡ (∀x ❘ : x ∈ S ≡ x ∈ T)
-11.4.1	Empty_set	∅ = {x ❘ false : E}
-11.4.2		e ∈ ∅ ≡ false
-11.4.3	Universe	𝐔 = {x ❘ : x}
-11.4.4		e ∈ 𝐔 ≡ true
-11.5		S = {x ❘ x ∈ S : x}
-11.5.1	Abbreviation	{x ❘ R} = {x ❘ R : x}
-11.6		{ x ❘ R : E} = {y ❘ (∃x ❘ R : y = E)}
-11.7		x ∈ {x ❘ R} ≡ R
-11.7.1		y ∈ {x ❘ R} ≡ R[x ≔ y]
-11.9		{x ❘ Q} = {x ❘ R} ≡ (∀x ❘ : Q ≡ R)
-11.10		{x ❘ Q} = {x ❘ R} is valid iff Q ≡ R is valid
-11.12	Size	#S = (∑x | x ∈ S : 1)
-11.13	Subset	S ⊆ T  ≡  (∀x | x ∈ S : x ∈ T)
-11.14	Proper_subset	S ⊂ T  ≡  S ⊆ T ⋀ S ≠ T
-11.15	Superset	T ⊇ S  ≡  S ⊆ T
-11.16	Proper_superset	T ⊃ S  ≡  S ⊂ T
-11.17	Complement	v ∈ ~S  ≡  v ∈ 𝐔 ⋀ v ∉ S
-11.18		v ∈ ~S  ≡  v ∉ S, for v in 𝐔
-11.19		~~S = S
-11.20	Union	v ∈ S ∪ T  ≡  v ∈ S ⋁ v ∈ T
-11.21	Intersection	v ∈ S ∩ T  ≡  v ∈ S ⋀ v ∈ T
-11.22	Difference	v ∈ S - T  ≡  v ∈ S ⋀ v ∉ T
-11.23	Power_set	v ∈ 𝒫S  ≡  v ⊆ S
-11.25a	Metatheorem	E_s = F_s is valid iff E_p ≡ F_p is valid
-11.25b	Metatheorem	E_s ⊆ F_s is valid iff E_p ⇒ F_p is valid
-11.25c	Metatheorem	E_s = 𝐔 is valid iff E_p is valid
-11.26	Symmetry	S ∪ T = T ∪ S
-11.27	Associativity	(S ∪ T) ∪ U  =  S ∪ (T ∪ U)
-11.28	Idempotency	S ∪ S = S
-11.29	Zero	S ∪ 𝐔 = 𝐔
-11.30	Identity	S ∪ ∅ = S
-11.31	Weakening	S ⊆ S ∪ T
-11.32	Excluded_middle	S ∪ ~S = 𝐔
-11.33	Symmetry	S ∩ T = T ∩ S
-11.34	Associativity	(S ∩ T) ∩ U = S ∩ (T ∩ U)
-11.35	Idempotency	S ∩ S = S
-11.36	Zero	S ∩ ∅ = ∅
-11.37	Identity	S ∩ 𝐔 = S
-11.38	Strengthening	S ∩ T ⊆ S
-11.39	Contradiction	S ∩ ~S = ∅
-11.40	Distributivity	S ∪ (T ∩ U) = (S ∪ T) ∩ (S ∪ U)
-11.41	Distributivity	S ∩ (T ∪ U) = (S ∩ T) ∪ (S ∩ U)
-11.42a	De_Morgan	~(S ∪ T) = ~S ∩ ~T
-11.42b	De_Morgan	~(S ∩ T) = ~S ∪ ~T
-11.43		S ⊆ T ⋀ U ⊆ V  ⇒  (S ∪ U) ⊆ (T ∪ V)
-11.44		S ⊆ T ⋀ U ⊆ V  ⇒  (S ∩ U) ⊆ (S ∩ V)
-11.45		S ⊆ T  ≡  S ∪ T = T
-11.46		S ⊆ T  ≡  S ∩ T = S
-11.47		S ∪ T = 𝐔  ≡  (∀x | x ∈ 𝐔 : x ∉ S ⇒ x ∈ T)
-11.48		S ∩ T = ∅  ≡  (∀x |: x ∈ S ⇒ x ∉ T)
-11.49		S - T = S ∩ ~T
-11.50		S - T ⊆ S
-11.51		S - ∅ = S
-11.52		S ∩ (T - S) = ∅
-11.53		S ∪ (T - S) = S ∪ T
-11.54		S - (T ∪ U) = (S - T) ∩ (S - U)
-11.55		S - (T ∩ U) = (S - T) ∪ (S - U)
-11.56		(∀x |: P ⇒ Q) ≡ {x | P} ⊆ {x | Q}
-11.57	Antisymmetry	S ⊆ T ⋀ T ⊆ S  ≡  S - T
-11.58	Reflexivity	S ⊆ S
-11.59	Transitivity	S ⊆ T ⋀ T ⊆ S  ⇒  S ⊆ U
-11.60		∅ ⊆ S
-11.61		S ⊂ T  ≡  S ⊆ T ⋀ ¬(T ⊆ S)
-11.62		S ⊂ T  ≡  S ⊆ T ⋀ (∃x | x ∈ T : x ∉ S)
-11.63		S ⊆ T  ≡  S ⊂ T ⋁ S = T
-11.64		S ⊄ S
-11.65		S ⊂ T  ⇒  S ⊆ T
-11.66		S ⊂ T  ⇒  T ⊈ S
-11.67		S ⊆ T  ⇒  T ⊄ S
-11.68		S ⊆ T ⋀ ¬(U ⊆ T)  ⇒  ¬(U ⊆ S)
-11.69		(∃x | x ∈ S : x ∉ T)  ⇒  S ≠ T
-11.70a	Transitivity	S ⊆ T ⋀ T ⊂ U  ⇒  S ⊂ U
-11.70b	Transitivity	S ⊂ T ⋀ T ⊆ U  ⇒  S ⊂ U
-11.70c	Transitivity	S ⊂ T ⋀ T ⊂ U  ⇒  S ⊂ U
-11.71		𝒫∅ = {∅}
-11.72		S ∈ 𝒫S
-11.73		#(𝒫S) = 2^(#S), for finite set S
-11.74.1	Quantified Union	v ∈ (∪x | R : E) ≡ (∃x | R : v ∈ E)
-11.74.2	Quantifed Intersection	v ∈ (∩x | R : E) ≡ (∀x | R : v ∈ E)
-11.10		{x ❘ Q} = {x ❘ R} is valid iff Q ≡ R is valid
-11.80	Size	#⦃x | R : E⦄ ≡ (∑x | R : 1)
-11.81	Number_of_occurrences	v#⦃x | R :E⦄ = (∑x | R ⋀ v = E : 1)
-11.82	Bag_equality	B = C  ≡  (∀v |: v#B = v#C)
-11.83	Subbag	B ⊆ C  ≡  (∀v |: v#B ≤ v#C)
-11.84	Proper_subbag	B ⊂ C  ≡  B ⊆ C ⋀ B ≠ C
-11.85	Union	B ∪ C = ⦃v, i | 0 ≤ i < v#B + v#C: v⦄
-11.86	Intersection	B ∩ C = ⦃v, i | 0 ≤ i < v#B ↓ v#C: v⦄
-11.87	Difference	B - C = ⦃v, i | 0 ≤ i < v#B - v#C: v⦄
-12.11	pow	\n  pow(b, 0) = 1\n  pow(b, n + 1) = b ⋅ pow(b, n) for n ≥ 0
-12.12	pow	\n  pow(b, 0) = 1\n  pow(b, n) = b ⋅ pow(b, n - 1) for n ≥ 1
-12.13	Factorial	\n  0! = 1\n  n! = n ⋅ (n - 1)! for n > 0
-12.14	Fibonacci	\n  F.0 = 0\n  F.1 = 1\n  F.n = F(n - 1) + F(n - 2) for n > 1
-12.15		pow(φ, 2) = φ + 1
-12.16		F.n ≤ pow(φ, n - 1) for n ≥ 1
-12.16.1		pow(φ, n - 2) ≤ F.n for n ≥ 1
-12.17		F(n + m) = F.m ⋅ F(n + 1) + F(m - 1) ⋅ F.n
-11.28	Idempotency	S ∪ S = S
-12.30	Binary_tree	\n  ∅ is a binary tree, called the empty tree\n  (d, l, r) is a binary tree for d:ℤ and l, r binary trees
-12.31	Number_of_nodes	\n  #∅ = 0\n  #(d, l, r) = 1 + #l + #r
-12.32	Height	\n  height.∅ = 0\n  height.(d, l, r) = 1 + max(height.l, height.r)
-12.33		The maximum number of nodes in a tree with height n is pow(2, n - 1) for n ≥ 0.
-12.34		The minimum number of nodes in a tree with height n is n for n ≥ 0.
-12.35a		The maximum number of leaves in a tree with height n is pow(2, n - 1) for n > 0.
-12.35b		The maximum number of internal nodes in a tree with height n is pow(2, n - 1) - 1 for n > 0.
-12.36(a)		The minimum number of leaves in a tree with height n is 1 for n > 0.
-12.36(b)		The minimum number of internal nodes in a tree with height n is n - 1 for n > 0.
-12.37		Every nonempty complete tree has an odd number of nodes.
-p.1	Excluded_miracle	wp.S.false ≡ false
-p.2	Conjunctivity	wp.S.(X ⋀ Y) ≡ wp.S.X ⋀ wp.S.Y
-p.3	Monotonicity	(X ⇒ Y) ⇒ (wp.S.X ⇒ wp.S.Y)
-p.4	Hoare_triple	{Q} S {R} ≡ Q ⇒ wp.S.R
-p.5	Postcondition_rule	{Q} S {A} ⋀ (A ⇒ R)  ⇒  {Q} S {R}
-p.6	Program_equivalence	S = T  ≡  (For all R, wp.S.R ≡ wp.T.R)
-p.7		(Q ⇒ A) ⋀ {A} S {R}  ⇒  {Q} S {R}
-p.8		{Q0} S {R0} ⋀ {Q1} S {R1}  ⇒  {Q0 ⋀ Q1} S {R0 ⋀ R1}
-p.9		{Q0} S {R0} ⋀ {Q1} S {R1}  ⇒  {Q0 ⋁ Q1} S {R0 ⋁ R1}
-p.10	skip	wp.skip.R ≡ R
-p.11		{Q} skip {R}  ≡  Q ⇒ R
-p.12	abort	wp.abort.R ≡ false
-p.13		{Q} abort {R}  ≡  Q ≡ false
-p.14	Composition	wp.(S;T).R  ≡  wp.S.(wp.T.R)
-p.15		{Q} S {H} ⋀ {H} T {R}  ⇒  {Q} S;T {R}
-p.16a	Identity	S ; skip  =  S
-p.16b	Identity	skip ; S  =  S
-p.17a	Zero	S ; abort  =  abort
-p.17b	Zero	abort ; S  =  abort
-p.18	Assignment	wp.(x ≔ E).R  ≡  R[x ≔ E]
-p.20		(x ≔ x) = skip
-p.21	IFG:	if B1 ⟶ S1 ⌷ B2 ⟶ S2 ⌷ B3 ⟶ S3 fi
-p.22	if	wp.IFG.R  ≡  (B1 ⋁ B2 ⋁ B3) ⋀ B1 ⇒ wp.S1.R ⋀ B2 ⇒ wp.S2.R ⋀ B3 ⇒ wp.S3.R
-p.23	Empty_guard	if if  =  abort
-p.25		¬(B1 ⋁ B2 ⋁ B3) ⇒ IFG  =  abort
-p.26	One-guard_rule	{Q} if B ⟶ S fi {R}  ⇒  {Q} S {R}
-p.27	Distributivity	if B1 ⟶ S1;T ⌷ B2 ⟶ S2;T fi  =  if B1 ⟶ S1 ⌷ B2 ⟶ S2 fi ; T
-p.28	DO	do B ⟶ S od
-p.31	False_guard	do false ⟶ S od  =  skip
-14.2	Pair_equality	<b, c> = <b', c'>  ≡  b = b' ⋀ c = c'
-14.3	Cross_product	S × T = {b, c | b ∈ S ⋀ c ∈ T : <b, c>}
-14.4	Membership	<x, y> ∈ S × T  ≡  x ∈ S ⋀ y ∈ T
-14.5		<x, y> ∈ S × T  ≡  <y, x> ∈ T × S
-14.6		S = ∅  ⇒  S × T = T × S = ∅
-14.7		S × T = T × S  ≡  S = ∅ ⋁ T = ∅ ⋁ S = T
-14.8a	Distributivity	S × (T ∪ U) = (S × T) ∪ (S × U)
-14.8b	Distributivity	(S ∪ T) × U = (S × U) ∪ (T × U)
-14.9a	Distributivity	S × (T ∩ U) = (S × T) ∩ (S × U)
-14.9b	Distributivity	(S ∩ T) × U = (S × U) ∩ (T × U)
-14.10	Distributivity	S × (T - U) = (S × T) - (S × U)
-14.11	Monotonicity	T ⊆ U  ⇒  S × T ⊆ S × U
-14.12		S ⊆ U ⋀ T ⊆ V  ⇒  S × T ⊆ U × V
-14.13		S × T ⊆ S × U ⋀ S ≠ ∅  ⇒  T ⊆ U
-14.14		(S ∩ T) × (U ∩ V) = (S × U) ∩ (T × V)
-14.15		For finite S and T, #(S × T) = #S ⋅ #T
-14.15.1	Binary_relation	A binary relation over B × C is a subset of B × C.
-14.15.2	Identity	The identity relation i.B on B is i.B = {x:B |: <x,x>}
-14.15.3	Identity lemma	<x,y> ∈ i.B  ≡  x = y
-14.15.4	Notation	<b,c> ∈ ρ and b ρ c are interchangeable notations.
-14.15.5	Conjunctive meaning	b ρ c σ d  ≡  b ρ c ⋀ c ρ d
-14.16	Domain	Dom.ρ = {b:B | (∃c |: b ρ c)}
-14.17	Range	Ran.ρ = {c:C | (∃b |: b ρ c)}
-14.18	Inverse	<b,c> ∈ inv.p  ≡  <c,b> ∈ ρ,  for all b:B, c:C
-14.19a		Dom(ρ.inv) = Ran.ρ
-14.19b		Ran(ρ.inv) = Dom.ρ
-14.19c		If ρ is a relation on B × C, then inv.ρ is a relation on C × B
-14.19d		inv.inv.ρ = ρ
-14.19e		ρ ⊆ σ  ≡  inv.ρ ⊆ inv.σ
-14.20	Product	<b,d> ∈ ρ ∘ σ  ≡  (∃c | c ∈ C : <b,c> ∈ ρ ⋀ <c,d> ∈ σ)
-14.21	Product	b (ρ ∘ σ) d  ≡  (∃c |: b ρ c σ d)
-14.22	Associativity	ρ ∘ (σ ∘ θ)  =  (ρ ∘ σ) ∘ θ
-14.23a	Distributivity	ρ ∘ (σ ∪ θ)  =  (ρ ∘ σ) ∪ (ρ ∘ θ)
-14.23b	Distributivity	(σ ∪ θ) ∘ ρ  =  (σ ∘ ρ) ∪ (θ ∘ ρ)
-14.24a	Distributivity	ρ ∘ (σ ∩ θ)  =  (ρ ∘ σ) ∩ (p ∘ θ)
-14.24b	Distributivity	(σ ∩ θ) ∘ ρ  =  (σ ∘ ρ) ∩ (θ ∘ ρ)
-14.25a	Powers_of_a_relation	ρ^0 = i.B
-14.25b	Powers_of_a_relation	ρ^(n + 1) = ρ^n ∘ ρ    for n ≥ 0
-14.26		ρ^m ∘ ρ^n  =  ρ^(m + n)  for m ≥ 0, n ≥ 0
-14.27		(ρ^m)^n  =  ρ^(m ⋅ n)   for m ≥ 0, n ≥ 0
-14.28		(∃i,j | 0 ≤ i < j ≤ 2^(n^2) : ρ^i = ρ^j)    for ρ a relation on finite set B of n elements
-14.29a		ρ^(i + k) = ρ^(j + k)  for k ≥ 0
-14.29b		ρ^i = ρ^(i + p ⋅ (j - i))  for p ≥ 0
-14.1a	Reflexive_relation	refl.ρ ≡ (∀b |: b ρ b)
-14.1b	Irreflexive_relation	irrefl.ρ ≡ (∀b |: ¬(b ρ b))
-14.1c	Symmetric_relation	sym.ρ ≡ (∀b,c |: b ρ c ≡ c ρ b)
-14.1d	Antisymmetric_relation	antisym.ρ ≡ (∀b,c |: b ρ c ⋀ c ρ b ⇒ b = c)
-14.1e	Asymmetric_relation	asym.ρ ≡ (∀b,c |: b ρ c ⇒ ¬(c ρ b))
-14.1f	Transitive_relation	trans.ρ ≡ (∀b,c,d |: b ρ c ⋀ c ρ d ⇒ b ρ d)
-14.30.1	Reflexive closure	r.ρ ≡ refl.r.ρ ⋀ ρ ⊆ r.ρ ⋀ (∀σ| refl.ρ ⋀ ρ ⊆ σ : r.ρ ⊆ σ)
-14.30.2	Symmetric closure	s.ρ ≡ sym.s.ρ ⋀ ρ ⊆ s.ρ ⋀ (∀σ| sym.ρ ⋀ ρ ⊆ σ : s.ρ ⊆ σ)
-14.30.3	Transitive closure	ρ+ ≡ trans.ρ+ ⋀ ρ ⊆ ρ+ ⋀ (∀σ| trans.ρ ⋀ ρ ⊆ σ : ρ+ ⊆ σ)
-14.30.4	Reflexive transitive closuer	ρ* ≡ r.ρ ⋀ ρ+
-14.31a		A reflexive relation is its own reflexive closure.
-14.31b		A symmetric relation is its own symmetric closure.
-14.31c		A transitive relation is its own transitive closure.
-14.32a		r(ρ) = ρ ∪ i.B
-14.32b		s(ρ) = ρ ∪ inv.ρ
-14.32c		ρ+ = (∪i | 0 < i : ρ^i)
-14.32d		ρ* = ρ+ ∪ i.B
-14.33	Equivalence_relation	equiv.ρ ≡ refl.ρ ⋀ sym.ρ ⋀ trans.ρ
-14.34	Equivalence_class	x ∈ [b].ρ  ≡  x ρ b  for equivalence relation ρ
-14.35		(b ρ c) = ([b] ∩ [c] ≠ ∅) = ([b] = [c])
-14.36		Let P be the set of sets of a partition of B. The following relation ρ on B is an equivalence relation: b ρ c  ≡  (∃p | p ∈ P : b ∈ p ⋀ c ∈ p)
-14.37a		A binary relation f on B × C is determinate iff (∀b,c,c' | b f c ⋀ b f c' : c = c')
-14.37b		A binary relation is a function iff it is determinate.
-14.37.1	Notation	f.b = c and b f c are interchangeable notations.
-14.38		A function f on B × C is total if B = Dom.f. Otherwise it is partial.
-14.38.1	Total	A function f on B × C is total if, for an arbitrary element b: B, (∃c: C |: f.b = c)
-14.39	Composition	For functions f and g, f ∙ g = g ∘ f.
-14.40		Let g: B ⟶ C and f: C ⟶ D be total functions. Then the composition f ∙ g of f and g is the total function defined by (f ∙ g).b = f(g.b)
-14.41a		Total function f: B ⟶ C is onto or surjective if Ran.f = C.
-14.41b		Total function f is one-to-one or injective if (∀b,b':B,c:C |: b f c ⋀ b' f c  ≡  b = b').
-14.41c		Total function f is bijective if is one-to-one and onto.
-14.42a		Let f be a total function, and let inv.f be its relational inverse. Then inv.f is a function iff f is one-to-one.
-14.42b		Let f be a total function, and let inv.f be its relational inverse. Then inv.f is total iff f is onto.
-14.43a		Let f: B ⟶ C. A left inverse of f is a function g: C ⟶ B such that g ∙ f = i.B.
-14.43b		Let f: B ⟶ C. A right inverse of f is a function g: C ⟶ B such that f ∙ g = i.C.
-14.43c		Let f: B ⟶ C. Function g is an inverse of f if it is both a left inverse and a right inverse.
-14.44		Function f: B ⟶ C is onto iff f has a right inverse.
-14.45		Let f: B ⟶ C be total. Then f is one-to-one iff f has a left inverse.
-14.46		Let f: B ⟶ C be total. The following statements are equivalent.\n. (a) f is one-to-one and onto.\n  (b) There is a function g: C ⟶ B that is both a left and right inverse of f.\n  (c) f has a left inverse and f has a right inverse.
-14.47		A binary relation ρ on a set B is called a partial order on B if it is reflexive, antisymmetric, and transitive. In this case, pair <B, ρ> is called a partially ordered set or poset.
-14.47.1	Incomparable	incomp(b, c)  ≡  ¬(b ⪯ c) ⋀ ¬(c ⪯ b)
-14.48		Relation ≺ is a quasi order or strict partial order if ≺ is transitive and irreflexive.
-14.48.1	Reflexive reduction	Given ⪯, its reflexive reduction ≺ is computed by eliminating all pairs <b,b> from ⪯.
-14.48.2		Let ≺ be the reflexive reduction of ⪯. Then, ¬(b ⪯ c)  ≡  c ≺ b ⋁ incomp(b,c)
-14.49a		If ρ is a partial order over a set B, then ρ - i.B is a quasi order.
-14.49b		I ρ is quasi order over a set B, then ρ ∪ i.B is a partial order.
-14.50	Total order	A partial order ⪯ over B is called a total or linear order if (∀b,c |: b ⪯ c ⋁ b ⪰ c), i.e. iff ⪯ ∪ inv.⪯ = B × B.
-14.51a	Minimal element	Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is a minimal element of S if no element of S is smaller than b, i.e. if b ∈ S ⋀ (∀c | c ≺ b : c ∉ S).
-14.51b	Least element	Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is the least element of S if b ∈ S ⋀ (∀c | c ∈ S : b ⪯ c).
-14.51c	Lower bound	Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is a lower bound of S if (∀c | c ∈ S : b ⪯ c).
-14.51d	Greatest lower bound	Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is the greatest lower bound of S, written glb.S if b is a lower bound and if every lower bound c satisfies c ⪯ b.
-14.52		Every finite nonempty subset S of poset < U, ⪯ > has a minimal element.
-14.53a		Let B be a nonempty subset of poset < U, ⪯ >. A least element of B is also a minimal element of B (but not necessarily vice versa).
-14.53b		Let B be a nonempty subset of poset < U, ⪯ >. A least element of B is also a greater lower bound of B (but not necessarily vice versa).
-14.53c		Let B be a nonempty subset of poset < U, ⪯ >. A lower bound of B that belongs to B is also a least element of B.
-14.54a	Maximal element	Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is a maximal element of S if no element of S is larger than b, i.e. if b ∈ S ⋀ (∀c | b ≺ c : c ∉ S).
-14.54b	Greatest element	Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is the greatest element of S if b ∈ S ⋀ (∀c | c ∈ S : c ⪯ b).
-14.54c	Upper bound	Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is an upper bound of S if (∀c | c ∈ S : c ⪯ b).
-14.54d	Least upper bound	Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is the least upper bound of S, written lub.S if b is an upper bound and if every upper bound c satisfies b ⪯ c.
-14.56.1	Select	σ(R, F) = {t | t ∈ R ⋀ F}
-14.56.2	Project	π(R, A_1, A_2, ..., A_m) = {t | t ∈ R : <t.A_1, t.A_2, ..., t.A_m>}
-14.56.3	Natural join	For relations R1 and R2, R1 ⨝ R2 has all the attributes that R1 and R2 have, but if an attribute appears in both, then it appears only once in the result; further, only those tuples that agree on this common attribute are included.
+★@3.1@assoc ≡@((p ≡ q) ≡ r) ≡ (p ≡ (q ≡ r))
+★@3.2@sym ≡@p ≡ q ≡ q ≡ p
+★@3.3@id ≡@true ≡ p ≡ p
+@3.4@@true
+@3.5@refl ≡@p ≡ p
+@3.8@def false@false ≡ ¬true
+@3.9@¬ : ≡@¬(p ≡ q) ≡ ¬p ≡ q
+@3.10@Defintion of ≢@(p ≢ q) ≡ ¬(p ≡ q)
+@3.11@@¬p ≡ q ≡ p ≡ ¬q
+@3.12@Double negation@¬¬p ≡ p
+@3.13@Negation of false@¬false ≡ true
+@3.14@@(p ≢ q) ≡ ¬p ≡ q
+@3.15@@¬p ≡ p ≡ false
+@3.16@Symmetry@(p ≢ q) ≡ (q ≢ p)
+@3.17@Associativity@((p ≢ q) ≢ r) ≡ (p ≢ (q ≢ r))
+@3.18@Mutual associativity@((p ≢ q) ≡ r) ≡ (p ≢ (q ≡ r))
+@3.19@Mutual interchangeability@p ≢ q ≡ r  ≡  p ≡ q ≢ r
+@3.19.1@@p ≢ p ≢ q ≡ q
+@3.24@Symmetry@p ∨ q ≡ q ∨ p
+@3.25@Associativity@(p ∨ q) ∨ r ≡ p ∨ (q ∨ r)
+@3.26@Idempotency@p ∨ p ≡ p
+@3.27@∨ : ≡@p ∨ (q ≡ r) ≡ p ∨ q ≡ p ∨ r
+@3.28@Excluded middle@p ∨ ¬p
+@3.29@Zero@p ∨ true ≡ true
+@3.30@Identity@p ∨ false ≡ p
+@3.31@∨ : ∨@p ∨ (q ∨ r) ≡ (p ∨ q) ∨ (p ∨ r)
+@3.32@@p ∨ q ≡ p ∨ ¬q ≡ p
+@3.35@Golden rule@p ∧ q ≡ p ≡ q ≡ p ∨ q
+@3.36@Symmetry@p ∧ q ≡ q ∧ p
+@3.37@Associativity@(p ∧ q) ∧ r ≡ p ∧ (q ∧ r)
+@3.38@Idempotency@p ∧ p ≡ p
+@3.39@Identity@p ∧ true ≡ p
+@3.40@Zero@p ∧ false ≡ false
+@3.41@∧ : ∧@p ∧ (q ∧ r) ≡ (p ∧ q) ∧ (p ∧ r)
+@3.42@Contradiction@p ∧ ¬p ≡ false
+@3.43a@Absorption@p ∧ (p ∨ q) ≡ p
+@3.43b@Absorption@p ∨ (p ∧ q) ≡ p
+@3.44a@Absorption@p ∧ (¬p ∨ q) ≡ p ∧ q
+@3.44b@Absorption@p ∨ (¬p ∧ q) ≡ p ∨ q
+@3.45@Distributivity@p ∨ (q ∧ r) ≡ (p ∨ q) ∧ (p ∨ r)
+@3.46@Distributivity@p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r)
+@3.46.1@Consensus@(p ∧ q) ∨ (¬p ∧ r) ∨ (q ∧ r) ≡ (p ∧ q) ∨ (¬p ∧ r)
+@3.47a@De Morgan@¬(p ∧ q) ≡ ¬p ∨ ¬q
+@3.47b@De Morgan@¬(p ∨ q) ≡ ¬p ∧ ¬q
+@3.48@@p ∧ q ≡ p ∧ ¬q ≡ ¬p
+@3.49@@p ∧ (q ≡ r) ≡ p ∧ q ≡ p ∧ r ≡ p
+@3.50@@p ∧ (q ≡ p) ≡ p ∧ q
+@3.51@Replacement@(p ≡ q) ∧ (r ≡ p) ≡ (p ≡ q ∧ r ≡ q)
+@3.52@Equivalence@p ≡ q ≡ (p ∧ q) ∨ (¬p ∧ ¬q)
+@3.53@xor@p ≢ q ≡ (¬p ∧ q) ∨ (p ∧ ¬q)
+@3.55@@(p ∧ q) ∧ r ≡ p ≡ q ≡ r ≡ p ∨ q ≡ q ∨ r ≡ r ∨ p ≡ p ∨ q ∨ r
+@3.57@Implication@p ⇒ q ≡ p ∨ q ≡ q
+@3.58@Consequence@p ⇐ q ≡ q ⇒ p
+@3.59@Implication@p ⇒ q ≡ ¬p ∨ q
+@3.60@Implication@p ⇒ q ≡ p ∧ q ≡ p
+@3.61@Contrapositive@p ⇒ q ≡ ¬q ⇒ ¬p
+@3.62@@p ⇒ (q ≡ r) ≡ p ∧ q ≡ p ∧ r
+@3.63@⇒ : ≡@p ⇒ (q ≡ r) ≡ (p ⇒ q) ≡ (p ⇒ r)
+@3.63.1@⇒ : ∧@p ⇒ q ∧ r ≡ (p ⇒ q) ∧ (p ⇒ r)
+@3.63.2@⇒ : ∨@p ⇒ q ∨ r ≡ (p ⇒ q) ∨ (p ⇒ r)
+@3.64@@p ⇒ (q ⇒ r) ≡ (p ⇒ q) ⇒ (p ⇒ r)
+@3.65@Shunting@p ∧ q ⇒ r ≡ p ⇒ (q ⇒ r)
+@3.66@@p ∧ (p ⇒ q) ≡ p ∧ q
+@3.67@@p ∧ (q ⇒ p) ≡ p
+@3.68@@p ∨ (p ⇒ q) ≡ true
+@3.69@@p ∨ (q ⇒ p) ≡ q ⇒ p
+@3.70@@p ∨ q ⇒ p ∧ q ≡ p ≡ q
+@3.71@Reflexivity@p ⇒ p
+@3.72@Zero@p ⇒ true ≡ true
+@3.73@Identity@true ⇒ p ≡ p
+@3.74@@p ⇒ false ≡ ¬p
+@3.74.1@@¬p ⇒ false ≡ p
+@3.75@@false ⇒ p ≡ true
+@3.76a@Weakening@p ⇒ p ∨ q
+@3.76b@Strengthening@p ∧ q ⇒ p
+@3.76c@Weakening/strengthening@p ∧ q ⇒ p ∨ q
+@3.76d@Weakening/strengthening@p ∨ (q ∧ r) ⇒ p ∨ q
+@3.76e@Weakening/strengthening@p ∧ q ⇒ p ∧ (q ∨ r)
+@3.77@Modus ponens@p ∧ (p ⇒ q) ⇒ q
+@3.78@@(p ⇒ r) ∧ (q ⇒ r) ≡ (p ∨ q ⇒ r)
+@3.79@@(p ⇒ r) ∧ (¬p ⇒ r) ≡ r
+@3.80@Mutual implication@(p ⇒ q) ∧ (q ⇒ p) ≡ (p ≡ q)
+@3.81@Antisymmetry@(p ⇒ q) ∧ (q ⇒ p) ⇒ (p ≡ q)
+@3.82a@Transitivity@(p ⇒ q) ∧ (q ⇒ r) ⇒ (p ⇒ r)
+@3.82b@Transitivity@(p ≡ q) ∧ (q ⇒ r) ⇒ (p ⇒ r)
+@3.82c@Transitivity@(p ⇒ q) ∧ (q ≡ r) ⇒ (p ⇒ r)
+@3.82.1@Transitivity@(p ≡ q) ∧ (q ≡ r) ⇒ (p ≡ r)
+@3.82.2@@(p ≡ q) ⇒ (p ⇒ q)
+@3.83@Leibniz@e = f ⇒ E[z ≔ e] = E[z ≔ f]
+@3.84a@Substitution@(e = f) ∧ E[z ≔ e] ≡ (e = f) ∧ E[z ≔ f]
+@3.84b@Substitution@(e = f) ⇒ E[z ≔ e] ≡ (e = f) ⇒ E[z ≔ f]
+@3.84c@Substitution@q ∧ (e = f) ⇒ E[z ≔ e] ≡ q ∧ (e = f) ⇒ E[z ≔ f]
+@3.85a@Replace by true@p ⇒ E[z ≔ p] ≡ p ⇒ E[z ≔ true]
+@3.85b@Replace by true@q ∧ p ⇒ E[z ≔ p] ≡ q ∧ p ⇒ E[z ≔ true]
+@3.86a@Replace by false@E[z ≔ p] ⇒ p ≡ E[z ≔ false] ⇒ p
+@3.86b@Replace by false@E[z ≔ p] ⇒ p ∨ q ≡ E[z ≔ false] ⇒ p ∨ q
+@3.87@Replace by true@p ∧ E[z ≔ p] ≡ p ∧ E[z ≔ true]
+@3.88@Replace by false@p ∨ E[z ≔ p] ≡ p ∨ E[z ≔ false]
+@3.89@Shannon@E[z ≔ p] ≡ (p ∧ E[z ≔ true]) ∨ (¬p ∧ E[z ≔ false])
+@3.89.1@@E[z ≔ true] ∧ E[z ≔ false] ⇒ E[z ≔ p]
+@4.1@@p ⇒ (q ⇒ p)
+@4.2@Monotonicity@(p ⇒ q) ⇒ (p ∨ r ⇒ q ∨ r)
+@4.3@Monotonicity@(p ⇒ q) ⇒ (p ∧ r ⇒ q ∧ r)
+@8.13@Empty range@(★x ❘ false : P) = u
+@8.14@One-point rule@(★x ❘ x = E : P) = P[x ≔ E]
+@8.15@★ : ★x@(★x ❘ R : P) ★ (★x ❘ R: Q) = (★x ❘ R : P ★ Q)
+@8.17@Range split@(★x ❘ R ∨ S : P) ★ (★x ❘ R ∧ S : P) = (★x ❘ R : P) ★ (★x ❘ S : P)
+@8.18@Range split for idempotent ★@(★x ❘ R ∨ S : P) = (★x ❘ R : P) ★ (★x ❘ S : P)
+@8.19@Interchange of dummies@(★x ❘ R : (★y ❘ Q : P)) = (★y ❘ Q : (★x ❘ R : P))
+@8.20@Nesting@(★x,y ❘ R ∧ Q : P) = (★x ❘ R : (★y ❘ Q : P))
+@8.21@Dummy renaming@(★x ❘ R : P) = (★y ❘ R[x ≔ y] : P[x ≔ y])
+@8.22@Change of dummy@(★x ❘ R : P) = (★y ❘ R[x ≔ f.y]: P[x ≔ f.y])
+@8.23a@Split off term@(★i ❘ 0 ≤ i < n + 1 : P) = (★i ❘ 0 ≤ i < n : P) ★ P[i ≔ n]
+@8.23b@Split off term@(★i ❘ 0 ≤ i < n + 1 : P) = P[i ≔ 0] ★ (★i ❘ 0 < i < n + 1 : P)
+@9.2@Trading@(∀x ❘ R : P) ≡ (∀x ❘ : R ⇒ P)
+@9.3a@Trading@(∀x ❘ R : P) ≡ (∀x ❘ : ¬R ∨ P)
+@9.3b@Trading@(∀x ❘ R : P) ≡ (∀x ❘ : R ∧ P ≡ R)
+@9.3c@Trading@(∀x ❘ R : P) ≡ (∀x ❘ : R ∨ P ≡ P)
+@9.4a@Trading@(∀x ❘ Q ∧ R : P) ≡ (∀x ❘ Q : R ⇒ P)
+@9.4b@Trading@(∀x ❘ Q ∧ R : P) ≡ (∀x ❘ Q : ¬R ∨ P)
+@9.4c@Trading@(∀x ❘ Q ∧ R : P) ≡ (∀x ❘ Q : R ∧ P ≡ R)
+@9.4d@Trading@(∀x ❘ Q ∧ R : P) ≡ (∀x ❘ Q : R ∨ P ≡ P)
+@9.4.1@Universal double trading@(∀x ❘ R : P) ≡ (∀x ❘ ¬P : ¬R)
+@9.5@∨ : ∀x@P ∨ (∀x ❘ R : Q ) ≡ (∀x ❘ R : P ∨ Q)
+@9.6@@(∀x ❘ R : P) ≡ P ∨ (∀x ❘ : ¬R)
+@9.7@∧ : ∀x@¬(∀x ❘ : ¬R) ⇒ ((∀x ❘ R : P ∧ Q) ≡ P ∧ (∀x ❘ R : Q))
+@9.8@@(∀x ❘ R : true) ≡ true
+@9.9@@(∀x ❘ R : P ≡ Q) ⇒ ((∀x ❘ R : P) ≡ (∀x ❘ R : Q))
+@9.10@Range weakening/strengthening@(∀x ❘ Q ∨ R : P) ⇒ (∀x ❘ Q : P)
+@9.11@Body weakening/strengthening@(∀x ❘ R : P ∧ Q) ⇒ (∀x ❘ R : P)
+@9.12@Monotonicity@(∀x ❘ R : Q ⇒ P) ⇒ ((∀x ❘ R : Q) ⇒ (∀x ❘ R : P))
+@9.13@Instantiation@(∀x ❘ : P) ⇒ P[x ≔ E]
+@9.16@Metatheorem@P is a theorem iff (∀x ❘ : P) is a theorem
+@9.17@Generalized De Morgan@(∃x ❘ R : P) ⇒ ¬(∀x ❘ R : ¬P)
+@9.18a@Generalized De Morgan@¬(∃x ❘ R : ¬P) ≡ (∀x ❘ R : P)
+@9.18b@Generalized De Morgan@¬(∃x ❘ R : P) ≡ (∀x ❘ R : ¬P)
+@9.18c@Generalized De Morgan@(∃x ❘ R : ¬P) ≡ ¬(∀x ❘ R : P)
+@9.19@Trading@(∃x ❘ R : P) ≡ (∃x ❘ : R ∧ P)
+@9.20@Trading@(∃x ❘ Q ∧ R : P) ≡ (∃x ❘ Q : R ∧ P)
+@9.21@∧ : ∃x@P ∧ (∃x ❘ R : Q) ≡ (∃x ❘ R : P ∧ Q)
+@9.22@@(∃x ❘ R : P) ≡ P ∧ (∃x ❘ : R)
+@9.23@∨ : ∃x@(∃x ❘ : R) ⇒ ((∃x ❘ R : P ∨ Q) ≡ P ∨ (∃x ❘ R : Q))
+@9.24@@(∃x ❘ R : false) ⇒ false
+@9.25@Range weakening/strengthening@(∃x ❘ R : P) ⇒ (∃x ❘ Q ∨ R : P)
+@9.26@Body weakening/strengthening@(∃x ❘ R : P) ⇒ (∃x ❘ R : P ∨ Q)
+@9.27@Monotonicity@(∀x ❘ R : Q ⇒ P) ⇒ ((∃x ❘ R : Q) ⇒ (∃x ❘ R : P))
+@9.28@∃-Introduction@P[x ≔ E] ⇒ (∃x ❘ : P)
+@9.29@Interchange of quantification@(∃x ❘ R : (∀y ❘ Q : P)) ⇒ (∀y ❘ Q : (∃x ❘ R : P))
+@9.30@@(∃x | R : R) ⇒ Q is theorem iff (R ∧ P)[x ≔ ẋ] ⇒ Q
+@11.2@@{e 0, ... , e (n-1)} = {x ❘ x = e 0 ∨ ... ∨ x = e (n - 1)}
+@11.3@Set membership@F ∈ {x ❘ R : E} ≡ (∃x ❘ R : F = E)
+@11.4@Extensionality@S = T ≡ (∀x ❘ : x ∈ S ≡ x ∈ T)
+@11.4.1@Empty set@∅ = {x ❘ false : E}
+@11.4.2@@e ∈ ∅ ≡ false
+@11.4.3@Universe@𝐔 = {x ❘ : x}
+@11.4.4@@e ∈ 𝐔 ≡ true
+@11.5@@S = {x ❘ x ∈ S : x}
+@11.5.1@Abbreviation@{x ❘ R} = {x ❘ R : x}
+@11.6@@{ x ❘ R : E} = {y ❘ (∃x ❘ R : y = E)}
+@11.7@@x ∈ {x ❘ R} ≡ R
+@11.7.1@@y ∈ {x ❘ R} ≡ R[x ≔ y]
+@11.9@@{x ❘ Q} = {x ❘ R} ≡ (∀x ❘ : Q ≡ R)
+@11.10@@{x ❘ Q} = {x ❘ R} is valid iff Q ≡ R is valid
+@11.12@Size@#S = (∑x | x ∈ S : 1)
+@11.13@Subset@S ⊆ T  ≡  (∀x | x ∈ S : x ∈ T)
+@11.14@Proper subset@S ⊂ T  ≡  S ⊆ T ∧ S ≠ T
+@11.15@Superset@T ⊇ S  ≡  S ⊆ T
+@11.16@Proper superset@T ⊃ S  ≡  S ⊂ T
+@11.17@Complement@v ∈ ~S  ≡  v ∈ 𝐔 ∧ v ∉ S
+@11.18@@v ∈ ~S  ≡  v ∉ S, for v in 𝐔
+@11.19@@~~S = S
+@11.20@Union@v ∈ S ∪ T  ≡  v ∈ S ∨ v ∈ T
+@11.21@Intersection@v ∈ S ∩ T  ≡  v ∈ S ∧ v ∈ T
+@11.22@Difference@v ∈ S - T  ≡  v ∈ S ∧ v ∉ T
+@11.23@Power set@v ∈ 𝒫S  ≡  v ⊆ S
+@11.25a@Metatheorem@E s = F s is valid iff E p ≡ F p is valid
+@11.25b@Metatheorem@E s ⊆ F s is valid iff E p ⇒ F p is valid
+@11.25c@Metatheorem@E s = 𝐔 is valid iff E p is valid
+@11.26@Symmetry@S ∪ T = T ∪ S
+@11.27@Associativity@(S ∪ T) ∪ U  =  S ∪ (T ∪ U)
+@11.28@Idempotency@S ∪ S = S
+@11.29@Zero@S ∪ 𝐔 = 𝐔
+@11.30@Identity@S ∪ ∅ = S
+@11.31@Weakening@S ⊆ S ∪ T
+@11.32@Excluded middle@S ∪ ~S = 𝐔
+@11.33@Symmetry@S ∩ T = T ∩ S
+@11.34@Associativity@(S ∩ T) ∩ U = S ∩ (T ∩ U)
+@11.35@Idempotency@S ∩ S = S
+@11.36@Zero@S ∩ ∅ = ∅
+@11.37@Identity@S ∩ 𝐔 = S
+@11.38@Strengthening@S ∩ T ⊆ S
+@11.39@Contradiction@S ∩ ~S = ∅
+@11.40@∪ : ∩@S ∪ (T ∩ U) = (S ∪ T) ∩ (S ∪ U)
+@11.41@∩ : ∪@S ∩ (T ∪ U) = (S ∩ T) ∪ (S ∩ U)
+@11.42a@De Morgan@~(S ∪ T) = ~S ∩ ~T
+@11.42b@De Morgan@~(S ∩ T) = ~S ∪ ~T
+@11.43@@S ⊆ T ∧ U ⊆ V  ⇒  (S ∪ U) ⊆ (T ∪ V)
+@11.44@@S ⊆ T ∧ U ⊆ V  ⇒  (S ∩ U) ⊆ (S ∩ V)
+@11.45@@S ⊆ T  ≡  S ∪ T = T
+@11.46@@S ⊆ T  ≡  S ∩ T = S
+@11.47@@S ∪ T = 𝐔  ≡  (∀x | x ∈ 𝐔 : x ∉ S ⇒ x ∈ T)
+@11.48@@S ∩ T = ∅  ≡  (∀x |: x ∈ S ⇒ x ∉ T)
+@11.49@@S - T = S ∩ ~T
+@11.50@@S - T ⊆ S
+@11.51@@S - ∅ = S
+@11.52@@S ∩ (T - S) = ∅
+@11.53@@S ∪ (T - S) = S ∪ T
+@11.54@@S - (T ∪ U) = (S - T) ∩ (S - U)
+@11.55@@S - (T ∩ U) = (S - T) ∪ (S - U)
+@11.56@@(∀x |: P ⇒ Q) ≡ {x | P} ⊆ {x | Q}
+@11.57@Antisymmetry@S ⊆ T ∧ T ⊆ S  ≡  S - T
+@11.58@Reflexivity@S ⊆ S
+@11.59@Transitivity@S ⊆ T ∧ T ⊆ S  ⇒  S ⊆ U
+@11.60@@∅ ⊆ S
+@11.61@@S ⊂ T  ≡  S ⊆ T ∧ ¬(T ⊆ S)
+@11.62@@S ⊂ T  ≡  S ⊆ T ∧ (∃x | x ∈ T : x ∉ S)
+@11.63@@S ⊆ T  ≡  S ⊂ T ∨ S = T
+@11.64@@S ⊄ S
+@11.65@@S ⊂ T  ⇒  S ⊆ T
+@11.66@@S ⊂ T  ⇒  T ⊈ S
+@11.67@@S ⊆ T  ⇒  T ⊄ S
+@11.68@@S ⊆ T ∧ ¬(U ⊆ T)  ⇒  ¬(U ⊆ S)
+@11.69@@(∃x | x ∈ S : x ∉ T)  ⇒  S ≠ T
+@11.70a@Transitivity@S ⊆ T ∧ T ⊂ U  ⇒  S ⊂ U
+@11.70b@Transitivity@S ⊂ T ∧ T ⊆ U  ⇒  S ⊂ U
+@11.70c@Transitivity@S ⊂ T ∧ T ⊂ U  ⇒  S ⊂ U
+@11.71@@𝒫∅ = {∅}
+@11.72@@S ∈ 𝒫S
+@11.73@@#(𝒫S) = 2^(#S), for finite set S
+@11.74.1@∪x@v ∈ (∪x | R : E) ≡ (∃x | R : v ∈ E)
+@11.74.2@∩x@v ∈ (∩x | R : E) ≡ (∀x | R : v ∈ E)
+@11.10@@{x ❘ Q} = {x ❘ R} is valid iff Q ≡ R is valid
+@11.80@Size@#⦃x | R : E⦄ ≡ (∑x | R : 1)
+@11.81@Number of occurrences@v#⦃x | R :E⦄ = (∑x | R ∧ v = E : 1)
+@11.82@Bag equality@B = C  ≡  (∀v |: v#B = v#C)
+@11.83@Subbag@B ⊆ C  ≡  (∀v |: v#B ≤ v#C)
+@11.84@Proper subbag@B ⊂ C  ≡  B ⊆ C ∧ B ≠ C
+@11.85@Union@B ∪ C = ⦃v, i | 0 ≤ i < v#B + v#C: v⦄
+@11.86@Intersection@B ∩ C = ⦃v, i | 0 ≤ i < v#B ↓ v#C: v⦄
+@11.87@Difference@B - C = ⦃v, i | 0 ≤ i < v#B - v#C: v⦄
+@12.11@pow@\n  pow(b, 0) = 1\n  pow(b, n + 1) = b ⋅ pow(b, n) for n ≥ 0
+@12.12@pow@\n  pow(b, 0) = 1\n  pow(b, n) = b ⋅ pow(b, n - 1) for n ≥ 1
+@12.13@Factorial@\n  0! = 1\n  n! = n ⋅ (n - 1)! for n > 0
+@12.14@Fibonacci@\n  F.0 = 0\n  F.1 = 1\n  F.n = F(n - 1) + F(n - 2) for n > 1
+@12.15@@pow(φ, 2) = φ + 1
+@12.16@@F.n ≤ pow(φ, n - 1) for n ≥ 1
+@12.16.1@@pow(φ, n - 2) ≤ F.n for n ≥ 1
+@12.17@@F(n + m) = F.m ⋅ F(n + 1) + F(m - 1) ⋅ F.n
+@12.30@Binary tree@\n  ∅ is a binary tree, called the empty tree\n  (d, l, r) is a binary tree for d:ℤ and l, r binary trees
+@12.31@Number of nodes@\n  #∅ = 0\n  #(d, l, r) = 1 + #l + #r
+@12.32@Height@\n  height.∅ = 0\n  height.(d, l, r) = 1 + max(height.l, height.r)
+@12.33@@The maximum number of nodes in a tree with height n is pow(2, n - 1) for n ≥ 0.
+@12.34@@The minimum number of nodes in a tree with height n is n for n ≥ 0.
+@12.35a@@The maximum number of leaves in a tree with height n is pow(2, n - 1) for n > 0.
+@12.35b@@The maximum number of internal nodes in a tree with height n is pow(2, n - 1) - 1 for n > 0.
+@12.36(a)@@The minimum number of leaves in a tree with height n is 1 for n > 0.
+@12.36(b)@@The minimum number of internal nodes in a tree with height n is n - 1 for n > 0.
+@12.37@@Every nonempty complete tree has an odd number of nodes.
+@p.1@Excluded miracle@wp.S.false ≡ false
+@p.2@Conjunctivity@wp.S.(X ∧ Y) ≡ wp.S.X ∧ wp.S.Y
+@p.3@Monotonicity@(X ⇒ Y) ⇒ (wp.S.X ⇒ wp.S.Y)
+@p.4@Hoare triple@{Q} S {R} ≡ Q ⇒ wp.S.R
+@p.5@Postcondition rule@{Q} S {A} ∧ (A ⇒ R)  ⇒  {Q} S {R}
+@p.6@Program equivalence@S = T  ≡  (For all R, wp.S.R ≡ wp.T.R)
+@p.7@@(Q ⇒ A) ∧ {A} S {R}  ⇒  {Q} S {R}
+@p.8@@{Q0} S {R0} ∧ {Q1} S {R1}  ⇒  {Q0 ∧ Q1} S {R0 ∧ R1}
+@p.9@@{Q0} S {R0} ∧ {Q1} S {R1}  ⇒  {Q0 ∨ Q1} S {R0 ∨ R1}
+@p.10@skip@wp.skip.R ≡ R
+@p.11@@{Q} skip {R}  ≡  Q ⇒ R
+@p.12@abort@wp.abort.R ≡ false
+@p.13@@{Q} abort {R}  ≡  Q ≡ false
+@p.14@Composition@wp.(S;T).R  ≡  wp.S.(wp.T.R)
+@p.15@@{Q} S {H} ∧ {H} T {R}  ⇒  {Q} S;T {R}
+@p.16a@Identity@S ; skip  =  S
+@p.16b@Identity@skip ; S  =  S
+@p.17a@Zero@S ; abort  =  abort
+@p.17b@Zero@abort ; S  =  abort
+@p.18@Assignment@wp.(x ≔ E).R  ≡  R[x ≔ E]
+@p.20@@(x ≔ x) = skip
+@p.21@IFG:@if B1 ⟶ S1 ⌷ B2 ⟶ S2 ⌷ B3 ⟶ S3 fi
+@p.22@if@wp.IFG.R  ≡  (B1 ∨ B2 ∨ B3) ∧ B1 ⇒ wp.S1.R ∧ B2 ⇒ wp.S2.R ∧ B3 ⇒ wp.S3.R
+@p.23@Empty guard@if if  =  abort
+@p.25@@¬(B1 ∨ B2 ∨ B3) ⇒ IFG  =  abort
+@p.26@One-guard rule@{Q} if B ⟶ S fi {R}  ⇒  {Q} S {R}
+@p.27@Distributivity@if B1 ⟶ S1;T ⌷ B2 ⟶ S2;T fi  =  if B1 ⟶ S1 ⌷ B2 ⟶ S2 fi ; T
+@p.28@DO@do B ⟶ S od
+@p.31@False guard@do false ⟶ S od  =  skip
+@14.2@Pair equality@<b, c> = <b', c'>  ≡  b = b' ∧ c = c'
+@14.3@Cross product@S × T = {b, c | b ∈ S ∧ c ∈ T : <b, c>}
+@14.4@Membership@<x, y> ∈ S × T  ≡  x ∈ S ∧ y ∈ T
+@14.5@@<x, y> ∈ S × T  ≡  <y, x> ∈ T × S
+@14.6@@S = ∅  ⇒  S × T = T × S = ∅
+@14.7@@S × T = T × S  ≡  S = ∅ ∨ T = ∅ ∨ S = T
+@14.8a@× : ∪ @S × (T ∪ U) = (S × T) ∪ (S × U)
+@14.8b@× : ∪@(S ∪ T) × U = (S × U) ∪ (T × U)
+@14.9a@× : ∩@S × (T ∩ U) = (S × T) ∩ (S × U)
+@14.9b@× : ∩@(S ∩ T) × U = (S × U) ∩ (T × U)
+@14.10@× : -@S × (T - U) = (S × T) - (S × U)
+@14.11@Monotonicity@T ⊆ U  ⇒  S × T ⊆ S × U
+@14.12@@S ⊆ U ∧ T ⊆ V  ⇒  S × T ⊆ U × V
+@14.13@@S × T ⊆ S × U ∧ S ≠ ∅  ⇒  T ⊆ U
+@14.14@@(S ∩ T) × (U ∩ V) = (S × U) ∩ (T × V)
+@14.15@@For finite S and T, #(S × T) = #S ⋅ #T
+@14.15.1@Binary relation@A binary relation over B × C is a subset of B × C.
+@14.15.2@Identity@The identity relation i.B on B is i.B = {x:B |: <x,x>}
+@14.15.3@Identity lemma@<x,y> ∈ i.B  ≡  x = y
+@14.15.4@Notation@<b,c> ∈ ρ and b ρ c are interchangeable notations.
+@14.15.5@Conjunctive meaning@b ρ c σ d  ≡  b ρ c ∧ c ρ d
+@14.16@Domain@Dom.ρ = {b:B | (∃c |: b ρ c)}
+@14.17@Range@Ran.ρ = {c:C | (∃b |: b ρ c)}
+@14.18@Inverse@<b,c> ∈ inv.p  ≡  <c,b> ∈ ρ,  for all b:B, c:C
+@14.19a@@Dom(ρ.inv) = Ran.ρ
+@14.19b@@Ran(ρ.inv) = Dom.ρ
+@14.19c@@If ρ is a relation on B × C, then inv.ρ is a relation on C × B
+@14.19d@@inv.inv.ρ = ρ
+@14.19e@@ρ ⊆ σ  ≡  inv.ρ ⊆ inv.σ
+@14.20@Product@<b,d> ∈ ρ ∘ σ  ≡  (∃c | c ∈ C : <b,c> ∈ ρ ∧ <c,d> ∈ σ)
+@14.21@Product@b (ρ ∘ σ) d  ≡  (∃c |: b ρ c σ d)
+@14.22@Associativity@ρ ∘ (σ ∘ θ)  =  (ρ ∘ σ) ∘ θ
+@14.23a@∘ : ∪@ρ ∘ (σ ∪ θ)  =  (ρ ∘ σ) ∪ (ρ ∘ θ)
+@14.23b@∘ : ∪@(σ ∪ θ) ∘ ρ  =  (σ ∘ ρ) ∪ (θ ∘ ρ)
+@14.24a@∘ : ∩@ρ ∘ (σ ∩ θ)  =  (ρ ∘ σ) ∩ (p ∘ θ)
+@14.24b@∘ : ∩@(σ ∩ θ) ∘ ρ  =  (σ ∘ ρ) ∩ (θ ∘ ρ)
+@14.25a@Powers of a relation@ρ^0 = i.B
+@14.25b@Powers of a relation@ρ^(n + 1) = ρ^n ∘ ρ    for n ≥ 0
+@14.26@@ρ^m ∘ ρ^n  =  ρ^(m + n)  for m ≥ 0, n ≥ 0
+@14.27@@(ρ^m)^n  =  ρ^(m ⋅ n)   for m ≥ 0, n ≥ 0
+@14.28@@(∃i,j | 0 ≤ i < j ≤ 2^(n^2) : ρ^i = ρ^j)    for ρ a relation on finite set B of n elements
+@14.29a@@ρ^(i + k) = ρ^(j + k)  for k ≥ 0
+@14.29b@@ρ^i = ρ^(i + p ⋅ (j - i))  for p ≥ 0
+@14.1a@Reflexive relation@refl.ρ ≡ (∀b |: b ρ b)
+@14.1b@Irreflexive relation@irrefl.ρ ≡ (∀b |: ¬(b ρ b))
+@14.1c@Symmetric relation@sym.ρ ≡ (∀b,c |: b ρ c ≡ c ρ b)
+@14.1d@Antisymmetric relation@antisym.ρ ≡ (∀b,c |: b ρ c ∧ c ρ b ⇒ b = c)
+@14.1e@Asymmetric relation@asym.ρ ≡ (∀b,c |: b ρ c ⇒ ¬(c ρ b))
+@14.1f@Transitive relation@trans.ρ ≡ (∀b,c,d |: b ρ c ∧ c ρ d ⇒ b ρ d)
+@14.30.1@Reflexive closure@r.ρ ≡ refl.r.ρ ∧ ρ ⊆ r.ρ ∧ (∀σ| refl.ρ ∧ ρ ⊆ σ : r.ρ ⊆ σ)
+@14.30.2@Symmetric closure@s.ρ ≡ sym.s.ρ ∧ ρ ⊆ s.ρ ∧ (∀σ| sym.ρ ∧ ρ ⊆ σ : s.ρ ⊆ σ)
+@14.30.3@Transitive closure@ρ+ ≡ trans.ρ+ ∧ ρ ⊆ ρ+ ∧ (∀σ| trans.ρ ∧ ρ ⊆ σ : ρ+ ⊆ σ)
+@14.30.4@Reflexive transitive closuer@ρ* ≡ r.ρ ∧ ρ+
+@14.31a@@A reflexive relation is its own reflexive closure.
+@14.31b@@A symmetric relation is its own symmetric closure.
+@14.31c@@A transitive relation is its own transitive closure.
+@14.32a@@r(ρ) = ρ ∪ i.B
+@14.32b@@s(ρ) = ρ ∪ inv.ρ
+@14.32c@@ρ+ = (∪i | 0 < i : ρ^i)
+@14.32d@@ρ* = ρ+ ∪ i.B
+@14.33@Equivalence relation@equiv.ρ ≡ refl.ρ ∧ sym.ρ ∧ trans.ρ
+@14.34@Equivalence class@x ∈ [b].ρ  ≡  x ρ b  for equivalence relation ρ
+@14.35@@(b ρ c) = ([b] ∩ [c] ≠ ∅) = ([b] = [c])
+@14.36@@Let P be the set of sets of a partition of B. The following relation ρ on B is an equivalence relation: b ρ c  ≡  (∃p | p ∈ P : b ∈ p ∧ c ∈ p)
+@14.37a@@A binary relation f on B × C is determinate iff (∀b,c,c' | b f c ∧ b f c' : c = c')
+@14.37b@@A binary relation is a function iff it is determinate.
+@14.37.1@Notation@f.b = c and b f c are interchangeable notations.
+@14.38@@A function f on B × C is total if B = Dom.f. Otherwise it is partial.
+@14.38.1@Total@A function f on B × C is total if, for an arbitrary element b: B, (∃c: C |: f.b = c)
+@14.39@Composition@For functions f and g, f ∙ g = g ∘ f.
+@14.40@@Let g: B ⟶ C and f: C ⟶ D be total functions. Then the composition f ∙ g of f and g is the total function defined by (f ∙ g).b = f(g.b)
+@14.41a@@Total function f: B ⟶ C is onto or surjective if Ran.f = C.
+@14.41b@@Total function f is one-to-one or injective if (∀b,b':B,c:C |: b f c ∧ b' f c  ≡  b = b').
+@14.41c@@Total function f is bijective if is one-to-one and onto.
+@14.42a@@Let f be a total function, and let inv.f be its relational inverse. Then inv.f is a function iff f is one-to-one.
+@14.42b@@Let f be a total function, and let inv.f be its relational inverse. Then inv.f is total iff f is onto.
+@14.43a@@Let f: B ⟶ C. A left inverse of f is a function g: C ⟶ B such that g ∙ f = i.B.
+@14.43b@@Let f: B ⟶ C. A right inverse of f is a function g: C ⟶ B such that f ∙ g = i.C.
+@14.43c@@Let f: B ⟶ C. Function g is an inverse of f if it is both a left inverse and a right inverse.
+@14.44@@Function f: B ⟶ C is onto iff f has a right inverse.
+@14.45@@Let f: B ⟶ C be total. Then f is one-to-one iff f has a left inverse.
+@14.46@@Let f: B ⟶ C be total. The following statements are equivalent.\n. (a) f is one-to-one and onto.\n  (b) There is a function g: C ⟶ B that is both a left and right inverse of f.\n  (c) f has a left inverse and f has a right inverse.
+@14.47@@A binary relation ρ on a set B is called a partial order on B if it is reflexive, antisymmetric, and transitive. In this case, pair <B, ρ> is called a partially ordered set or poset.
+@14.47.1@Incomparable@incomp(b, c)  ≡  ¬(b ⪯ c) ∧ ¬(c ⪯ b)
+@14.48@@Relation ≺ is a quasi order or strict partial order if ≺ is transitive and irreflexive.
+@14.48.1@Reflexive reduction@Given ⪯, its reflexive reduction ≺ is computed by eliminating all pairs <b,b> from ⪯.
+@14.48.2@@Let ≺ be the reflexive reduction of ⪯. Then, ¬(b ⪯ c)  ≡  c ≺ b ∨ incomp(b,c)
+@14.49a@@If ρ is a partial order over a set B, then ρ - i.B is a quasi order.
+@14.49b@@I ρ is quasi order over a set B, then ρ ∪ i.B is a partial order.
+@14.50@Total order@A partial order ⪯ over B is called a total or linear order if (∀b,c |: b ⪯ c ∨ b ⪰ c), i.e. iff ⪯ ∪ inv.⪯ = B × B.
+@14.51a@Minimal element@Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is a minimal element of S if no element of S is smaller than b, i.e. if b ∈ S ∧ (∀c | c ≺ b : c ∉ S).
+@14.51b@Least element@Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is the least element of S if b ∈ S ∧ (∀c | c ∈ S : b ⪯ c).
+@14.51c@Lower bound@Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is a lower bound of S if (∀c | c ∈ S : b ⪯ c).
+@14.51d@Greatest lower bound@Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is the greatest lower bound of S, written glb.S if b is a lower bound and if every lower bound c satisfies c ⪯ b.
+@14.52@@Every finite nonempty subset S of poset < U, ⪯ > has a minimal element.
+@14.53a@@Let B be a nonempty subset of poset < U, ⪯ >. A least element of B is also a minimal element of B (but not necessarily vice versa).
+@14.53b@@Let B be a nonempty subset of poset < U, ⪯ >. A least element of B is also a greater lower bound of B (but not necessarily vice versa).
+@14.53c@@Let B be a nonempty subset of poset < U, ⪯ >. A lower bound of B that belongs to B is also a least element of B.
+@14.54a@Maximal element@Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is a maximal element of S if no element of S is larger than b, i.e. if b ∈ S ∧ (∀c | b ≺ c : c ∉ S).
+@14.54b@Greatest element@Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is the greatest element of S if b ∈ S ∧ (∀c | c ∈ S : c ⪯ b).
+@14.54c@Upper bound@Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is an upper bound of S if (∀c | c ∈ S : c ⪯ b).
+@14.54d@Least upper bound@Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is the least upper bound of S, written lub.S if b is an upper bound and if every upper bound c satisfies b ⪯ c.
+@14.56.1@Select@σ(R, F) = {t | t ∈ R ∧ F}
+@14.56.2@Project@π(R, A 1, A 2, ..., A m) = {t | t ∈ R : <t.A 1, t.A 2, ..., t.A m>}
+@14.56.3@Natural join@For relations R1 and R2, R1 ⨝ R2 has all the attributes that R1 and R2 have, but if an attribute appears in both, then it appears only once in the result; further, only those tuples that agree on this common attribute are included.
+★@t.1@Self-dual@⊙¬p ≡ ¬⊙p
+★@t.2@⊙ : ⇒@⊙(p ⇒ q) ≡ ⊙p ⇒ ⊙q
+@t.3@Linearity@⊙p ≡ ¬⊙¬p
+@t.4@⊙ : ∨@⊙(p ∨ q) ≡ ⊙p ∨ ⊙q
+@t.5@⊙ : ∧@⊙(p ∧ q) ≡ ⊙p ∧ ⊙q
+@t.6@⊙ : ≡@⊙(p ≡ q) ≡ ⊙p ≡ ⊙q
+@t.7@Truth of ⊙@⊙true ≡ true
+@t.8@Falsehood of ⊙@⊙false ≡ false
+★@t.9@⊙ : 𝒰@⊙(p 𝒰 q) ≡ ⊙p 𝒰 ⊙q
+★@t.10@Expansion of 𝒰@p 𝒰 q ≡ q ∨ (p ∧ ⊙(p 𝒰 q))
+★@t.11@Right Zero of 𝒰@p 𝒰 false ≡ false
+★@t.12@𝒰 : ∨@p 𝒰 (q ∨ r) ≡ p 𝒰 q ∨ p 𝒰 r
+★@t.13@𝒰 : ∨@p 𝒰 r ∨ q 𝒰 r ⇒ (p ∨ q) 𝒰 r
+★@t.14@𝒰 : ∧@p 𝒰 (q ∧ r) ⇒ p 𝒰 q ∧ p 𝒰 r
+★@t.15@𝒰 : ∧@(p ∧ q) 𝒰 r ≡ p 𝒰 r ∧ q 𝒰 r
+★@t.16@𝒰 ⇒ Ordering@p 𝒰 q ∧ ¬q 𝒰 r ⇒ p 𝒰 r
+★@t.17@𝒰 ∨ Ordering@p 𝒰 (q 𝒰 r) ⇒ (p ∨ q) 𝒰 r
+★@t.18@∧ 𝒰 Ordering@p 𝒰 (q ∧ r) ⇒ (p 𝒰 q) 𝒰 r
+@t.19@𝒰 : ⇒@(p ⇒ q) 𝒰 r ⇒ (p 𝒰 r ⇒ q 𝒰 r)
+@t.20@Zero 𝒰@p 𝒰 true ≡ true
+@t.21@Id 𝒰@false 𝒰 q ≡ q
+@t.22@Idem 𝒰@p 𝒰 p ≡ p
+@t.23@𝒰 excluded middle@p 𝒰 q ∨ p 𝒰 ¬q
+@t.24@@¬p 𝒰 (q 𝒰 r) ∧ p 𝒰 r ⇒ q 𝒰 r
+@t.25@@p 𝒰 (¬q 𝒰 r) ∧ q 𝒰 r ⇒ p 𝒰 r
+@t.26@@p 𝒰 q ∧ ¬q 𝒰 p ⇒ p
+@t.27@@p ∧ ¬p 𝒰 q ⇒ q
+@t.28@𝒰 ⇒ ∨@p 𝒰 q ⇒ p ∨ q
+@t.29@𝒰 insertion@q ⇒ p 𝒰 q
+@t.30@∧ ⇒ 𝒰@p ∧ q ⇒ p 𝒰 q
+@t.31@Absorption@p ∨ p 𝒰 q ≡ p ∨ q
+@t.32@Absorption@p 𝒰 q ∨ q ≡ p 𝒰 q
+@t.33@Absorption@p 𝒰 q ∧ q ≡ q
+@t.34@Absorption@p 𝒰 q ∨ (p ∧ q) ≡ p 𝒰 q
+@t.35@Absorption@p 𝒰 q ∧ (p ∨ q) ≡ p 𝒰 q
+@t.36@L. Absorption 𝒰@p 𝒰 (p 𝒰 q) ≡ p 𝒰 q
+@t.37@R. Absorption 𝒰@(p 𝒰 q) 𝒰 q ≡ p 𝒰 q
+★@t.38@Def ⬦@⬦q ≡ true 𝒰 q
+@t.39@Absorption@p 𝒰 q ∧ ⬦q ≡ p 𝒰 q
+@t.40@Absorption@p 𝒰 q ∨ ⬦q ≡ ⬦q
+@t.41@Absorption@p 𝒰 ⬦q ≡ ⬦q
+@t.42@𝒰 ⇒ ⬦@p 𝒰 q ⇒ ⬦q
+@t.43@Truth of ⬦@⬦true ≡ true
+@t.44@Falsehood of ⬦@⬦false ≡ false
+@t.45@Expansion of ⬦@⬦p ≡ p ∨ ⊙⬦p
+@t.46@Weakening of ⬦@p ⇒ ⬦p
+@t.47@Weakening of ⬦@⊙p ⇒ ⬦p
+@t.48@Absorption@p ∨ ⬦p ≡ ⬦p
+@t.49@Absorption@⬦p ∧ p ≡ p
+@t.50@Absorption@⬦⬦p ≡ ⬦p
+@t.51@Exchange of ⊙ and ⬦@⊙⬦p ≡ ⬦⊙p
+@t.52@⬦ : ∨@⬦(p ∨ q) ≡ ⬦p ∨ ⬦q
+@t.53@⬦ : ∧@⬦(p ∧ q) ⇒ ⬦p ∧ ⬦q
+★@t.54@def ◻@◻p ≡ ¬⬦¬p
+★@t.55@𝒰 induction@◻(p ⇒ (⊙p ∧ q) ∨ r) ⇒ (p ⇒ ◻q ∨ q 𝒰 r)
+★@t.56@𝒰 induction@◻(p ⇒ ⊙(p ∨ q)) ⇒ (p ⇒ ◻p ∨ p 𝒰 q)
+@t.57@◻ induction@◻(p ⇒ ⊙p) ⇒ (p ⇒ ◻p)
+@t.58@⬦ induction@◻(⊙p ⇒ p) ⇒ (⬦p ⇒ p) 
+@t.59@@⬦p ≡ ¬◻¬p
+@t.60@dual ◻@¬◻p ≡ ⬦¬p
+@t.61@dual ⬦@¬⬦p ≡ ◻¬p
+@t.62@dual ⬦◻@¬⬦◻p ≡ ◻⬦¬p
+@t.63@dual ◻⬦@¬◻⬦p ≡ ⬦◻¬p
+@t.64@truth of ◻@◻true ≡ true
+@t.65@falsehood of ◻@◻false ≡ false
+@t.66@◻ expansion@◻p ≡ p ∧ ⊙◻p
+@t.67@◻ expansion@◻p ≡ p ∧ ⊙p ∧ ⊙◻p
+@t.68@absorption@p ∧ ◻p ≡ ◻p
+@t.69@absorption@◻p ∨ p ≡ p
+@t.70@absorption@⬦p ∧ ◻p ≡ ◻p
+@t.71@absorption@◻p ∨ ⬦p ≡ ⬦p
+@t.72@absorption@◻◻p ≡ ◻p
+@t.73@exchange of ⊙ ∧ ◻@⊙◻p ≡ ◻⊙p
+@t.74@@p ⇒ ◻p ≡ p ⇒ ⊙◻p
+@t.75@@p ∧ ⬦¬p ⇒ ⬦(p ∧ ⊙¬p)
+@t.76@◻ strengthening@◻p ⇒ p
+@t.77@◻ strengthening@◻p ⇒ ⬦p
+@t.78@◻ strengthening@◻p ⇒ ⊙p
+@t.79@◻ strengthening@◻p ⇒ ⊙◻p
+@t.80@⊙ generalization@◻p ⇒ ◻⊙p
+@t.81@@◻p ⇒ ¬(q 𝒰 ¬p)

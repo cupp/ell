@@ -1,418 +1,488 @@
 	"inductive hypothesis": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"ih",
 		"body": [
 			"inductive hypothesis"
 		]
 	},
 	"textual substitution": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"ts",
 		"body": [
 			"textual substitution"
 		]
 	},
 	"remove unnecessary parentheses": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"rup",
 		"body": [
 			"remove unnecessary parentheses"
 		]
 	},
-	"⋁": {
-		"scope":"ell",
+	"∨": {
+		"scope":"log",
 		"prefix":"or",
 		"body": [
-			"⋁ "
+			"∨ "
 		]
 	},
-	"⋀": {
-		"scope":"ell",
+	"∧": {
+		"scope":"log",
 		"prefix":"and",
 		"body": [
-			"⋀ "
+			"∧ "
 		]
 	},
 	"≡": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"equivales",
 		"body": [
 			"≡ "
 		]
 	},
 	"≢": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"nequivales",
 		"body": [
 			"≢ "
 		]
 	},
 	"≠": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"not_equal",
 		"body": [
 			"≠ "
 		]
 	},
 	"≤": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"le",
 		"body": [
 			"≤ "
 		]
 	},
 	"≥": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"ge",
 		"body": [
 			"≥ "
 		]
 	},
 	"⇒": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"implies",
 		"body": [
 			"⇒ "
 		]
 	},
 	"⇐": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"follows",
 		"body": [
 			"⇐ "
 		]
 	},
 	"⋅": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"times",
 		"body": [
 			"⋅ "
 		]
 	},
 	"÷": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"div",
 		"body": [
 			"÷ "
 		]
 	},
 	"∈": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"in",
 		"body": [
 			"∈ "
 		]
 	},
 	"∉": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"nin",
 		"body": [
 			"∉ "
 		]
 	},
 	"⊆": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"subset",
 		"body": [
 			"⊆ "
 		]
 	},
 	"⊈": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"nsubset",
 		"body": [
 			"⊈ "
 		]
 	},
 	"⊇": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"superset",
 		"body": [
 			"⊇ "
 		]
 	},
 	"⊉": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"nsuperset",
 		"body": [
 			"⊉ "
 		]
 	},
 	"⊂": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"psubset",
 		"body": [
 			"⊂ "
 		]
 	},
 	"⊄": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"npsubset",
 		"body": [
 			"⊄ "
 		]
 	},
 	"⊃": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"psuperset",
 		"body": [
 			"⊃ "
 		]
 	},
 	"⊅": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"npsuperset",
 		"body": [
 			"⊅ "
 		]
 	},
 	"∪": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"union",
 		"body": [
 			"∪ "
 		]
 	},
 	"∩": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"intersection",
 		"body": [
 			"∩ "
 		]
 	},
 	"𝒫": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"powerset",
 		"body": [
 			"𝒫"
 		]
 	},
 	"×": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"cross",
 		"body": [
 			"× "
 		]
 	},
 	"⌷": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"guard",
 		"body": [
 			"⌷ "
 		]
 	},
 	"⟶": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"then",
 		"body": [
 			"⟶ "
 		]
 	},
 	"¬": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"not",
 		"body": [
 			"¬"
 		]
 	},
 	"≔": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"gets",
 		"body": [
 			"≔"
 		]
 	},
 	"★": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"star",
 		"body": [
 			"★"
 		]
 	},
 	"∑": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"sum_sigma",
 		"body": [
 			"∑"
 		]
 	},
 	"∏": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"product_pi",
 		"body": [
 			"∏"
 		]
 	},
 	"∃": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"exists",
 		"body": [
 			"∃"
 		]
 	},
 	"∀": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"forall",
 		"body": [
 			"∀"
 		]
 	},
 	"ρ": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"rho",
 		"body": [
 			"ρ"
 		]
 	},
 	"σ": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"sigma",
 		"body": [
 			"σ"
 		]
 	},
 	"θ": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"theta",
 		"body": [
 			"θ"
 		]
 	},
 	"∅": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"empty",
 		"body": [
 			"∅"
 		]
 	},
 	"𝐔": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"universe",
 		"body": [
 			"𝐔"
 		]
 	},
 	"φ": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"phi",
 		"body": [
 			"φ"
 		]
 	},
 	"𝙱": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"rigid_b",
 		"body": [
 			"𝙱"
 		]
 	},
 	"𝚇": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"rigid_x",
 		"body": [
 			"𝚇"
 		]
 	},
 	"𝚈": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"rigid_y",
 		"body": [
 			"𝚈"
 		]
 	},
 	"𝚉": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"rigid_z",
 		"body": [
 			"𝚉"
 		]
 	},
+	"⊙": {
+		"scope":"log",
+		"prefix":"next",
+		"body": [
+			"⊙"
+		]
+	},
+	"¬⊙": {
+		"scope":"log",
+		"prefix":"nnext",
+		"body": [
+			"¬⊙"
+		]
+	},	
+	"𝒰": {
+		"scope":"log",
+		"prefix":"until",
+		"body": [
+			"𝒰 "
+		]
+	},
+	"⬦": {
+		"scope":"log",
+		"prefix":"eventually",
+		"body": [
+			"⬦"
+		]
+	},
+	"¬⬦": {
+		"scope":"log",
+		"prefix":"neventually",
+		"body": [
+			"¬⬦"
+		]
+	},
+	"◻": {
+		"scope":"log",
+		"prefix":"always",
+		"body": [
+			"◻"
+		]
+	},
+	"¬◻": {
+		"scope":"log",
+		"prefix":"nalways",
+		"body": [
+			"¬◻"
+		]
+	},
+	"𝒲": {
+		"scope":"log",
+		"prefix":"wait",
+		"body": [
+			"𝒲 "
+		]
+	},
 	"hint": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"hint",
 		"body": [
 			"=\t\t〈 $1 〉\n\t$2"
 		]
 	},
 	"hint_implies": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"hint_implies",
 		"body": [
 			"⇒\t\t〈 $1 〉\n\t$2"
 		]
 	},
 	"hint_<": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"hint_<",
 		"body": [
 			"<\t\t〈 $1 〉\n\t$2"
 		]
 	},
 	"hint_>": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"hint_>",
 		"body": [
 			">\t\t〈 $1 〉\n\t$2"
 		]
 	},
 	"hint_le": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"hint_le",
 		"body": [
 			"≤\t\t〈 $1 〉\n\t$2"
 		]
 	},
 	"hint_ge": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"hint_ge",
 		"body": [
 			"≥\t\t〈 $1 〉\n\t$2"
 		]
 	},
 	"gq": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"gq",
 		"body": [
 			"(★$1 | $2 : $3)$4"
 		]
 	},
 	"sq": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"sq",
 		"body": [
 			"(∑$1 | $2 : $3)$4"
 		]
 	},
 	"pq": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"pq",
 		"body": [
 			"(∏$1 | $2 : $3)$4"
 		]
 	},
 	"xq": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"xq",
 		"body": [
 			"(∃$1 | $2 : $3)$4"
 		]
 	},
+	"nxq": {
+		"scope":"log",
+		"prefix":"nxq",
+		"body": [
+			"¬(∃$1 | $2 : $3)$4"
+		]
+	},
 	"uq": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"uq",
 		"body": [
 			"(∀$1 | $2 : $3)$4"
 		]
 	},
+	"nuq": {
+		"scope":"log",
+		"prefix":"nuq",
+		"body": [
+			"¬(∀$1 | $2 : $3)$4"
+		]
+	},
 	"bag": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"bag",
 		"body": [
 			"⦃$1⦄"
 		]
 	},
 	"op": {
-		"scope":"ell",
+		"scope":"log",
 		"prefix":"op",
 		"body": [
 			"〈$1, $2〉$3"
