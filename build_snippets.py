@@ -13,7 +13,7 @@ for line in lines:
         out.write(f'[{name}]' + ' '*(17 - len(name)))
     else:
         out.write(f'{name:19}')
-    out.write(f'{thm}\\n"]\n')
+    out.write(f'{thm}\\n"\n')
     out.write(f'\t\t]\n')
     out.write('\t},\n')
 f.close()

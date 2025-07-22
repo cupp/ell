@@ -3,3164 +3,3311 @@
 		"scope":"log",
 		"prefix":"z3.1\tassoc ≡",
 		"body": [
-			"3.1      [assoc ≡]          ((p ≡ q) ≡ r) ≡ (p ≡ (q ≡ r))\n"]
+			"3.1      [assoc ≡]          ((p ≡ q) ≡ r) ≡ (p ≡ (q ≡ r))\n"
 		]
 	},
 	"p ≡ q ≡ q ≡ p": {
 		"scope":"log",
 		"prefix":"z3.2\tsym ≡",
 		"body": [
-			"3.2      [sym ≡]            p ≡ q ≡ q ≡ p\n"]
+			"3.2      [sym ≡]            p ≡ q ≡ q ≡ p\n"
 		]
 	},
 	"true ≡ p ≡ p": {
 		"scope":"log",
 		"prefix":"z3.3\tid ≡",
 		"body": [
-			"3.3      [id ≡]             true ≡ p ≡ p\n"]
+			"3.3      [id ≡]             true ≡ p ≡ p\n"
 		]
 	},
 	"true": {
 		"scope":"log",
 		"prefix":"z3.4\t",
 		"body": [
-			"3.4                         true\n"]
+			"3.4                         true\n"
 		]
 	},
 	"p ≡ p": {
 		"scope":"log",
 		"prefix":"z3.5\trefl ≡",
 		"body": [
-			"3.5      refl ≡             p ≡ p\n"]
+			"3.5      refl ≡             p ≡ p\n"
 		]
 	},
 	"false ≡ ¬true": {
 		"scope":"log",
 		"prefix":"z3.8\tdef false",
 		"body": [
-			"3.8      def false          false ≡ ¬true\n"]
+			"3.8      def false          false ≡ ¬true\n"
 		]
 	},
 	"¬(p ≡ q) ≡ ¬p ≡ q": {
 		"scope":"log",
 		"prefix":"z3.9\t¬ : ≡",
 		"body": [
-			"3.9      ¬ : ≡              ¬(p ≡ q) ≡ ¬p ≡ q\n"]
+			"3.9      ¬ : ≡              ¬(p ≡ q) ≡ ¬p ≡ q\n"
 		]
 	},
 	"(p ≢ q) ≡ ¬(p ≡ q)": {
 		"scope":"log",
 		"prefix":"z3.10\tDefintion of ≢",
 		"body": [
-			"3.10     Defintion of ≢     (p ≢ q) ≡ ¬(p ≡ q)\n"]
+			"3.10     Defintion of ≢     (p ≢ q) ≡ ¬(p ≡ q)\n"
 		]
 	},
 	"¬p ≡ q ≡ p ≡ ¬q": {
 		"scope":"log",
 		"prefix":"z3.11\t",
 		"body": [
-			"3.11                        ¬p ≡ q ≡ p ≡ ¬q\n"]
+			"3.11                        ¬p ≡ q ≡ p ≡ ¬q\n"
 		]
 	},
 	"¬¬p ≡ p": {
 		"scope":"log",
 		"prefix":"z3.12\tDouble negation",
 		"body": [
-			"3.12     Double negation    ¬¬p ≡ p\n"]
+			"3.12     Double negation    ¬¬p ≡ p\n"
 		]
 	},
 	"¬false ≡ true": {
 		"scope":"log",
 		"prefix":"z3.13\tNegation of false",
 		"body": [
-			"3.13     Negation of false  ¬false ≡ true\n"]
+			"3.13     Negation of false  ¬false ≡ true\n"
 		]
 	},
 	"(p ≢ q) ≡ ¬p ≡ q": {
 		"scope":"log",
 		"prefix":"z3.14\t",
 		"body": [
-			"3.14                        (p ≢ q) ≡ ¬p ≡ q\n"]
+			"3.14                        (p ≢ q) ≡ ¬p ≡ q\n"
 		]
 	},
 	"¬p ≡ p ≡ false": {
 		"scope":"log",
 		"prefix":"z3.15\t",
 		"body": [
-			"3.15                        ¬p ≡ p ≡ false\n"]
+			"3.15                        ¬p ≡ p ≡ false\n"
 		]
 	},
 	"(p ≢ q) ≡ (q ≢ p)": {
 		"scope":"log",
 		"prefix":"z3.16\tSymmetry",
 		"body": [
-			"3.16     Symmetry           (p ≢ q) ≡ (q ≢ p)\n"]
+			"3.16     Symmetry           (p ≢ q) ≡ (q ≢ p)\n"
 		]
 	},
 	"((p ≢ q) ≢ r) ≡ (p ≢ (q ≢ r))": {
 		"scope":"log",
 		"prefix":"z3.17\tAssociativity",
 		"body": [
-			"3.17     Associativity      ((p ≢ q) ≢ r) ≡ (p ≢ (q ≢ r))\n"]
+			"3.17     Associativity      ((p ≢ q) ≢ r) ≡ (p ≢ (q ≢ r))\n"
 		]
 	},
 	"((p ≢ q) ≡ r) ≡ (p ≢ (q ≡ r))": {
 		"scope":"log",
 		"prefix":"z3.18\tMutual associativity",
 		"body": [
-			"3.18     Mutual associativity((p ≢ q) ≡ r) ≡ (p ≢ (q ≡ r))\n"]
+			"3.18     Mutual associativity((p ≢ q) ≡ r) ≡ (p ≢ (q ≡ r))\n"
 		]
 	},
 	"p ≢ q ≡ r  ≡  p ≡ q ≢ r": {
 		"scope":"log",
 		"prefix":"z3.19\tMutual interchangeability",
 		"body": [
-			"3.19     Mutual interchangeabilityp ≢ q ≡ r  ≡  p ≡ q ≢ r\n"]
+			"3.19     Mutual interchangeabilityp ≢ q ≡ r  ≡  p ≡ q ≢ r\n"
 		]
 	},
 	"p ≢ p ≢ q ≡ q": {
 		"scope":"log",
 		"prefix":"z3.19.1\t",
 		"body": [
-			"3.19.1                      p ≢ p ≢ q ≡ q\n"]
+			"3.19.1                      p ≢ p ≢ q ≡ q\n"
 		]
 	},
 	"p ∨ q ≡ q ∨ p": {
 		"scope":"log",
 		"prefix":"z3.24\tSymmetry",
 		"body": [
-			"3.24     Symmetry           p ∨ q ≡ q ∨ p\n"]
+			"3.24     Symmetry           p ∨ q ≡ q ∨ p\n"
 		]
 	},
 	"(p ∨ q) ∨ r ≡ p ∨ (q ∨ r)": {
 		"scope":"log",
 		"prefix":"z3.25\tAssociativity",
 		"body": [
-			"3.25     Associativity      (p ∨ q) ∨ r ≡ p ∨ (q ∨ r)\n"]
+			"3.25     Associativity      (p ∨ q) ∨ r ≡ p ∨ (q ∨ r)\n"
 		]
 	},
 	"p ∨ p ≡ p": {
 		"scope":"log",
 		"prefix":"z3.26\tIdempotency",
 		"body": [
-			"3.26     Idempotency        p ∨ p ≡ p\n"]
+			"3.26     Idempotency        p ∨ p ≡ p\n"
 		]
 	},
 	"p ∨ (q ≡ r) ≡ p ∨ q ≡ p ∨ r": {
 		"scope":"log",
 		"prefix":"z3.27\t∨ : ≡",
 		"body": [
-			"3.27     ∨ : ≡              p ∨ (q ≡ r) ≡ p ∨ q ≡ p ∨ r\n"]
+			"3.27     ∨ : ≡              p ∨ (q ≡ r) ≡ p ∨ q ≡ p ∨ r\n"
 		]
 	},
 	"p ∨ ¬p": {
 		"scope":"log",
 		"prefix":"z3.28\tExcluded middle",
 		"body": [
-			"3.28     Excluded middle    p ∨ ¬p\n"]
+			"3.28     Excluded middle    p ∨ ¬p\n"
 		]
 	},
 	"p ∨ true ≡ true": {
 		"scope":"log",
 		"prefix":"z3.29\tZero",
 		"body": [
-			"3.29     Zero               p ∨ true ≡ true\n"]
+			"3.29     Zero               p ∨ true ≡ true\n"
 		]
 	},
 	"p ∨ false ≡ p": {
 		"scope":"log",
 		"prefix":"z3.30\tIdentity",
 		"body": [
-			"3.30     Identity           p ∨ false ≡ p\n"]
+			"3.30     Identity           p ∨ false ≡ p\n"
 		]
 	},
 	"p ∨ (q ∨ r) ≡ (p ∨ q) ∨ (p ∨ r)": {
 		"scope":"log",
 		"prefix":"z3.31\t∨ : ∨",
 		"body": [
-			"3.31     ∨ : ∨              p ∨ (q ∨ r) ≡ (p ∨ q) ∨ (p ∨ r)\n"]
+			"3.31     ∨ : ∨              p ∨ (q ∨ r) ≡ (p ∨ q) ∨ (p ∨ r)\n"
 		]
 	},
 	"p ∨ q ≡ p ∨ ¬q ≡ p": {
 		"scope":"log",
 		"prefix":"z3.32\t",
 		"body": [
-			"3.32                        p ∨ q ≡ p ∨ ¬q ≡ p\n"]
+			"3.32                        p ∨ q ≡ p ∨ ¬q ≡ p\n"
 		]
 	},
 	"p ∧ q ≡ p ≡ q ≡ p ∨ q": {
 		"scope":"log",
 		"prefix":"z3.35\tGolden rule",
 		"body": [
-			"3.35     Golden rule        p ∧ q ≡ p ≡ q ≡ p ∨ q\n"]
+			"3.35     Golden rule        p ∧ q ≡ p ≡ q ≡ p ∨ q\n"
 		]
 	},
 	"p ∧ q ≡ q ∧ p": {
 		"scope":"log",
 		"prefix":"z3.36\tSymmetry",
 		"body": [
-			"3.36     Symmetry           p ∧ q ≡ q ∧ p\n"]
+			"3.36     Symmetry           p ∧ q ≡ q ∧ p\n"
 		]
 	},
 	"(p ∧ q) ∧ r ≡ p ∧ (q ∧ r)": {
 		"scope":"log",
 		"prefix":"z3.37\tAssociativity",
 		"body": [
-			"3.37     Associativity      (p ∧ q) ∧ r ≡ p ∧ (q ∧ r)\n"]
+			"3.37     Associativity      (p ∧ q) ∧ r ≡ p ∧ (q ∧ r)\n"
 		]
 	},
 	"p ∧ p ≡ p": {
 		"scope":"log",
 		"prefix":"z3.38\tIdempotency",
 		"body": [
-			"3.38     Idempotency        p ∧ p ≡ p\n"]
+			"3.38     Idempotency        p ∧ p ≡ p\n"
 		]
 	},
 	"p ∧ true ≡ p": {
 		"scope":"log",
 		"prefix":"z3.39\tIdentity",
 		"body": [
-			"3.39     Identity           p ∧ true ≡ p\n"]
+			"3.39     Identity           p ∧ true ≡ p\n"
 		]
 	},
 	"p ∧ false ≡ false": {
 		"scope":"log",
 		"prefix":"z3.40\tZero",
 		"body": [
-			"3.40     Zero               p ∧ false ≡ false\n"]
+			"3.40     Zero               p ∧ false ≡ false\n"
 		]
 	},
 	"p ∧ (q ∧ r) ≡ (p ∧ q) ∧ (p ∧ r)": {
 		"scope":"log",
 		"prefix":"z3.41\t∧ : ∧",
 		"body": [
-			"3.41     ∧ : ∧              p ∧ (q ∧ r) ≡ (p ∧ q) ∧ (p ∧ r)\n"]
+			"3.41     ∧ : ∧              p ∧ (q ∧ r) ≡ (p ∧ q) ∧ (p ∧ r)\n"
 		]
 	},
 	"p ∧ ¬p ≡ false": {
 		"scope":"log",
 		"prefix":"z3.42\tContradiction",
 		"body": [
-			"3.42     Contradiction      p ∧ ¬p ≡ false\n"]
+			"3.42     Contradiction      p ∧ ¬p ≡ false\n"
 		]
 	},
 	"p ∧ (p ∨ q) ≡ p": {
 		"scope":"log",
 		"prefix":"z3.43a\tAbsorption",
 		"body": [
-			"3.43a    Absorption         p ∧ (p ∨ q) ≡ p\n"]
+			"3.43a    Absorption         p ∧ (p ∨ q) ≡ p\n"
 		]
 	},
 	"p ∨ (p ∧ q) ≡ p": {
 		"scope":"log",
 		"prefix":"z3.43b\tAbsorption",
 		"body": [
-			"3.43b    Absorption         p ∨ (p ∧ q) ≡ p\n"]
+			"3.43b    Absorption         p ∨ (p ∧ q) ≡ p\n"
 		]
 	},
 	"p ∧ (¬p ∨ q) ≡ p ∧ q": {
 		"scope":"log",
 		"prefix":"z3.44a\tAbsorption",
 		"body": [
-			"3.44a    Absorption         p ∧ (¬p ∨ q) ≡ p ∧ q\n"]
+			"3.44a    Absorption         p ∧ (¬p ∨ q) ≡ p ∧ q\n"
 		]
 	},
 	"p ∨ (¬p ∧ q) ≡ p ∨ q": {
 		"scope":"log",
 		"prefix":"z3.44b\tAbsorption",
 		"body": [
-			"3.44b    Absorption         p ∨ (¬p ∧ q) ≡ p ∨ q\n"]
+			"3.44b    Absorption         p ∨ (¬p ∧ q) ≡ p ∨ q\n"
 		]
 	},
 	"p ∨ (q ∧ r) ≡ (p ∨ q) ∧ (p ∨ r)": {
 		"scope":"log",
 		"prefix":"z3.45\tDistributivity",
 		"body": [
-			"3.45     Distributivity     p ∨ (q ∧ r) ≡ (p ∨ q) ∧ (p ∨ r)\n"]
+			"3.45     Distributivity     p ∨ (q ∧ r) ≡ (p ∨ q) ∧ (p ∨ r)\n"
 		]
 	},
 	"p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r)": {
 		"scope":"log",
 		"prefix":"z3.46\tDistributivity",
 		"body": [
-			"3.46     Distributivity     p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r)\n"]
+			"3.46     Distributivity     p ∧ (q ∨ r) ≡ (p ∧ q) ∨ (p ∧ r)\n"
 		]
 	},
 	"(p ∧ q) ∨ (¬p ∧ r) ∨ (q ∧ r) ≡ (p ∧ q) ∨ (¬p ∧ r)": {
 		"scope":"log",
 		"prefix":"z3.46.1\tConsensus",
 		"body": [
-			"3.46.1   Consensus          (p ∧ q) ∨ (¬p ∧ r) ∨ (q ∧ r) ≡ (p ∧ q) ∨ (¬p ∧ r)\n"]
+			"3.46.1   Consensus          (p ∧ q) ∨ (¬p ∧ r) ∨ (q ∧ r) ≡ (p ∧ q) ∨ (¬p ∧ r)\n"
 		]
 	},
 	"¬(p ∧ q) ≡ ¬p ∨ ¬q": {
 		"scope":"log",
 		"prefix":"z3.47a\tDe Morgan",
 		"body": [
-			"3.47a    De Morgan          ¬(p ∧ q) ≡ ¬p ∨ ¬q\n"]
+			"3.47a    De Morgan          ¬(p ∧ q) ≡ ¬p ∨ ¬q\n"
 		]
 	},
 	"¬(p ∨ q) ≡ ¬p ∧ ¬q": {
 		"scope":"log",
 		"prefix":"z3.47b\tDe Morgan",
 		"body": [
-			"3.47b    De Morgan          ¬(p ∨ q) ≡ ¬p ∧ ¬q\n"]
+			"3.47b    De Morgan          ¬(p ∨ q) ≡ ¬p ∧ ¬q\n"
 		]
 	},
 	"p ∧ q ≡ p ∧ ¬q ≡ ¬p": {
 		"scope":"log",
 		"prefix":"z3.48\t",
 		"body": [
-			"3.48                        p ∧ q ≡ p ∧ ¬q ≡ ¬p\n"]
+			"3.48                        p ∧ q ≡ p ∧ ¬q ≡ ¬p\n"
 		]
 	},
 	"p ∧ (q ≡ r) ≡ p ∧ q ≡ p ∧ r ≡ p": {
 		"scope":"log",
 		"prefix":"z3.49\t",
 		"body": [
-			"3.49                        p ∧ (q ≡ r) ≡ p ∧ q ≡ p ∧ r ≡ p\n"]
+			"3.49                        p ∧ (q ≡ r) ≡ p ∧ q ≡ p ∧ r ≡ p\n"
 		]
 	},
 	"p ∧ (q ≡ p) ≡ p ∧ q": {
 		"scope":"log",
 		"prefix":"z3.50\t",
 		"body": [
-			"3.50                        p ∧ (q ≡ p) ≡ p ∧ q\n"]
+			"3.50                        p ∧ (q ≡ p) ≡ p ∧ q\n"
 		]
 	},
 	"(p ≡ q) ∧ (r ≡ p) ≡ (p ≡ q ∧ r ≡ q)": {
 		"scope":"log",
 		"prefix":"z3.51\tReplacement",
 		"body": [
-			"3.51     Replacement        (p ≡ q) ∧ (r ≡ p) ≡ (p ≡ q ∧ r ≡ q)\n"]
+			"3.51     Replacement        (p ≡ q) ∧ (r ≡ p) ≡ (p ≡ q ∧ r ≡ q)\n"
 		]
 	},
 	"p ≡ q ≡ (p ∧ q) ∨ (¬p ∧ ¬q)": {
 		"scope":"log",
 		"prefix":"z3.52\tEquivalence",
 		"body": [
-			"3.52     Equivalence        p ≡ q ≡ (p ∧ q) ∨ (¬p ∧ ¬q)\n"]
+			"3.52     Equivalence        p ≡ q ≡ (p ∧ q) ∨ (¬p ∧ ¬q)\n"
 		]
 	},
 	"p ≢ q ≡ (¬p ∧ q) ∨ (p ∧ ¬q)": {
 		"scope":"log",
 		"prefix":"z3.53\txor",
 		"body": [
-			"3.53     xor                p ≢ q ≡ (¬p ∧ q) ∨ (p ∧ ¬q)\n"]
+			"3.53     xor                p ≢ q ≡ (¬p ∧ q) ∨ (p ∧ ¬q)\n"
 		]
 	},
 	"(p ∧ q) ∧ r ≡ p ≡ q ≡ r ≡ p ∨ q ≡ q ∨ r ≡ r ∨ p ≡ p ∨ q ∨ r": {
 		"scope":"log",
 		"prefix":"z3.55\t",
 		"body": [
-			"3.55                        (p ∧ q) ∧ r ≡ p ≡ q ≡ r ≡ p ∨ q ≡ q ∨ r ≡ r ∨ p ≡ p ∨ q ∨ r\n"]
+			"3.55                        (p ∧ q) ∧ r ≡ p ≡ q ≡ r ≡ p ∨ q ≡ q ∨ r ≡ r ∨ p ≡ p ∨ q ∨ r\n"
 		]
 	},
 	"p ⇒ q ≡ p ∨ q ≡ q": {
 		"scope":"log",
 		"prefix":"z3.57\tImplication",
 		"body": [
-			"3.57     Implication        p ⇒ q ≡ p ∨ q ≡ q\n"]
+			"3.57     Implication        p ⇒ q ≡ p ∨ q ≡ q\n"
 		]
 	},
 	"p ⇐ q ≡ q ⇒ p": {
 		"scope":"log",
 		"prefix":"z3.58\tConsequence",
 		"body": [
-			"3.58     Consequence        p ⇐ q ≡ q ⇒ p\n"]
+			"3.58     Consequence        p ⇐ q ≡ q ⇒ p\n"
 		]
 	},
 	"p ⇒ q ≡ ¬p ∨ q": {
 		"scope":"log",
 		"prefix":"z3.59\tImplication",
 		"body": [
-			"3.59     Implication        p ⇒ q ≡ ¬p ∨ q\n"]
+			"3.59     Implication        p ⇒ q ≡ ¬p ∨ q\n"
 		]
 	},
 	"p ⇒ q ≡ p ∧ q ≡ p": {
 		"scope":"log",
 		"prefix":"z3.60\tImplication",
 		"body": [
-			"3.60     Implication        p ⇒ q ≡ p ∧ q ≡ p\n"]
+			"3.60     Implication        p ⇒ q ≡ p ∧ q ≡ p\n"
 		]
 	},
 	"p ⇒ q ≡ ¬q ⇒ ¬p": {
 		"scope":"log",
 		"prefix":"z3.61\tContrapositive",
 		"body": [
-			"3.61     Contrapositive     p ⇒ q ≡ ¬q ⇒ ¬p\n"]
+			"3.61     Contrapositive     p ⇒ q ≡ ¬q ⇒ ¬p\n"
 		]
 	},
 	"p ⇒ (q ≡ r) ≡ p ∧ q ≡ p ∧ r": {
 		"scope":"log",
 		"prefix":"z3.62\t",
 		"body": [
-			"3.62                        p ⇒ (q ≡ r) ≡ p ∧ q ≡ p ∧ r\n"]
+			"3.62                        p ⇒ (q ≡ r) ≡ p ∧ q ≡ p ∧ r\n"
 		]
 	},
 	"p ⇒ (q ≡ r) ≡ (p ⇒ q) ≡ (p ⇒ r)": {
 		"scope":"log",
 		"prefix":"z3.63\t⇒ : ≡",
 		"body": [
-			"3.63     ⇒ : ≡              p ⇒ (q ≡ r) ≡ (p ⇒ q) ≡ (p ⇒ r)\n"]
+			"3.63     ⇒ : ≡              p ⇒ (q ≡ r) ≡ (p ⇒ q) ≡ (p ⇒ r)\n"
 		]
 	},
 	"p ⇒ q ∧ r ≡ (p ⇒ q) ∧ (p ⇒ r)": {
 		"scope":"log",
 		"prefix":"z3.63.1\t⇒ : ∧",
 		"body": [
-			"3.63.1   ⇒ : ∧              p ⇒ q ∧ r ≡ (p ⇒ q) ∧ (p ⇒ r)\n"]
+			"3.63.1   ⇒ : ∧              p ⇒ q ∧ r ≡ (p ⇒ q) ∧ (p ⇒ r)\n"
 		]
 	},
 	"p ⇒ q ∨ r ≡ (p ⇒ q) ∨ (p ⇒ r)": {
 		"scope":"log",
 		"prefix":"z3.63.2\t⇒ : ∨",
 		"body": [
-			"3.63.2   ⇒ : ∨              p ⇒ q ∨ r ≡ (p ⇒ q) ∨ (p ⇒ r)\n"]
+			"3.63.2   ⇒ : ∨              p ⇒ q ∨ r ≡ (p ⇒ q) ∨ (p ⇒ r)\n"
 		]
 	},
 	"p ⇒ (q ⇒ r) ≡ (p ⇒ q) ⇒ (p ⇒ r)": {
 		"scope":"log",
 		"prefix":"z3.64\t",
 		"body": [
-			"3.64                        p ⇒ (q ⇒ r) ≡ (p ⇒ q) ⇒ (p ⇒ r)\n"]
+			"3.64                        p ⇒ (q ⇒ r) ≡ (p ⇒ q) ⇒ (p ⇒ r)\n"
 		]
 	},
 	"p ∧ q ⇒ r ≡ p ⇒ (q ⇒ r)": {
 		"scope":"log",
 		"prefix":"z3.65\tShunting",
 		"body": [
-			"3.65     Shunting           p ∧ q ⇒ r ≡ p ⇒ (q ⇒ r)\n"]
+			"3.65     Shunting           p ∧ q ⇒ r ≡ p ⇒ (q ⇒ r)\n"
 		]
 	},
 	"p ∧ (p ⇒ q) ≡ p ∧ q": {
 		"scope":"log",
 		"prefix":"z3.66\t",
 		"body": [
-			"3.66                        p ∧ (p ⇒ q) ≡ p ∧ q\n"]
+			"3.66                        p ∧ (p ⇒ q) ≡ p ∧ q\n"
 		]
 	},
 	"p ∧ (q ⇒ p) ≡ p": {
 		"scope":"log",
 		"prefix":"z3.67\t",
 		"body": [
-			"3.67                        p ∧ (q ⇒ p) ≡ p\n"]
+			"3.67                        p ∧ (q ⇒ p) ≡ p\n"
 		]
 	},
 	"p ∨ (p ⇒ q) ≡ true": {
 		"scope":"log",
 		"prefix":"z3.68\t",
 		"body": [
-			"3.68                        p ∨ (p ⇒ q) ≡ true\n"]
+			"3.68                        p ∨ (p ⇒ q) ≡ true\n"
 		]
 	},
 	"p ∨ (q ⇒ p) ≡ q ⇒ p": {
 		"scope":"log",
 		"prefix":"z3.69\t",
 		"body": [
-			"3.69                        p ∨ (q ⇒ p) ≡ q ⇒ p\n"]
+			"3.69                        p ∨ (q ⇒ p) ≡ q ⇒ p\n"
 		]
 	},
 	"p ∨ q ⇒ p ∧ q ≡ p ≡ q": {
 		"scope":"log",
 		"prefix":"z3.70\t",
 		"body": [
-			"3.70                        p ∨ q ⇒ p ∧ q ≡ p ≡ q\n"]
+			"3.70                        p ∨ q ⇒ p ∧ q ≡ p ≡ q\n"
 		]
 	},
 	"p ⇒ p": {
 		"scope":"log",
 		"prefix":"z3.71\tReflexivity",
 		"body": [
-			"3.71     Reflexivity        p ⇒ p\n"]
+			"3.71     Reflexivity        p ⇒ p\n"
 		]
 	},
 	"p ⇒ true ≡ true": {
 		"scope":"log",
 		"prefix":"z3.72\tZero",
 		"body": [
-			"3.72     Zero               p ⇒ true ≡ true\n"]
+			"3.72     Zero               p ⇒ true ≡ true\n"
 		]
 	},
 	"true ⇒ p ≡ p": {
 		"scope":"log",
 		"prefix":"z3.73\tIdentity",
 		"body": [
-			"3.73     Identity           true ⇒ p ≡ p\n"]
+			"3.73     Identity           true ⇒ p ≡ p\n"
 		]
 	},
 	"p ⇒ false ≡ ¬p": {
 		"scope":"log",
 		"prefix":"z3.74\t",
 		"body": [
-			"3.74                        p ⇒ false ≡ ¬p\n"]
+			"3.74                        p ⇒ false ≡ ¬p\n"
 		]
 	},
 	"¬p ⇒ false ≡ p": {
 		"scope":"log",
 		"prefix":"z3.74.1\t",
 		"body": [
-			"3.74.1                      ¬p ⇒ false ≡ p\n"]
+			"3.74.1                      ¬p ⇒ false ≡ p\n"
 		]
 	},
 	"false ⇒ p ≡ true": {
 		"scope":"log",
 		"prefix":"z3.75\t",
 		"body": [
-			"3.75                        false ⇒ p ≡ true\n"]
+			"3.75                        false ⇒ p ≡ true\n"
 		]
 	},
 	"p ⇒ p ∨ q": {
 		"scope":"log",
 		"prefix":"z3.76a\tWeakening",
 		"body": [
-			"3.76a    Weakening          p ⇒ p ∨ q\n"]
+			"3.76a    Weakening          p ⇒ p ∨ q\n"
 		]
 	},
 	"p ∧ q ⇒ p": {
 		"scope":"log",
 		"prefix":"z3.76b\tStrengthening",
 		"body": [
-			"3.76b    Strengthening      p ∧ q ⇒ p\n"]
+			"3.76b    Strengthening      p ∧ q ⇒ p\n"
 		]
 	},
 	"p ∧ q ⇒ p ∨ q": {
 		"scope":"log",
 		"prefix":"z3.76c\tWeakening/strengthening",
 		"body": [
-			"3.76c    Weakening/strengtheningp ∧ q ⇒ p ∨ q\n"]
+			"3.76c    Weakening/strengtheningp ∧ q ⇒ p ∨ q\n"
 		]
 	},
 	"p ∨ (q ∧ r) ⇒ p ∨ q": {
 		"scope":"log",
 		"prefix":"z3.76d\tWeakening/strengthening",
 		"body": [
-			"3.76d    Weakening/strengtheningp ∨ (q ∧ r) ⇒ p ∨ q\n"]
+			"3.76d    Weakening/strengtheningp ∨ (q ∧ r) ⇒ p ∨ q\n"
 		]
 	},
 	"p ∧ q ⇒ p ∧ (q ∨ r)": {
 		"scope":"log",
 		"prefix":"z3.76e\tWeakening/strengthening",
 		"body": [
-			"3.76e    Weakening/strengtheningp ∧ q ⇒ p ∧ (q ∨ r)\n"]
+			"3.76e    Weakening/strengtheningp ∧ q ⇒ p ∧ (q ∨ r)\n"
 		]
 	},
 	"p ∧ (p ⇒ q) ⇒ q": {
 		"scope":"log",
 		"prefix":"z3.77\tModus ponens",
 		"body": [
-			"3.77     Modus ponens       p ∧ (p ⇒ q) ⇒ q\n"]
+			"3.77     Modus ponens       p ∧ (p ⇒ q) ⇒ q\n"
 		]
 	},
 	"(p ⇒ r) ∧ (q ⇒ r) ≡ (p ∨ q ⇒ r)": {
 		"scope":"log",
 		"prefix":"z3.78\t",
 		"body": [
-			"3.78                        (p ⇒ r) ∧ (q ⇒ r) ≡ (p ∨ q ⇒ r)\n"]
+			"3.78                        (p ⇒ r) ∧ (q ⇒ r) ≡ (p ∨ q ⇒ r)\n"
 		]
 	},
 	"(p ⇒ r) ∧ (¬p ⇒ r) ≡ r": {
 		"scope":"log",
 		"prefix":"z3.79\t",
 		"body": [
-			"3.79                        (p ⇒ r) ∧ (¬p ⇒ r) ≡ r\n"]
+			"3.79                        (p ⇒ r) ∧ (¬p ⇒ r) ≡ r\n"
 		]
 	},
 	"(p ⇒ q) ∧ (q ⇒ p) ≡ (p ≡ q)": {
 		"scope":"log",
 		"prefix":"z3.80\tMutual implication",
 		"body": [
-			"3.80     Mutual implication (p ⇒ q) ∧ (q ⇒ p) ≡ (p ≡ q)\n"]
+			"3.80     Mutual implication (p ⇒ q) ∧ (q ⇒ p) ≡ (p ≡ q)\n"
 		]
 	},
 	"(p ⇒ q) ∧ (q ⇒ p) ⇒ (p ≡ q)": {
 		"scope":"log",
 		"prefix":"z3.81\tAntisymmetry",
 		"body": [
-			"3.81     Antisymmetry       (p ⇒ q) ∧ (q ⇒ p) ⇒ (p ≡ q)\n"]
+			"3.81     Antisymmetry       (p ⇒ q) ∧ (q ⇒ p) ⇒ (p ≡ q)\n"
 		]
 	},
 	"(p ⇒ q) ∧ (q ⇒ r) ⇒ (p ⇒ r)": {
 		"scope":"log",
 		"prefix":"z3.82a\tTransitivity",
 		"body": [
-			"3.82a    Transitivity       (p ⇒ q) ∧ (q ⇒ r) ⇒ (p ⇒ r)\n"]
+			"3.82a    Transitivity       (p ⇒ q) ∧ (q ⇒ r) ⇒ (p ⇒ r)\n"
 		]
 	},
 	"(p ≡ q) ∧ (q ⇒ r) ⇒ (p ⇒ r)": {
 		"scope":"log",
 		"prefix":"z3.82b\tTransitivity",
 		"body": [
-			"3.82b    Transitivity       (p ≡ q) ∧ (q ⇒ r) ⇒ (p ⇒ r)\n"]
+			"3.82b    Transitivity       (p ≡ q) ∧ (q ⇒ r) ⇒ (p ⇒ r)\n"
 		]
 	},
 	"(p ⇒ q) ∧ (q ≡ r) ⇒ (p ⇒ r)": {
 		"scope":"log",
 		"prefix":"z3.82c\tTransitivity",
 		"body": [
-			"3.82c    Transitivity       (p ⇒ q) ∧ (q ≡ r) ⇒ (p ⇒ r)\n"]
+			"3.82c    Transitivity       (p ⇒ q) ∧ (q ≡ r) ⇒ (p ⇒ r)\n"
 		]
 	},
 	"(p ≡ q) ∧ (q ≡ r) ⇒ (p ≡ r)": {
 		"scope":"log",
 		"prefix":"z3.82.1\tTransitivity",
 		"body": [
-			"3.82.1   Transitivity       (p ≡ q) ∧ (q ≡ r) ⇒ (p ≡ r)\n"]
+			"3.82.1   Transitivity       (p ≡ q) ∧ (q ≡ r) ⇒ (p ≡ r)\n"
 		]
 	},
 	"(p ≡ q) ⇒ (p ⇒ q)": {
 		"scope":"log",
 		"prefix":"z3.82.2\t",
 		"body": [
-			"3.82.2                      (p ≡ q) ⇒ (p ⇒ q)\n"]
+			"3.82.2                      (p ≡ q) ⇒ (p ⇒ q)\n"
 		]
 	},
 	"e = f ⇒ E[z ≔ e] = E[z ≔ f]": {
 		"scope":"log",
 		"prefix":"z3.83\tLeibniz",
 		"body": [
-			"3.83     Leibniz            e = f ⇒ E[z ≔ e] = E[z ≔ f]\n"]
+			"3.83     Leibniz            e = f ⇒ E[z ≔ e] = E[z ≔ f]\n"
 		]
 	},
 	"(e = f) ∧ E[z ≔ e] ≡ (e = f) ∧ E[z ≔ f]": {
 		"scope":"log",
 		"prefix":"z3.84a\tSubstitution",
 		"body": [
-			"3.84a    Substitution       (e = f) ∧ E[z ≔ e] ≡ (e = f) ∧ E[z ≔ f]\n"]
+			"3.84a    Substitution       (e = f) ∧ E[z ≔ e] ≡ (e = f) ∧ E[z ≔ f]\n"
 		]
 	},
 	"(e = f) ⇒ E[z ≔ e] ≡ (e = f) ⇒ E[z ≔ f]": {
 		"scope":"log",
 		"prefix":"z3.84b\tSubstitution",
 		"body": [
-			"3.84b    Substitution       (e = f) ⇒ E[z ≔ e] ≡ (e = f) ⇒ E[z ≔ f]\n"]
+			"3.84b    Substitution       (e = f) ⇒ E[z ≔ e] ≡ (e = f) ⇒ E[z ≔ f]\n"
 		]
 	},
 	"q ∧ (e = f) ⇒ E[z ≔ e] ≡ q ∧ (e = f) ⇒ E[z ≔ f]": {
 		"scope":"log",
 		"prefix":"z3.84c\tSubstitution",
 		"body": [
-			"3.84c    Substitution       q ∧ (e = f) ⇒ E[z ≔ e] ≡ q ∧ (e = f) ⇒ E[z ≔ f]\n"]
+			"3.84c    Substitution       q ∧ (e = f) ⇒ E[z ≔ e] ≡ q ∧ (e = f) ⇒ E[z ≔ f]\n"
 		]
 	},
 	"p ⇒ E[z ≔ p] ≡ p ⇒ E[z ≔ true]": {
 		"scope":"log",
 		"prefix":"z3.85a\tReplace by true",
 		"body": [
-			"3.85a    Replace by true    p ⇒ E[z ≔ p] ≡ p ⇒ E[z ≔ true]\n"]
+			"3.85a    Replace by true    p ⇒ E[z ≔ p] ≡ p ⇒ E[z ≔ true]\n"
 		]
 	},
 	"q ∧ p ⇒ E[z ≔ p] ≡ q ∧ p ⇒ E[z ≔ true]": {
 		"scope":"log",
 		"prefix":"z3.85b\tReplace by true",
 		"body": [
-			"3.85b    Replace by true    q ∧ p ⇒ E[z ≔ p] ≡ q ∧ p ⇒ E[z ≔ true]\n"]
+			"3.85b    Replace by true    q ∧ p ⇒ E[z ≔ p] ≡ q ∧ p ⇒ E[z ≔ true]\n"
 		]
 	},
 	"E[z ≔ p] ⇒ p ≡ E[z ≔ false] ⇒ p": {
 		"scope":"log",
 		"prefix":"z3.86a\tReplace by false",
 		"body": [
-			"3.86a    Replace by false   E[z ≔ p] ⇒ p ≡ E[z ≔ false] ⇒ p\n"]
+			"3.86a    Replace by false   E[z ≔ p] ⇒ p ≡ E[z ≔ false] ⇒ p\n"
 		]
 	},
 	"E[z ≔ p] ⇒ p ∨ q ≡ E[z ≔ false] ⇒ p ∨ q": {
 		"scope":"log",
 		"prefix":"z3.86b\tReplace by false",
 		"body": [
-			"3.86b    Replace by false   E[z ≔ p] ⇒ p ∨ q ≡ E[z ≔ false] ⇒ p ∨ q\n"]
+			"3.86b    Replace by false   E[z ≔ p] ⇒ p ∨ q ≡ E[z ≔ false] ⇒ p ∨ q\n"
 		]
 	},
 	"p ∧ E[z ≔ p] ≡ p ∧ E[z ≔ true]": {
 		"scope":"log",
 		"prefix":"z3.87\tReplace by true",
 		"body": [
-			"3.87     Replace by true    p ∧ E[z ≔ p] ≡ p ∧ E[z ≔ true]\n"]
+			"3.87     Replace by true    p ∧ E[z ≔ p] ≡ p ∧ E[z ≔ true]\n"
 		]
 	},
 	"p ∨ E[z ≔ p] ≡ p ∨ E[z ≔ false]": {
 		"scope":"log",
 		"prefix":"z3.88\tReplace by false",
 		"body": [
-			"3.88     Replace by false   p ∨ E[z ≔ p] ≡ p ∨ E[z ≔ false]\n"]
+			"3.88     Replace by false   p ∨ E[z ≔ p] ≡ p ∨ E[z ≔ false]\n"
 		]
 	},
 	"E[z ≔ p] ≡ (p ∧ E[z ≔ true]) ∨ (¬p ∧ E[z ≔ false])": {
 		"scope":"log",
 		"prefix":"z3.89\tShannon",
 		"body": [
-			"3.89     Shannon            E[z ≔ p] ≡ (p ∧ E[z ≔ true]) ∨ (¬p ∧ E[z ≔ false])\n"]
+			"3.89     Shannon            E[z ≔ p] ≡ (p ∧ E[z ≔ true]) ∨ (¬p ∧ E[z ≔ false])\n"
 		]
 	},
 	"E[z ≔ true] ∧ E[z ≔ false] ⇒ E[z ≔ p]": {
 		"scope":"log",
 		"prefix":"z3.89.1\t",
 		"body": [
-			"3.89.1                      E[z ≔ true] ∧ E[z ≔ false] ⇒ E[z ≔ p]\n"]
+			"3.89.1                      E[z ≔ true] ∧ E[z ≔ false] ⇒ E[z ≔ p]\n"
 		]
 	},
 	"p ⇒ (q ⇒ p)": {
 		"scope":"log",
 		"prefix":"z4.1\t",
 		"body": [
-			"4.1                         p ⇒ (q ⇒ p)\n"]
+			"4.1                         p ⇒ (q ⇒ p)\n"
 		]
 	},
 	"(p ⇒ q) ⇒ (p ∨ r ⇒ q ∨ r)": {
 		"scope":"log",
 		"prefix":"z4.2\tMonotonicity",
 		"body": [
-			"4.2      Monotonicity       (p ⇒ q) ⇒ (p ∨ r ⇒ q ∨ r)\n"]
+			"4.2      Monotonicity       (p ⇒ q) ⇒ (p ∨ r ⇒ q ∨ r)\n"
 		]
 	},
 	"(p ⇒ q) ⇒ (p ∧ r ⇒ q ∧ r)": {
 		"scope":"log",
 		"prefix":"z4.3\tMonotonicity",
 		"body": [
-			"4.3      Monotonicity       (p ⇒ q) ⇒ (p ∧ r ⇒ q ∧ r)\n"]
+			"4.3      Monotonicity       (p ⇒ q) ⇒ (p ∧ r ⇒ q ∧ r)\n"
 		]
 	},
 	"(★x ❘ false : P) = u": {
 		"scope":"log",
 		"prefix":"z8.13\tEmpty range",
 		"body": [
-			"8.13     Empty range        (★x ❘ false : P) = u\n"]
+			"8.13     Empty range        (★x ❘ false : P) = u\n"
 		]
 	},
 	"(★x ❘ x = E : P) = P[x ≔ E]": {
 		"scope":"log",
 		"prefix":"z8.14\tOne-point rule",
 		"body": [
-			"8.14     One-point rule     (★x ❘ x = E : P) = P[x ≔ E]\n"]
+			"8.14     One-point rule     (★x ❘ x = E : P) = P[x ≔ E]\n"
 		]
 	},
 	"(★x ❘ R : P) ★ (★x ❘ R: Q) = (★x ❘ R : P ★ Q)": {
 		"scope":"log",
 		"prefix":"z8.15\t★ : ★x",
 		"body": [
-			"8.15     ★ : ★x             (★x ❘ R : P) ★ (★x ❘ R: Q) = (★x ❘ R : P ★ Q)\n"]
+			"8.15     ★ : ★x             (★x ❘ R : P) ★ (★x ❘ R: Q) = (★x ❘ R : P ★ Q)\n"
 		]
 	},
 	"(★x ❘ R ∨ S : P) ★ (★x ❘ R ∧ S : P) = (★x ❘ R : P) ★ (★x ❘ S : P)": {
 		"scope":"log",
 		"prefix":"z8.17\tRange split",
 		"body": [
-			"8.17     Range split        (★x ❘ R ∨ S : P) ★ (★x ❘ R ∧ S : P) = (★x ❘ R : P) ★ (★x ❘ S : P)\n"]
+			"8.17     Range split        (★x ❘ R ∨ S : P) ★ (★x ❘ R ∧ S : P) = (★x ❘ R : P) ★ (★x ❘ S : P)\n"
 		]
 	},
 	"(★x ❘ R ∨ S : P) = (★x ❘ R : P) ★ (★x ❘ S : P)": {
 		"scope":"log",
 		"prefix":"z8.18\tRange split for idempotent ★",
 		"body": [
-			"8.18     Range split for idempotent ★(★x ❘ R ∨ S : P) = (★x ❘ R : P) ★ (★x ❘ S : P)\n"]
+			"8.18     Range split for idempotent ★(★x ❘ R ∨ S : P) = (★x ❘ R : P) ★ (★x ❘ S : P)\n"
 		]
 	},
 	"(★x ❘ R : (★y ❘ Q : P)) = (★y ❘ Q : (★x ❘ R : P))": {
 		"scope":"log",
 		"prefix":"z8.19\tInterchange of dummies",
 		"body": [
-			"8.19     Interchange of dummies(★x ❘ R : (★y ❘ Q : P)) = (★y ❘ Q : (★x ❘ R : P))\n"]
+			"8.19     Interchange of dummies(★x ❘ R : (★y ❘ Q : P)) = (★y ❘ Q : (★x ❘ R : P))\n"
 		]
 	},
 	"(★x,y ❘ R ∧ Q : P) = (★x ❘ R : (★y ❘ Q : P))": {
 		"scope":"log",
 		"prefix":"z8.20\tNesting",
 		"body": [
-			"8.20     Nesting            (★x,y ❘ R ∧ Q : P) = (★x ❘ R : (★y ❘ Q : P))\n"]
+			"8.20     Nesting            (★x,y ❘ R ∧ Q : P) = (★x ❘ R : (★y ❘ Q : P))\n"
 		]
 	},
 	"(★x ❘ R : P) = (★y ❘ R[x ≔ y] : P[x ≔ y])": {
 		"scope":"log",
 		"prefix":"z8.21\tDummy renaming",
 		"body": [
-			"8.21     Dummy renaming     (★x ❘ R : P) = (★y ❘ R[x ≔ y] : P[x ≔ y])\n"]
+			"8.21     Dummy renaming     (★x ❘ R : P) = (★y ❘ R[x ≔ y] : P[x ≔ y])\n"
 		]
 	},
 	"(★x ❘ R : P) = (★y ❘ R[x ≔ f.y]: P[x ≔ f.y])": {
 		"scope":"log",
 		"prefix":"z8.22\tChange of dummy",
 		"body": [
-			"8.22     Change of dummy    (★x ❘ R : P) = (★y ❘ R[x ≔ f.y]: P[x ≔ f.y])\n"]
+			"8.22     Change of dummy    (★x ❘ R : P) = (★y ❘ R[x ≔ f.y]: P[x ≔ f.y])\n"
 		]
 	},
 	"(★i ❘ 0 ≤ i < n + 1 : P) = (★i ❘ 0 ≤ i < n : P) ★ P[i ≔ n]": {
 		"scope":"log",
 		"prefix":"z8.23a\tSplit off term",
 		"body": [
-			"8.23a    Split off term     (★i ❘ 0 ≤ i < n + 1 : P) = (★i ❘ 0 ≤ i < n : P) ★ P[i ≔ n]\n"]
+			"8.23a    Split off term     (★i ❘ 0 ≤ i < n + 1 : P) = (★i ❘ 0 ≤ i < n : P) ★ P[i ≔ n]\n"
 		]
 	},
 	"(★i ❘ 0 ≤ i < n + 1 : P) = P[i ≔ 0] ★ (★i ❘ 0 < i < n + 1 : P)": {
 		"scope":"log",
 		"prefix":"z8.23b\tSplit off term",
 		"body": [
-			"8.23b    Split off term     (★i ❘ 0 ≤ i < n + 1 : P) = P[i ≔ 0] ★ (★i ❘ 0 < i < n + 1 : P)\n"]
+			"8.23b    Split off term     (★i ❘ 0 ≤ i < n + 1 : P) = P[i ≔ 0] ★ (★i ❘ 0 < i < n + 1 : P)\n"
 		]
 	},
 	"(∀x ❘ R : P) ≡ (∀x ❘ : R ⇒ P)": {
 		"scope":"log",
 		"prefix":"z9.2\tTrading",
 		"body": [
-			"9.2      Trading            (∀x ❘ R : P) ≡ (∀x ❘ : R ⇒ P)\n"]
+			"9.2      Trading            (∀x ❘ R : P) ≡ (∀x ❘ : R ⇒ P)\n"
 		]
 	},
 	"(∀x ❘ R : P) ≡ (∀x ❘ : ¬R ∨ P)": {
 		"scope":"log",
 		"prefix":"z9.3a\tTrading",
 		"body": [
-			"9.3a     Trading            (∀x ❘ R : P) ≡ (∀x ❘ : ¬R ∨ P)\n"]
+			"9.3a     Trading            (∀x ❘ R : P) ≡ (∀x ❘ : ¬R ∨ P)\n"
 		]
 	},
 	"(∀x ❘ R : P) ≡ (∀x ❘ : R ∧ P ≡ R)": {
 		"scope":"log",
 		"prefix":"z9.3b\tTrading",
 		"body": [
-			"9.3b     Trading            (∀x ❘ R : P) ≡ (∀x ❘ : R ∧ P ≡ R)\n"]
+			"9.3b     Trading            (∀x ❘ R : P) ≡ (∀x ❘ : R ∧ P ≡ R)\n"
 		]
 	},
 	"(∀x ❘ R : P) ≡ (∀x ❘ : R ∨ P ≡ P)": {
 		"scope":"log",
 		"prefix":"z9.3c\tTrading",
 		"body": [
-			"9.3c     Trading            (∀x ❘ R : P) ≡ (∀x ❘ : R ∨ P ≡ P)\n"]
+			"9.3c     Trading            (∀x ❘ R : P) ≡ (∀x ❘ : R ∨ P ≡ P)\n"
 		]
 	},
 	"(∀x ❘ Q ∧ R : P) ≡ (∀x ❘ Q : R ⇒ P)": {
 		"scope":"log",
 		"prefix":"z9.4a\tTrading",
 		"body": [
-			"9.4a     Trading            (∀x ❘ Q ∧ R : P) ≡ (∀x ❘ Q : R ⇒ P)\n"]
+			"9.4a     Trading            (∀x ❘ Q ∧ R : P) ≡ (∀x ❘ Q : R ⇒ P)\n"
 		]
 	},
 	"(∀x ❘ Q ∧ R : P) ≡ (∀x ❘ Q : ¬R ∨ P)": {
 		"scope":"log",
 		"prefix":"z9.4b\tTrading",
 		"body": [
-			"9.4b     Trading            (∀x ❘ Q ∧ R : P) ≡ (∀x ❘ Q : ¬R ∨ P)\n"]
+			"9.4b     Trading            (∀x ❘ Q ∧ R : P) ≡ (∀x ❘ Q : ¬R ∨ P)\n"
 		]
 	},
 	"(∀x ❘ Q ∧ R : P) ≡ (∀x ❘ Q : R ∧ P ≡ R)": {
 		"scope":"log",
 		"prefix":"z9.4c\tTrading",
 		"body": [
-			"9.4c     Trading            (∀x ❘ Q ∧ R : P) ≡ (∀x ❘ Q : R ∧ P ≡ R)\n"]
+			"9.4c     Trading            (∀x ❘ Q ∧ R : P) ≡ (∀x ❘ Q : R ∧ P ≡ R)\n"
 		]
 	},
 	"(∀x ❘ Q ∧ R : P) ≡ (∀x ❘ Q : R ∨ P ≡ P)": {
 		"scope":"log",
 		"prefix":"z9.4d\tTrading",
 		"body": [
-			"9.4d     Trading            (∀x ❘ Q ∧ R : P) ≡ (∀x ❘ Q : R ∨ P ≡ P)\n"]
+			"9.4d     Trading            (∀x ❘ Q ∧ R : P) ≡ (∀x ❘ Q : R ∨ P ≡ P)\n"
 		]
 	},
 	"(∀x ❘ R : P) ≡ (∀x ❘ ¬P : ¬R)": {
 		"scope":"log",
 		"prefix":"z9.4.1\tUniversal double trading",
 		"body": [
-			"9.4.1    Universal double trading(∀x ❘ R : P) ≡ (∀x ❘ ¬P : ¬R)\n"]
+			"9.4.1    Universal double trading(∀x ❘ R : P) ≡ (∀x ❘ ¬P : ¬R)\n"
 		]
 	},
 	"P ∨ (∀x ❘ R : Q ) ≡ (∀x ❘ R : P ∨ Q)": {
 		"scope":"log",
 		"prefix":"z9.5\t∨ : ∀x",
 		"body": [
-			"9.5      ∨ : ∀x             P ∨ (∀x ❘ R : Q ) ≡ (∀x ❘ R : P ∨ Q)\n"]
+			"9.5      ∨ : ∀x             P ∨ (∀x ❘ R : Q ) ≡ (∀x ❘ R : P ∨ Q)\n"
 		]
 	},
 	"(∀x ❘ R : P) ≡ P ∨ (∀x ❘ : ¬R)": {
 		"scope":"log",
 		"prefix":"z9.6\t",
 		"body": [
-			"9.6                         (∀x ❘ R : P) ≡ P ∨ (∀x ❘ : ¬R)\n"]
+			"9.6                         (∀x ❘ R : P) ≡ P ∨ (∀x ❘ : ¬R)\n"
 		]
 	},
 	"¬(∀x ❘ : ¬R) ⇒ ((∀x ❘ R : P ∧ Q) ≡ P ∧ (∀x ❘ R : Q))": {
 		"scope":"log",
 		"prefix":"z9.7\t∧ : ∀x",
 		"body": [
-			"9.7      ∧ : ∀x             ¬(∀x ❘ : ¬R) ⇒ ((∀x ❘ R : P ∧ Q) ≡ P ∧ (∀x ❘ R : Q))\n"]
+			"9.7      ∧ : ∀x             ¬(∀x ❘ : ¬R) ⇒ ((∀x ❘ R : P ∧ Q) ≡ P ∧ (∀x ❘ R : Q))\n"
 		]
 	},
 	"(∀x ❘ R : true) ≡ true": {
 		"scope":"log",
 		"prefix":"z9.8\t",
 		"body": [
-			"9.8                         (∀x ❘ R : true) ≡ true\n"]
+			"9.8                         (∀x ❘ R : true) ≡ true\n"
 		]
 	},
 	"(∀x ❘ R : P ≡ Q) ⇒ ((∀x ❘ R : P) ≡ (∀x ❘ R : Q))": {
 		"scope":"log",
 		"prefix":"z9.9\t",
 		"body": [
-			"9.9                         (∀x ❘ R : P ≡ Q) ⇒ ((∀x ❘ R : P) ≡ (∀x ❘ R : Q))\n"]
+			"9.9                         (∀x ❘ R : P ≡ Q) ⇒ ((∀x ❘ R : P) ≡ (∀x ❘ R : Q))\n"
 		]
 	},
 	"(∀x ❘ Q ∨ R : P) ⇒ (∀x ❘ Q : P)": {
 		"scope":"log",
 		"prefix":"z9.10\tRange weakening/strengthening",
 		"body": [
-			"9.10     Range weakening/strengthening(∀x ❘ Q ∨ R : P) ⇒ (∀x ❘ Q : P)\n"]
+			"9.10     Range weakening/strengthening(∀x ❘ Q ∨ R : P) ⇒ (∀x ❘ Q : P)\n"
 		]
 	},
 	"(∀x ❘ R : P ∧ Q) ⇒ (∀x ❘ R : P)": {
 		"scope":"log",
 		"prefix":"z9.11\tBody weakening/strengthening",
 		"body": [
-			"9.11     Body weakening/strengthening(∀x ❘ R : P ∧ Q) ⇒ (∀x ❘ R : P)\n"]
+			"9.11     Body weakening/strengthening(∀x ❘ R : P ∧ Q) ⇒ (∀x ❘ R : P)\n"
 		]
 	},
 	"(∀x ❘ R : Q ⇒ P) ⇒ ((∀x ❘ R : Q) ⇒ (∀x ❘ R : P))": {
 		"scope":"log",
 		"prefix":"z9.12\tMonotonicity",
 		"body": [
-			"9.12     Monotonicity       (∀x ❘ R : Q ⇒ P) ⇒ ((∀x ❘ R : Q) ⇒ (∀x ❘ R : P))\n"]
+			"9.12     Monotonicity       (∀x ❘ R : Q ⇒ P) ⇒ ((∀x ❘ R : Q) ⇒ (∀x ❘ R : P))\n"
 		]
 	},
 	"(∀x ❘ : P) ⇒ P[x ≔ E]": {
 		"scope":"log",
 		"prefix":"z9.13\tInstantiation",
 		"body": [
-			"9.13     Instantiation      (∀x ❘ : P) ⇒ P[x ≔ E]\n"]
+			"9.13     Instantiation      (∀x ❘ : P) ⇒ P[x ≔ E]\n"
 		]
 	},
 	"P is a theorem iff (∀x ❘ : P) is a theorem": {
 		"scope":"log",
 		"prefix":"z9.16\tMetatheorem",
 		"body": [
-			"9.16     Metatheorem        P is a theorem iff (∀x ❘ : P) is a theorem\n"]
+			"9.16     Metatheorem        P is a theorem iff (∀x ❘ : P) is a theorem\n"
 		]
 	},
 	"(∃x ❘ R : P) ⇒ ¬(∀x ❘ R : ¬P)": {
 		"scope":"log",
 		"prefix":"z9.17\tGeneralized De Morgan",
 		"body": [
-			"9.17     Generalized De Morgan(∃x ❘ R : P) ⇒ ¬(∀x ❘ R : ¬P)\n"]
+			"9.17     Generalized De Morgan(∃x ❘ R : P) ⇒ ¬(∀x ❘ R : ¬P)\n"
 		]
 	},
 	"¬(∃x ❘ R : ¬P) ≡ (∀x ❘ R : P)": {
 		"scope":"log",
 		"prefix":"z9.18a\tGeneralized De Morgan",
 		"body": [
-			"9.18a    Generalized De Morgan¬(∃x ❘ R : ¬P) ≡ (∀x ❘ R : P)\n"]
+			"9.18a    Generalized De Morgan¬(∃x ❘ R : ¬P) ≡ (∀x ❘ R : P)\n"
 		]
 	},
 	"¬(∃x ❘ R : P) ≡ (∀x ❘ R : ¬P)": {
 		"scope":"log",
 		"prefix":"z9.18b\tGeneralized De Morgan",
 		"body": [
-			"9.18b    Generalized De Morgan¬(∃x ❘ R : P) ≡ (∀x ❘ R : ¬P)\n"]
+			"9.18b    Generalized De Morgan¬(∃x ❘ R : P) ≡ (∀x ❘ R : ¬P)\n"
 		]
 	},
 	"(∃x ❘ R : ¬P) ≡ ¬(∀x ❘ R : P)": {
 		"scope":"log",
 		"prefix":"z9.18c\tGeneralized De Morgan",
 		"body": [
-			"9.18c    Generalized De Morgan(∃x ❘ R : ¬P) ≡ ¬(∀x ❘ R : P)\n"]
+			"9.18c    Generalized De Morgan(∃x ❘ R : ¬P) ≡ ¬(∀x ❘ R : P)\n"
 		]
 	},
 	"(∃x ❘ R : P) ≡ (∃x ❘ : R ∧ P)": {
 		"scope":"log",
 		"prefix":"z9.19\tTrading",
 		"body": [
-			"9.19     Trading            (∃x ❘ R : P) ≡ (∃x ❘ : R ∧ P)\n"]
+			"9.19     Trading            (∃x ❘ R : P) ≡ (∃x ❘ : R ∧ P)\n"
 		]
 	},
 	"(∃x ❘ Q ∧ R : P) ≡ (∃x ❘ Q : R ∧ P)": {
 		"scope":"log",
 		"prefix":"z9.20\tTrading",
 		"body": [
-			"9.20     Trading            (∃x ❘ Q ∧ R : P) ≡ (∃x ❘ Q : R ∧ P)\n"]
+			"9.20     Trading            (∃x ❘ Q ∧ R : P) ≡ (∃x ❘ Q : R ∧ P)\n"
 		]
 	},
 	"P ∧ (∃x ❘ R : Q) ≡ (∃x ❘ R : P ∧ Q)": {
 		"scope":"log",
 		"prefix":"z9.21\t∧ : ∃x",
 		"body": [
-			"9.21     ∧ : ∃x             P ∧ (∃x ❘ R : Q) ≡ (∃x ❘ R : P ∧ Q)\n"]
+			"9.21     ∧ : ∃x             P ∧ (∃x ❘ R : Q) ≡ (∃x ❘ R : P ∧ Q)\n"
 		]
 	},
 	"(∃x ❘ R : P) ≡ P ∧ (∃x ❘ : R)": {
 		"scope":"log",
 		"prefix":"z9.22\t",
 		"body": [
-			"9.22                        (∃x ❘ R : P) ≡ P ∧ (∃x ❘ : R)\n"]
+			"9.22                        (∃x ❘ R : P) ≡ P ∧ (∃x ❘ : R)\n"
 		]
 	},
 	"(∃x ❘ : R) ⇒ ((∃x ❘ R : P ∨ Q) ≡ P ∨ (∃x ❘ R : Q))": {
 		"scope":"log",
 		"prefix":"z9.23\t∨ : ∃x",
 		"body": [
-			"9.23     ∨ : ∃x             (∃x ❘ : R) ⇒ ((∃x ❘ R : P ∨ Q) ≡ P ∨ (∃x ❘ R : Q))\n"]
+			"9.23     ∨ : ∃x             (∃x ❘ : R) ⇒ ((∃x ❘ R : P ∨ Q) ≡ P ∨ (∃x ❘ R : Q))\n"
 		]
 	},
 	"(∃x ❘ R : false) ⇒ false": {
 		"scope":"log",
 		"prefix":"z9.24\t",
 		"body": [
-			"9.24                        (∃x ❘ R : false) ⇒ false\n"]
+			"9.24                        (∃x ❘ R : false) ⇒ false\n"
 		]
 	},
 	"(∃x ❘ R : P) ⇒ (∃x ❘ Q ∨ R : P)": {
 		"scope":"log",
 		"prefix":"z9.25\tRange weakening/strengthening",
 		"body": [
-			"9.25     Range weakening/strengthening(∃x ❘ R : P) ⇒ (∃x ❘ Q ∨ R : P)\n"]
+			"9.25     Range weakening/strengthening(∃x ❘ R : P) ⇒ (∃x ❘ Q ∨ R : P)\n"
 		]
 	},
 	"(∃x ❘ R : P) ⇒ (∃x ❘ R : P ∨ Q)": {
 		"scope":"log",
 		"prefix":"z9.26\tBody weakening/strengthening",
 		"body": [
-			"9.26     Body weakening/strengthening(∃x ❘ R : P) ⇒ (∃x ❘ R : P ∨ Q)\n"]
+			"9.26     Body weakening/strengthening(∃x ❘ R : P) ⇒ (∃x ❘ R : P ∨ Q)\n"
 		]
 	},
 	"(∀x ❘ R : Q ⇒ P) ⇒ ((∃x ❘ R : Q) ⇒ (∃x ❘ R : P))": {
 		"scope":"log",
 		"prefix":"z9.27\tMonotonicity",
 		"body": [
-			"9.27     Monotonicity       (∀x ❘ R : Q ⇒ P) ⇒ ((∃x ❘ R : Q) ⇒ (∃x ❘ R : P))\n"]
+			"9.27     Monotonicity       (∀x ❘ R : Q ⇒ P) ⇒ ((∃x ❘ R : Q) ⇒ (∃x ❘ R : P))\n"
 		]
 	},
 	"P[x ≔ E] ⇒ (∃x ❘ : P)": {
 		"scope":"log",
 		"prefix":"z9.28\t∃-Introduction",
 		"body": [
-			"9.28     ∃-Introduction     P[x ≔ E] ⇒ (∃x ❘ : P)\n"]
+			"9.28     ∃-Introduction     P[x ≔ E] ⇒ (∃x ❘ : P)\n"
 		]
 	},
 	"(∃x ❘ R : (∀y ❘ Q : P)) ⇒ (∀y ❘ Q : (∃x ❘ R : P))": {
 		"scope":"log",
 		"prefix":"z9.29\tInterchange of quantification",
 		"body": [
-			"9.29     Interchange of quantification(∃x ❘ R : (∀y ❘ Q : P)) ⇒ (∀y ❘ Q : (∃x ❘ R : P))\n"]
+			"9.29     Interchange of quantification(∃x ❘ R : (∀y ❘ Q : P)) ⇒ (∀y ❘ Q : (∃x ❘ R : P))\n"
 		]
 	},
 	"(∃x | R : R) ⇒ Q is theorem iff (R ∧ P)[x ≔ ẋ] ⇒ Q": {
 		"scope":"log",
 		"prefix":"z9.30\t",
 		"body": [
-			"9.30                        (∃x | R : R) ⇒ Q is theorem iff (R ∧ P)[x ≔ ẋ] ⇒ Q\n"]
+			"9.30                        (∃x | R : R) ⇒ Q is theorem iff (R ∧ P)[x ≔ ẋ] ⇒ Q\n"
 		]
 	},
 	"{e 0, ... , e (n-1)} = {x ❘ x = e 0 ∨ ... ∨ x = e (n - 1)}": {
 		"scope":"log",
 		"prefix":"z11.2\t",
 		"body": [
-			"11.2                        {e 0, ... , e (n-1)} = {x ❘ x = e 0 ∨ ... ∨ x = e (n - 1)}\n"]
+			"11.2                        {e 0, ... , e (n-1)} = {x ❘ x = e 0 ∨ ... ∨ x = e (n - 1)}\n"
 		]
 	},
 	"F ∈ {x ❘ R : E} ≡ (∃x ❘ R : F = E)": {
 		"scope":"log",
 		"prefix":"z11.3\tSet membership",
 		"body": [
-			"11.3     Set membership     F ∈ {x ❘ R : E} ≡ (∃x ❘ R : F = E)\n"]
+			"11.3     Set membership     F ∈ {x ❘ R : E} ≡ (∃x ❘ R : F = E)\n"
 		]
 	},
 	"S = T ≡ (∀x ❘ : x ∈ S ≡ x ∈ T)": {
 		"scope":"log",
 		"prefix":"z11.4\tExtensionality",
 		"body": [
-			"11.4     Extensionality     S = T ≡ (∀x ❘ : x ∈ S ≡ x ∈ T)\n"]
+			"11.4     Extensionality     S = T ≡ (∀x ❘ : x ∈ S ≡ x ∈ T)\n"
 		]
 	},
 	"∅ = {x ❘ false : E}": {
 		"scope":"log",
 		"prefix":"z11.4.1\tEmpty set",
 		"body": [
-			"11.4.1   Empty set          ∅ = {x ❘ false : E}\n"]
+			"11.4.1   Empty set          ∅ = {x ❘ false : E}\n"
 		]
 	},
 	"e ∈ ∅ ≡ false": {
 		"scope":"log",
 		"prefix":"z11.4.2\t",
 		"body": [
-			"11.4.2                      e ∈ ∅ ≡ false\n"]
+			"11.4.2                      e ∈ ∅ ≡ false\n"
 		]
 	},
 	"𝐔 = {x ❘ : x}": {
 		"scope":"log",
 		"prefix":"z11.4.3\tUniverse",
 		"body": [
-			"11.4.3   Universe           𝐔 = {x ❘ : x}\n"]
+			"11.4.3   Universe           𝐔 = {x ❘ : x}\n"
 		]
 	},
 	"e ∈ 𝐔 ≡ true": {
 		"scope":"log",
 		"prefix":"z11.4.4\t",
 		"body": [
-			"11.4.4                      e ∈ 𝐔 ≡ true\n"]
+			"11.4.4                      e ∈ 𝐔 ≡ true\n"
 		]
 	},
 	"S = {x ❘ x ∈ S : x}": {
 		"scope":"log",
 		"prefix":"z11.5\t",
 		"body": [
-			"11.5                        S = {x ❘ x ∈ S : x}\n"]
+			"11.5                        S = {x ❘ x ∈ S : x}\n"
 		]
 	},
 	"{x ❘ R} = {x ❘ R : x}": {
 		"scope":"log",
 		"prefix":"z11.5.1\tAbbreviation",
 		"body": [
-			"11.5.1   Abbreviation       {x ❘ R} = {x ❘ R : x}\n"]
+			"11.5.1   Abbreviation       {x ❘ R} = {x ❘ R : x}\n"
 		]
 	},
 	"{ x ❘ R : E} = {y ❘ (∃x ❘ R : y = E)}": {
 		"scope":"log",
 		"prefix":"z11.6\t",
 		"body": [
-			"11.6                        { x ❘ R : E} = {y ❘ (∃x ❘ R : y = E)}\n"]
+			"11.6                        { x ❘ R : E} = {y ❘ (∃x ❘ R : y = E)}\n"
 		]
 	},
 	"x ∈ {x ❘ R} ≡ R": {
 		"scope":"log",
 		"prefix":"z11.7\t",
 		"body": [
-			"11.7                        x ∈ {x ❘ R} ≡ R\n"]
+			"11.7                        x ∈ {x ❘ R} ≡ R\n"
 		]
 	},
 	"y ∈ {x ❘ R} ≡ R[x ≔ y]": {
 		"scope":"log",
 		"prefix":"z11.7.1\t",
 		"body": [
-			"11.7.1                      y ∈ {x ❘ R} ≡ R[x ≔ y]\n"]
+			"11.7.1                      y ∈ {x ❘ R} ≡ R[x ≔ y]\n"
 		]
 	},
 	"{x ❘ Q} = {x ❘ R} ≡ (∀x ❘ : Q ≡ R)": {
 		"scope":"log",
 		"prefix":"z11.9\t",
 		"body": [
-			"11.9                        {x ❘ Q} = {x ❘ R} ≡ (∀x ❘ : Q ≡ R)\n"]
+			"11.9                        {x ❘ Q} = {x ❘ R} ≡ (∀x ❘ : Q ≡ R)\n"
 		]
 	},
 	"{x ❘ Q} = {x ❘ R} is valid iff Q ≡ R is valid": {
 		"scope":"log",
 		"prefix":"z11.10\t",
 		"body": [
-			"11.10                       {x ❘ Q} = {x ❘ R} is valid iff Q ≡ R is valid\n"]
+			"11.10                       {x ❘ Q} = {x ❘ R} is valid iff Q ≡ R is valid\n"
 		]
 	},
 	"#S = (∑x | x ∈ S : 1)": {
 		"scope":"log",
 		"prefix":"z11.12\tSize",
 		"body": [
-			"11.12    Size               #S = (∑x | x ∈ S : 1)\n"]
+			"11.12    Size               #S = (∑x | x ∈ S : 1)\n"
 		]
 	},
 	"S ⊆ T  ≡  (∀x | x ∈ S : x ∈ T)": {
 		"scope":"log",
 		"prefix":"z11.13\tSubset",
 		"body": [
-			"11.13    Subset             S ⊆ T  ≡  (∀x | x ∈ S : x ∈ T)\n"]
+			"11.13    Subset             S ⊆ T  ≡  (∀x | x ∈ S : x ∈ T)\n"
 		]
 	},
 	"S ⊂ T  ≡  S ⊆ T ∧ S ≠ T": {
 		"scope":"log",
 		"prefix":"z11.14\tProper subset",
 		"body": [
-			"11.14    Proper subset      S ⊂ T  ≡  S ⊆ T ∧ S ≠ T\n"]
+			"11.14    Proper subset      S ⊂ T  ≡  S ⊆ T ∧ S ≠ T\n"
 		]
 	},
 	"T ⊇ S  ≡  S ⊆ T": {
 		"scope":"log",
 		"prefix":"z11.15\tSuperset",
 		"body": [
-			"11.15    Superset           T ⊇ S  ≡  S ⊆ T\n"]
+			"11.15    Superset           T ⊇ S  ≡  S ⊆ T\n"
 		]
 	},
 	"T ⊃ S  ≡  S ⊂ T": {
 		"scope":"log",
 		"prefix":"z11.16\tProper superset",
 		"body": [
-			"11.16    Proper superset    T ⊃ S  ≡  S ⊂ T\n"]
+			"11.16    Proper superset    T ⊃ S  ≡  S ⊂ T\n"
 		]
 	},
 	"v ∈ ~S  ≡  v ∈ 𝐔 ∧ v ∉ S": {
 		"scope":"log",
 		"prefix":"z11.17\tComplement",
 		"body": [
-			"11.17    Complement         v ∈ ~S  ≡  v ∈ 𝐔 ∧ v ∉ S\n"]
+			"11.17    Complement         v ∈ ~S  ≡  v ∈ 𝐔 ∧ v ∉ S\n"
 		]
 	},
 	"v ∈ ~S  ≡  v ∉ S, for v in 𝐔": {
 		"scope":"log",
 		"prefix":"z11.18\t",
 		"body": [
-			"11.18                       v ∈ ~S  ≡  v ∉ S, for v in 𝐔\n"]
+			"11.18                       v ∈ ~S  ≡  v ∉ S, for v in 𝐔\n"
 		]
 	},
 	"~~S = S": {
 		"scope":"log",
 		"prefix":"z11.19\t",
 		"body": [
-			"11.19                       ~~S = S\n"]
+			"11.19                       ~~S = S\n"
 		]
 	},
 	"v ∈ S ∪ T  ≡  v ∈ S ∨ v ∈ T": {
 		"scope":"log",
 		"prefix":"z11.20\tUnion",
 		"body": [
-			"11.20    Union              v ∈ S ∪ T  ≡  v ∈ S ∨ v ∈ T\n"]
+			"11.20    Union              v ∈ S ∪ T  ≡  v ∈ S ∨ v ∈ T\n"
 		]
 	},
 	"v ∈ S ∩ T  ≡  v ∈ S ∧ v ∈ T": {
 		"scope":"log",
 		"prefix":"z11.21\tIntersection",
 		"body": [
-			"11.21    Intersection       v ∈ S ∩ T  ≡  v ∈ S ∧ v ∈ T\n"]
+			"11.21    Intersection       v ∈ S ∩ T  ≡  v ∈ S ∧ v ∈ T\n"
 		]
 	},
 	"v ∈ S - T  ≡  v ∈ S ∧ v ∉ T": {
 		"scope":"log",
 		"prefix":"z11.22\tDifference",
 		"body": [
-			"11.22    Difference         v ∈ S - T  ≡  v ∈ S ∧ v ∉ T\n"]
+			"11.22    Difference         v ∈ S - T  ≡  v ∈ S ∧ v ∉ T\n"
 		]
 	},
 	"v ∈ 𝒫S  ≡  v ⊆ S": {
 		"scope":"log",
 		"prefix":"z11.23\tPower set",
 		"body": [
-			"11.23    Power set          v ∈ 𝒫S  ≡  v ⊆ S\n"]
+			"11.23    Power set          v ∈ 𝒫S  ≡  v ⊆ S\n"
 		]
 	},
 	"E s = F s is valid iff E p ≡ F p is valid": {
 		"scope":"log",
 		"prefix":"z11.25a\tMetatheorem",
 		"body": [
-			"11.25a   Metatheorem        E s = F s is valid iff E p ≡ F p is valid\n"]
+			"11.25a   Metatheorem        E s = F s is valid iff E p ≡ F p is valid\n"
 		]
 	},
 	"E s ⊆ F s is valid iff E p ⇒ F p is valid": {
 		"scope":"log",
 		"prefix":"z11.25b\tMetatheorem",
 		"body": [
-			"11.25b   Metatheorem        E s ⊆ F s is valid iff E p ⇒ F p is valid\n"]
+			"11.25b   Metatheorem        E s ⊆ F s is valid iff E p ⇒ F p is valid\n"
 		]
 	},
 	"E s = 𝐔 is valid iff E p is valid": {
 		"scope":"log",
 		"prefix":"z11.25c\tMetatheorem",
 		"body": [
-			"11.25c   Metatheorem        E s = 𝐔 is valid iff E p is valid\n"]
+			"11.25c   Metatheorem        E s = 𝐔 is valid iff E p is valid\n"
 		]
 	},
 	"S ∪ T = T ∪ S": {
 		"scope":"log",
 		"prefix":"z11.26\tSymmetry",
 		"body": [
-			"11.26    Symmetry           S ∪ T = T ∪ S\n"]
+			"11.26    Symmetry           S ∪ T = T ∪ S\n"
 		]
 	},
 	"(S ∪ T) ∪ U  =  S ∪ (T ∪ U)": {
 		"scope":"log",
 		"prefix":"z11.27\tAssociativity",
 		"body": [
-			"11.27    Associativity      (S ∪ T) ∪ U  =  S ∪ (T ∪ U)\n"]
+			"11.27    Associativity      (S ∪ T) ∪ U  =  S ∪ (T ∪ U)\n"
 		]
 	},
 	"S ∪ S = S": {
 		"scope":"log",
 		"prefix":"z11.28\tIdempotency",
 		"body": [
-			"11.28    Idempotency        S ∪ S = S\n"]
+			"11.28    Idempotency        S ∪ S = S\n"
 		]
 	},
 	"S ∪ 𝐔 = 𝐔": {
 		"scope":"log",
 		"prefix":"z11.29\tZero",
 		"body": [
-			"11.29    Zero               S ∪ 𝐔 = 𝐔\n"]
+			"11.29    Zero               S ∪ 𝐔 = 𝐔\n"
 		]
 	},
 	"S ∪ ∅ = S": {
 		"scope":"log",
 		"prefix":"z11.30\tIdentity",
 		"body": [
-			"11.30    Identity           S ∪ ∅ = S\n"]
+			"11.30    Identity           S ∪ ∅ = S\n"
 		]
 	},
 	"S ⊆ S ∪ T": {
 		"scope":"log",
 		"prefix":"z11.31\tWeakening",
 		"body": [
-			"11.31    Weakening          S ⊆ S ∪ T\n"]
+			"11.31    Weakening          S ⊆ S ∪ T\n"
 		]
 	},
 	"S ∪ ~S = 𝐔": {
 		"scope":"log",
 		"prefix":"z11.32\tExcluded middle",
 		"body": [
-			"11.32    Excluded middle    S ∪ ~S = 𝐔\n"]
+			"11.32    Excluded middle    S ∪ ~S = 𝐔\n"
 		]
 	},
 	"S ∩ T = T ∩ S": {
 		"scope":"log",
 		"prefix":"z11.33\tSymmetry",
 		"body": [
-			"11.33    Symmetry           S ∩ T = T ∩ S\n"]
+			"11.33    Symmetry           S ∩ T = T ∩ S\n"
 		]
 	},
 	"(S ∩ T) ∩ U = S ∩ (T ∩ U)": {
 		"scope":"log",
 		"prefix":"z11.34\tAssociativity",
 		"body": [
-			"11.34    Associativity      (S ∩ T) ∩ U = S ∩ (T ∩ U)\n"]
+			"11.34    Associativity      (S ∩ T) ∩ U = S ∩ (T ∩ U)\n"
 		]
 	},
 	"S ∩ S = S": {
 		"scope":"log",
 		"prefix":"z11.35\tIdempotency",
 		"body": [
-			"11.35    Idempotency        S ∩ S = S\n"]
+			"11.35    Idempotency        S ∩ S = S\n"
 		]
 	},
 	"S ∩ ∅ = ∅": {
 		"scope":"log",
 		"prefix":"z11.36\tZero",
 		"body": [
-			"11.36    Zero               S ∩ ∅ = ∅\n"]
+			"11.36    Zero               S ∩ ∅ = ∅\n"
 		]
 	},
 	"S ∩ 𝐔 = S": {
 		"scope":"log",
 		"prefix":"z11.37\tIdentity",
 		"body": [
-			"11.37    Identity           S ∩ 𝐔 = S\n"]
+			"11.37    Identity           S ∩ 𝐔 = S\n"
 		]
 	},
 	"S ∩ T ⊆ S": {
 		"scope":"log",
 		"prefix":"z11.38\tStrengthening",
 		"body": [
-			"11.38    Strengthening      S ∩ T ⊆ S\n"]
+			"11.38    Strengthening      S ∩ T ⊆ S\n"
 		]
 	},
 	"S ∩ ~S = ∅": {
 		"scope":"log",
 		"prefix":"z11.39\tContradiction",
 		"body": [
-			"11.39    Contradiction      S ∩ ~S = ∅\n"]
+			"11.39    Contradiction      S ∩ ~S = ∅\n"
 		]
 	},
 	"S ∪ (T ∩ U) = (S ∪ T) ∩ (S ∪ U)": {
 		"scope":"log",
 		"prefix":"z11.40\t∪ : ∩",
 		"body": [
-			"11.40    ∪ : ∩              S ∪ (T ∩ U) = (S ∪ T) ∩ (S ∪ U)\n"]
+			"11.40    ∪ : ∩              S ∪ (T ∩ U) = (S ∪ T) ∩ (S ∪ U)\n"
 		]
 	},
 	"S ∩ (T ∪ U) = (S ∩ T) ∪ (S ∩ U)": {
 		"scope":"log",
 		"prefix":"z11.41\t∩ : ∪",
 		"body": [
-			"11.41    ∩ : ∪              S ∩ (T ∪ U) = (S ∩ T) ∪ (S ∩ U)\n"]
+			"11.41    ∩ : ∪              S ∩ (T ∪ U) = (S ∩ T) ∪ (S ∩ U)\n"
 		]
 	},
 	"~(S ∪ T) = ~S ∩ ~T": {
 		"scope":"log",
 		"prefix":"z11.42a\tDe Morgan",
 		"body": [
-			"11.42a   De Morgan          ~(S ∪ T) = ~S ∩ ~T\n"]
+			"11.42a   De Morgan          ~(S ∪ T) = ~S ∩ ~T\n"
 		]
 	},
 	"~(S ∩ T) = ~S ∪ ~T": {
 		"scope":"log",
 		"prefix":"z11.42b\tDe Morgan",
 		"body": [
-			"11.42b   De Morgan          ~(S ∩ T) = ~S ∪ ~T\n"]
+			"11.42b   De Morgan          ~(S ∩ T) = ~S ∪ ~T\n"
 		]
 	},
 	"S ⊆ T ∧ U ⊆ V  ⇒  (S ∪ U) ⊆ (T ∪ V)": {
 		"scope":"log",
 		"prefix":"z11.43\t",
 		"body": [
-			"11.43                       S ⊆ T ∧ U ⊆ V  ⇒  (S ∪ U) ⊆ (T ∪ V)\n"]
+			"11.43                       S ⊆ T ∧ U ⊆ V  ⇒  (S ∪ U) ⊆ (T ∪ V)\n"
 		]
 	},
 	"S ⊆ T ∧ U ⊆ V  ⇒  (S ∩ U) ⊆ (S ∩ V)": {
 		"scope":"log",
 		"prefix":"z11.44\t",
 		"body": [
-			"11.44                       S ⊆ T ∧ U ⊆ V  ⇒  (S ∩ U) ⊆ (S ∩ V)\n"]
+			"11.44                       S ⊆ T ∧ U ⊆ V  ⇒  (S ∩ U) ⊆ (S ∩ V)\n"
 		]
 	},
 	"S ⊆ T  ≡  S ∪ T = T": {
 		"scope":"log",
 		"prefix":"z11.45\t",
 		"body": [
-			"11.45                       S ⊆ T  ≡  S ∪ T = T\n"]
+			"11.45                       S ⊆ T  ≡  S ∪ T = T\n"
 		]
 	},
 	"S ⊆ T  ≡  S ∩ T = S": {
 		"scope":"log",
 		"prefix":"z11.46\t",
 		"body": [
-			"11.46                       S ⊆ T  ≡  S ∩ T = S\n"]
+			"11.46                       S ⊆ T  ≡  S ∩ T = S\n"
 		]
 	},
 	"S ∪ T = 𝐔  ≡  (∀x | x ∈ 𝐔 : x ∉ S ⇒ x ∈ T)": {
 		"scope":"log",
 		"prefix":"z11.47\t",
 		"body": [
-			"11.47                       S ∪ T = 𝐔  ≡  (∀x | x ∈ 𝐔 : x ∉ S ⇒ x ∈ T)\n"]
+			"11.47                       S ∪ T = 𝐔  ≡  (∀x | x ∈ 𝐔 : x ∉ S ⇒ x ∈ T)\n"
 		]
 	},
 	"S ∩ T = ∅  ≡  (∀x |: x ∈ S ⇒ x ∉ T)": {
 		"scope":"log",
 		"prefix":"z11.48\t",
 		"body": [
-			"11.48                       S ∩ T = ∅  ≡  (∀x |: x ∈ S ⇒ x ∉ T)\n"]
+			"11.48                       S ∩ T = ∅  ≡  (∀x |: x ∈ S ⇒ x ∉ T)\n"
 		]
 	},
 	"S - T = S ∩ ~T": {
 		"scope":"log",
 		"prefix":"z11.49\t",
 		"body": [
-			"11.49                       S - T = S ∩ ~T\n"]
+			"11.49                       S - T = S ∩ ~T\n"
 		]
 	},
 	"S - T ⊆ S": {
 		"scope":"log",
 		"prefix":"z11.50\t",
 		"body": [
-			"11.50                       S - T ⊆ S\n"]
+			"11.50                       S - T ⊆ S\n"
 		]
 	},
 	"S - ∅ = S": {
 		"scope":"log",
 		"prefix":"z11.51\t",
 		"body": [
-			"11.51                       S - ∅ = S\n"]
+			"11.51                       S - ∅ = S\n"
 		]
 	},
 	"S ∩ (T - S) = ∅": {
 		"scope":"log",
 		"prefix":"z11.52\t",
 		"body": [
-			"11.52                       S ∩ (T - S) = ∅\n"]
+			"11.52                       S ∩ (T - S) = ∅\n"
 		]
 	},
 	"S ∪ (T - S) = S ∪ T": {
 		"scope":"log",
 		"prefix":"z11.53\t",
 		"body": [
-			"11.53                       S ∪ (T - S) = S ∪ T\n"]
+			"11.53                       S ∪ (T - S) = S ∪ T\n"
 		]
 	},
 	"S - (T ∪ U) = (S - T) ∩ (S - U)": {
 		"scope":"log",
 		"prefix":"z11.54\t",
 		"body": [
-			"11.54                       S - (T ∪ U) = (S - T) ∩ (S - U)\n"]
+			"11.54                       S - (T ∪ U) = (S - T) ∩ (S - U)\n"
 		]
 	},
 	"S - (T ∩ U) = (S - T) ∪ (S - U)": {
 		"scope":"log",
 		"prefix":"z11.55\t",
 		"body": [
-			"11.55                       S - (T ∩ U) = (S - T) ∪ (S - U)\n"]
+			"11.55                       S - (T ∩ U) = (S - T) ∪ (S - U)\n"
 		]
 	},
 	"(∀x |: P ⇒ Q) ≡ {x | P} ⊆ {x | Q}": {
 		"scope":"log",
 		"prefix":"z11.56\t",
 		"body": [
-			"11.56                       (∀x |: P ⇒ Q) ≡ {x | P} ⊆ {x | Q}\n"]
+			"11.56                       (∀x |: P ⇒ Q) ≡ {x | P} ⊆ {x | Q}\n"
 		]
 	},
 	"S ⊆ T ∧ T ⊆ S  ≡  S - T": {
 		"scope":"log",
 		"prefix":"z11.57\tAntisymmetry",
 		"body": [
-			"11.57    Antisymmetry       S ⊆ T ∧ T ⊆ S  ≡  S - T\n"]
+			"11.57    Antisymmetry       S ⊆ T ∧ T ⊆ S  ≡  S - T\n"
 		]
 	},
 	"S ⊆ S": {
 		"scope":"log",
 		"prefix":"z11.58\tReflexivity",
 		"body": [
-			"11.58    Reflexivity        S ⊆ S\n"]
+			"11.58    Reflexivity        S ⊆ S\n"
 		]
 	},
 	"S ⊆ T ∧ T ⊆ S  ⇒  S ⊆ U": {
 		"scope":"log",
 		"prefix":"z11.59\tTransitivity",
 		"body": [
-			"11.59    Transitivity       S ⊆ T ∧ T ⊆ S  ⇒  S ⊆ U\n"]
+			"11.59    Transitivity       S ⊆ T ∧ T ⊆ S  ⇒  S ⊆ U\n"
 		]
 	},
 	"∅ ⊆ S": {
 		"scope":"log",
 		"prefix":"z11.60\t",
 		"body": [
-			"11.60                       ∅ ⊆ S\n"]
+			"11.60                       ∅ ⊆ S\n"
 		]
 	},
 	"S ⊂ T  ≡  S ⊆ T ∧ ¬(T ⊆ S)": {
 		"scope":"log",
 		"prefix":"z11.61\t",
 		"body": [
-			"11.61                       S ⊂ T  ≡  S ⊆ T ∧ ¬(T ⊆ S)\n"]
+			"11.61                       S ⊂ T  ≡  S ⊆ T ∧ ¬(T ⊆ S)\n"
 		]
 	},
 	"S ⊂ T  ≡  S ⊆ T ∧ (∃x | x ∈ T : x ∉ S)": {
 		"scope":"log",
 		"prefix":"z11.62\t",
 		"body": [
-			"11.62                       S ⊂ T  ≡  S ⊆ T ∧ (∃x | x ∈ T : x ∉ S)\n"]
+			"11.62                       S ⊂ T  ≡  S ⊆ T ∧ (∃x | x ∈ T : x ∉ S)\n"
 		]
 	},
 	"S ⊆ T  ≡  S ⊂ T ∨ S = T": {
 		"scope":"log",
 		"prefix":"z11.63\t",
 		"body": [
-			"11.63                       S ⊆ T  ≡  S ⊂ T ∨ S = T\n"]
+			"11.63                       S ⊆ T  ≡  S ⊂ T ∨ S = T\n"
 		]
 	},
 	"S ⊄ S": {
 		"scope":"log",
 		"prefix":"z11.64\t",
 		"body": [
-			"11.64                       S ⊄ S\n"]
+			"11.64                       S ⊄ S\n"
 		]
 	},
 	"S ⊂ T  ⇒  S ⊆ T": {
 		"scope":"log",
 		"prefix":"z11.65\t",
 		"body": [
-			"11.65                       S ⊂ T  ⇒  S ⊆ T\n"]
+			"11.65                       S ⊂ T  ⇒  S ⊆ T\n"
 		]
 	},
 	"S ⊂ T  ⇒  T ⊈ S": {
 		"scope":"log",
 		"prefix":"z11.66\t",
 		"body": [
-			"11.66                       S ⊂ T  ⇒  T ⊈ S\n"]
+			"11.66                       S ⊂ T  ⇒  T ⊈ S\n"
 		]
 	},
 	"S ⊆ T  ⇒  T ⊄ S": {
 		"scope":"log",
 		"prefix":"z11.67\t",
 		"body": [
-			"11.67                       S ⊆ T  ⇒  T ⊄ S\n"]
+			"11.67                       S ⊆ T  ⇒  T ⊄ S\n"
 		]
 	},
 	"S ⊆ T ∧ ¬(U ⊆ T)  ⇒  ¬(U ⊆ S)": {
 		"scope":"log",
 		"prefix":"z11.68\t",
 		"body": [
-			"11.68                       S ⊆ T ∧ ¬(U ⊆ T)  ⇒  ¬(U ⊆ S)\n"]
+			"11.68                       S ⊆ T ∧ ¬(U ⊆ T)  ⇒  ¬(U ⊆ S)\n"
 		]
 	},
 	"(∃x | x ∈ S : x ∉ T)  ⇒  S ≠ T": {
 		"scope":"log",
 		"prefix":"z11.69\t",
 		"body": [
-			"11.69                       (∃x | x ∈ S : x ∉ T)  ⇒  S ≠ T\n"]
+			"11.69                       (∃x | x ∈ S : x ∉ T)  ⇒  S ≠ T\n"
 		]
 	},
 	"S ⊆ T ∧ T ⊂ U  ⇒  S ⊂ U": {
 		"scope":"log",
 		"prefix":"z11.70a\tTransitivity",
 		"body": [
-			"11.70a   Transitivity       S ⊆ T ∧ T ⊂ U  ⇒  S ⊂ U\n"]
+			"11.70a   Transitivity       S ⊆ T ∧ T ⊂ U  ⇒  S ⊂ U\n"
 		]
 	},
 	"S ⊂ T ∧ T ⊆ U  ⇒  S ⊂ U": {
 		"scope":"log",
 		"prefix":"z11.70b\tTransitivity",
 		"body": [
-			"11.70b   Transitivity       S ⊂ T ∧ T ⊆ U  ⇒  S ⊂ U\n"]
+			"11.70b   Transitivity       S ⊂ T ∧ T ⊆ U  ⇒  S ⊂ U\n"
 		]
 	},
 	"S ⊂ T ∧ T ⊂ U  ⇒  S ⊂ U": {
 		"scope":"log",
 		"prefix":"z11.70c\tTransitivity",
 		"body": [
-			"11.70c   Transitivity       S ⊂ T ∧ T ⊂ U  ⇒  S ⊂ U\n"]
+			"11.70c   Transitivity       S ⊂ T ∧ T ⊂ U  ⇒  S ⊂ U\n"
 		]
 	},
 	"𝒫∅ = {∅}": {
 		"scope":"log",
 		"prefix":"z11.71\t",
 		"body": [
-			"11.71                       𝒫∅ = {∅}\n"]
+			"11.71                       𝒫∅ = {∅}\n"
 		]
 	},
 	"S ∈ 𝒫S": {
 		"scope":"log",
 		"prefix":"z11.72\t",
 		"body": [
-			"11.72                       S ∈ 𝒫S\n"]
+			"11.72                       S ∈ 𝒫S\n"
 		]
 	},
 	"#(𝒫S) = 2^(#S), for finite set S": {
 		"scope":"log",
 		"prefix":"z11.73\t",
 		"body": [
-			"11.73                       #(𝒫S) = 2^(#S), for finite set S\n"]
+			"11.73                       #(𝒫S) = 2^(#S), for finite set S\n"
 		]
 	},
 	"v ∈ (∪x | R : E) ≡ (∃x | R : v ∈ E)": {
 		"scope":"log",
 		"prefix":"z11.74.1\t∪x",
 		"body": [
-			"11.74.1  ∪x                 v ∈ (∪x | R : E) ≡ (∃x | R : v ∈ E)\n"]
+			"11.74.1  ∪x                 v ∈ (∪x | R : E) ≡ (∃x | R : v ∈ E)\n"
 		]
 	},
 	"v ∈ (∩x | R : E) ≡ (∀x | R : v ∈ E)": {
 		"scope":"log",
 		"prefix":"z11.74.2\t∩x",
 		"body": [
-			"11.74.2  ∩x                 v ∈ (∩x | R : E) ≡ (∀x | R : v ∈ E)\n"]
+			"11.74.2  ∩x                 v ∈ (∩x | R : E) ≡ (∀x | R : v ∈ E)\n"
 		]
 	},
 	"{x ❘ Q} = {x ❘ R} is valid iff Q ≡ R is valid": {
 		"scope":"log",
 		"prefix":"z11.10\t",
 		"body": [
-			"11.10                       {x ❘ Q} = {x ❘ R} is valid iff Q ≡ R is valid\n"]
+			"11.10                       {x ❘ Q} = {x ❘ R} is valid iff Q ≡ R is valid\n"
 		]
 	},
 	"#⦃x | R : E⦄ ≡ (∑x | R : 1)": {
 		"scope":"log",
 		"prefix":"z11.80\tSize",
 		"body": [
-			"11.80    Size               #⦃x | R : E⦄ ≡ (∑x | R : 1)\n"]
+			"11.80    Size               #⦃x | R : E⦄ ≡ (∑x | R : 1)\n"
 		]
 	},
 	"v#⦃x | R :E⦄ = (∑x | R ∧ v = E : 1)": {
 		"scope":"log",
 		"prefix":"z11.81\tNumber of occurrences",
 		"body": [
-			"11.81    Number of occurrencesv#⦃x | R :E⦄ = (∑x | R ∧ v = E : 1)\n"]
+			"11.81    Number of occurrencesv#⦃x | R :E⦄ = (∑x | R ∧ v = E : 1)\n"
 		]
 	},
 	"B = C  ≡  (∀v |: v#B = v#C)": {
 		"scope":"log",
 		"prefix":"z11.82\tBag equality",
 		"body": [
-			"11.82    Bag equality       B = C  ≡  (∀v |: v#B = v#C)\n"]
+			"11.82    Bag equality       B = C  ≡  (∀v |: v#B = v#C)\n"
 		]
 	},
 	"B ⊆ C  ≡  (∀v |: v#B ≤ v#C)": {
 		"scope":"log",
 		"prefix":"z11.83\tSubbag",
 		"body": [
-			"11.83    Subbag             B ⊆ C  ≡  (∀v |: v#B ≤ v#C)\n"]
+			"11.83    Subbag             B ⊆ C  ≡  (∀v |: v#B ≤ v#C)\n"
 		]
 	},
 	"B ⊂ C  ≡  B ⊆ C ∧ B ≠ C": {
 		"scope":"log",
 		"prefix":"z11.84\tProper subbag",
 		"body": [
-			"11.84    Proper subbag      B ⊂ C  ≡  B ⊆ C ∧ B ≠ C\n"]
+			"11.84    Proper subbag      B ⊂ C  ≡  B ⊆ C ∧ B ≠ C\n"
 		]
 	},
 	"B ∪ C = ⦃v, i | 0 ≤ i < v#B + v#C: v⦄": {
 		"scope":"log",
 		"prefix":"z11.85\tUnion",
 		"body": [
-			"11.85    Union              B ∪ C = ⦃v, i | 0 ≤ i < v#B + v#C: v⦄\n"]
+			"11.85    Union              B ∪ C = ⦃v, i | 0 ≤ i < v#B + v#C: v⦄\n"
 		]
 	},
 	"B ∩ C = ⦃v, i | 0 ≤ i < v#B ↓ v#C: v⦄": {
 		"scope":"log",
 		"prefix":"z11.86\tIntersection",
 		"body": [
-			"11.86    Intersection       B ∩ C = ⦃v, i | 0 ≤ i < v#B ↓ v#C: v⦄\n"]
+			"11.86    Intersection       B ∩ C = ⦃v, i | 0 ≤ i < v#B ↓ v#C: v⦄\n"
 		]
 	},
 	"B - C = ⦃v, i | 0 ≤ i < v#B - v#C: v⦄": {
 		"scope":"log",
 		"prefix":"z11.87\tDifference",
 		"body": [
-			"11.87    Difference         B - C = ⦃v, i | 0 ≤ i < v#B - v#C: v⦄\n"]
+			"11.87    Difference         B - C = ⦃v, i | 0 ≤ i < v#B - v#C: v⦄\n"
 		]
 	},
 	"\n  pow(b, 0) = 1\n  pow(b, n + 1) = b ⋅ pow(b, n) for n ≥ 0": {
 		"scope":"log",
 		"prefix":"z12.11\tpow",
 		"body": [
-			"12.11    pow                \n  pow(b, 0) = 1\n  pow(b, n + 1) = b ⋅ pow(b, n) for n ≥ 0\n"]
+			"12.11    pow                \n  pow(b, 0) = 1\n  pow(b, n + 1) = b ⋅ pow(b, n) for n ≥ 0\n"
 		]
 	},
 	"\n  pow(b, 0) = 1\n  pow(b, n) = b ⋅ pow(b, n - 1) for n ≥ 1": {
 		"scope":"log",
 		"prefix":"z12.12\tpow",
 		"body": [
-			"12.12    pow                \n  pow(b, 0) = 1\n  pow(b, n) = b ⋅ pow(b, n - 1) for n ≥ 1\n"]
+			"12.12    pow                \n  pow(b, 0) = 1\n  pow(b, n) = b ⋅ pow(b, n - 1) for n ≥ 1\n"
 		]
 	},
 	"\n  0! = 1\n  n! = n ⋅ (n - 1)! for n > 0": {
 		"scope":"log",
 		"prefix":"z12.13\tFactorial",
 		"body": [
-			"12.13    Factorial          \n  0! = 1\n  n! = n ⋅ (n - 1)! for n > 0\n"]
+			"12.13    Factorial          \n  0! = 1\n  n! = n ⋅ (n - 1)! for n > 0\n"
 		]
 	},
 	"\n  F.0 = 0\n  F.1 = 1\n  F.n = F(n - 1) + F(n - 2) for n > 1": {
 		"scope":"log",
 		"prefix":"z12.14\tFibonacci",
 		"body": [
-			"12.14    Fibonacci          \n  F.0 = 0\n  F.1 = 1\n  F.n = F(n - 1) + F(n - 2) for n > 1\n"]
+			"12.14    Fibonacci          \n  F.0 = 0\n  F.1 = 1\n  F.n = F(n - 1) + F(n - 2) for n > 1\n"
 		]
 	},
 	"pow(φ, 2) = φ + 1": {
 		"scope":"log",
 		"prefix":"z12.15\t",
 		"body": [
-			"12.15                       pow(φ, 2) = φ + 1\n"]
+			"12.15                       pow(φ, 2) = φ + 1\n"
 		]
 	},
 	"F.n ≤ pow(φ, n - 1) for n ≥ 1": {
 		"scope":"log",
 		"prefix":"z12.16\t",
 		"body": [
-			"12.16                       F.n ≤ pow(φ, n - 1) for n ≥ 1\n"]
+			"12.16                       F.n ≤ pow(φ, n - 1) for n ≥ 1\n"
 		]
 	},
 	"pow(φ, n - 2) ≤ F.n for n ≥ 1": {
 		"scope":"log",
 		"prefix":"z12.16.1\t",
 		"body": [
-			"12.16.1                     pow(φ, n - 2) ≤ F.n for n ≥ 1\n"]
+			"12.16.1                     pow(φ, n - 2) ≤ F.n for n ≥ 1\n"
 		]
 	},
 	"F(n + m) = F.m ⋅ F(n + 1) + F(m - 1) ⋅ F.n": {
 		"scope":"log",
 		"prefix":"z12.17\t",
 		"body": [
-			"12.17                       F(n + m) = F.m ⋅ F(n + 1) + F(m - 1) ⋅ F.n\n"]
+			"12.17                       F(n + m) = F.m ⋅ F(n + 1) + F(m - 1) ⋅ F.n\n"
 		]
 	},
 	"\n  ∅ is a binary tree, called the empty tree\n  (d, l, r) is a binary tree for d:ℤ and l, r binary trees": {
 		"scope":"log",
 		"prefix":"z12.30\tBinary tree",
 		"body": [
-			"12.30    Binary tree        \n  ∅ is a binary tree, called the empty tree\n  (d, l, r) is a binary tree for d:ℤ and l, r binary trees\n"]
+			"12.30    Binary tree        \n  ∅ is a binary tree, called the empty tree\n  (d, l, r) is a binary tree for d:ℤ and l, r binary trees\n"
 		]
 	},
 	"\n  #∅ = 0\n  #(d, l, r) = 1 + #l + #r": {
 		"scope":"log",
 		"prefix":"z12.31\tNumber of nodes",
 		"body": [
-			"12.31    Number of nodes    \n  #∅ = 0\n  #(d, l, r) = 1 + #l + #r\n"]
+			"12.31    Number of nodes    \n  #∅ = 0\n  #(d, l, r) = 1 + #l + #r\n"
 		]
 	},
 	"\n  height.∅ = 0\n  height.(d, l, r) = 1 + max(height.l, height.r)": {
 		"scope":"log",
 		"prefix":"z12.32\tHeight",
 		"body": [
-			"12.32    Height             \n  height.∅ = 0\n  height.(d, l, r) = 1 + max(height.l, height.r)\n"]
+			"12.32    Height             \n  height.∅ = 0\n  height.(d, l, r) = 1 + max(height.l, height.r)\n"
 		]
 	},
 	"The maximum number of nodes in a tree with height n is pow(2, n - 1) for n ≥ 0.": {
 		"scope":"log",
 		"prefix":"z12.33\t",
 		"body": [
-			"12.33                       The maximum number of nodes in a tree with height n is pow(2, n - 1) for n ≥ 0.\n"]
+			"12.33                       The maximum number of nodes in a tree with height n is pow(2, n - 1) for n ≥ 0.\n"
 		]
 	},
 	"The minimum number of nodes in a tree with height n is n for n ≥ 0.": {
 		"scope":"log",
 		"prefix":"z12.34\t",
 		"body": [
-			"12.34                       The minimum number of nodes in a tree with height n is n for n ≥ 0.\n"]
+			"12.34                       The minimum number of nodes in a tree with height n is n for n ≥ 0.\n"
 		]
 	},
 	"The maximum number of leaves in a tree with height n is pow(2, n - 1) for n > 0.": {
 		"scope":"log",
 		"prefix":"z12.35a\t",
 		"body": [
-			"12.35a                      The maximum number of leaves in a tree with height n is pow(2, n - 1) for n > 0.\n"]
+			"12.35a                      The maximum number of leaves in a tree with height n is pow(2, n - 1) for n > 0.\n"
 		]
 	},
 	"The maximum number of internal nodes in a tree with height n is pow(2, n - 1) - 1 for n > 0.": {
 		"scope":"log",
 		"prefix":"z12.35b\t",
 		"body": [
-			"12.35b                      The maximum number of internal nodes in a tree with height n is pow(2, n - 1) - 1 for n > 0.\n"]
+			"12.35b                      The maximum number of internal nodes in a tree with height n is pow(2, n - 1) - 1 for n > 0.\n"
 		]
 	},
 	"The minimum number of leaves in a tree with height n is 1 for n > 0.": {
 		"scope":"log",
 		"prefix":"z12.36(a)\t",
 		"body": [
-			"12.36(a)                    The minimum number of leaves in a tree with height n is 1 for n > 0.\n"]
+			"12.36(a)                    The minimum number of leaves in a tree with height n is 1 for n > 0.\n"
 		]
 	},
 	"The minimum number of internal nodes in a tree with height n is n - 1 for n > 0.": {
 		"scope":"log",
 		"prefix":"z12.36(b)\t",
 		"body": [
-			"12.36(b)                    The minimum number of internal nodes in a tree with height n is n - 1 for n > 0.\n"]
+			"12.36(b)                    The minimum number of internal nodes in a tree with height n is n - 1 for n > 0.\n"
 		]
 	},
 	"Every nonempty complete tree has an odd number of nodes.": {
 		"scope":"log",
 		"prefix":"z12.37\t",
 		"body": [
-			"12.37                       Every nonempty complete tree has an odd number of nodes.\n"]
+			"12.37                       Every nonempty complete tree has an odd number of nodes.\n"
 		]
 	},
 	"wp.S.false ≡ false": {
 		"scope":"log",
 		"prefix":"zp.1\tExcluded miracle",
 		"body": [
-			"p.1      Excluded miracle   wp.S.false ≡ false\n"]
+			"p.1      Excluded miracle   wp.S.false ≡ false\n"
 		]
 	},
 	"wp.S.(X ∧ Y) ≡ wp.S.X ∧ wp.S.Y": {
 		"scope":"log",
 		"prefix":"zp.2\tConjunctivity",
 		"body": [
-			"p.2      Conjunctivity      wp.S.(X ∧ Y) ≡ wp.S.X ∧ wp.S.Y\n"]
+			"p.2      Conjunctivity      wp.S.(X ∧ Y) ≡ wp.S.X ∧ wp.S.Y\n"
 		]
 	},
 	"(X ⇒ Y) ⇒ (wp.S.X ⇒ wp.S.Y)": {
 		"scope":"log",
 		"prefix":"zp.3\tMonotonicity",
 		"body": [
-			"p.3      Monotonicity       (X ⇒ Y) ⇒ (wp.S.X ⇒ wp.S.Y)\n"]
+			"p.3      Monotonicity       (X ⇒ Y) ⇒ (wp.S.X ⇒ wp.S.Y)\n"
 		]
 	},
 	"{Q} S {R} ≡ Q ⇒ wp.S.R": {
 		"scope":"log",
 		"prefix":"zp.4\tHoare triple",
 		"body": [
-			"p.4      Hoare triple       {Q} S {R} ≡ Q ⇒ wp.S.R\n"]
+			"p.4      Hoare triple       {Q} S {R} ≡ Q ⇒ wp.S.R\n"
 		]
 	},
 	"{Q} S {A} ∧ (A ⇒ R)  ⇒  {Q} S {R}": {
 		"scope":"log",
 		"prefix":"zp.5\tPostcondition rule",
 		"body": [
-			"p.5      Postcondition rule {Q} S {A} ∧ (A ⇒ R)  ⇒  {Q} S {R}\n"]
+			"p.5      Postcondition rule {Q} S {A} ∧ (A ⇒ R)  ⇒  {Q} S {R}\n"
 		]
 	},
 	"S = T  ≡  (For all R, wp.S.R ≡ wp.T.R)": {
 		"scope":"log",
 		"prefix":"zp.6\tProgram equivalence",
 		"body": [
-			"p.6      Program equivalenceS = T  ≡  (For all R, wp.S.R ≡ wp.T.R)\n"]
+			"p.6      Program equivalenceS = T  ≡  (For all R, wp.S.R ≡ wp.T.R)\n"
 		]
 	},
 	"(Q ⇒ A) ∧ {A} S {R}  ⇒  {Q} S {R}": {
 		"scope":"log",
 		"prefix":"zp.7\t",
 		"body": [
-			"p.7                         (Q ⇒ A) ∧ {A} S {R}  ⇒  {Q} S {R}\n"]
+			"p.7                         (Q ⇒ A) ∧ {A} S {R}  ⇒  {Q} S {R}\n"
 		]
 	},
 	"{Q0} S {R0} ∧ {Q1} S {R1}  ⇒  {Q0 ∧ Q1} S {R0 ∧ R1}": {
 		"scope":"log",
 		"prefix":"zp.8\t",
 		"body": [
-			"p.8                         {Q0} S {R0} ∧ {Q1} S {R1}  ⇒  {Q0 ∧ Q1} S {R0 ∧ R1}\n"]
+			"p.8                         {Q0} S {R0} ∧ {Q1} S {R1}  ⇒  {Q0 ∧ Q1} S {R0 ∧ R1}\n"
 		]
 	},
 	"{Q0} S {R0} ∧ {Q1} S {R1}  ⇒  {Q0 ∨ Q1} S {R0 ∨ R1}": {
 		"scope":"log",
 		"prefix":"zp.9\t",
 		"body": [
-			"p.9                         {Q0} S {R0} ∧ {Q1} S {R1}  ⇒  {Q0 ∨ Q1} S {R0 ∨ R1}\n"]
+			"p.9                         {Q0} S {R0} ∧ {Q1} S {R1}  ⇒  {Q0 ∨ Q1} S {R0 ∨ R1}\n"
 		]
 	},
 	"wp.skip.R ≡ R": {
 		"scope":"log",
 		"prefix":"zp.10\tskip",
 		"body": [
-			"p.10     skip               wp.skip.R ≡ R\n"]
+			"p.10     skip               wp.skip.R ≡ R\n"
 		]
 	},
 	"{Q} skip {R}  ≡  Q ⇒ R": {
 		"scope":"log",
 		"prefix":"zp.11\t",
 		"body": [
-			"p.11                        {Q} skip {R}  ≡  Q ⇒ R\n"]
+			"p.11                        {Q} skip {R}  ≡  Q ⇒ R\n"
 		]
 	},
 	"wp.abort.R ≡ false": {
 		"scope":"log",
 		"prefix":"zp.12\tabort",
 		"body": [
-			"p.12     abort              wp.abort.R ≡ false\n"]
+			"p.12     abort              wp.abort.R ≡ false\n"
 		]
 	},
 	"{Q} abort {R}  ≡  Q ≡ false": {
 		"scope":"log",
 		"prefix":"zp.13\t",
 		"body": [
-			"p.13                        {Q} abort {R}  ≡  Q ≡ false\n"]
+			"p.13                        {Q} abort {R}  ≡  Q ≡ false\n"
 		]
 	},
 	"wp.(S;T).R  ≡  wp.S.(wp.T.R)": {
 		"scope":"log",
 		"prefix":"zp.14\tComposition",
 		"body": [
-			"p.14     Composition        wp.(S;T).R  ≡  wp.S.(wp.T.R)\n"]
+			"p.14     Composition        wp.(S;T).R  ≡  wp.S.(wp.T.R)\n"
 		]
 	},
 	"{Q} S {H} ∧ {H} T {R}  ⇒  {Q} S;T {R}": {
 		"scope":"log",
 		"prefix":"zp.15\t",
 		"body": [
-			"p.15                        {Q} S {H} ∧ {H} T {R}  ⇒  {Q} S;T {R}\n"]
+			"p.15                        {Q} S {H} ∧ {H} T {R}  ⇒  {Q} S;T {R}\n"
 		]
 	},
 	"S ; skip  =  S": {
 		"scope":"log",
 		"prefix":"zp.16a\tIdentity",
 		"body": [
-			"p.16a    Identity           S ; skip  =  S\n"]
+			"p.16a    Identity           S ; skip  =  S\n"
 		]
 	},
 	"skip ; S  =  S": {
 		"scope":"log",
 		"prefix":"zp.16b\tIdentity",
 		"body": [
-			"p.16b    Identity           skip ; S  =  S\n"]
+			"p.16b    Identity           skip ; S  =  S\n"
 		]
 	},
 	"S ; abort  =  abort": {
 		"scope":"log",
 		"prefix":"zp.17a\tZero",
 		"body": [
-			"p.17a    Zero               S ; abort  =  abort\n"]
+			"p.17a    Zero               S ; abort  =  abort\n"
 		]
 	},
 	"abort ; S  =  abort": {
 		"scope":"log",
 		"prefix":"zp.17b\tZero",
 		"body": [
-			"p.17b    Zero               abort ; S  =  abort\n"]
+			"p.17b    Zero               abort ; S  =  abort\n"
 		]
 	},
 	"wp.(x ≔ E).R  ≡  R[x ≔ E]": {
 		"scope":"log",
 		"prefix":"zp.18\tAssignment",
 		"body": [
-			"p.18     Assignment         wp.(x ≔ E).R  ≡  R[x ≔ E]\n"]
+			"p.18     Assignment         wp.(x ≔ E).R  ≡  R[x ≔ E]\n"
 		]
 	},
 	"(x ≔ x) = skip": {
 		"scope":"log",
 		"prefix":"zp.20\t",
 		"body": [
-			"p.20                        (x ≔ x) = skip\n"]
+			"p.20                        (x ≔ x) = skip\n"
 		]
 	},
 	"if B1 ⟶ S1 ⌷ B2 ⟶ S2 ⌷ B3 ⟶ S3 fi": {
 		"scope":"log",
 		"prefix":"zp.21\tIFG:",
 		"body": [
-			"p.21     IFG:               if B1 ⟶ S1 ⌷ B2 ⟶ S2 ⌷ B3 ⟶ S3 fi\n"]
+			"p.21     IFG:               if B1 ⟶ S1 ⌷ B2 ⟶ S2 ⌷ B3 ⟶ S3 fi\n"
 		]
 	},
 	"wp.IFG.R  ≡  (B1 ∨ B2 ∨ B3) ∧ B1 ⇒ wp.S1.R ∧ B2 ⇒ wp.S2.R ∧ B3 ⇒ wp.S3.R": {
 		"scope":"log",
 		"prefix":"zp.22\tif",
 		"body": [
-			"p.22     if                 wp.IFG.R  ≡  (B1 ∨ B2 ∨ B3) ∧ B1 ⇒ wp.S1.R ∧ B2 ⇒ wp.S2.R ∧ B3 ⇒ wp.S3.R\n"]
+			"p.22     if                 wp.IFG.R  ≡  (B1 ∨ B2 ∨ B3) ∧ B1 ⇒ wp.S1.R ∧ B2 ⇒ wp.S2.R ∧ B3 ⇒ wp.S3.R\n"
 		]
 	},
 	"if if  =  abort": {
 		"scope":"log",
 		"prefix":"zp.23\tEmpty guard",
 		"body": [
-			"p.23     Empty guard        if if  =  abort\n"]
+			"p.23     Empty guard        if if  =  abort\n"
 		]
 	},
 	"¬(B1 ∨ B2 ∨ B3) ⇒ IFG  =  abort": {
 		"scope":"log",
 		"prefix":"zp.25\t",
 		"body": [
-			"p.25                        ¬(B1 ∨ B2 ∨ B3) ⇒ IFG  =  abort\n"]
+			"p.25                        ¬(B1 ∨ B2 ∨ B3) ⇒ IFG  =  abort\n"
 		]
 	},
 	"{Q} if B ⟶ S fi {R}  ⇒  {Q} S {R}": {
 		"scope":"log",
 		"prefix":"zp.26\tOne-guard rule",
 		"body": [
-			"p.26     One-guard rule     {Q} if B ⟶ S fi {R}  ⇒  {Q} S {R}\n"]
+			"p.26     One-guard rule     {Q} if B ⟶ S fi {R}  ⇒  {Q} S {R}\n"
 		]
 	},
 	"if B1 ⟶ S1;T ⌷ B2 ⟶ S2;T fi  =  if B1 ⟶ S1 ⌷ B2 ⟶ S2 fi ; T": {
 		"scope":"log",
 		"prefix":"zp.27\tDistributivity",
 		"body": [
-			"p.27     Distributivity     if B1 ⟶ S1;T ⌷ B2 ⟶ S2;T fi  =  if B1 ⟶ S1 ⌷ B2 ⟶ S2 fi ; T\n"]
+			"p.27     Distributivity     if B1 ⟶ S1;T ⌷ B2 ⟶ S2;T fi  =  if B1 ⟶ S1 ⌷ B2 ⟶ S2 fi ; T\n"
 		]
 	},
 	"do B ⟶ S od": {
 		"scope":"log",
 		"prefix":"zp.28\tDO",
 		"body": [
-			"p.28     DO                 do B ⟶ S od\n"]
+			"p.28     DO                 do B ⟶ S od\n"
 		]
 	},
 	"do false ⟶ S od  =  skip": {
 		"scope":"log",
 		"prefix":"zp.31\tFalse guard",
 		"body": [
-			"p.31     False guard        do false ⟶ S od  =  skip\n"]
+			"p.31     False guard        do false ⟶ S od  =  skip\n"
 		]
 	},
 	"<b, c> = <b', c'>  ≡  b = b' ∧ c = c'": {
 		"scope":"log",
 		"prefix":"z14.2\tPair equality",
 		"body": [
-			"14.2     Pair equality      <b, c> = <b', c'>  ≡  b = b' ∧ c = c'\n"]
+			"14.2     Pair equality      <b, c> = <b', c'>  ≡  b = b' ∧ c = c'\n"
 		]
 	},
 	"S × T = {b, c | b ∈ S ∧ c ∈ T : <b, c>}": {
 		"scope":"log",
 		"prefix":"z14.3\tCross product",
 		"body": [
-			"14.3     Cross product      S × T = {b, c | b ∈ S ∧ c ∈ T : <b, c>}\n"]
+			"14.3     Cross product      S × T = {b, c | b ∈ S ∧ c ∈ T : <b, c>}\n"
 		]
 	},
 	"<x, y> ∈ S × T  ≡  x ∈ S ∧ y ∈ T": {
 		"scope":"log",
 		"prefix":"z14.4\tMembership",
 		"body": [
-			"14.4     Membership         <x, y> ∈ S × T  ≡  x ∈ S ∧ y ∈ T\n"]
+			"14.4     Membership         <x, y> ∈ S × T  ≡  x ∈ S ∧ y ∈ T\n"
 		]
 	},
 	"<x, y> ∈ S × T  ≡  <y, x> ∈ T × S": {
 		"scope":"log",
 		"prefix":"z14.5\t",
 		"body": [
-			"14.5                        <x, y> ∈ S × T  ≡  <y, x> ∈ T × S\n"]
+			"14.5                        <x, y> ∈ S × T  ≡  <y, x> ∈ T × S\n"
 		]
 	},
 	"S = ∅  ⇒  S × T = T × S = ∅": {
 		"scope":"log",
 		"prefix":"z14.6\t",
 		"body": [
-			"14.6                        S = ∅  ⇒  S × T = T × S = ∅\n"]
+			"14.6                        S = ∅  ⇒  S × T = T × S = ∅\n"
 		]
 	},
 	"S × T = T × S  ≡  S = ∅ ∨ T = ∅ ∨ S = T": {
 		"scope":"log",
 		"prefix":"z14.7\t",
 		"body": [
-			"14.7                        S × T = T × S  ≡  S = ∅ ∨ T = ∅ ∨ S = T\n"]
+			"14.7                        S × T = T × S  ≡  S = ∅ ∨ T = ∅ ∨ S = T\n"
 		]
 	},
 	"S × (T ∪ U) = (S × T) ∪ (S × U)": {
 		"scope":"log",
 		"prefix":"z14.8a\t× : ∪ ",
 		"body": [
-			"14.8a    × : ∪              S × (T ∪ U) = (S × T) ∪ (S × U)\n"]
+			"14.8a    × : ∪              S × (T ∪ U) = (S × T) ∪ (S × U)\n"
 		]
 	},
 	"(S ∪ T) × U = (S × U) ∪ (T × U)": {
 		"scope":"log",
 		"prefix":"z14.8b\t× : ∪",
 		"body": [
-			"14.8b    × : ∪              (S ∪ T) × U = (S × U) ∪ (T × U)\n"]
+			"14.8b    × : ∪              (S ∪ T) × U = (S × U) ∪ (T × U)\n"
 		]
 	},
 	"S × (T ∩ U) = (S × T) ∩ (S × U)": {
 		"scope":"log",
 		"prefix":"z14.9a\t× : ∩",
 		"body": [
-			"14.9a    × : ∩              S × (T ∩ U) = (S × T) ∩ (S × U)\n"]
+			"14.9a    × : ∩              S × (T ∩ U) = (S × T) ∩ (S × U)\n"
 		]
 	},
 	"(S ∩ T) × U = (S × U) ∩ (T × U)": {
 		"scope":"log",
 		"prefix":"z14.9b\t× : ∩",
 		"body": [
-			"14.9b    × : ∩              (S ∩ T) × U = (S × U) ∩ (T × U)\n"]
+			"14.9b    × : ∩              (S ∩ T) × U = (S × U) ∩ (T × U)\n"
 		]
 	},
 	"S × (T - U) = (S × T) - (S × U)": {
 		"scope":"log",
 		"prefix":"z14.10\t× : -",
 		"body": [
-			"14.10    × : -              S × (T - U) = (S × T) - (S × U)\n"]
+			"14.10    × : -              S × (T - U) = (S × T) - (S × U)\n"
 		]
 	},
 	"T ⊆ U  ⇒  S × T ⊆ S × U": {
 		"scope":"log",
 		"prefix":"z14.11\tMonotonicity",
 		"body": [
-			"14.11    Monotonicity       T ⊆ U  ⇒  S × T ⊆ S × U\n"]
+			"14.11    Monotonicity       T ⊆ U  ⇒  S × T ⊆ S × U\n"
 		]
 	},
 	"S ⊆ U ∧ T ⊆ V  ⇒  S × T ⊆ U × V": {
 		"scope":"log",
 		"prefix":"z14.12\t",
 		"body": [
-			"14.12                       S ⊆ U ∧ T ⊆ V  ⇒  S × T ⊆ U × V\n"]
+			"14.12                       S ⊆ U ∧ T ⊆ V  ⇒  S × T ⊆ U × V\n"
 		]
 	},
 	"S × T ⊆ S × U ∧ S ≠ ∅  ⇒  T ⊆ U": {
 		"scope":"log",
 		"prefix":"z14.13\t",
 		"body": [
-			"14.13                       S × T ⊆ S × U ∧ S ≠ ∅  ⇒  T ⊆ U\n"]
+			"14.13                       S × T ⊆ S × U ∧ S ≠ ∅  ⇒  T ⊆ U\n"
 		]
 	},
 	"(S ∩ T) × (U ∩ V) = (S × U) ∩ (T × V)": {
 		"scope":"log",
 		"prefix":"z14.14\t",
 		"body": [
-			"14.14                       (S ∩ T) × (U ∩ V) = (S × U) ∩ (T × V)\n"]
+			"14.14                       (S ∩ T) × (U ∩ V) = (S × U) ∩ (T × V)\n"
 		]
 	},
 	"For finite S and T, #(S × T) = #S ⋅ #T": {
 		"scope":"log",
 		"prefix":"z14.15\t",
 		"body": [
-			"14.15                       For finite S and T, #(S × T) = #S ⋅ #T\n"]
+			"14.15                       For finite S and T, #(S × T) = #S ⋅ #T\n"
 		]
 	},
 	"A binary relation over B × C is a subset of B × C.": {
 		"scope":"log",
 		"prefix":"z14.15.1\tBinary relation",
 		"body": [
-			"14.15.1  Binary relation    A binary relation over B × C is a subset of B × C.\n"]
+			"14.15.1  Binary relation    A binary relation over B × C is a subset of B × C.\n"
 		]
 	},
 	"The identity relation i.B on B is i.B = {x:B |: <x,x>}": {
 		"scope":"log",
 		"prefix":"z14.15.2\tIdentity",
 		"body": [
-			"14.15.2  Identity           The identity relation i.B on B is i.B = {x:B |: <x,x>}\n"]
+			"14.15.2  Identity           The identity relation i.B on B is i.B = {x:B |: <x,x>}\n"
 		]
 	},
 	"<x,y> ∈ i.B  ≡  x = y": {
 		"scope":"log",
 		"prefix":"z14.15.3\tIdentity lemma",
 		"body": [
-			"14.15.3  Identity lemma     <x,y> ∈ i.B  ≡  x = y\n"]
+			"14.15.3  Identity lemma     <x,y> ∈ i.B  ≡  x = y\n"
 		]
 	},
 	"<b,c> ∈ ρ and b ρ c are interchangeable notations.": {
 		"scope":"log",
 		"prefix":"z14.15.4\tNotation",
 		"body": [
-			"14.15.4  Notation           <b,c> ∈ ρ and b ρ c are interchangeable notations.\n"]
+			"14.15.4  Notation           <b,c> ∈ ρ and b ρ c are interchangeable notations.\n"
 		]
 	},
 	"b ρ c σ d  ≡  b ρ c ∧ c ρ d": {
 		"scope":"log",
 		"prefix":"z14.15.5\tConjunctive meaning",
 		"body": [
-			"14.15.5  Conjunctive meaningb ρ c σ d  ≡  b ρ c ∧ c ρ d\n"]
+			"14.15.5  Conjunctive meaningb ρ c σ d  ≡  b ρ c ∧ c ρ d\n"
 		]
 	},
 	"Dom.ρ = {b:B | (∃c |: b ρ c)}": {
 		"scope":"log",
 		"prefix":"z14.16\tDomain",
 		"body": [
-			"14.16    Domain             Dom.ρ = {b:B | (∃c |: b ρ c)}\n"]
+			"14.16    Domain             Dom.ρ = {b:B | (∃c |: b ρ c)}\n"
 		]
 	},
 	"Ran.ρ = {c:C | (∃b |: b ρ c)}": {
 		"scope":"log",
 		"prefix":"z14.17\tRange",
 		"body": [
-			"14.17    Range              Ran.ρ = {c:C | (∃b |: b ρ c)}\n"]
+			"14.17    Range              Ran.ρ = {c:C | (∃b |: b ρ c)}\n"
 		]
 	},
 	"<b,c> ∈ inv.p  ≡  <c,b> ∈ ρ,  for all b:B, c:C": {
 		"scope":"log",
 		"prefix":"z14.18\tInverse",
 		"body": [
-			"14.18    Inverse            <b,c> ∈ inv.p  ≡  <c,b> ∈ ρ,  for all b:B, c:C\n"]
+			"14.18    Inverse            <b,c> ∈ inv.p  ≡  <c,b> ∈ ρ,  for all b:B, c:C\n"
 		]
 	},
 	"Dom(ρ.inv) = Ran.ρ": {
 		"scope":"log",
 		"prefix":"z14.19a\t",
 		"body": [
-			"14.19a                      Dom(ρ.inv) = Ran.ρ\n"]
+			"14.19a                      Dom(ρ.inv) = Ran.ρ\n"
 		]
 	},
 	"Ran(ρ.inv) = Dom.ρ": {
 		"scope":"log",
 		"prefix":"z14.19b\t",
 		"body": [
-			"14.19b                      Ran(ρ.inv) = Dom.ρ\n"]
+			"14.19b                      Ran(ρ.inv) = Dom.ρ\n"
 		]
 	},
 	"If ρ is a relation on B × C, then inv.ρ is a relation on C × B": {
 		"scope":"log",
 		"prefix":"z14.19c\t",
 		"body": [
-			"14.19c                      If ρ is a relation on B × C, then inv.ρ is a relation on C × B\n"]
+			"14.19c                      If ρ is a relation on B × C, then inv.ρ is a relation on C × B\n"
 		]
 	},
 	"inv.inv.ρ = ρ": {
 		"scope":"log",
 		"prefix":"z14.19d\t",
 		"body": [
-			"14.19d                      inv.inv.ρ = ρ\n"]
+			"14.19d                      inv.inv.ρ = ρ\n"
 		]
 	},
 	"ρ ⊆ σ  ≡  inv.ρ ⊆ inv.σ": {
 		"scope":"log",
 		"prefix":"z14.19e\t",
 		"body": [
-			"14.19e                      ρ ⊆ σ  ≡  inv.ρ ⊆ inv.σ\n"]
+			"14.19e                      ρ ⊆ σ  ≡  inv.ρ ⊆ inv.σ\n"
 		]
 	},
 	"<b,d> ∈ ρ ∘ σ  ≡  (∃c | c ∈ C : <b,c> ∈ ρ ∧ <c,d> ∈ σ)": {
 		"scope":"log",
 		"prefix":"z14.20\tProduct",
 		"body": [
-			"14.20    Product            <b,d> ∈ ρ ∘ σ  ≡  (∃c | c ∈ C : <b,c> ∈ ρ ∧ <c,d> ∈ σ)\n"]
+			"14.20    Product            <b,d> ∈ ρ ∘ σ  ≡  (∃c | c ∈ C : <b,c> ∈ ρ ∧ <c,d> ∈ σ)\n"
 		]
 	},
 	"b (ρ ∘ σ) d  ≡  (∃c |: b ρ c σ d)": {
 		"scope":"log",
 		"prefix":"z14.21\tProduct",
 		"body": [
-			"14.21    Product            b (ρ ∘ σ) d  ≡  (∃c |: b ρ c σ d)\n"]
+			"14.21    Product            b (ρ ∘ σ) d  ≡  (∃c |: b ρ c σ d)\n"
 		]
 	},
 	"ρ ∘ (σ ∘ θ)  =  (ρ ∘ σ) ∘ θ": {
 		"scope":"log",
 		"prefix":"z14.22\tAssociativity",
 		"body": [
-			"14.22    Associativity      ρ ∘ (σ ∘ θ)  =  (ρ ∘ σ) ∘ θ\n"]
+			"14.22    Associativity      ρ ∘ (σ ∘ θ)  =  (ρ ∘ σ) ∘ θ\n"
 		]
 	},
 	"ρ ∘ (σ ∪ θ)  =  (ρ ∘ σ) ∪ (ρ ∘ θ)": {
 		"scope":"log",
 		"prefix":"z14.23a\t∘ : ∪",
 		"body": [
-			"14.23a   ∘ : ∪              ρ ∘ (σ ∪ θ)  =  (ρ ∘ σ) ∪ (ρ ∘ θ)\n"]
+			"14.23a   ∘ : ∪              ρ ∘ (σ ∪ θ)  =  (ρ ∘ σ) ∪ (ρ ∘ θ)\n"
 		]
 	},
 	"(σ ∪ θ) ∘ ρ  =  (σ ∘ ρ) ∪ (θ ∘ ρ)": {
 		"scope":"log",
 		"prefix":"z14.23b\t∘ : ∪",
 		"body": [
-			"14.23b   ∘ : ∪              (σ ∪ θ) ∘ ρ  =  (σ ∘ ρ) ∪ (θ ∘ ρ)\n"]
+			"14.23b   ∘ : ∪              (σ ∪ θ) ∘ ρ  =  (σ ∘ ρ) ∪ (θ ∘ ρ)\n"
 		]
 	},
 	"ρ ∘ (σ ∩ θ)  =  (ρ ∘ σ) ∩ (p ∘ θ)": {
 		"scope":"log",
 		"prefix":"z14.24a\t∘ : ∩",
 		"body": [
-			"14.24a   ∘ : ∩              ρ ∘ (σ ∩ θ)  =  (ρ ∘ σ) ∩ (p ∘ θ)\n"]
+			"14.24a   ∘ : ∩              ρ ∘ (σ ∩ θ)  =  (ρ ∘ σ) ∩ (p ∘ θ)\n"
 		]
 	},
 	"(σ ∩ θ) ∘ ρ  =  (σ ∘ ρ) ∩ (θ ∘ ρ)": {
 		"scope":"log",
 		"prefix":"z14.24b\t∘ : ∩",
 		"body": [
-			"14.24b   ∘ : ∩              (σ ∩ θ) ∘ ρ  =  (σ ∘ ρ) ∩ (θ ∘ ρ)\n"]
+			"14.24b   ∘ : ∩              (σ ∩ θ) ∘ ρ  =  (σ ∘ ρ) ∩ (θ ∘ ρ)\n"
 		]
 	},
 	"ρ^0 = i.B": {
 		"scope":"log",
 		"prefix":"z14.25a\tPowers of a relation",
 		"body": [
-			"14.25a   Powers of a relationρ^0 = i.B\n"]
+			"14.25a   Powers of a relationρ^0 = i.B\n"
 		]
 	},
 	"ρ^(n + 1) = ρ^n ∘ ρ    for n ≥ 0": {
 		"scope":"log",
 		"prefix":"z14.25b\tPowers of a relation",
 		"body": [
-			"14.25b   Powers of a relationρ^(n + 1) = ρ^n ∘ ρ    for n ≥ 0\n"]
+			"14.25b   Powers of a relationρ^(n + 1) = ρ^n ∘ ρ    for n ≥ 0\n"
 		]
 	},
 	"ρ^m ∘ ρ^n  =  ρ^(m + n)  for m ≥ 0, n ≥ 0": {
 		"scope":"log",
 		"prefix":"z14.26\t",
 		"body": [
-			"14.26                       ρ^m ∘ ρ^n  =  ρ^(m + n)  for m ≥ 0, n ≥ 0\n"]
+			"14.26                       ρ^m ∘ ρ^n  =  ρ^(m + n)  for m ≥ 0, n ≥ 0\n"
 		]
 	},
 	"(ρ^m)^n  =  ρ^(m ⋅ n)   for m ≥ 0, n ≥ 0": {
 		"scope":"log",
 		"prefix":"z14.27\t",
 		"body": [
-			"14.27                       (ρ^m)^n  =  ρ^(m ⋅ n)   for m ≥ 0, n ≥ 0\n"]
+			"14.27                       (ρ^m)^n  =  ρ^(m ⋅ n)   for m ≥ 0, n ≥ 0\n"
 		]
 	},
 	"(∃i,j | 0 ≤ i < j ≤ 2^(n^2) : ρ^i = ρ^j)    for ρ a relation on finite set B of n elements": {
 		"scope":"log",
 		"prefix":"z14.28\t",
 		"body": [
-			"14.28                       (∃i,j | 0 ≤ i < j ≤ 2^(n^2) : ρ^i = ρ^j)    for ρ a relation on finite set B of n elements\n"]
+			"14.28                       (∃i,j | 0 ≤ i < j ≤ 2^(n^2) : ρ^i = ρ^j)    for ρ a relation on finite set B of n elements\n"
 		]
 	},
 	"ρ^(i + k) = ρ^(j + k)  for k ≥ 0": {
 		"scope":"log",
 		"prefix":"z14.29a\t",
 		"body": [
-			"14.29a                      ρ^(i + k) = ρ^(j + k)  for k ≥ 0\n"]
+			"14.29a                      ρ^(i + k) = ρ^(j + k)  for k ≥ 0\n"
 		]
 	},
 	"ρ^i = ρ^(i + p ⋅ (j - i))  for p ≥ 0": {
 		"scope":"log",
 		"prefix":"z14.29b\t",
 		"body": [
-			"14.29b                      ρ^i = ρ^(i + p ⋅ (j - i))  for p ≥ 0\n"]
+			"14.29b                      ρ^i = ρ^(i + p ⋅ (j - i))  for p ≥ 0\n"
 		]
 	},
 	"refl.ρ ≡ (∀b |: b ρ b)": {
 		"scope":"log",
 		"prefix":"z14.1a\tReflexive relation",
 		"body": [
-			"14.1a    Reflexive relation refl.ρ ≡ (∀b |: b ρ b)\n"]
+			"14.1a    Reflexive relation refl.ρ ≡ (∀b |: b ρ b)\n"
 		]
 	},
 	"irrefl.ρ ≡ (∀b |: ¬(b ρ b))": {
 		"scope":"log",
 		"prefix":"z14.1b\tIrreflexive relation",
 		"body": [
-			"14.1b    Irreflexive relationirrefl.ρ ≡ (∀b |: ¬(b ρ b))\n"]
+			"14.1b    Irreflexive relationirrefl.ρ ≡ (∀b |: ¬(b ρ b))\n"
 		]
 	},
 	"sym.ρ ≡ (∀b,c |: b ρ c ≡ c ρ b)": {
 		"scope":"log",
 		"prefix":"z14.1c\tSymmetric relation",
 		"body": [
-			"14.1c    Symmetric relation sym.ρ ≡ (∀b,c |: b ρ c ≡ c ρ b)\n"]
+			"14.1c    Symmetric relation sym.ρ ≡ (∀b,c |: b ρ c ≡ c ρ b)\n"
 		]
 	},
 	"antisym.ρ ≡ (∀b,c |: b ρ c ∧ c ρ b ⇒ b = c)": {
 		"scope":"log",
 		"prefix":"z14.1d\tAntisymmetric relation",
 		"body": [
-			"14.1d    Antisymmetric relationantisym.ρ ≡ (∀b,c |: b ρ c ∧ c ρ b ⇒ b = c)\n"]
+			"14.1d    Antisymmetric relationantisym.ρ ≡ (∀b,c |: b ρ c ∧ c ρ b ⇒ b = c)\n"
 		]
 	},
 	"asym.ρ ≡ (∀b,c |: b ρ c ⇒ ¬(c ρ b))": {
 		"scope":"log",
 		"prefix":"z14.1e\tAsymmetric relation",
 		"body": [
-			"14.1e    Asymmetric relationasym.ρ ≡ (∀b,c |: b ρ c ⇒ ¬(c ρ b))\n"]
+			"14.1e    Asymmetric relationasym.ρ ≡ (∀b,c |: b ρ c ⇒ ¬(c ρ b))\n"
 		]
 	},
 	"trans.ρ ≡ (∀b,c,d |: b ρ c ∧ c ρ d ⇒ b ρ d)": {
 		"scope":"log",
 		"prefix":"z14.1f\tTransitive relation",
 		"body": [
-			"14.1f    Transitive relationtrans.ρ ≡ (∀b,c,d |: b ρ c ∧ c ρ d ⇒ b ρ d)\n"]
+			"14.1f    Transitive relationtrans.ρ ≡ (∀b,c,d |: b ρ c ∧ c ρ d ⇒ b ρ d)\n"
 		]
 	},
 	"r.ρ ≡ refl.r.ρ ∧ ρ ⊆ r.ρ ∧ (∀σ| refl.ρ ∧ ρ ⊆ σ : r.ρ ⊆ σ)": {
 		"scope":"log",
 		"prefix":"z14.30.1\tReflexive closure",
 		"body": [
-			"14.30.1  Reflexive closure  r.ρ ≡ refl.r.ρ ∧ ρ ⊆ r.ρ ∧ (∀σ| refl.ρ ∧ ρ ⊆ σ : r.ρ ⊆ σ)\n"]
+			"14.30.1  Reflexive closure  r.ρ ≡ refl.r.ρ ∧ ρ ⊆ r.ρ ∧ (∀σ| refl.ρ ∧ ρ ⊆ σ : r.ρ ⊆ σ)\n"
 		]
 	},
 	"s.ρ ≡ sym.s.ρ ∧ ρ ⊆ s.ρ ∧ (∀σ| sym.ρ ∧ ρ ⊆ σ : s.ρ ⊆ σ)": {
 		"scope":"log",
 		"prefix":"z14.30.2\tSymmetric closure",
 		"body": [
-			"14.30.2  Symmetric closure  s.ρ ≡ sym.s.ρ ∧ ρ ⊆ s.ρ ∧ (∀σ| sym.ρ ∧ ρ ⊆ σ : s.ρ ⊆ σ)\n"]
+			"14.30.2  Symmetric closure  s.ρ ≡ sym.s.ρ ∧ ρ ⊆ s.ρ ∧ (∀σ| sym.ρ ∧ ρ ⊆ σ : s.ρ ⊆ σ)\n"
 		]
 	},
 	"ρ+ ≡ trans.ρ+ ∧ ρ ⊆ ρ+ ∧ (∀σ| trans.ρ ∧ ρ ⊆ σ : ρ+ ⊆ σ)": {
 		"scope":"log",
 		"prefix":"z14.30.3\tTransitive closure",
 		"body": [
-			"14.30.3  Transitive closure ρ+ ≡ trans.ρ+ ∧ ρ ⊆ ρ+ ∧ (∀σ| trans.ρ ∧ ρ ⊆ σ : ρ+ ⊆ σ)\n"]
+			"14.30.3  Transitive closure ρ+ ≡ trans.ρ+ ∧ ρ ⊆ ρ+ ∧ (∀σ| trans.ρ ∧ ρ ⊆ σ : ρ+ ⊆ σ)\n"
 		]
 	},
 	"ρ* ≡ r.ρ ∧ ρ+": {
 		"scope":"log",
 		"prefix":"z14.30.4\tReflexive transitive closuer",
 		"body": [
-			"14.30.4  Reflexive transitive closuerρ* ≡ r.ρ ∧ ρ+\n"]
+			"14.30.4  Reflexive transitive closuerρ* ≡ r.ρ ∧ ρ+\n"
 		]
 	},
 	"A reflexive relation is its own reflexive closure.": {
 		"scope":"log",
 		"prefix":"z14.31a\t",
 		"body": [
-			"14.31a                      A reflexive relation is its own reflexive closure.\n"]
+			"14.31a                      A reflexive relation is its own reflexive closure.\n"
 		]
 	},
 	"A symmetric relation is its own symmetric closure.": {
 		"scope":"log",
 		"prefix":"z14.31b\t",
 		"body": [
-			"14.31b                      A symmetric relation is its own symmetric closure.\n"]
+			"14.31b                      A symmetric relation is its own symmetric closure.\n"
 		]
 	},
 	"A transitive relation is its own transitive closure.": {
 		"scope":"log",
 		"prefix":"z14.31c\t",
 		"body": [
-			"14.31c                      A transitive relation is its own transitive closure.\n"]
+			"14.31c                      A transitive relation is its own transitive closure.\n"
 		]
 	},
 	"r(ρ) = ρ ∪ i.B": {
 		"scope":"log",
 		"prefix":"z14.32a\t",
 		"body": [
-			"14.32a                      r(ρ) = ρ ∪ i.B\n"]
+			"14.32a                      r(ρ) = ρ ∪ i.B\n"
 		]
 	},
 	"s(ρ) = ρ ∪ inv.ρ": {
 		"scope":"log",
 		"prefix":"z14.32b\t",
 		"body": [
-			"14.32b                      s(ρ) = ρ ∪ inv.ρ\n"]
+			"14.32b                      s(ρ) = ρ ∪ inv.ρ\n"
 		]
 	},
 	"ρ+ = (∪i | 0 < i : ρ^i)": {
 		"scope":"log",
 		"prefix":"z14.32c\t",
 		"body": [
-			"14.32c                      ρ+ = (∪i | 0 < i : ρ^i)\n"]
+			"14.32c                      ρ+ = (∪i | 0 < i : ρ^i)\n"
 		]
 	},
 	"ρ* = ρ+ ∪ i.B": {
 		"scope":"log",
 		"prefix":"z14.32d\t",
 		"body": [
-			"14.32d                      ρ* = ρ+ ∪ i.B\n"]
+			"14.32d                      ρ* = ρ+ ∪ i.B\n"
 		]
 	},
 	"equiv.ρ ≡ refl.ρ ∧ sym.ρ ∧ trans.ρ": {
 		"scope":"log",
 		"prefix":"z14.33\tEquivalence relation",
 		"body": [
-			"14.33    Equivalence relationequiv.ρ ≡ refl.ρ ∧ sym.ρ ∧ trans.ρ\n"]
+			"14.33    Equivalence relationequiv.ρ ≡ refl.ρ ∧ sym.ρ ∧ trans.ρ\n"
 		]
 	},
 	"x ∈ [b].ρ  ≡  x ρ b  for equivalence relation ρ": {
 		"scope":"log",
 		"prefix":"z14.34\tEquivalence class",
 		"body": [
-			"14.34    Equivalence class  x ∈ [b].ρ  ≡  x ρ b  for equivalence relation ρ\n"]
+			"14.34    Equivalence class  x ∈ [b].ρ  ≡  x ρ b  for equivalence relation ρ\n"
 		]
 	},
 	"(b ρ c) = ([b] ∩ [c] ≠ ∅) = ([b] = [c])": {
 		"scope":"log",
 		"prefix":"z14.35\t",
 		"body": [
-			"14.35                       (b ρ c) = ([b] ∩ [c] ≠ ∅) = ([b] = [c])\n"]
+			"14.35                       (b ρ c) = ([b] ∩ [c] ≠ ∅) = ([b] = [c])\n"
 		]
 	},
 	"Let P be the set of sets of a partition of B. The following relation ρ on B is an equivalence relation: b ρ c  ≡  (∃p | p ∈ P : b ∈ p ∧ c ∈ p)": {
 		"scope":"log",
 		"prefix":"z14.36\t",
 		"body": [
-			"14.36                       Let P be the set of sets of a partition of B. The following relation ρ on B is an equivalence relation: b ρ c  ≡  (∃p | p ∈ P : b ∈ p ∧ c ∈ p)\n"]
+			"14.36                       Let P be the set of sets of a partition of B. The following relation ρ on B is an equivalence relation: b ρ c  ≡  (∃p | p ∈ P : b ∈ p ∧ c ∈ p)\n"
 		]
 	},
 	"A binary relation f on B × C is determinate iff (∀b,c,c' | b f c ∧ b f c' : c = c')": {
 		"scope":"log",
 		"prefix":"z14.37a\t",
 		"body": [
-			"14.37a                      A binary relation f on B × C is determinate iff (∀b,c,c' | b f c ∧ b f c' : c = c')\n"]
+			"14.37a                      A binary relation f on B × C is determinate iff (∀b,c,c' | b f c ∧ b f c' : c = c')\n"
 		]
 	},
 	"A binary relation is a function iff it is determinate.": {
 		"scope":"log",
 		"prefix":"z14.37b\t",
 		"body": [
-			"14.37b                      A binary relation is a function iff it is determinate.\n"]
+			"14.37b                      A binary relation is a function iff it is determinate.\n"
 		]
 	},
 	"f.b = c and b f c are interchangeable notations.": {
 		"scope":"log",
 		"prefix":"z14.37.1\tNotation",
 		"body": [
-			"14.37.1  Notation           f.b = c and b f c are interchangeable notations.\n"]
+			"14.37.1  Notation           f.b = c and b f c are interchangeable notations.\n"
 		]
 	},
 	"A function f on B × C is total if B = Dom.f. Otherwise it is partial.": {
 		"scope":"log",
 		"prefix":"z14.38\t",
 		"body": [
-			"14.38                       A function f on B × C is total if B = Dom.f. Otherwise it is partial.\n"]
+			"14.38                       A function f on B × C is total if B = Dom.f. Otherwise it is partial.\n"
 		]
 	},
 	"A function f on B × C is total if, for an arbitrary element b: B, (∃c: C |: f.b = c)": {
 		"scope":"log",
 		"prefix":"z14.38.1\tTotal",
 		"body": [
-			"14.38.1  Total              A function f on B × C is total if, for an arbitrary element b: B, (∃c: C |: f.b = c)\n"]
+			"14.38.1  Total              A function f on B × C is total if, for an arbitrary element b: B, (∃c: C |: f.b = c)\n"
 		]
 	},
 	"For functions f and g, f ∙ g = g ∘ f.": {
 		"scope":"log",
 		"prefix":"z14.39\tComposition",
 		"body": [
-			"14.39    Composition        For functions f and g, f ∙ g = g ∘ f.\n"]
+			"14.39    Composition        For functions f and g, f ∙ g = g ∘ f.\n"
 		]
 	},
 	"Let g: B ⟶ C and f: C ⟶ D be total functions. Then the composition f ∙ g of f and g is the total function defined by (f ∙ g).b = f(g.b)": {
 		"scope":"log",
 		"prefix":"z14.40\t",
 		"body": [
-			"14.40                       Let g: B ⟶ C and f: C ⟶ D be total functions. Then the composition f ∙ g of f and g is the total function defined by (f ∙ g).b = f(g.b)\n"]
+			"14.40                       Let g: B ⟶ C and f: C ⟶ D be total functions. Then the composition f ∙ g of f and g is the total function defined by (f ∙ g).b = f(g.b)\n"
 		]
 	},
 	"Total function f: B ⟶ C is onto or surjective if Ran.f = C.": {
 		"scope":"log",
 		"prefix":"z14.41a\t",
 		"body": [
-			"14.41a                      Total function f: B ⟶ C is onto or surjective if Ran.f = C.\n"]
+			"14.41a                      Total function f: B ⟶ C is onto or surjective if Ran.f = C.\n"
 		]
 	},
 	"Total function f is one-to-one or injective if (∀b,b':B,c:C |: b f c ∧ b' f c  ≡  b = b').": {
 		"scope":"log",
 		"prefix":"z14.41b\t",
 		"body": [
-			"14.41b                      Total function f is one-to-one or injective if (∀b,b':B,c:C |: b f c ∧ b' f c  ≡  b = b').\n"]
+			"14.41b                      Total function f is one-to-one or injective if (∀b,b':B,c:C |: b f c ∧ b' f c  ≡  b = b').\n"
 		]
 	},
 	"Total function f is bijective if is one-to-one and onto.": {
 		"scope":"log",
 		"prefix":"z14.41c\t",
 		"body": [
-			"14.41c                      Total function f is bijective if is one-to-one and onto.\n"]
+			"14.41c                      Total function f is bijective if is one-to-one and onto.\n"
 		]
 	},
 	"Let f be a total function, and let inv.f be its relational inverse. Then inv.f is a function iff f is one-to-one.": {
 		"scope":"log",
 		"prefix":"z14.42a\t",
 		"body": [
-			"14.42a                      Let f be a total function, and let inv.f be its relational inverse. Then inv.f is a function iff f is one-to-one.\n"]
+			"14.42a                      Let f be a total function, and let inv.f be its relational inverse. Then inv.f is a function iff f is one-to-one.\n"
 		]
 	},
 	"Let f be a total function, and let inv.f be its relational inverse. Then inv.f is total iff f is onto.": {
 		"scope":"log",
 		"prefix":"z14.42b\t",
 		"body": [
-			"14.42b                      Let f be a total function, and let inv.f be its relational inverse. Then inv.f is total iff f is onto.\n"]
+			"14.42b                      Let f be a total function, and let inv.f be its relational inverse. Then inv.f is total iff f is onto.\n"
 		]
 	},
 	"Let f: B ⟶ C. A left inverse of f is a function g: C ⟶ B such that g ∙ f = i.B.": {
 		"scope":"log",
 		"prefix":"z14.43a\t",
 		"body": [
-			"14.43a                      Let f: B ⟶ C. A left inverse of f is a function g: C ⟶ B such that g ∙ f = i.B.\n"]
+			"14.43a                      Let f: B ⟶ C. A left inverse of f is a function g: C ⟶ B such that g ∙ f = i.B.\n"
 		]
 	},
 	"Let f: B ⟶ C. A right inverse of f is a function g: C ⟶ B such that f ∙ g = i.C.": {
 		"scope":"log",
 		"prefix":"z14.43b\t",
 		"body": [
-			"14.43b                      Let f: B ⟶ C. A right inverse of f is a function g: C ⟶ B such that f ∙ g = i.C.\n"]
+			"14.43b                      Let f: B ⟶ C. A right inverse of f is a function g: C ⟶ B such that f ∙ g = i.C.\n"
 		]
 	},
 	"Let f: B ⟶ C. Function g is an inverse of f if it is both a left inverse and a right inverse.": {
 		"scope":"log",
 		"prefix":"z14.43c\t",
 		"body": [
-			"14.43c                      Let f: B ⟶ C. Function g is an inverse of f if it is both a left inverse and a right inverse.\n"]
+			"14.43c                      Let f: B ⟶ C. Function g is an inverse of f if it is both a left inverse and a right inverse.\n"
 		]
 	},
 	"Function f: B ⟶ C is onto iff f has a right inverse.": {
 		"scope":"log",
 		"prefix":"z14.44\t",
 		"body": [
-			"14.44                       Function f: B ⟶ C is onto iff f has a right inverse.\n"]
+			"14.44                       Function f: B ⟶ C is onto iff f has a right inverse.\n"
 		]
 	},
 	"Let f: B ⟶ C be total. Then f is one-to-one iff f has a left inverse.": {
 		"scope":"log",
 		"prefix":"z14.45\t",
 		"body": [
-			"14.45                       Let f: B ⟶ C be total. Then f is one-to-one iff f has a left inverse.\n"]
+			"14.45                       Let f: B ⟶ C be total. Then f is one-to-one iff f has a left inverse.\n"
 		]
 	},
 	"Let f: B ⟶ C be total. The following statements are equivalent.\n. (a) f is one-to-one and onto.\n  (b) There is a function g: C ⟶ B that is both a left and right inverse of f.\n  (c) f has a left inverse and f has a right inverse.": {
 		"scope":"log",
 		"prefix":"z14.46\t",
 		"body": [
-			"14.46                       Let f: B ⟶ C be total. The following statements are equivalent.\n. (a) f is one-to-one and onto.\n  (b) There is a function g: C ⟶ B that is both a left and right inverse of f.\n  (c) f has a left inverse and f has a right inverse.\n"]
+			"14.46                       Let f: B ⟶ C be total. The following statements are equivalent.\n. (a) f is one-to-one and onto.\n  (b) There is a function g: C ⟶ B that is both a left and right inverse of f.\n  (c) f has a left inverse and f has a right inverse.\n"
 		]
 	},
 	"A binary relation ρ on a set B is called a partial order on B if it is reflexive, antisymmetric, and transitive. In this case, pair <B, ρ> is called a partially ordered set or poset.": {
 		"scope":"log",
 		"prefix":"z14.47\t",
 		"body": [
-			"14.47                       A binary relation ρ on a set B is called a partial order on B if it is reflexive, antisymmetric, and transitive. In this case, pair <B, ρ> is called a partially ordered set or poset.\n"]
+			"14.47                       A binary relation ρ on a set B is called a partial order on B if it is reflexive, antisymmetric, and transitive. In this case, pair <B, ρ> is called a partially ordered set or poset.\n"
 		]
 	},
 	"incomp(b, c)  ≡  ¬(b ⪯ c) ∧ ¬(c ⪯ b)": {
 		"scope":"log",
 		"prefix":"z14.47.1\tIncomparable",
 		"body": [
-			"14.47.1  Incomparable       incomp(b, c)  ≡  ¬(b ⪯ c) ∧ ¬(c ⪯ b)\n"]
+			"14.47.1  Incomparable       incomp(b, c)  ≡  ¬(b ⪯ c) ∧ ¬(c ⪯ b)\n"
 		]
 	},
 	"Relation ≺ is a quasi order or strict partial order if ≺ is transitive and irreflexive.": {
 		"scope":"log",
 		"prefix":"z14.48\t",
 		"body": [
-			"14.48                       Relation ≺ is a quasi order or strict partial order if ≺ is transitive and irreflexive.\n"]
+			"14.48                       Relation ≺ is a quasi order or strict partial order if ≺ is transitive and irreflexive.\n"
 		]
 	},
 	"Given ⪯, its reflexive reduction ≺ is computed by eliminating all pairs <b,b> from ⪯.": {
 		"scope":"log",
 		"prefix":"z14.48.1\tReflexive reduction",
 		"body": [
-			"14.48.1  Reflexive reductionGiven ⪯, its reflexive reduction ≺ is computed by eliminating all pairs <b,b> from ⪯.\n"]
+			"14.48.1  Reflexive reductionGiven ⪯, its reflexive reduction ≺ is computed by eliminating all pairs <b,b> from ⪯.\n"
 		]
 	},
 	"Let ≺ be the reflexive reduction of ⪯. Then, ¬(b ⪯ c)  ≡  c ≺ b ∨ incomp(b,c)": {
 		"scope":"log",
 		"prefix":"z14.48.2\t",
 		"body": [
-			"14.48.2                     Let ≺ be the reflexive reduction of ⪯. Then, ¬(b ⪯ c)  ≡  c ≺ b ∨ incomp(b,c)\n"]
+			"14.48.2                     Let ≺ be the reflexive reduction of ⪯. Then, ¬(b ⪯ c)  ≡  c ≺ b ∨ incomp(b,c)\n"
 		]
 	},
 	"If ρ is a partial order over a set B, then ρ - i.B is a quasi order.": {
 		"scope":"log",
 		"prefix":"z14.49a\t",
 		"body": [
-			"14.49a                      If ρ is a partial order over a set B, then ρ - i.B is a quasi order.\n"]
+			"14.49a                      If ρ is a partial order over a set B, then ρ - i.B is a quasi order.\n"
 		]
 	},
 	"I ρ is quasi order over a set B, then ρ ∪ i.B is a partial order.": {
 		"scope":"log",
 		"prefix":"z14.49b\t",
 		"body": [
-			"14.49b                      I ρ is quasi order over a set B, then ρ ∪ i.B is a partial order.\n"]
+			"14.49b                      I ρ is quasi order over a set B, then ρ ∪ i.B is a partial order.\n"
 		]
 	},
 	"A partial order ⪯ over B is called a total or linear order if (∀b,c |: b ⪯ c ∨ b ⪰ c), i.e. iff ⪯ ∪ inv.⪯ = B × B.": {
 		"scope":"log",
 		"prefix":"z14.50\tTotal order",
 		"body": [
-			"14.50    Total order        A partial order ⪯ over B is called a total or linear order if (∀b,c |: b ⪯ c ∨ b ⪰ c), i.e. iff ⪯ ∪ inv.⪯ = B × B.\n"]
+			"14.50    Total order        A partial order ⪯ over B is called a total or linear order if (∀b,c |: b ⪯ c ∨ b ⪰ c), i.e. iff ⪯ ∪ inv.⪯ = B × B.\n"
 		]
 	},
 	"Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is a minimal element of S if no element of S is smaller than b, i.e. if b ∈ S ∧ (∀c | c ≺ b : c ∉ S).": {
 		"scope":"log",
 		"prefix":"z14.51a\tMinimal element",
 		"body": [
-			"14.51a   Minimal element    Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is a minimal element of S if no element of S is smaller than b, i.e. if b ∈ S ∧ (∀c | c ≺ b : c ∉ S).\n"]
+			"14.51a   Minimal element    Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is a minimal element of S if no element of S is smaller than b, i.e. if b ∈ S ∧ (∀c | c ≺ b : c ∉ S).\n"
 		]
 	},
 	"Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is the least element of S if b ∈ S ∧ (∀c | c ∈ S : b ⪯ c).": {
 		"scope":"log",
 		"prefix":"z14.51b\tLeast element",
 		"body": [
-			"14.51b   Least element      Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is the least element of S if b ∈ S ∧ (∀c | c ∈ S : b ⪯ c).\n"]
+			"14.51b   Least element      Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is the least element of S if b ∈ S ∧ (∀c | c ∈ S : b ⪯ c).\n"
 		]
 	},
 	"Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is a lower bound of S if (∀c | c ∈ S : b ⪯ c).": {
 		"scope":"log",
 		"prefix":"z14.51c\tLower bound",
 		"body": [
-			"14.51c   Lower bound        Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is a lower bound of S if (∀c | c ∈ S : b ⪯ c).\n"]
+			"14.51c   Lower bound        Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is a lower bound of S if (∀c | c ∈ S : b ⪯ c).\n"
 		]
 	},
 	"Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is the greatest lower bound of S, written glb.S if b is a lower bound and if every lower bound c satisfies c ⪯ b.": {
 		"scope":"log",
 		"prefix":"z14.51d\tGreatest lower bound",
 		"body": [
-			"14.51d   Greatest lower boundLet S be a nonempty subset of poset < U, ⪯ >. Element b of S is the greatest lower bound of S, written glb.S if b is a lower bound and if every lower bound c satisfies c ⪯ b.\n"]
+			"14.51d   Greatest lower boundLet S be a nonempty subset of poset < U, ⪯ >. Element b of S is the greatest lower bound of S, written glb.S if b is a lower bound and if every lower bound c satisfies c ⪯ b.\n"
 		]
 	},
 	"Every finite nonempty subset S of poset < U, ⪯ > has a minimal element.": {
 		"scope":"log",
 		"prefix":"z14.52\t",
 		"body": [
-			"14.52                       Every finite nonempty subset S of poset < U, ⪯ > has a minimal element.\n"]
+			"14.52                       Every finite nonempty subset S of poset < U, ⪯ > has a minimal element.\n"
 		]
 	},
 	"Let B be a nonempty subset of poset < U, ⪯ >. A least element of B is also a minimal element of B (but not necessarily vice versa).": {
 		"scope":"log",
 		"prefix":"z14.53a\t",
 		"body": [
-			"14.53a                      Let B be a nonempty subset of poset < U, ⪯ >. A least element of B is also a minimal element of B (but not necessarily vice versa).\n"]
+			"14.53a                      Let B be a nonempty subset of poset < U, ⪯ >. A least element of B is also a minimal element of B (but not necessarily vice versa).\n"
 		]
 	},
 	"Let B be a nonempty subset of poset < U, ⪯ >. A least element of B is also a greater lower bound of B (but not necessarily vice versa).": {
 		"scope":"log",
 		"prefix":"z14.53b\t",
 		"body": [
-			"14.53b                      Let B be a nonempty subset of poset < U, ⪯ >. A least element of B is also a greater lower bound of B (but not necessarily vice versa).\n"]
+			"14.53b                      Let B be a nonempty subset of poset < U, ⪯ >. A least element of B is also a greater lower bound of B (but not necessarily vice versa).\n"
 		]
 	},
 	"Let B be a nonempty subset of poset < U, ⪯ >. A lower bound of B that belongs to B is also a least element of B.": {
 		"scope":"log",
 		"prefix":"z14.53c\t",
 		"body": [
-			"14.53c                      Let B be a nonempty subset of poset < U, ⪯ >. A lower bound of B that belongs to B is also a least element of B.\n"]
+			"14.53c                      Let B be a nonempty subset of poset < U, ⪯ >. A lower bound of B that belongs to B is also a least element of B.\n"
 		]
 	},
 	"Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is a maximal element of S if no element of S is larger than b, i.e. if b ∈ S ∧ (∀c | b ≺ c : c ∉ S).": {
 		"scope":"log",
 		"prefix":"z14.54a\tMaximal element",
 		"body": [
-			"14.54a   Maximal element    Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is a maximal element of S if no element of S is larger than b, i.e. if b ∈ S ∧ (∀c | b ≺ c : c ∉ S).\n"]
+			"14.54a   Maximal element    Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is a maximal element of S if no element of S is larger than b, i.e. if b ∈ S ∧ (∀c | b ≺ c : c ∉ S).\n"
 		]
 	},
 	"Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is the greatest element of S if b ∈ S ∧ (∀c | c ∈ S : c ⪯ b).": {
 		"scope":"log",
 		"prefix":"z14.54b\tGreatest element",
 		"body": [
-			"14.54b   Greatest element   Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is the greatest element of S if b ∈ S ∧ (∀c | c ∈ S : c ⪯ b).\n"]
+			"14.54b   Greatest element   Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is the greatest element of S if b ∈ S ∧ (∀c | c ∈ S : c ⪯ b).\n"
 		]
 	},
 	"Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is an upper bound of S if (∀c | c ∈ S : c ⪯ b).": {
 		"scope":"log",
 		"prefix":"z14.54c\tUpper bound",
 		"body": [
-			"14.54c   Upper bound        Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is an upper bound of S if (∀c | c ∈ S : c ⪯ b).\n"]
+			"14.54c   Upper bound        Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is an upper bound of S if (∀c | c ∈ S : c ⪯ b).\n"
 		]
 	},
 	"Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is the least upper bound of S, written lub.S if b is an upper bound and if every upper bound c satisfies b ⪯ c.": {
 		"scope":"log",
 		"prefix":"z14.54d\tLeast upper bound",
 		"body": [
-			"14.54d   Least upper bound  Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is the least upper bound of S, written lub.S if b is an upper bound and if every upper bound c satisfies b ⪯ c.\n"]
+			"14.54d   Least upper bound  Let S be a nonempty subset of poset < U, ⪯ >. Element b of S is the least upper bound of S, written lub.S if b is an upper bound and if every upper bound c satisfies b ⪯ c.\n"
 		]
 	},
 	"σ(R, F) = {t | t ∈ R ∧ F}": {
 		"scope":"log",
 		"prefix":"z14.56.1\tSelect",
 		"body": [
-			"14.56.1  Select             σ(R, F) = {t | t ∈ R ∧ F}\n"]
+			"14.56.1  Select             σ(R, F) = {t | t ∈ R ∧ F}\n"
 		]
 	},
 	"π(R, A 1, A 2, ..., A m) = {t | t ∈ R : <t.A 1, t.A 2, ..., t.A m>}": {
 		"scope":"log",
 		"prefix":"z14.56.2\tProject",
 		"body": [
-			"14.56.2  Project            π(R, A 1, A 2, ..., A m) = {t | t ∈ R : <t.A 1, t.A 2, ..., t.A m>}\n"]
+			"14.56.2  Project            π(R, A 1, A 2, ..., A m) = {t | t ∈ R : <t.A 1, t.A 2, ..., t.A m>}\n"
 		]
 	},
 	"For relations R1 and R2, R1 ⨝ R2 has all the attributes that R1 and R2 have, but if an attribute appears in both, then it appears only once in the result; further, only those tuples that agree on this common attribute are included.": {
 		"scope":"log",
 		"prefix":"z14.56.3\tNatural join",
 		"body": [
-			"14.56.3  Natural join       For relations R1 and R2, R1 ⨝ R2 has all the attributes that R1 and R2 have, but if an attribute appears in both, then it appears only once in the result; further, only those tuples that agree on this common attribute are included.\n"]
+			"14.56.3  Natural join       For relations R1 and R2, R1 ⨝ R2 has all the attributes that R1 and R2 have, but if an attribute appears in both, then it appears only once in the result; further, only those tuples that agree on this common attribute are included.\n"
 		]
 	},
 	"⊙¬p ≡ ¬⊙p": {
 		"scope":"log",
 		"prefix":"zt.1\tSelf-dual",
 		"body": [
-			"t.1      [Self-dual]        ⊙¬p ≡ ¬⊙p\n"]
+			"t.1      [Self-dual]        ⊙¬p ≡ ¬⊙p\n"
 		]
 	},
 	"⊙(p ⇒ q) ≡ ⊙p ⇒ ⊙q": {
 		"scope":"log",
 		"prefix":"zt.2\t⊙ : ⇒",
 		"body": [
-			"t.2      [⊙ : ⇒]            ⊙(p ⇒ q) ≡ ⊙p ⇒ ⊙q\n"]
+			"t.2      [⊙ : ⇒]            ⊙(p ⇒ q) ≡ ⊙p ⇒ ⊙q\n"
 		]
 	},
 	"⊙p ≡ ¬⊙¬p": {
 		"scope":"log",
 		"prefix":"zt.3\tLinearity",
 		"body": [
-			"t.3      Linearity          ⊙p ≡ ¬⊙¬p\n"]
+			"t.3      Linearity          ⊙p ≡ ¬⊙¬p\n"
 		]
 	},
 	"⊙(p ∨ q) ≡ ⊙p ∨ ⊙q": {
 		"scope":"log",
 		"prefix":"zt.4\t⊙ : ∨",
 		"body": [
-			"t.4      ⊙ : ∨              ⊙(p ∨ q) ≡ ⊙p ∨ ⊙q\n"]
+			"t.4      ⊙ : ∨              ⊙(p ∨ q) ≡ ⊙p ∨ ⊙q\n"
 		]
 	},
 	"⊙(p ∧ q) ≡ ⊙p ∧ ⊙q": {
 		"scope":"log",
 		"prefix":"zt.5\t⊙ : ∧",
 		"body": [
-			"t.5      ⊙ : ∧              ⊙(p ∧ q) ≡ ⊙p ∧ ⊙q\n"]
+			"t.5      ⊙ : ∧              ⊙(p ∧ q) ≡ ⊙p ∧ ⊙q\n"
 		]
 	},
 	"⊙(p ≡ q) ≡ ⊙p ≡ ⊙q": {
 		"scope":"log",
 		"prefix":"zt.6\t⊙ : ≡",
 		"body": [
-			"t.6      ⊙ : ≡              ⊙(p ≡ q) ≡ ⊙p ≡ ⊙q\n"]
+			"t.6      ⊙ : ≡              ⊙(p ≡ q) ≡ ⊙p ≡ ⊙q\n"
 		]
 	},
 	"⊙true ≡ true": {
 		"scope":"log",
 		"prefix":"zt.7\tTruth of ⊙",
 		"body": [
-			"t.7      Truth of ⊙         ⊙true ≡ true\n"]
+			"t.7      Truth of ⊙         ⊙true ≡ true\n"
 		]
 	},
 	"⊙false ≡ false": {
 		"scope":"log",
 		"prefix":"zt.8\tFalsehood of ⊙",
 		"body": [
-			"t.8      Falsehood of ⊙     ⊙false ≡ false\n"]
+			"t.8      Falsehood of ⊙     ⊙false ≡ false\n"
 		]
 	},
 	"⊙(p 𝒰 q) ≡ ⊙p 𝒰 ⊙q": {
 		"scope":"log",
 		"prefix":"zt.9\t⊙ : 𝒰",
 		"body": [
-			"t.9      [⊙ : 𝒰]            ⊙(p 𝒰 q) ≡ ⊙p 𝒰 ⊙q\n"]
+			"t.9      [⊙ : 𝒰]            ⊙(p 𝒰 q) ≡ ⊙p 𝒰 ⊙q\n"
 		]
 	},
 	"p 𝒰 q ≡ q ∨ (p ∧ ⊙(p 𝒰 q))": {
 		"scope":"log",
 		"prefix":"zt.10\tExpansion of 𝒰",
 		"body": [
-			"t.10     [Expansion of 𝒰]   p 𝒰 q ≡ q ∨ (p ∧ ⊙(p 𝒰 q))\n"]
+			"t.10     [Expansion of 𝒰]   p 𝒰 q ≡ q ∨ (p ∧ ⊙(p 𝒰 q))\n"
 		]
 	},
 	"p 𝒰 false ≡ false": {
 		"scope":"log",
 		"prefix":"zt.11\tRight Zero of 𝒰",
 		"body": [
-			"t.11     [Right Zero of 𝒰]  p 𝒰 false ≡ false\n"]
+			"t.11     [Right Zero of 𝒰]  p 𝒰 false ≡ false\n"
 		]
 	},
 	"p 𝒰 (q ∨ r) ≡ p 𝒰 q ∨ p 𝒰 r": {
 		"scope":"log",
 		"prefix":"zt.12\t𝒰 : ∨",
 		"body": [
-			"t.12     [𝒰 : ∨]            p 𝒰 (q ∨ r) ≡ p 𝒰 q ∨ p 𝒰 r\n"]
+			"t.12     [𝒰 : ∨]            p 𝒰 (q ∨ r) ≡ p 𝒰 q ∨ p 𝒰 r\n"
 		]
 	},
 	"p 𝒰 r ∨ q 𝒰 r ⇒ (p ∨ q) 𝒰 r": {
 		"scope":"log",
 		"prefix":"zt.13\t𝒰 : ∨",
 		"body": [
-			"t.13     [𝒰 : ∨]            p 𝒰 r ∨ q 𝒰 r ⇒ (p ∨ q) 𝒰 r\n"]
+			"t.13     [𝒰 : ∨]            p 𝒰 r ∨ q 𝒰 r ⇒ (p ∨ q) 𝒰 r\n"
 		]
 	},
 	"p 𝒰 (q ∧ r) ⇒ p 𝒰 q ∧ p 𝒰 r": {
 		"scope":"log",
 		"prefix":"zt.14\t𝒰 : ∧",
 		"body": [
-			"t.14     [𝒰 : ∧]            p 𝒰 (q ∧ r) ⇒ p 𝒰 q ∧ p 𝒰 r\n"]
+			"t.14     [𝒰 : ∧]            p 𝒰 (q ∧ r) ⇒ p 𝒰 q ∧ p 𝒰 r\n"
 		]
 	},
 	"(p ∧ q) 𝒰 r ≡ p 𝒰 r ∧ q 𝒰 r": {
 		"scope":"log",
 		"prefix":"zt.15\t𝒰 : ∧",
 		"body": [
-			"t.15     [𝒰 : ∧]            (p ∧ q) 𝒰 r ≡ p 𝒰 r ∧ q 𝒰 r\n"]
+			"t.15     [𝒰 : ∧]            (p ∧ q) 𝒰 r ≡ p 𝒰 r ∧ q 𝒰 r\n"
 		]
 	},
 	"p 𝒰 q ∧ ¬q 𝒰 r ⇒ p 𝒰 r": {
 		"scope":"log",
 		"prefix":"zt.16\t𝒰 ⇒ Ordering",
 		"body": [
-			"t.16     [𝒰 ⇒ Ordering]     p 𝒰 q ∧ ¬q 𝒰 r ⇒ p 𝒰 r\n"]
+			"t.16     [𝒰 ⇒ Ordering]     p 𝒰 q ∧ ¬q 𝒰 r ⇒ p 𝒰 r\n"
 		]
 	},
 	"p 𝒰 (q 𝒰 r) ⇒ (p ∨ q) 𝒰 r": {
 		"scope":"log",
 		"prefix":"zt.17\t𝒰 ∨ Ordering",
 		"body": [
-			"t.17     [𝒰 ∨ Ordering]     p 𝒰 (q 𝒰 r) ⇒ (p ∨ q) 𝒰 r\n"]
+			"t.17     [𝒰 ∨ Ordering]     p 𝒰 (q 𝒰 r) ⇒ (p ∨ q) 𝒰 r\n"
 		]
 	},
 	"p 𝒰 (q ∧ r) ⇒ (p 𝒰 q) 𝒰 r": {
 		"scope":"log",
 		"prefix":"zt.18\t∧ 𝒰 Ordering",
 		"body": [
-			"t.18     [∧ 𝒰 Ordering]     p 𝒰 (q ∧ r) ⇒ (p 𝒰 q) 𝒰 r\n"]
+			"t.18     [∧ 𝒰 Ordering]     p 𝒰 (q ∧ r) ⇒ (p 𝒰 q) 𝒰 r\n"
 		]
 	},
 	"(p ⇒ q) 𝒰 r ⇒ (p 𝒰 r ⇒ q 𝒰 r)": {
 		"scope":"log",
 		"prefix":"zt.19\t𝒰 : ⇒",
 		"body": [
-			"t.19     𝒰 : ⇒              (p ⇒ q) 𝒰 r ⇒ (p 𝒰 r ⇒ q 𝒰 r)\n"]
+			"t.19     𝒰 : ⇒              (p ⇒ q) 𝒰 r ⇒ (p 𝒰 r ⇒ q 𝒰 r)\n"
 		]
 	},
 	"p 𝒰 true ≡ true": {
 		"scope":"log",
 		"prefix":"zt.20\tZero 𝒰",
 		"body": [
-			"t.20     Zero 𝒰             p 𝒰 true ≡ true\n"]
+			"t.20     Zero 𝒰             p 𝒰 true ≡ true\n"
 		]
 	},
 	"false 𝒰 q ≡ q": {
 		"scope":"log",
 		"prefix":"zt.21\tId 𝒰",
 		"body": [
-			"t.21     Id 𝒰               false 𝒰 q ≡ q\n"]
+			"t.21     Id 𝒰               false 𝒰 q ≡ q\n"
 		]
 	},
 	"p 𝒰 p ≡ p": {
 		"scope":"log",
 		"prefix":"zt.22\tIdem 𝒰",
 		"body": [
-			"t.22     Idem 𝒰             p 𝒰 p ≡ p\n"]
+			"t.22     Idem 𝒰             p 𝒰 p ≡ p\n"
 		]
 	},
 	"p 𝒰 q ∨ p 𝒰 ¬q": {
 		"scope":"log",
 		"prefix":"zt.23\t𝒰 excluded middle",
 		"body": [
-			"t.23     𝒰 excluded middle  p 𝒰 q ∨ p 𝒰 ¬q\n"]
+			"t.23     𝒰 excluded middle  p 𝒰 q ∨ p 𝒰 ¬q\n"
 		]
 	},
 	"¬p 𝒰 (q 𝒰 r) ∧ p 𝒰 r ⇒ q 𝒰 r": {
 		"scope":"log",
 		"prefix":"zt.24\t",
 		"body": [
-			"t.24                        ¬p 𝒰 (q 𝒰 r) ∧ p 𝒰 r ⇒ q 𝒰 r\n"]
+			"t.24                        ¬p 𝒰 (q 𝒰 r) ∧ p 𝒰 r ⇒ q 𝒰 r\n"
 		]
 	},
 	"p 𝒰 (¬q 𝒰 r) ∧ q 𝒰 r ⇒ p 𝒰 r": {
 		"scope":"log",
 		"prefix":"zt.25\t",
 		"body": [
-			"t.25                        p 𝒰 (¬q 𝒰 r) ∧ q 𝒰 r ⇒ p 𝒰 r\n"]
+			"t.25                        p 𝒰 (¬q 𝒰 r) ∧ q 𝒰 r ⇒ p 𝒰 r\n"
 		]
 	},
 	"p 𝒰 q ∧ ¬q 𝒰 p ⇒ p": {
 		"scope":"log",
 		"prefix":"zt.26\t",
 		"body": [
-			"t.26                        p 𝒰 q ∧ ¬q 𝒰 p ⇒ p\n"]
+			"t.26                        p 𝒰 q ∧ ¬q 𝒰 p ⇒ p\n"
 		]
 	},
 	"p ∧ ¬p 𝒰 q ⇒ q": {
 		"scope":"log",
 		"prefix":"zt.27\t",
 		"body": [
-			"t.27                        p ∧ ¬p 𝒰 q ⇒ q\n"]
+			"t.27                        p ∧ ¬p 𝒰 q ⇒ q\n"
 		]
 	},
 	"p 𝒰 q ⇒ p ∨ q": {
 		"scope":"log",
 		"prefix":"zt.28\t𝒰 ⇒ ∨",
 		"body": [
-			"t.28     𝒰 ⇒ ∨              p 𝒰 q ⇒ p ∨ q\n"]
+			"t.28     𝒰 ⇒ ∨              p 𝒰 q ⇒ p ∨ q\n"
 		]
 	},
 	"q ⇒ p 𝒰 q": {
 		"scope":"log",
 		"prefix":"zt.29\t𝒰 insertion",
 		"body": [
-			"t.29     𝒰 insertion        q ⇒ p 𝒰 q\n"]
+			"t.29     𝒰 insertion        q ⇒ p 𝒰 q\n"
 		]
 	},
 	"p ∧ q ⇒ p 𝒰 q": {
 		"scope":"log",
 		"prefix":"zt.30\t∧ ⇒ 𝒰",
 		"body": [
-			"t.30     ∧ ⇒ 𝒰              p ∧ q ⇒ p 𝒰 q\n"]
+			"t.30     ∧ ⇒ 𝒰              p ∧ q ⇒ p 𝒰 q\n"
 		]
 	},
 	"p ∨ p 𝒰 q ≡ p ∨ q": {
 		"scope":"log",
 		"prefix":"zt.31\tAbsorption",
 		"body": [
-			"t.31     Absorption         p ∨ p 𝒰 q ≡ p ∨ q\n"]
+			"t.31     Absorption         p ∨ p 𝒰 q ≡ p ∨ q\n"
 		]
 	},
 	"p 𝒰 q ∨ q ≡ p 𝒰 q": {
 		"scope":"log",
 		"prefix":"zt.32\tAbsorption",
 		"body": [
-			"t.32     Absorption         p 𝒰 q ∨ q ≡ p 𝒰 q\n"]
+			"t.32     Absorption         p 𝒰 q ∨ q ≡ p 𝒰 q\n"
 		]
 	},
 	"p 𝒰 q ∧ q ≡ q": {
 		"scope":"log",
 		"prefix":"zt.33\tAbsorption",
 		"body": [
-			"t.33     Absorption         p 𝒰 q ∧ q ≡ q\n"]
+			"t.33     Absorption         p 𝒰 q ∧ q ≡ q\n"
 		]
 	},
 	"p 𝒰 q ∨ (p ∧ q) ≡ p 𝒰 q": {
 		"scope":"log",
 		"prefix":"zt.34\tAbsorption",
 		"body": [
-			"t.34     Absorption         p 𝒰 q ∨ (p ∧ q) ≡ p 𝒰 q\n"]
+			"t.34     Absorption         p 𝒰 q ∨ (p ∧ q) ≡ p 𝒰 q\n"
 		]
 	},
 	"p 𝒰 q ∧ (p ∨ q) ≡ p 𝒰 q": {
 		"scope":"log",
 		"prefix":"zt.35\tAbsorption",
 		"body": [
-			"t.35     Absorption         p 𝒰 q ∧ (p ∨ q) ≡ p 𝒰 q\n"]
+			"t.35     Absorption         p 𝒰 q ∧ (p ∨ q) ≡ p 𝒰 q\n"
 		]
 	},
 	"p 𝒰 (p 𝒰 q) ≡ p 𝒰 q": {
 		"scope":"log",
 		"prefix":"zt.36\tL. Absorption 𝒰",
 		"body": [
-			"t.36     L. Absorption 𝒰    p 𝒰 (p 𝒰 q) ≡ p 𝒰 q\n"]
+			"t.36     L. Absorption 𝒰    p 𝒰 (p 𝒰 q) ≡ p 𝒰 q\n"
 		]
 	},
 	"(p 𝒰 q) 𝒰 q ≡ p 𝒰 q": {
 		"scope":"log",
 		"prefix":"zt.37\tR. Absorption 𝒰",
 		"body": [
-			"t.37     R. Absorption 𝒰    (p 𝒰 q) 𝒰 q ≡ p 𝒰 q\n"]
+			"t.37     R. Absorption 𝒰    (p 𝒰 q) 𝒰 q ≡ p 𝒰 q\n"
 		]
 	},
 	"⬦q ≡ true 𝒰 q": {
 		"scope":"log",
 		"prefix":"zt.38\tDef ⬦",
 		"body": [
-			"t.38     [Def ⬦]            ⬦q ≡ true 𝒰 q\n"]
+			"t.38     [Def ⬦]            ⬦q ≡ true 𝒰 q\n"
 		]
 	},
 	"p 𝒰 q ∧ ⬦q ≡ p 𝒰 q": {
 		"scope":"log",
 		"prefix":"zt.39\tAbsorption",
 		"body": [
-			"t.39     Absorption         p 𝒰 q ∧ ⬦q ≡ p 𝒰 q\n"]
+			"t.39     Absorption         p 𝒰 q ∧ ⬦q ≡ p 𝒰 q\n"
 		]
 	},
 	"p 𝒰 q ∨ ⬦q ≡ ⬦q": {
 		"scope":"log",
 		"prefix":"zt.40\tAbsorption",
 		"body": [
-			"t.40     Absorption         p 𝒰 q ∨ ⬦q ≡ ⬦q\n"]
+			"t.40     Absorption         p 𝒰 q ∨ ⬦q ≡ ⬦q\n"
 		]
 	},
 	"p 𝒰 ⬦q ≡ ⬦q": {
 		"scope":"log",
 		"prefix":"zt.41\tAbsorption",
 		"body": [
-			"t.41     Absorption         p 𝒰 ⬦q ≡ ⬦q\n"]
+			"t.41     Absorption         p 𝒰 ⬦q ≡ ⬦q\n"
 		]
 	},
 	"p 𝒰 q ⇒ ⬦q": {
 		"scope":"log",
 		"prefix":"zt.42\t𝒰 ⇒ ⬦",
 		"body": [
-			"t.42     𝒰 ⇒ ⬦              p 𝒰 q ⇒ ⬦q\n"]
+			"t.42     𝒰 ⇒ ⬦              p 𝒰 q ⇒ ⬦q\n"
 		]
 	},
 	"⬦true ≡ true": {
 		"scope":"log",
 		"prefix":"zt.43\tTruth of ⬦",
 		"body": [
-			"t.43     Truth of ⬦         ⬦true ≡ true\n"]
+			"t.43     Truth of ⬦         ⬦true ≡ true\n"
 		]
 	},
 	"⬦false ≡ false": {
 		"scope":"log",
 		"prefix":"zt.44\tFalsehood of ⬦",
 		"body": [
-			"t.44     Falsehood of ⬦     ⬦false ≡ false\n"]
+			"t.44     Falsehood of ⬦     ⬦false ≡ false\n"
 		]
 	},
 	"⬦p ≡ p ∨ ⊙⬦p": {
 		"scope":"log",
 		"prefix":"zt.45\tExpansion of ⬦",
 		"body": [
-			"t.45     Expansion of ⬦     ⬦p ≡ p ∨ ⊙⬦p\n"]
+			"t.45     Expansion of ⬦     ⬦p ≡ p ∨ ⊙⬦p\n"
 		]
 	},
 	"p ⇒ ⬦p": {
 		"scope":"log",
 		"prefix":"zt.46\tWeakening of ⬦",
 		"body": [
-			"t.46     Weakening of ⬦     p ⇒ ⬦p\n"]
+			"t.46     Weakening of ⬦     p ⇒ ⬦p\n"
 		]
 	},
 	"⊙p ⇒ ⬦p": {
 		"scope":"log",
 		"prefix":"zt.47\tWeakening of ⬦",
 		"body": [
-			"t.47     Weakening of ⬦     ⊙p ⇒ ⬦p\n"]
+			"t.47     Weakening of ⬦     ⊙p ⇒ ⬦p\n"
 		]
 	},
 	"p ∨ ⬦p ≡ ⬦p": {
 		"scope":"log",
 		"prefix":"zt.48\tAbsorption",
 		"body": [
-			"t.48     Absorption         p ∨ ⬦p ≡ ⬦p\n"]
+			"t.48     Absorption         p ∨ ⬦p ≡ ⬦p\n"
 		]
 	},
 	"⬦p ∧ p ≡ p": {
 		"scope":"log",
 		"prefix":"zt.49\tAbsorption",
 		"body": [
-			"t.49     Absorption         ⬦p ∧ p ≡ p\n"]
+			"t.49     Absorption         ⬦p ∧ p ≡ p\n"
 		]
 	},
 	"⬦⬦p ≡ ⬦p": {
 		"scope":"log",
 		"prefix":"zt.50\tAbsorption",
 		"body": [
-			"t.50     Absorption         ⬦⬦p ≡ ⬦p\n"]
+			"t.50     Absorption         ⬦⬦p ≡ ⬦p\n"
 		]
 	},
 	"⊙⬦p ≡ ⬦⊙p": {
 		"scope":"log",
 		"prefix":"zt.51\tExchange of ⊙ and ⬦",
 		"body": [
-			"t.51     Exchange of ⊙ and ⬦⊙⬦p ≡ ⬦⊙p\n"]
+			"t.51     Exchange of ⊙ and ⬦⊙⬦p ≡ ⬦⊙p\n"
 		]
 	},
 	"⬦(p ∨ q) ≡ ⬦p ∨ ⬦q": {
 		"scope":"log",
 		"prefix":"zt.52\t⬦ : ∨",
 		"body": [
-			"t.52     ⬦ : ∨              ⬦(p ∨ q) ≡ ⬦p ∨ ⬦q\n"]
+			"t.52     ⬦ : ∨              ⬦(p ∨ q) ≡ ⬦p ∨ ⬦q\n"
 		]
 	},
 	"⬦(p ∧ q) ⇒ ⬦p ∧ ⬦q": {
 		"scope":"log",
 		"prefix":"zt.53\t⬦ : ∧",
 		"body": [
-			"t.53     ⬦ : ∧              ⬦(p ∧ q) ⇒ ⬦p ∧ ⬦q\n"]
+			"t.53     ⬦ : ∧              ⬦(p ∧ q) ⇒ ⬦p ∧ ⬦q\n"
 		]
 	},
 	"◻p ≡ ¬⬦¬p": {
 		"scope":"log",
 		"prefix":"zt.54\tdef ◻",
 		"body": [
-			"t.54     [def ◻]            ◻p ≡ ¬⬦¬p\n"]
+			"t.54     [def ◻]            ◻p ≡ ¬⬦¬p\n"
 		]
 	},
 	"◻(p ⇒ (⊙p ∧ q) ∨ r) ⇒ (p ⇒ ◻q ∨ q 𝒰 r)": {
 		"scope":"log",
 		"prefix":"zt.55\t𝒰 induction",
 		"body": [
-			"t.55     [𝒰 induction]      ◻(p ⇒ (⊙p ∧ q) ∨ r) ⇒ (p ⇒ ◻q ∨ q 𝒰 r)\n"]
+			"t.55     [𝒰 induction]      ◻(p ⇒ (⊙p ∧ q) ∨ r) ⇒ (p ⇒ ◻q ∨ q 𝒰 r)\n"
 		]
 	},
 	"◻(p ⇒ ⊙(p ∨ q)) ⇒ (p ⇒ ◻p ∨ p 𝒰 q)": {
 		"scope":"log",
 		"prefix":"zt.56\t𝒰 induction",
 		"body": [
-			"t.56     [𝒰 induction]      ◻(p ⇒ ⊙(p ∨ q)) ⇒ (p ⇒ ◻p ∨ p 𝒰 q)\n"]
+			"t.56     [𝒰 induction]      ◻(p ⇒ ⊙(p ∨ q)) ⇒ (p ⇒ ◻p ∨ p 𝒰 q)\n"
 		]
 	},
 	"◻(p ⇒ ⊙p) ⇒ (p ⇒ ◻p)": {
 		"scope":"log",
 		"prefix":"zt.57\t◻ induction",
 		"body": [
-			"t.57     ◻ induction        ◻(p ⇒ ⊙p) ⇒ (p ⇒ ◻p)\n"]
+			"t.57     ◻ induction        ◻(p ⇒ ⊙p) ⇒ (p ⇒ ◻p)\n"
 		]
 	},
 	"◻(⊙p ⇒ p) ⇒ (⬦p ⇒ p)": {
 		"scope":"log",
 		"prefix":"zt.58\t⬦ induction",
 		"body": [
-			"t.58     ⬦ induction        ◻(⊙p ⇒ p) ⇒ (⬦p ⇒ p)\n"]
+			"t.58     ⬦ induction        ◻(⊙p ⇒ p) ⇒ (⬦p ⇒ p)\n"
 		]
 	},
 	"⬦p ≡ ¬◻¬p": {
 		"scope":"log",
 		"prefix":"zt.59\t",
 		"body": [
-			"t.59                        ⬦p ≡ ¬◻¬p\n"]
+			"t.59                        ⬦p ≡ ¬◻¬p\n"
 		]
 	},
 	"¬◻p ≡ ⬦¬p": {
 		"scope":"log",
 		"prefix":"zt.60\tdual ◻",
 		"body": [
-			"t.60     dual ◻             ¬◻p ≡ ⬦¬p\n"]
+			"t.60     dual ◻             ¬◻p ≡ ⬦¬p\n"
+		]
+	},
+	"¬⬦p ≡ ◻¬p": {
+		"scope":"log",
+		"prefix":"zt.61\tdual ⬦",
+		"body": [
+			"t.61     dual ⬦             ¬⬦p ≡ ◻¬p\n"
+		]
+	},
+	"¬⬦◻p ≡ ◻⬦¬p": {
+		"scope":"log",
+		"prefix":"zt.62\tdual ⬦◻",
+		"body": [
+			"t.62     dual ⬦◻            ¬⬦◻p ≡ ◻⬦¬p\n"
+		]
+	},
+	"¬◻⬦p ≡ ⬦◻¬p": {
+		"scope":"log",
+		"prefix":"zt.63\tdual ◻⬦",
+		"body": [
+			"t.63     dual ◻⬦            ¬◻⬦p ≡ ⬦◻¬p\n"
+		]
+	},
+	"◻true ≡ true": {
+		"scope":"log",
+		"prefix":"zt.64\ttruth of ◻",
+		"body": [
+			"t.64     truth of ◻         ◻true ≡ true\n"
+		]
+	},
+	"◻false ≡ false": {
+		"scope":"log",
+		"prefix":"zt.65\tfalsehood of ◻",
+		"body": [
+			"t.65     falsehood of ◻     ◻false ≡ false\n"
+		]
+	},
+	"◻p ≡ p ∧ ⊙◻p": {
+		"scope":"log",
+		"prefix":"zt.66\t◻ expansion",
+		"body": [
+			"t.66     ◻ expansion        ◻p ≡ p ∧ ⊙◻p\n"
+		]
+	},
+	"◻p ≡ p ∧ ⊙p ∧ ⊙◻p": {
+		"scope":"log",
+		"prefix":"zt.67\t◻ expansion",
+		"body": [
+			"t.67     ◻ expansion        ◻p ≡ p ∧ ⊙p ∧ ⊙◻p\n"
+		]
+	},
+	"p ∧ ◻p ≡ ◻p": {
+		"scope":"log",
+		"prefix":"zt.68\tabsorption",
+		"body": [
+			"t.68     absorption         p ∧ ◻p ≡ ◻p\n"
+		]
+	},
+	"◻p ∨ p ≡ p": {
+		"scope":"log",
+		"prefix":"zt.69\tabsorption",
+		"body": [
+			"t.69     absorption         ◻p ∨ p ≡ p\n"
+		]
+	},
+	"⬦p ∧ ◻p ≡ ◻p": {
+		"scope":"log",
+		"prefix":"zt.70\tabsorption",
+		"body": [
+			"t.70     absorption         ⬦p ∧ ◻p ≡ ◻p\n"
+		]
+	},
+	"◻p ∨ ⬦p ≡ ⬦p": {
+		"scope":"log",
+		"prefix":"zt.71\tabsorption",
+		"body": [
+			"t.71     absorption         ◻p ∨ ⬦p ≡ ⬦p\n"
+		]
+	},
+	"◻◻p ≡ ◻p": {
+		"scope":"log",
+		"prefix":"zt.72\tabsorption",
+		"body": [
+			"t.72     absorption         ◻◻p ≡ ◻p\n"
+		]
+	},
+	"⊙◻p ≡ ◻⊙p": {
+		"scope":"log",
+		"prefix":"zt.73\texchange of ⊙ ∧ ◻",
+		"body": [
+			"t.73     exchange of ⊙ ∧ ◻  ⊙◻p ≡ ◻⊙p\n"
+		]
+	},
+	"p ⇒ ◻p ≡ p ⇒ ⊙◻p": {
+		"scope":"log",
+		"prefix":"zt.74\t",
+		"body": [
+			"t.74                        p ⇒ ◻p ≡ p ⇒ ⊙◻p\n"
+		]
+	},
+	"p ∧ ⬦¬p ⇒ ⬦(p ∧ ⊙¬p)": {
+		"scope":"log",
+		"prefix":"zt.75\t",
+		"body": [
+			"t.75                        p ∧ ⬦¬p ⇒ ⬦(p ∧ ⊙¬p)\n"
+		]
+	},
+	"◻p ⇒ p": {
+		"scope":"log",
+		"prefix":"zt.76\t◻ strengthening",
+		"body": [
+			"t.76     ◻ strengthening    ◻p ⇒ p\n"
+		]
+	},
+	"◻p ⇒ ⬦p": {
+		"scope":"log",
+		"prefix":"zt.77\t◻ strengthening",
+		"body": [
+			"t.77     ◻ strengthening    ◻p ⇒ ⬦p\n"
+		]
+	},
+	"◻p ⇒ ⊙p": {
+		"scope":"log",
+		"prefix":"zt.78\t◻ strengthening",
+		"body": [
+			"t.78     ◻ strengthening    ◻p ⇒ ⊙p\n"
+		]
+	},
+	"◻p ⇒ ⊙◻p": {
+		"scope":"log",
+		"prefix":"zt.79\t◻ strengthening",
+		"body": [
+			"t.79     ◻ strengthening    ◻p ⇒ ⊙◻p\n"
+		]
+	},
+	"◻p ⇒ ◻⊙p": {
+		"scope":"log",
+		"prefix":"zt.80\t⊙ generalization",
+		"body": [
+			"t.80     ⊙ generalization   ◻p ⇒ ◻⊙p\n"
+		]
+	},
+	"◻p ⇒ ¬(q 𝒰 ¬p)": {
+		"scope":"log",
+		"prefix":"zt.81\t",
+		"body": [
+			"t.81                        ◻p ⇒ ¬(q 𝒰 ¬p)\n"
 		]
 	},
 	"inductive hypothesis": {
